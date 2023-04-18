@@ -5718,22 +5718,76 @@
 		"wiki": "https://www.elektroda.com/rtvforum/topic3971252.html"
 	},
 	{
-		"vendor": "eWeLink",
-		"bDetailed": "0",
-		"name": "Smart Switch Remote Control No Neutral Wire 220V 1 gang",
-		"model": "",
-		"chip": "SDV-002_V1.2",
-		"board": "BL602",
-		"flags": "0",
-		"keywords": [
-			"Bouffalo lab"
-		],
-		  "pins": {
-
-		},
-		"command": "",
-		"image": "https://obrazki.elektroda.pl/2853109500_1681248512.jpg",
-		"wiki": "https://www.elektroda.com/rtvforum/topic3971252.html"
+	  "vendor": "Axus",
+	  "bDetailed": "0",
+	  "name": "Axus EWelink Smart Life Light Switch WiFi Bluetooth RF433",
+	  "model": "1-Gang",
+	  "chip": "BL602",
+	  "board": "SDV-002_V1.2",
+	  "flags": "536871936",
+	  "keywords": [
+		"TODO",
+		"TODO",
+		"TODO"
+	  ],
+	 "pins": {
+		"3": "Rel;1",
+		"12": "WifiLED;0",
+		"14": "Btn;1"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/6446325900_1681284514.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20535955#20535955"
+	},
+	{
+	  "vendor": "Axus",
+	  "bDetailed": "0",
+	  "name": "Axus EWelink Smart Life Light Switch WiFi Bluetooth RF433",
+	  "model": "2-Gang",
+	  "chip": "BL602",
+	  "board": "SDV-002_V1.2",
+	  "flags": "536871936",
+	  "keywords": [
+		"TODO",
+		"TODO",
+		"TODO"
+	  ],
+	  "pins": {
+		"1": "Rel;1",
+		"2": "Btn;1",
+		"12": "WifiLED;0",
+		"20": "Btn;0",
+		"21": "Rel;0"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/6446325900_1681284514.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20535955#20535955"
+	},
+	{
+	  "vendor": "Axus",
+	  "bDetailed": "0",
+	  "name": "Axus EWelink Smart Life Light Switch WiFi Bluetooth RF433",
+	  "model": "3-Gang",
+	  "chip": "BL602",
+	  "board": "SDV-002_V1.2",
+	  "flags": "536871936",
+	  "keywords": [
+		"TODO",
+		"TODO",
+		"TODO"
+	  ],
+		"pins": {
+		"1": "Rel;2",
+		"2": "Btn;2",
+		"3": "Rel;1",
+		"12": "WifiLED;0",
+		"14": "Btn;1",
+		"20": "Btn;0",
+		"21": "Rel;0"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/6446325900_1681284514.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20535955#20535955"
 	},
 	{
 		"vendor": "eWeLink",
