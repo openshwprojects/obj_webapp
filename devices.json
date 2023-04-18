@@ -5810,6 +5810,29 @@
 		"image": "https://obrazki.elektroda.pl/2041437300_1680860410.jpg",
 		"wiki": "https://www.elektroda.com/rtvforum/topic3970248.html"
 	},
+	  {
+		  "vendor": "Tuya UNSH",
+		  "bDetailed": "0",
+		  "name": "Smart Mini Smart Switch",
+		  "model": "EZB-WBZS1H16N-A",
+		  "chip": "BK7231N",
+		  "board": "on PCB",
+		  "flags": "1024",
+		  "keywords": [
+		    "switch",
+		    "relay",
+		    "2-way"
+		  ],
+		  "pins": {
+		    "6": "LED_n;0",
+		    "8": "Btn;0",
+		    "14": "TglChanOnTgl;0",
+		    "15": "Rel;0"
+		  },
+		  "command": "",
+		  "image": "https://obrazki.elektroda.pl/7622004500_1681456492.jpg",
+		  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20538893#20538893"
+		},
 	{
 	  "vendor": "Tuya UNSH",
 	  "bDetailed": "0",
