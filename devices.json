@@ -534,6 +534,29 @@
       "command": ""
     },
     {
+      "vendor": "Arlec",
+      "bDetailed": "1",
+      "name": "Arlec Grid Connect Plug-In Socket With USB",
+      "model": "PC192HA",
+      "chip": "BK7231T",
+      "board": "WB2S",
+      "flags": "0",
+      "keywords": [
+        "switch",
+        "relay",
+        "usb"
+      ],
+      "pins": {
+        "7": "WifiLED;0",
+        "10": "Btn;1",
+        "24": "Rel;1",
+        "26": "Rel;2"
+      },
+      "command": "backlog setChannelLabel 1 Power;setChannelLabel 2 USB;setChannel 2 1;addEventHandler OnDblClick 10 ToggleChannel 2",
+      "image": "https://obrazki.elektroda.pl/3540833900_1681909490.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3972941.html"
+    },
+    {
       "vendor": "Kuled",
       "bDetailed": "0",
       "name": "KS-602S 120V Intertek Kuled K36 Switch",
