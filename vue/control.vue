@@ -7,14 +7,14 @@
           <div v-for="(item, key) in channels" v-bind:key="item">
             <div >
               <button 
-                v-if="(outputchannelrolenames[+key] === 'Rel') || (outputchannelrolenames[+key] === 'Rel_n') || (outputchannelrolenames[+key] === 'PWM')"
+                v-if="(outputchannelrolenames[+key] === 'Rel') || (outputchannelrolenames[+key] === 'Rel_n') || (outputchannelrolenames[+key] === 'PWM') || (outputchannelrolenames[+key] === 'PWM_n')"
                 v-bind:key="'button'+item" 
                 :class="item?'set':'unset'" 
                 @click="channelclick(key)"
               >{{channels[key]?'On':'Off'}}</button>
               <span v-bind:key="'span'+item">{{key}}:{{item}} role {{outputchannelrolenames[+key]}}{{channeltag[+key]}}</span>
               <input 
-                v-if="outputchannelrolenames[+key] === 'PWM'" 
+                v-if="(outputchannelrolenames[+key] === 'PWM') || (outputchannelrolenames[+key] === 'PWM_n')" 
                 v-bind:key="'input'+item" 
                 type="range" 
                 min="0" 
@@ -282,11 +282,12 @@
                 case 	"LED":
                 case 	"LED_n":
                 case 	"PWM":
+                case 	"PWM_n":
                 case 	"Wifi LED":
                 case 	"Wifi LED_n":
                   this.outputchannelroles[ch] = role;
                   this.outputchannelrolenames[ch] = rolename;
-                  if (this.outputchannelrolenames[ch] === 'PWM'){
+                  if (this.outputchannelrolenames[ch] === 'PWM' || (this.outputchannelrolenames[ch] === 'PWM_n')){
                     this.pwmChannels.push(ch);
                   }
                   break;
