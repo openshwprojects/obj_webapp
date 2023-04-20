@@ -5763,6 +5763,29 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20535955#20535955"
 	},
 	{
+		"vendor": "Minoston",
+		"bDetailed": "0",
+		"name": "Minoston MP22W_v2 Smart plug",
+		"model": "MP22W_v2",
+		"chip": "BK7231T",
+		"board": "WF96S",
+		"flags": "1088",
+		"keywords": [
+			"Outdoor",
+			"Waterproof",
+			"Amazon"
+		],
+		"pins": {
+			"6": "Btn;1",
+			"7": "LED_n;1",
+			"24": "Rel;1"
+		},
+		"command": "",
+		"image": "https://obrazki.elektroda.pl/7880951200_1682009326.jpg",
+		"wiki": "https://www.elektroda.com/rtvforum/topic3973047.html",
+		"product": "https://www.amazon.com/Waterproof-Compatible-Assistant-Required-MP22W/dp/B07X52W1J8"
+	},
+	{
 	  "vendor": "Axus",
 	  "bDetailed": "0",
 	  "name": "Axus EWelink Smart Life Light Switch WiFi Bluetooth RF433",
