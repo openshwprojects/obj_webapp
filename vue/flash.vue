@@ -1,21 +1,64 @@
 <template>
     <div>
         <div>
-            Here you can read device flash directly. RF config is Beken internal configuration memory and Config is our configuration structure.<br>
+            Here you can read device flash directly. RF config is Beken internal configuration memory and OBK Config is our configuration structure.<br>
             Here you can also recover your device from "MAC ends with 00 00 00 and is unable to change" bug. Button 'Restore RF config' will restore RF partition for T and N and set a random MAC address, but this also requires rebooting device later.<br>
             
-            <button @click="rf(null, $event)">Read RF Config</button>
-            <button @click="config(null, $event)">Read Config</button>
-            <button @click="flashvars(null, $event)">Read FlashVars</button>
+
+            <table class="my-table">
+            <tr>
+                <th>Read</th>
+                <th>Download</th>
+                <th>Write</th>
+                <th>Extra</th>
+            </tr>
+            <tr>
+                <td> <button @click="rf(null, $event)">Read RF Config</button></td>
+                <td><a :href="rfurl" download="rfdata">Download RF</a></td>
+                <td>
+                </td>
+                <td><button @click="restore_rf(null, $event)">Restore (Recreate) RF Config (N & T)</button></td>
+            </tr>
+            <tr>
+                <td>  <button @click="config(null, $event)">Read OBK Config</button></td>
+                <td> <a :href="configurl" download="configdata">Download OBK Config</a></td>
+                <td>
+                <div>
+                    <label for="cfgFilePicker">Select file with binary CFG header:</label><input id="cfgFilePicker"
+                    type="file" @change="cfgFileSelected($event)">
+                    <div v-html="cfgStatus" :class="{invalid: invalidCFGSelected}"></div>
+                    <button @click="writeCFG(null, $event)">Start CFG write</button>
+                </div>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td> <button @click="flashvars(null, $event)">Read Beken FlashVars (unused?)</button></td>
+                <td><a :href="flashvarsurl" download="flashvarsdata">Download Flash Vars</a></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            </table>
+
+
+
+           
+          
+           
             <br/>
             
-            <button @click="restore_rf(null, $event)">Restore RF Config (N & T)</button>
             <br/>
-            <a :href="rfurl" download="rfdata">Download RF block</a>
+            
             <br/>
-            <a :href="configurl" download="configdata">Download Config block</a>
+           
             <br/>
-            <a :href="flashvarsurl" download="flashvarsdata">Download Flash Vars block</a>
+            
         </div>
         <div v-html="display" class="display"></div>
     </div>
@@ -32,10 +75,15 @@
         configdata: null,
         build:'unknown',
         chipset:'unknown',
-        status:'nothing going on',
+        status:'',
         rfurl: '',
         configurl: '',
         flashvarsurl: '',
+        otatext:'Drop OTA file here',
+        invalidOTASelected: false,
+        cfgtext:'Drop CFG file here',
+        invalidCFGSelected: true,
+        cfgStatus: 'no file selected',
       }
     },
     methods:{
@@ -54,6 +102,89 @@
                     this.error = err.toString();
                     console.error(err)
                 }); // Never forget the final catch!
+        },
+        writeCFG(cb){
+            if(this.invalidCFGSelected )
+            {
+                alert("Sorry, invalid CFG file selected");
+                return;
+            }
+            let confirmationForUser = prompt("Are you sure? This will overwrite your OBK config (pins, channels, flags, WiFi data, IP, MQTT, short startup command) Y/N", "N");
+            if(confirmationForUser == null)
+            {
+            }
+            else if(confirmationForUser.length < 1)
+            {
+            }
+            else
+            {
+                if(confirmationForUser[0] == 'Y') {
+                    this.status += '<br/>starting CFG write...';
+                    this.writeCFG_Internal(cb);
+                }
+            }
+        },   
+         writeCFG_Internal(cb){
+            if(this.invalidCFGSelected )
+            {
+                alert("Sorry, invalid CFG file selected");
+                return;
+            }
+            this.cfgStatus += 'Writing OBK config...';
+            let url = window.device+'/api/flash/'+this.getConfigAddress();
+            console.log('Will use URL '+url);
+                fetch(url, { 
+                        method: 'POST',
+                        body: this.cfgdata
+                    })
+                    .then(response => response.text())
+                    .then(text => {
+                        console.log('received '+text);
+                        this.cfgStatus = 'Write OBK cfg complete! Now you should reboot...';
+                        if(cb) cb();
+                    })
+                    .catch(err => console.error(err)); // Never forget the final catch!
+        },
+        cfgFileSelected(ev){
+            console.log("CFG File selected");
+            this.invalidCFGSelected = false; //Reset status style
+
+            var file = ev.target.files[0];  //There should be only one file
+            if (file){
+                console.log('... CFG fileName = ' + file.name);
+                var reader = new FileReader();
+                reader.onload = (event) => this.checkCFGData(event, file, "selected");
+                reader.readAsArrayBuffer(file);
+            }
+        },
+        isCFGImage(arrayBuffer){
+            let view = new DataView(arrayBuffer);
+            if (view.byteLength < 3) return false;
+            console.log("isCFGImage sees " +view);
+            // CFG
+            return view.getUint8(0) === 0x43 && view.getUint8(1) === 0x46 && view.getUint8(2) === 0x47;
+        },
+        checkCFGData(event, file, operation){
+            this.cfgdata = null;    //Reset otadata
+            
+            var result = event.target.result;   //ArrayBuffer
+            console.log('chipset=' + this.chipset);
+            console.log("Checking CFG data");
+            console.log(result);
+            console.log('cfgdata len:' + result.byteLength);
+            this.cfgtext = file.name + ' len:' + result.byteLength;
+
+            this.invalidCFGSelected = !this.isCFGImage(result);
+
+            if (this.invalidCFGSelected){
+                console.log("this cfg is incorrect");
+                this.cfgStatus = 'Invalid CFG file was ' + operation;
+            }
+            else{
+                console.log("this cfg is OK");
+                this.cfgStatus = 'Correct CFG file selected';
+                this.cfgdata = result;
+            }
         },
         getRFAddress(){
             if(this.chipset === "BK7231T") {
@@ -132,7 +263,7 @@
                 .catch(err => console.error(err)); // Never forget the final catch!
         },
         restore_rf(cb){
-			  let rep = prompt("Are you certain? This might brick device. Enter yes.", "no");
+			  let rep = prompt("Are you certain? Use this option only if you already broke your RF partition and your MAC ends with 00 00. Otherwise new RF partition might have worse calibration data so WiFi quality will decrease. Enter yes.", "no");
 			  if (rep != null) {
 				  if(rep == "yes") {
 					this.restore_rf_internal(cb);
@@ -263,4 +394,11 @@
     display: inline-block;
     width: 20px;
   }
+  
+            .my-table, 
+            .my-table th,
+            .my-table td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
 </style>
