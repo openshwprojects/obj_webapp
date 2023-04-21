@@ -3882,6 +3882,27 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3920360.html",
       "product": "https://www.aliexpress.com/item/4000764652478.html"
     },
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "Universal IR Remote Control",
+	  "model": "FLY_S06",
+	  "chip": "BK7231N",
+	  "board": "S06",
+	  "keywords": [
+		"IR",
+		"Tuya",
+		"CB3S"
+	  ],
+	  "pins": {
+		"6": "Btn;1",
+		"7": "IRRecv;0",
+		"8": "LED;0",
+		"26": "IRSend;0"
+	  },
+	  "image": "https://obrazki.elektroda.pl/6078036200_1677795924.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3961676.html"
+	},
     {
       "vendor": "Smart Life",
       "bDetailed": "0",
@@ -5667,6 +5688,27 @@
 		"product": "https://www.bunnings.com.au/deta-grid-connect-smart-double-touch-power-point-with-dual-usb_p0172780"
 	},
 	{
+	  "vendor": "Phopollo",
+	  "bDetailed": "0",
+	  "name": "SEE2606 A19-E26-9W-800LM-RGBW",
+	  "model": "SEE2606",
+	  "chip": "BK7231T",
+	  "board": "WB2L",
+	  "flags": "1024",
+	  "keywords": [
+		"TODO",
+		"TODO",
+		"TODO"
+	  ],
+	  "pins": {
+		"7": "BP5758D_CLK;0",
+		"8": "BP5758D_DAT;4"
+	  },
+	  "command": "backlog BP5758D_Map 2 1 0 3 4; BP5758D_Current 30",
+	  "image": "https://obrazki.elektroda.pl/8203776100_1682089896.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3973370.html"
+	},
+	{
 		"vendor": "Tuya",
 		"bDetailed": "0",
 		"name": "Tuya Wifi Curtain Module",
@@ -5681,11 +5723,11 @@
 			"DL-0602S"
 		],
 		"pins": {
-		"7": "Btn;1",
-		"8": "Btn;2",
-		"10": "WifiLED_n;0",
-		"24": "Rel;1",
-		"26": "Rel;2"
+			"7": "Btn;1",
+			"8": "Btn;2",
+			"10": "WifiLED_n;0",
+			"24": "Rel;1",
+			"26": "Rel;2"
 		},
 		"command": "",
 		"image": "https://obrazki.elektroda.pl/5709759800_1681245233.png",
@@ -5784,6 +5826,27 @@
 		"image": "https://obrazki.elektroda.pl/7880951200_1682009326.jpg",
 		"wiki": "https://www.elektroda.com/rtvforum/topic3973047.html",
 		"product": "https://www.amazon.com/Waterproof-Compatible-Assistant-Required-MP22W/dp/B07X52W1J8"
+	},
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "Universal IR Remote Control",
+	  "model": "S06",
+	  "chip": "BK7231N",
+	  "board": "S06-CB3S-V1.1",
+	  "keywords": [
+		"IR",
+		"Tuya",
+		"CB3S"
+	  ],
+	  "pins": {
+		"6": "Btn;1",
+		"7": "IRRecv;0",
+		"8": "LED;0",
+		"26": "IRSend;0"
+	  },
+	  "image": "https://obrazki.elektroda.pl/9305258500_1681736372.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20544008#20544008"
 	},
 	{
 	  "vendor": "Axus",
