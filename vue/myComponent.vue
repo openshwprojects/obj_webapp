@@ -8,6 +8,7 @@
       <button :class="'tablinks '+OTAclass" @click="open($event, 'OTA')">OTA</button>
       <button :class="'tablinks '+Flashclass" @click="open($event, 'Flash')">Flash</button>
       <button :class="'tablinks '+Toolsclass" @click="open($event, 'Tools')">Tools</button>
+      <button :class="'tablinks '+Importclass" @click="open($event, 'Import')">Import</button>
       <button :class="'tablinks '+Filesystemclass" @click="open($event, 'Filesystem')">Filesystem</button>
       <button :class="'tablinks '+Aboutclass" @click="open($event, 'About')">About</button>
     </div>
@@ -48,6 +49,10 @@
       <h3>Flash</h3>
       <flash-controller></flash-controller>
     </div>
+    <div class="tabcontent" v-if="tab === 'Import'">
+      <h3>Import</h3>
+      <import-controller></import-controller>
+    </div>
     <div class="tabcontent" v-if="tab === 'Filesystem'">
       <h3>Filesystem</h3>
       <filesystem-controller></filesystem-controller>
@@ -66,6 +71,7 @@
     'control-controller': window.getComponent('control'),
     'logs-controller': window.getComponent('logs'),
     'tools-controller': window.getComponent('tools'),
+    'import-controller': window.getComponent('import'),
   },
       
     data: ()=>{
@@ -82,6 +88,7 @@
         Filesystemclass: '',
         Flashclass: '',
         Toolsclass: '',
+        Importclass: '',
 
       }
     },
@@ -97,6 +104,7 @@
             this.Toolsclass = '';
             this.Filesystemclass = '';
             this.Flashclass = '';
+            this.Importclass = '';
 
             this[name+'class'] = 'active';
         },       
