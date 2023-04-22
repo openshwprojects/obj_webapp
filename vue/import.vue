@@ -24,7 +24,7 @@
       <div class="item"  style="width: 300px;">
         <h3>2. Check generated script (modify if you want)</h3>
                <br>
-        <textarea id="generatedScriptField" placeholder="Here script will appear" style="vertical-align: top; width: 280px; height:500px">{{ generatedScriptText }}</textarea>
+        <textarea id="generatedScriptField" placeholder="Here script will appear" style="vertical-align: top; width: 280px; height:500px"  v-model="generatedScriptText"></textarea>
        <br>
       </div>
 
@@ -62,9 +62,13 @@
        
 
       },
-      onSendFailed() {
+      onSendFailed(response,line) {
         //alert('Send failed!');
-        this.progressTextElem.innerHTML += "<span style='color:red;'>FAILED! Please check network and retry.</span>";
+        if(response.status == 501) {
+           this.progressTextElem.innerHTML += "<span style='color:red;'>FAILED! Invalid command "+line+".</span>";
+        } else {
+           this.progressTextElem.innerHTML += "<span style='color:red;'>FAILED! Please check network and retry.</span>";
+        }
       },
       async sendLines(lines) {
         this.progressTextElem.innerHTML = "Send started...";
@@ -95,8 +99,8 @@
         })
         .then(response => {
           if (!response.ok) {
-           errorHandler();
-            throw new Error("Failed to send line "+line);
+           errorHandler(response,line);
+            throw new Error("Failed to send line "+line + " with error " + response.status);
           }
           resolve();
         })
