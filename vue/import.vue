@@ -1,7 +1,7 @@
 
 <template>
   <div class="container">
-    Here you can import configuration from Cloudcutter profile. Importing a profile may ovewrite your current pins/channels/startup command configuration. 
+    Here you can import configuration from Cloudcutter profile. Importing a profile may ovewrite your current pins/channels/startup command configuration, it will also clear LFS (autoexec.bat). 
     <div class="container">
       <div class="item"  style="width: 300px;">
         <h3>1. Enter template here</h3>
