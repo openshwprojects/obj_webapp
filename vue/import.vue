@@ -17,6 +17,8 @@
           <button @click="loadDemo('https://raw.githubusercontent.com/tuya-cloudcutter/tuya-cloudcutter.github.io/b04e860fe0bb1c8bed417ab36c57e6759ec08510/devices/tuya-generic-rr620w-jl-smart-switch.json')">BL0942 plug</button>
           <button @click="loadDemo('https://raw.githubusercontent.com/tuya-cloudcutter/tuya-cloudcutter.github.io/43a341ef1dd8eec8514e1d435563bd9008ff2835/devices/hombli-hbss-0209-smart-socket-b2030248-energy-plug.json')">BL0937 plug</button>
           <button @click="loadDemo('https://raw.githubusercontent.com/tuya-cloudcutter/tuya-cloudcutter.github.io/a8a6539aad21a03d5db41e4d27e9d5516c62fe23/devices/athom-garage-door-opener.json')">Garage switch</button>
+          <button @click="loadDemo('https://raw.githubusercontent.com/tuya-cloudcutter/tuya-cloudcutter.github.io/a8a6539aad21a03d5db41e4d27e9d5516c62fe23/devices/aldi-casalux-wifi-led-rgb-light-strip.json')">RGB LED</button>
+    
       </div>
 
       <div class="item"  style="width: 300px;">
@@ -140,6 +142,7 @@
          this.generatedScriptText  +=  "ClearIO // clear old GPIO/channels"+"\n";
          this.generatedScriptText  +=  "lfs_format // clear LFS"+"\n";
          this.generatedScriptText  +=  "StartupCommand \"\"  // clear STARTUP"+"\n";
+         this.generatedScriptText  +=  "stopDriver *  // kill drivers"+"\n";
          this.generatedScriptText  += res.scr;
         
     },
