@@ -155,7 +155,7 @@
         const plugin = document.createElement("script");
         plugin.setAttribute(
           "src",
-          "../templateParser.js"
+          "./templateParser.js"
         );
         plugin.async = true;
         document.head.appendChild(plugin);
