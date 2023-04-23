@@ -5981,6 +5981,29 @@
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/7693204100_1681383448.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20524167"
-	}  
+	},
+	{
+    "vendor": "Novostella",
+    "bDetailed": "0",
+    "name": "Blaze 25W RGB Flood Light",
+    "model": "Blaze 25W RGB Flood Light",
+    "chip": "BK7231T",
+    "board": "WB3S-IPEX",
+    "flags": "16778247",
+    "keywords": [
+      "Novostella",
+      "Flodlight",
+      "Flood Light",
+      "RGB"
+    ],
+    "pins": {
+      "6": "PWM;1",
+      "24": "PWM;0",
+      "26": "PWM;2"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/3251406900_1682267088.png",
+    "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20552462"
+  }
   ]
 }
