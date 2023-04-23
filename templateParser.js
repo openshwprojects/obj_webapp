@@ -8,12 +8,8 @@ function findUserParamKey(js)
         
     return js;
 }
-function processJSON(txt) {
-    let js = JSON.parse(txt);
-    console.log(js);
-    let user_param_key = findUserParamKey(js);
-    console.log(user_param_key);
-    
+function processJSON_UserParamKeyStyle(js,user_param_key) {
+    console.log("Entering processJSON_UserParamKeyStyle");
     let tmpl = {
         vendor: "Tuya",
         bDetailed: "0",
@@ -196,4 +192,46 @@ function processJSON(txt) {
     tmpl: tmpl
   };
   return res;
+}
+function processJSON_OpenBekenTemplateStyle(tmpl) {
+    let pins = tmpl.pins;
+    
+    let desc = "";
+    let scr = "";
+    for (const pin in pins) {
+        pinDesc = pins[pin];
+        console.log(`Pin ${pin} is connected to ${pinDesc}.`);
+        [roleName, channel] = pinDesc.split(';');
+        // remap some old convention
+        if(roleName == "Button") {roleName = "Btn"; }
+        if(roleName == "Button_n") {roleName = "Btn_n"; }
+        if(roleName == "Relay") {roleName = "Rel"; }
+        if(roleName == "Relay_n") {roleName = "Rel_n"; }
+        desc += "- P"+pin+" is " + roleName + " on channel " + channel +"\n";
+        scr += "backlog setPinRole "+pin+" "+roleName+"; setPinChannel " + pin + " " +channel+"\n";
+      }
+      if(tmpl.flags != undefined) {
+        scr += "Flags "+tmpl.flags+"\n";
+        desc += "- Flags are set to " + tmpl.flags +"\n";
+      }
+      if(tmpl.command != undefined) {
+        scr += "StartupCommand "+tmpl.command+"\n";
+        desc += "- StartupCommand is set to " + tmpl.command +"\n";
+      }
+    const res = {
+      desc: desc,
+      scr: scr,
+      tmpl: tmpl
+    };
+    return res;
+}
+function processJSON(txt) {
+    let js = JSON.parse(txt);
+    if(js.pins != undefined && js.chip != undefined && js.board != undefined) {
+        return processJSON_OpenBekenTemplateStyle(js);
+    }
+    console.log(js);
+    let user_param_key = findUserParamKey(js);
+    console.log(user_param_key);
+    return processJSON_UserParamKeyStyle(js,user_param_key);
 }

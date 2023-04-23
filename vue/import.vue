@@ -1,11 +1,11 @@
 
 <template>
   <div class="container">
-    Here you can import configuration from Cloudcutter profile. Importing a profile may ovewrite your current pins/channels/startup command configuration, it will also clear LFS (autoexec.bat). 
+    Here you can import configuration from a template. Both OBK templates and Cloudcutter profiles are supported. Importing a profile may ovewrite your current pins/channels/startup command configuration, it will also clear LFS (autoexec.bat). 
     <div class="container">
       <div class="item"  style="width: 300px;">
         <h3>1. Enter template here</h3>
-        <p>Here you can enter a template/JSON text from Cloudcutter. <a href="https://github.com/tuya-cloudcutter/tuya-cloudcutter.github.io/tree/master/devices"> Here </a> is a list of cloudcutter devices. Just open one and copy-paste config below.</p>
+        <p>Here you can enter an  <a href="https://openbekeniot.github.io/webapp/devicesList.html">OBK template</a>/JSON text from Cloudcutter. <a href="https://github.com/tuya-cloudcutter/tuya-cloudcutter.github.io/tree/master/devices"> Here </a> is a list of cloudcutter devices. Just open one and copy-paste config below.</p>
         <textarea id="importTemplate" placeholder="Paste cloudcutter json here" style="vertical-align: top; width: 280px; height:500px" @input="handleImportTemplateChange" v-model="importTemplateText"></textarea>
        <br/>
                <br>
@@ -64,8 +64,8 @@
       },
       onSendFailed(response,line) {
         //alert('Send failed!');
-        if(response.status == 501) {
-           this.progressTextElem.innerHTML += "<span style='color:red;'>FAILED! Invalid command "+line+".</span>";
+        if(response.status == 501 || response.status == 400) {
+           this.progressTextElem.innerHTML += "<span style='color:red;'>FAILED! Invalid command \""+line+"\".</span>";
         } else {
            this.progressTextElem.innerHTML += "<span style='color:red;'>FAILED! Please check network and retry.</span>";
         }
@@ -159,7 +159,8 @@
         const plugin = document.createElement("script");
         plugin.setAttribute(
           "src",
-          "https://openbekeniot.github.io/webapp/templateParser.js"
+        //  "https://openbekeniot.github.io/webapp/templateParser.js"
+         "../templateParser.js"
         );
         plugin.async = true;
         document.head.appendChild(plugin);
