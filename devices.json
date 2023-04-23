@@ -3182,7 +3182,7 @@
     {
       "vendor": "Aubess",
       "bDetailed": "0",
-      "name": "Aubess Mini Smart Switch 16A Smart-TY-S02-1 (2 gang version is Smart-TY-S02-2)",
+      "name": "Aubess Mini Smart Switch 16A 1 gang Smart-TY-S02-1",
       "chip": "BK7231N",
       "board": "on PCB",
       "pins": {
@@ -3193,6 +3193,23 @@
       },
       "image": "https://obrazki.elektroda.pl/1182334400_1673640663.png",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20383870#20383870"
+    },
+    {
+      "vendor": "Aubess",
+      "bDetailed": "0",
+      "name": "Aubess Mini Smart Switch 16A 2 gang Smart-TY-S02-2",
+      "chip": "BK7231N",
+      "board": "on PCB",
+      "pins": {
+		"6": "LED_n;1",
+		"7": "Rel;2",
+		"8": "Rel;1",
+		"10": "Btn;1",
+		"24": "TglChanOnTgl;1",
+		"26": "TglChanOnTgl;2"
+      },
+      "image": "https://obrazki.elektroda.pl/1182334400_1673640663.png",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20551479#20551479"
     },
     {
       "vendor": "Tuya",
