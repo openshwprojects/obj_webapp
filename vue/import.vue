@@ -24,6 +24,7 @@
       <div class="item"  style="width: 300px;">
         <h3>2. Check generated script (modify if you want)</h3>
                <br>
+        <p id ="generateTextID" v-text="generateText"></p>
         <textarea id="generatedScriptField" placeholder="Here script will appear" style="vertical-align: top; width: 280px; height:500px"  v-model="generatedScriptText"></textarea>
        <br>
       </div>
@@ -50,10 +51,11 @@
     },
     data: ()=>{
       return {
-      
+        generateText:"",
         importTemplateText: "",
         generatedScriptText: "",
         progressText: "",
+        generateTextElem:undefined,
         progressTextElem:undefined,
       }
     },
@@ -141,13 +143,30 @@
        this.refreshTemplateImport();
     },
     refreshTemplateImport() {
-       let res = processJSON(this.importTemplateText);
+       let res;
+       if(processJSON==undefined){
+           this.generateTextElem.innerHTML = "<span style='color:red;'>Failed - processJSON missing.</span>";
+          return;
+       }
+       let jsonText = this.importTemplateText;
+       jsonText = jsonText.trim();
+       if(jsonText.length < 1) {
+           this.generateTextElem.innerHTML = "<span style='color:yellow;'>No input text.</span>";
+          return;
+       }
+       try {
+           res = processJSON(jsonText);
+       } catch (error) {
+           this.generateTextElem.innerHTML = "<span style='color:red;'>Failed - "+error+".</span>";
+           return;
+       }
         this.generatedScriptText  = "";
          this.generatedScriptText  +=  "ClearIO // clear old GPIO/channels"+"\n";
          this.generatedScriptText  +=  "lfs_format // clear LFS"+"\n";
          this.generatedScriptText  +=  "StartupCommand \"\"  // clear STARTUP"+"\n";
          this.generatedScriptText  +=  "stopDriver *  // kill drivers"+"\n";
          this.generatedScriptText  += res.scr;
+           this.generateTextElem.innerHTML = "<span style='color:green;'>OK! Generated.</span>";
         
     },
       
@@ -156,6 +175,8 @@
     mounted (){
         this.msg = 'fred';
         this.progressTextElem = document.getElementById("progressTextID");
+        this.generateTextElem = document.getElementById("generateTextID");
+        this.generateTextElem.innerHTML = "Waiting.";
         const plugin = document.createElement("script");
         plugin.setAttribute(
           "src",
