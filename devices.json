@@ -14,9 +14,9 @@
         "AP8506"
       ],
       "pins": {
-        "6": "Relay;1",
+        "6": "Rel;1",
         "7": "WifiLED_n;1",
-        "10": "Button;1",
+        "10": "Btn;1",
         "26": "TglChanOnTgl;1"
       },
       "image": "https://obrazki.elektroda.pl/5120493600_1650616045.jpg",
@@ -29,9 +29,9 @@
       "chip": "BK7231T",
       "board": "WB3",
       "pins": {
-        "7": "Relay;1",
+        "7": "Rel;1",
         "1": "LED_n;1",
-        "8": "Button;1"
+        "8": "Btn;1"
       },
       "keywords": [
         "switch",
@@ -226,15 +226,15 @@
       "chip": "BL602",
       "board": "SM-028_V1.3",
       "pins": {
-        "1": "Button;1",
-        "2": "Button;2",
-        "3": "Button;3",
-        "4": "Button;4",
-        "14": "Button;5",
-        "17": "Button;6",
-        "20": "Button;7",
-        "21": "Button;8",
-        "22": "Button;9"
+        "1": "Btn;1",
+        "2": "Btn;2",
+        "3": "Btn;3",
+        "4": "Btn;4",
+        "14": "Btn;5",
+        "17": "Btn;6",
+        "20": "Btn;7",
+        "21": "Btn;8",
+        "22": "Btn;9"
       },
       "keywords": [
         "",
@@ -252,8 +252,8 @@
       "chip": "BL602",
       "board": "SM-028_V1.3",
       "pins": {
-        "20": "Relay;1",
-        "4": "Button;1",
+        "20": "Rel;1",
+        "4": "Btn;1",
         "22": "WifiLED_n;1"
       },
       "keywords": [
@@ -273,10 +273,10 @@
       "chip": "BL602",
       "board": "SM-028_V1.3",
       "pins": {
-        "21": "Relay;1",
-        "20": "Button;1",
-        "17": "Relay;2",
-        "4": "Button;2",
+        "21": "Rel;1",
+        "20": "Btn;1",
+        "17": "Rel;2",
+        "4": "Btn;2",
         "14": "WifiLED_n;1"
       },
       "keywords": [
@@ -340,7 +340,7 @@
       "board": "WB3S",
       "pins": {
         "1": "WifiLED_n;0",
-        "6": "Relay;0",
+        "6": "Rel;0",
         "24": "Btn;0"
       },
       "keywords": [
@@ -408,8 +408,8 @@
       "chip": "BK7231T",
       "board": "WB2S",
       "pins": {
-        "7": "Relay;1",
-        "26": "Button;1"
+        "7": "Rel;1",
+        "26": "Btn;1"
       },
       "keywords": [
         "switch",
@@ -447,14 +447,14 @@
       "board": "WB3S",
       "chip": "BK7231T",
       "pins": {
-        "7": "Button;1",
-        "8": "Button;2",
-        "9": "Button;3",
-        "1": "Button;4",
-        "14": "Relay;1",
-        "6": "Relay;2",
-        "24": "Relay;3",
-        "26": "Relay;4"
+        "7": "Btn;1",
+        "8": "Btn;2",
+        "9": "Btn;3",
+        "1": "Btn;4",
+        "14": "Rel;1",
+        "6": "Rel;2",
+        "24": "Rel;3",
+        "26": "Rel;4"
       },
       "keywords": [
         "switch",
@@ -514,7 +514,7 @@
       "chip": "BK7231T",
       "board": "WB2S",
       "pins": {
-        "6": "Relay;1",
+        "6": "Rel;1",
         "7": "BL0937CF;1",
         "8": "BL0937CF1;1",
         "10": "WifiLED_n;1",
@@ -563,9 +563,9 @@
       "chip": "BK7231N",
       "board": "on board",
       "pins": {
-        "17": "Relay;1",
+        "17": "Rel;1",
         "24": "LED;1",
-        "26": "Button;1"
+        "26": "Btn;1"
       },
       "keywords": [
         "switch",
@@ -861,8 +861,8 @@
       "chip": "BK7231T",
       "pins": {
         "7": "LED;1",
-        "24": "Relay;1",
-        "26": "Button;1"
+        "24": "Rel;1",
+        "26": "Btn;1"
       },
       "keywords": [
         "switch",
@@ -878,8 +878,8 @@
       "board": "WB2S",
       "chip": "BK7231T",
       "pins": {
-        "24": "Relay;1",
-        "6": "Button;1"
+        "24": "Rel;1",
+        "6": "Btn;1"
       },
       "keywords": [
         "switch",
@@ -896,7 +896,7 @@
       "board": "WB3S",
       "pins": {
         "8": "PWM;1",
-        "1": "Button;1"
+        "1": "Btn;1"
       },
       "keywords": [
         "single color"
@@ -1237,9 +1237,9 @@
       "board": "CB3S",
       "pins": {
         "6": "WifiLED_n;0",
-        "7": "Relay;1",
-        "8": "Relay;2",
-        "9": "Relay;3",
+        "7": "Rel;1",
+        "8": "Rel;2",
+        "9": "Rel;3",
         "14": "Btn;1",
         "24": "Btn;3",
         "26": "Btn;2"
@@ -1260,8 +1260,8 @@
       "board": "CB3S",
       "pins": {
         "6": "WifiLED_n;0",
-        "7": "Relay;1",
-        "9": "Relay;2",
+        "7": "Rel;1",
+        "9": "Rel;2",
         "14": "Btn;1",
         "24": "Btn;2"
       },
@@ -1281,7 +1281,7 @@
       "board": "CB3S",
       "pins": {
         "6": "WifiLED_n;0",
-        "7": "Relay;1",
+        "7": "Rel;1",
         "14": "Btn;1"
       },
       "keywords": [
@@ -1548,7 +1548,7 @@
         "6": "PWM;3",
         "7": "PWM;4",
         "8": "PWM;1",
-        "9": "Button_n;0",
+        "9": "Btn_n;0",
         "24": "PWM;2",
         "26": "PWM;5"
       },
@@ -1713,9 +1713,9 @@
         "6": "BL0937CF1;1",
         "7": "BL0937CF;1",
         "8": "WiFiLED;1",
-        "11": "Button;1",
+        "11": "Btn;1",
         "24": "BL0937SEL;1",
-        "26": "Relay;1"
+        "26": "Rel;1"
       },
       "command": "",
       "keywords": [
@@ -1736,7 +1736,7 @@
         "6": "PWM;4",
         "8": "PWM;5",
         "9": "PWM;1",
-        "14": "Button;0",
+        "14": "Btn;0",
         "24": "PWM;2",
 	"26": "PWM;3"
       },
@@ -1877,8 +1877,8 @@
       "board": "CB2S",
       "pins": {
         "26": "WifiLED;0",
-        "7": "Relay;0",
-        "24": "Relay;1",
+        "7": "Rel;0",
+        "24": "Rel;1",
         "23": "Btn_Tgl_All;0",
         "6": "TglChanOnTgl;0",
         "8": "TglChanOnTgl;1"
@@ -1901,9 +1901,9 @@
       "board": "CBU",
       "pins": {
         "9": "WifiLED;0",
-        "16": "Relay_n;0",
-        "24": "Relay;0",
-        "26": "Button;0",
+        "16": "Rel_n;0",
+        "24": "Rel;0",
+        "26": "Btn;0",
         "28": "LED;0"
       },
       "command": "backlog startDriver BL0942;",
@@ -1937,12 +1937,12 @@
       "chip": "BK7231N",
       "board": "CB2S",
       "pins": {
-        "6": "Relay;0",
-        "7": "Relay;1",
+        "6": "Rel;0",
+        "7": "Rel;1",
         "10": "TglChanOnTgl;0",
         "11": "TglChanOnTgl;1",
         "24": "WifiLED;0",
-        "26": "Button;0"
+        "26": "Btn;0"
       },
       "keywords": [
         "CBS2s aka FL_M99_V3",
@@ -2078,12 +2078,12 @@
       "chip": "BK7231T",
       "board": "WB3S",
       "pins": {
-        "6": "Relay;5",
-        "7": "Relay;2",
-        "8": "Relay;3",
-        "9": "Relay;1",
-        "26": "Relay;4",
-        "14": "Button;1",
+        "6": "Rel;5",
+        "7": "Rel;2",
+        "8": "Rel;3",
+        "9": "Rel;1",
+        "26": "Rel;4",
+        "14": "Btn;1",
         "10": "LED;1",
         "24": "LED;2"
       },
@@ -2394,9 +2394,9 @@
       "chip": "BK7231T",
       "board": "WB3S",
       "pins": {
-        "6": "Button;1",
+        "6": "Btn;1",
         "8": "LED;2",
-        "24": "Relay;1",
+        "24": "Rel;1",
 		"26": "dInput_n;2"
       },
       "image": "https://obrazki.elektroda.pl/7792907900_1673029895.jpg",
@@ -2413,9 +2413,9 @@
         "6": "LED;1",
         "7": "BL0937CF;1",
         "8": "BL0937CF1;1",
-        "10": "Button;1",
+        "10": "Btn;1",
         "24": "BL0937SEL;1",
-        "26": "Relay;1"
+        "26": "Rel;1"
       },
       "image": "https://obrazki.elektroda.pl/7110486000_1665557486.png",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20476142#20476142"
@@ -2431,9 +2431,9 @@
         "8": "LED;1",
         "7": "BL0937CF;1",
         "6": "BL0937CF1;1",
-        "10": "Button;1",
+        "10": "Btn;1",
         "24": "BL0937SEL;1",
-        "26": "Relay;1"
+        "26": "Rel;1"
       },
       "image": "https://obrazki.elektroda.pl/8185748400_1678293210.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20476142#20476142"
@@ -2446,8 +2446,8 @@
       "chip": "BK7231T",
       "pins": {
         "6": "LED;1",
-        "10": "Button;1",
-        "26": "Relay;1"
+        "10": "Btn;1",
+        "26": "Rel;1"
       },
       "image": "https://obrazki.elektroda.pl/8986134700_1665557531.png",
       "wiki": ""
@@ -2459,9 +2459,9 @@
       "model": "EDU8774",
       "chip": "BK7231T",
       "pins": {
-        "10": "Button;1",
+        "10": "Btn;1",
         "24": "LED_n;1",
-        "26": "Relay;1",
+        "26": "Rel;1",
         "6": "BL0937CF1;1",
         "7": "BL0937CF;1",
         "8": "BL0937SEL;1"
@@ -2478,8 +2478,8 @@
       "board": "WB2S",
       "pins": {
         "8": "WifiLED_n;1",
-        "7": "Button;1",
-        "6": "Relay;1"
+        "7": "Btn;1",
+        "6": "Rel;1"
       },
       "image": "https://obrazki.elektroda.pl/8202472300_1673218616.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3947812.html",
@@ -2499,8 +2499,8 @@
       "board": "onboard",
       "pins": {
         "6": "WifiLED_n;1",
-        "9": "Button;1",
-        "26": "Relay;1"
+        "9": "Btn;1",
+        "26": "Rel;1"
       },
       "image": "https://obrazki.elektroda.pl/2092771700_1673361450.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3948190.html",
@@ -2514,9 +2514,9 @@
       "chip": "BK7231N",
       "board": "CB2S",
       "pins": {
-        "6": "Button;1",
+        "6": "Btn;1",
         "8": "WifiLED_n;1",
-        "26": "Relay;1"
+        "26": "Rel;1"
       },
       "image": "https://obrazki.elektroda.pl/6510354700_1649939521.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3887748.html",
@@ -2532,9 +2532,9 @@
       "pins": {
         "6": "BL0937CF1;1",
         "7": "BL0937CF;1",
-        "10": "Button;1",
+        "10": "Btn;1",
         "24": "BL0937SEL;1",
-        "26": "Relay;1"
+        "26": "Rel;1"
       },
       "image": "https://obrazki.elektroda.pl/7144402400_1667457959.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3887748.html",
@@ -2560,11 +2560,11 @@
       "chip": "BK7231T",
       "pins": {
         "6": "WifiLED_n;1",
-        "9": "Button;1",
+        "9": "Btn;1",
         "0": "BL0937CF;1",
         "8": "BL0937CF1;1",
         "24": "BL0937SEL;1",
-        "26": "Relay;1"
+        "26": "Rel;1"
       },
       "image": "https://obrazki.elektroda.pl/2027206500_1656763373.jpg",
       "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?t=3917832&highlight=",
@@ -2578,8 +2578,8 @@
       "chip": "BK7231N",
       "pins": {
         "6": "WifiLED_n;1",
-        "9": "Button;1",
-        "26": "Relay;1"
+        "9": "Btn;1",
+        "26": "Rel;1"
       },
       "image": "https://obrazki.elektroda.pl/4878877200_1662475527.jpg",
       "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?t=3917832&highlight=",
@@ -2609,8 +2609,8 @@
       "chip": "BK7231N",
       "board": "CB2S",
       "pins": {
-        "10": "Button;1",
-        "24": "Relay;1",
+        "10": "Btn;1",
+        "24": "Rel;1",
         "8": "LED;1"
       },
       "image": "https://obrazki.elektroda.pl/3577857400_1679751543.png",
@@ -2636,8 +2636,8 @@
       "chip": "BK7231N",
       "board": "CB2S",
       "pins": {
-        "7": "Button;1",
-        "6": "Relay_n;1",
+        "7": "Btn;1",
+        "6": "Rel_n;1",
         "10": "LED;1"
       },
       "image": "https://obrazki.elektroda.pl/1094134100_1644544710.jpg",
@@ -2650,8 +2650,8 @@
       "chip": "BK7231T",
       "board": "WB2S",
       "pins": {
-        "7": "Button;1",
-        "8": "Relay;1"
+        "7": "Btn;1",
+        "8": "Rel;1"
       },
       "image": "https://obrazki.elektroda.pl/1094134100_1644544710.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?t=3874289"
@@ -2663,8 +2663,8 @@
       "model": "KS602",
       "chip": "BK7231N",
       "pins": {
-        "17": "Relay;1",
-        "26": "Button;1"
+        "17": "Rel;1",
+        "26": "Btn;1"
       },
       "flag": 6,
       "image": "https://obrazki.elektroda.pl/1654490200_1665557728.png",
@@ -2678,11 +2678,11 @@
       "chip": "BK7231T",
       "board": "on PCB",
       "pins": {
-        "6": "Relay;1",
-        "7": "Relay;2",
+        "6": "Rel;1",
+        "7": "Rel;2",
         "10": "LED;1",
         "26": "LED;2",
-        "24": "Button;1"
+        "24": "Btn;1"
       },
       "image": "https://obrazki.elektroda.pl/6606464600_1642467157.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=19906670#19906670"
@@ -2694,8 +2694,8 @@
       "model": "PFW02-G",
       "chip": "BK7231T",
       "pins": {
-        "24": "Relay_n;1",
-        "26": "Button;1",
+        "24": "Rel_n;1",
+        "26": "Btn;1",
         "7": "LED;1"
       },
       "image": "https://obrazki.elektroda.pl/3561611400_1665557913.png",
@@ -2734,14 +2734,14 @@
       "chip": "BK7231N",
       "board": "CB3S",
       "pins": {
-        "24": "Button;1",
-        "20": "Button;2",
-        "7": "Button;3",
-        "14": "Button;4",
-        "6": "Relay;1",
-        "8": "Relay;2",
-        "9": "Relay;3",
-        "26": "Relay;4",
+        "24": "Btn;1",
+        "20": "Btn;2",
+        "7": "Btn;3",
+        "14": "Btn;4",
+        "6": "Rel;1",
+        "8": "Rel;2",
+        "9": "Rel;3",
+        "26": "Rel;4",
         "22": "WifiLED_n;1"
       },
       "image": "",
@@ -2756,8 +2756,8 @@
       "pins": {
         "8": "WifiLED;1",
         "26": "LED;1",
-        "7": "Button;1",
-        "6": "Relay;1"
+        "7": "Btn;1",
+        "6": "Rel;1"
       },
       "image": "https://obrazki.elektroda.pl/1660030700_1667458131.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3951680.html"
@@ -2770,8 +2770,8 @@
       "board": "WB3S",
       "pins": {
         "1": "WifiLED;1",
-        "6": "Relay;1",
-        "10": "Button;1",
+        "6": "Rel;1",
+        "10": "Btn;1",
         "26": "LED;1"
       },
       "image": "https://obrazki.elektroda.pl/4504881600_1667458212.png",
@@ -2786,8 +2786,8 @@
       "board": "Z2-B-V1.0",
       "pins": {
         "7": "WifiLED;1",
-        "14": "Relay;1",
-        "8": "Button;1",
+        "14": "Rel;1",
+        "8": "Btn;1",
         "16": "LED_n;1"
       },
       "image": "https://obrazki.elektroda.pl/5510737000_1651731570_thumb.jpg",
@@ -2801,11 +2801,11 @@
       "board": "WB3S",
       "pins": {
         "1": "WifiLED;1",
-        "6": "Relay;1",
-        "10": "Button;1",
+        "6": "Rel;1",
+        "10": "Btn;1",
         "26": "LED;1",
-        "8": "Button;2",
-        "9": "Relay;2",
+        "8": "Btn;2",
+        "9": "Rel;2",
         "11": "LED;2"
       },
       "image": "https://obrazki.elektroda.pl/4504881600_1667458212.png",
@@ -2819,14 +2819,14 @@
       "board": "WB3S",
       "pins": {
         "1": "WifiLED;1",
-        "6": "Relay;1",
-        "24": "Button;1",
+        "6": "Rel;1",
+        "24": "Btn;1",
         "14": "LED;1",
-        "9": "Relay;2",
-        "10": "Button;2",
+        "9": "Rel;2",
+        "10": "Btn;2",
         "26": "LED;2",
-        "7": "Relay;3",
-        "8": "Button;3",
+        "7": "Rel;3",
+        "8": "Btn;3",
         "11": "LED;3"
       },
       "image": "https://obrazki.elektroda.pl/4504881600_1667458212.png",
@@ -2841,9 +2841,9 @@
       "pins": {
         "6": "LED;0",
         "7": "LED;1",
-        "8": "Button;0;1",
-        "24": "Relay_n;0",
-        "25": "Relay_n;1"
+        "8": "Btn;0;1",
+        "24": "Rel_n;0",
+        "25": "Rel_n;1"
       },
       "image": "https://obrazki.elektroda.pl/8563462300_1652196315.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3892473.html#20014441"
@@ -2855,11 +2855,11 @@
       "model": "6922HA",
       "chip": "BK7231T",
       "pins": {
-        "6": "Relay;1",
+        "6": "Rel;1",
         "9": "WifiLED_n;1",
-        "14": "Button;1",
-        "24": "Button;2",
-        "26": "Relay;2"
+        "14": "Btn;1",
+        "24": "Btn;2",
+        "26": "Rel;2"
       },
       "image": "https://obrazki.elektroda.pl/2789424600_1656890909.jpg",
       "wiki": ""
@@ -2875,7 +2875,7 @@
         "6": "Rel;1",
         "8": "TglChanOnTgl;1",
         "9": "LED;1",
-        "26": "Button;1"
+        "26": "Btn;1"
       },
       "image": "https://obrazki.elektroda.pl/6601619200_1660013813_thumb.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3911356.html"
@@ -2891,7 +2891,7 @@
         "15": "Rel;1",
         "14": "TglChanOnTgl;1",
         "6": "LED;1",
-        "8": "Button;1"
+        "8": "Btn;1"
       },
       "image": "https://obrazki.elektroda.pl/2081201100_1679748415.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3967141.html"
@@ -2905,8 +2905,8 @@
       "board": "WB2S",
       "pins": {
         "8": "LED_n;1",
-        "26": "Relay;1",
-        "6": "Button;1"
+        "26": "Rel;1",
+        "6": "Btn;1"
       },
       "image": "https://obrazki.elektroda.pl/2951877900_1678136252.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20473339#20473339",
@@ -2921,8 +2921,8 @@
       "board": "WB2S",
       "pins": {
         "7": "LED_n;1",
-        "24": "Relay;1",
-        "26": "Button;1"
+        "24": "Rel;1",
+        "26": "Btn;1"
       },
       "image": "https://obrazki.elektroda.pl/1036592500_1659877616.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3911041.html#20133554",
@@ -2937,8 +2937,8 @@
       "board": "CB2S",
       "pins": {
         "7": "LED_n;1",
-        "24": "Relay;1",
-        "26": "Button;1"
+        "24": "Rel;1",
+        "26": "Btn;1"
       },
       "image": "https://obrazki.elektroda.pl/6459822600_1678141558.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20473496#20473496",
@@ -2963,8 +2963,8 @@
       "chip": "BL602",
       "pins": {
         "1": "WifiLED_n;1",
-        "5": "Button;1",
-        "22": "Relay;1"
+        "5": "Btn;1",
+        "22": "Rel;1"
       },
       "image": "https://static.elektroda.pl/attach/thumb/3_1141202.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3889041-120.html#20129282",
@@ -3018,7 +3018,7 @@
       "board": "CB3S",
       "pins": {
         "8": "dInput_NoPullUP;0",
-        "14": "Relay;1",
+        "14": "Rel;1",
         "23": "ADC;11",
         "24": "dInput;5"
       },
@@ -3032,9 +3032,9 @@
       "bDetailed": "1",
       "board": "CB3S",
       "pins": {
-        "6": "Relay;1",
+        "6": "Rel;1",
         "7": "LED;1",
-        "24": "Button;1"
+        "24": "Btn;1"
       },
       "image": "https://obrazki.elektroda.pl/4955351700_1662320800_thumb.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3917316.html"
@@ -3094,11 +3094,11 @@
       "bDetailed": "0",
       "board": "on pcb",
       "pins": {
-        "6": "Button;1",
-        "7": "Relay;1",
+        "6": "Btn;1",
+        "7": "Rel;1",
         "8": "LED;1",
-        "14": "Relay;2",
-        "16": "Button;2",
+        "14": "Rel;2",
+        "16": "Btn;2",
         "26": "LED;2",
         "28": "WifiLED_n;2"
       },
@@ -3116,11 +3116,11 @@
       "bDetailed": "0",
       "board": "WB3S",
       "pins": {
-        "6": "Relay;1",
+        "6": "Rel;1",
         "9": "WifiLED;1",
-        "14": "Button;1",
-        "24": "Button;2",
-        "26": "Relay;2"
+        "14": "Btn;1",
+        "24": "Btn;2",
+        "26": "Rel;2"
       },
       "keywords": [
         "Bunnings",
@@ -3137,8 +3137,8 @@
       "board": "on PCB",
       "pins": {
         "24": "LED_n;1",
-        "26": "Button;1",
-        "15": "Relay;1"
+        "26": "Btn;1",
+        "15": "Rel;1"
       },
       "keywords": [
         "Costco"
@@ -3154,8 +3154,8 @@
       "board": "on PCB",
       "pins": {
         "7": "LED_n;1",
-        "26": "Button;1",
-        "24": "Relay;1"
+        "26": "Btn;1",
+        "24": "Rel;1"
       },
       "image": "https://obrazki.elektroda.pl/1236161800_1662332912_thumb.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3917330.html"
@@ -3169,8 +3169,8 @@
       "board": "WB2S",
       "pins": {
         "10": "LED_n;1",
-        "26": "Button;1",
-        "24": "Relay;1"
+        "26": "Btn;1",
+        "24": "Rel;1"
       },
       "keywords": [
         "FCC ID: SYW-PLUGWIFIG2",
@@ -3187,9 +3187,9 @@
       "board": "on PCB",
       "pins": {
         "6": "LED_n;1",
-        "10": "Button;1",
+        "10": "Btn;1",
         "24": "TglChanOnTgl;1",
-        "8": "Relay;1"
+        "8": "Rel;1"
       },
       "image": "https://obrazki.elektroda.pl/1182334400_1673640663.png",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20383870#20383870"
@@ -3219,9 +3219,9 @@
       "board": "on PCB",
       "pins": {
         "7": "LED_n;1",
-        "10": "Button;1",
+        "10": "Btn;1",
         "26": "TglChanOnTgl;1",
-        "8": "Relay;1"
+        "8": "Rel;1"
       },
       "image": "https://obrazki.elektroda.pl/9107112400_1679156974.png",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20496080#20496080"
@@ -3348,8 +3348,8 @@
       "board": "CB2S",
       "pins": {
         "8": "LED_n;1",
-        "11": "Button;1",
-        "24": "Relay;1"
+        "11": "Btn;1",
+        "24": "Rel;1"
       },
       "image": "https://obrazki.elektroda.pl/6098342400_1678041387.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3962375.html"
@@ -3362,9 +3362,9 @@
       "board": "on PCB",
       "pins": {
         "6": "LED_n;1",
-        "8": "Button;1",
-        "14": "Button;1",
-        "15": "Relay;1"
+        "8": "Btn;1",
+        "14": "Btn;1",
+        "15": "Rel;1"
       },
       "image": "https://obrazki.elektroda.pl/6209806600_1660573904.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3912748.html#20145042"
@@ -3378,9 +3378,9 @@
       "board": "CB2S",
       "pins": {
         "8": "LED_n;1",
-        "23": "Button;1",
+        "23": "Btn;1",
         "24": "TglChanOnTgl;1",
-        "26": "Relay;1"
+        "26": "Rel;1"
       },
       "keywords": [
         "BL0942",
@@ -3398,9 +3398,9 @@
       "chip": "BK7231N",
       "board": "on PCB",
       "pins": {
-        "6": "Button;1",
+        "6": "Btn;1",
         "7": "WifiLED_n;1",
-        "24": "Relay;1",
+        "24": "Rel;1",
         "26": "TglChanOnTgl;1"
       },
       "image": "https://obrazki.elektroda.pl/6581801300_1667148345.jpg",
@@ -3476,14 +3476,14 @@
       "board": "WB3S",
       "pins": {
         "1": "WifiLED_n;1",
-        "6": "Button;3",
-        "7": "Relay;3",
-        "8": "Relay;2",
-        "9": "Button;1",
-        "10": "Button;4",
-        "14": "Button;2",
-        "24": "Relay;4",
-        "26": "Relay;1"
+        "6": "Btn;3",
+        "7": "Rel;3",
+        "8": "Rel;2",
+        "9": "Btn;1",
+        "10": "Btn;4",
+        "14": "Btn;2",
+        "24": "Rel;4",
+        "26": "Rel;1"
       },
       "keywords": ["Bunnings Warehouse", "4 gang"],
       "image": "https://obrazki.elektroda.pl/9091244500_1677673574.jpg",
@@ -3498,9 +3498,9 @@
       "chip": "BK7231T",
       "board": "WB3S",
       "pins": {
-        "6": "Relay;1",
+        "6": "Rel;1",
         "9": "WifiLED_n;1",
-        "14": "Button;1"
+        "14": "Btn;1"
       },
       "keywords": ["Bunnings Warehouse", "1 gang"],
       "image": "https://obrazki.elektroda.pl/4739971700_1677665413.jpg",
@@ -3515,9 +3515,9 @@
       "chip": "BK7231N",
       "board": "CB2S",
       "pins": {
-        "26": "Relay;1",
+        "26": "Rel;1",
         "8": "WifiLED_n;1",
-        "11": "Button;1"
+        "11": "Btn;1"
       },
       "keywords": ["Amazon", "Model 30153"],
       "image": "https://obrazki.elektroda.pl/6649524200_1677273368.jpg",
@@ -3710,12 +3710,12 @@
       "chip": "BK7231N",
       "board": "",
       "pins": {
-        "14": "Relay;3",
-        "16": "Relay;2",
-        "15": "Relay;1",
-        "17": "Button;1",
-        "26": "Button;2",
-        "24": "Button;3",
+        "14": "Rel;3",
+        "16": "Rel;2",
+        "15": "Rel;1",
+        "17": "Btn;1",
+        "26": "Btn;2",
+        "24": "Btn;3",
         "22": "WifiLED;1"
 	  },
       "keywords": [
@@ -4023,9 +4023,9 @@
         "3": "BL0937CF1;0",
         "14": "BL0937CF;0",
         "20": "LED_n;1",
-        "22": "Button;1",
+        "22": "Btn;1",
         "21": "BL0937SEL;0",
-        "2": "Relay;1"
+        "2": "Rel;1"
       },
       "image": "https://obrazki.elektroda.pl/1556106400_1672313255.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20359721#20359721",
@@ -4066,9 +4066,9 @@
         "8": "BL0937CF1;0",
         "7": "BL0937CF;0",
         "6": "LED_n;1",
-        "10": "Button;1",
+        "10": "Btn;1",
         "24": "BL0937SEL;0",
-        "26": "Relay;1"
+        "26": "Rel;1"
       },
       "image": "https://obrazki.elektroda.pl/2065343100_1665995990_thumb.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3927458.html",
@@ -4179,9 +4179,9 @@
         "6": "BL0937CF1;0",
         "7": "BL0937CF;0",
         "8": "LED_n;1",
-        "23": "Button;1",
+        "23": "Btn;1",
         "24": "BL0937SEL;0",
-        "26": "Relay;1"
+        "26": "Rel;1"
       },
       "image": "https://obrazki.elektroda.pl/1064078600_1665558139.png",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20364254#20364254",
@@ -4199,15 +4199,15 @@
         "4 gang"
       ],
       "pins": {
-        "6": "Relay;3",
-        "7": "Relay;2",
-        "9": "Relay;1",
-        "14": "Button;1",
-        "16": "Button;2",
-        "20": "Button;3",
-        "22": "Button;4",
+        "6": "Rel;3",
+        "7": "Rel;2",
+        "9": "Rel;1",
+        "14": "Btn;1",
+        "16": "Btn;2",
+        "20": "Btn;3",
+        "22": "Btn;4",
         "24": "WifiLED;1",
-        "26": "Relay;4"
+        "26": "Rel;4"
       },
       "image": "https://obrazki.elektroda.pl/6472286600_1665558182.png",
       "wiki": "",
@@ -4300,9 +4300,9 @@
         "W600"
       ],
       "pins": {
-        "2": "Button;1",
+        "2": "Btn;1",
         "5": "WifiLED_n;2",
-        "12": "Relay;1"
+        "12": "Rel;1"
       },
       "image": "https://obrazki.elektroda.pl/7283692500_1665970536.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3926992.html"
@@ -4484,7 +4484,7 @@
         "6": "PWM;5",
         "8": "PWM;1",
         "7": "PWM;4",
-        "4": "Button;1"
+        "4": "Btn;1"
       },
       "image": "https://obrazki.elektroda.pl/7011755600_1663840884_thumb.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3921333.html"
@@ -4508,8 +4508,8 @@
       "chip": "BK7231T",
       "board": "WB3S",
       "pins": {
-        "6": "Relay;1",
-        "24": "Button;1",
+        "6": "Rel;1",
+        "24": "Btn;1",
         "14": "LED_n;1"
       },
       "image": "https://obrazki.elektroda.pl/7786470300_1668498503.png",
@@ -4712,15 +4712,15 @@
         "4 gang"
       ],
       "pins": {
-        "24": "Relay;1",
-        "17": "Relay;2",
-        "26": "Relay;3",
-        "16": "Relay;4",
-        "14": "Button;1",
-        "7": "Button;1",
-        "16": "Button;2",
-        "9": "Button;3",
-        "15": "Button;4"
+        "24": "Rel;1",
+        "17": "Rel;2",
+        "26": "Rel;3",
+        "16": "Rel;4",
+        "14": "Btn;1",
+        "7": "Btn;1",
+        "16": "Btn;2",
+        "9": "Btn;3",
+        "15": "Btn;4"
       },
       "image": "https://ae01.alicdn.com/kf/H64b1ce4cac764eee884f3a68023d7d153.jpg",
       "wiki": "",
@@ -4860,10 +4860,10 @@
         ""
       ],
       "pins": {
-        "6": "Button;1",
+        "6": "Btn;1",
         "8": "WifiLED_n;1",
         "7": "LED_n;1",
-        "24": "Relay;1"
+        "24": "Rel;1"
       },
       "image": "https://obrazki.elektroda.pl/7805280900_1676492256.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3957822.html"
@@ -4881,10 +4881,10 @@
         ""
       ],
       "pins": {
-        "6": "Button;1;2",
-        "7": "Relay;1",
+        "6": "Btn;1;2",
+        "7": "Rel;1",
         "10": "LED;1",
-        "24": "Relay;2",
+        "24": "Rel;2",
         "26": "LED;2"
       },
       "image": "https://obrazki.elektroda.pl/2929601400_1669794035.png",
@@ -4920,8 +4920,8 @@
       ],
       "pins": {
         "7": "LED_n;0",
-        "24": "Relay;0",
-        "26": "Button;0"
+        "24": "Rel;0",
+        "26": "Btn;0"
       },
       "image": "https://obrazki.elektroda.pl/1458529500_1669511082.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20305460#20305460"
@@ -4996,10 +4996,10 @@
       "chip": "BK7231N",
       "board": "CB3S",
       "pins": {
-        "7": "Relay;0",
+        "7": "Rel;0",
         "8": "dInput;1",
         "24": "LED;0",
-        "26": "Button;0"
+        "26": "Btn;0"
       },
       "image": "https://obrazki.elektroda.pl/8079066400_1668839293.png",
       "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?t=3936372&highlight="
@@ -5015,9 +5015,9 @@
         "6": "BL0937CF1;0",
         "7": "BL0937CF;0",
         "8": "WifiLED_n;0",
-        "10": "Button;0",
+        "10": "Btn;0",
         "24": "BL0937SEL;0",
-        "26": "Relay;0"
+        "26": "Rel;0"
       },
       "image": "https://obrazki.elektroda.pl/5838127700_1676238188.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3957163.html"
@@ -5033,9 +5033,9 @@
         "6": "BL0937CF1;0",
         "7": "BL0937CF;0",
         "8": "WifiLED_n;0",
-        "10": "Button;0",
+        "10": "Btn;0",
         "24": "BL0937SEL;0",
-        "26": "Relay;0"
+        "26": "Rel;0"
       },
       "image": "https://obrazki.elektroda.pl/5963761100_1674492923.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3951685.html"
@@ -5051,9 +5051,9 @@
         "6": "WifiLED_n;0",
         "7": "BL0937CF;0",
         "8": "BL0937CF1;0",
-        "10": "Button;0",
+        "10": "Btn;0",
         "24": "BL0937SEL;1",
-        "26": "Relay;0"
+        "26": "Rel;0"
       },
       "image": "https://obrazki.elektroda.pl/7069327900_1669279820.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20300613#20300613"
@@ -5068,9 +5068,9 @@
         "6": "WifiLED_n;0",
         "7": "BL0937CF;0",
         "8": "BL0937CF1;0",
-        "10": "Button;0",
+        "10": "Btn;0",
         "24": "BL0937SEL;1",
-        "26": "Relay;0"
+        "26": "Rel;0"
       },
       "keywords": [
         "BL0937",
@@ -5087,9 +5087,9 @@
       "chip": "BK7231T",
       "board": "WB2S",
       "pins": {
-        "6": "Button;0",
+        "6": "Btn;0",
         "8": "LED_n;0",
-        "24": "Relay;0"
+        "24": "Rel;0"
       },
       "keywords": [
         "Intertek",
@@ -5120,9 +5120,9 @@
       "chip": "BK7231N",
       "board": "",
       "pins": {
-        "9": "Button;0",
+        "9": "Btn;0",
         "6": "WifiLED_n;0",
-        "26": "Relay;0"
+        "26": "Rel;0"
       },
       "keywords": [
         "BL0942",
@@ -5141,7 +5141,7 @@
         "8": "IRrecv;0",
         "7": "IRsend;0",
         "24": "LED;0",
-        "26": "Button;0"
+        "26": "Btn;0"
       },
       "keywords": [
         "IR",
@@ -5171,13 +5171,13 @@
       "chip": "BK7231T",
       "board": "WB2S",
       "pins": {
-        "6": "Relay;5",
-        "7": "Relay;4",
-        "8": "Relay;3",
+        "6": "Rel;5",
+        "7": "Rel;4",
+        "8": "Rel;3",
         "10": "WiFi_LED_n;1",
         "11": "Btn_Tgl_All;1",
-        "24": "Relay;1",
-        "26": "Relay;2"
+        "24": "Rel;1",
+        "26": "Rel;2"
       },
       "keywords": [
         "Amazon"
@@ -5232,9 +5232,9 @@
         "6": "WifiLED_n;0",
         "7": "BL0937CF;0",
         "8": "BL0937CF1;0",
-        "10": "Button;0",
+        "10": "Btn;0",
         "24": "BL0937SEL;1",
-        "26": "Relay;0"
+        "26": "Rel;0"
       },
       "image": "https://obrazki.elektroda.pl/6540960600_1668021484.webp",
       "wiki": "https://www.elektroda.com/rtvforum/topic3932742.html"
@@ -5250,9 +5250,9 @@
         "6": "WifiLED_n;0",
         "7": "BL0937CF;0",
         "8": "BL0937CF1;0",
-        "10": "Button;0",
+        "10": "Btn;0",
         "24": "BL0937SEL;1",
-        "26": "Relay;0"
+        "26": "Rel;0"
       },
       "image": "https://obrazki.elektroda.pl/8069179900_1678393767.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3963414.html"
@@ -5404,10 +5404,10 @@
         "7": "Btn;3",
         "8": "Btn;4",
         "9": "WifiLED;0",
-        "10": "Relay;2",
-        "16": "Relay;4",
-        "17": "Relay;3",
-        "20": "Relay;1",
+        "10": "Rel;2",
+        "16": "Rel;4",
+        "17": "Rel;3",
+        "20": "Rel;1",
         "24": "Btn_Tgl_All;1",
         "26": "Btn;1"
       },
@@ -5430,7 +5430,7 @@
       "board": "CB2S",
       "pins": {
         "23": "Btn;1",
-        "24": "Relay;1",
+        "24": "Rel;1",
         "26": "Buzzer;1"
       },
       "keywords": [
@@ -5453,14 +5453,14 @@
       "chip": "BK7231N",
       "board": "CBU",
       "pins": {
-        "6": "Relay;4",
+        "6": "Rel;4",
         "7": "Btn;3",
         "9": "Btn;1",
         "15": "Btn;2",
         "16": "Btn;4",
-        "17": "Relay;2",
-        "24": "Relay;1",
-        "26": "Relay;3"
+        "17": "Rel;2",
+        "24": "Rel;1",
+        "26": "Rel;3"
       },
       "keywords": [
         "switch",
@@ -5481,15 +5481,15 @@
       "chip": "BK7231N",
       "board": "CB3S",
       "pins": {
-        "6": "Relay;4",
+        "6": "Rel;4",
         "7": "Btn;1",
-        "8": "Relay;3",
-        "9": "Relay;1",
+        "8": "Rel;3",
+        "9": "Rel;1",
         "10": "Btn;3",
         "14": "Btn;2",
         "23": "WifiLED_n",
         "24": "Btn;4",
-        "26": "Relay;2"
+        "26": "Rel;2"
       },
       "keywords": [
         "switch",
@@ -5513,12 +5513,12 @@
       "chip": "BK7231T",
       "board": "WB2S",
       "pins": {
-        "6": "Relay;1",
-        "8": "Relay;4",
+        "6": "Rel;1",
+        "8": "Rel;4",
         "10": "Btn;1",
         "11": "WifiLED_n",
-        "24": "Relay;2",
-        "26": "Relay;3"
+        "24": "Rel;2",
+        "26": "Rel;3"
       },
       "keywords": [
         "power strip",
