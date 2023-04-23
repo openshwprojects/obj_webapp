@@ -159,8 +159,8 @@
         const plugin = document.createElement("script");
         plugin.setAttribute(
           "src",
-        //  "https://openbekeniot.github.io/webapp/templateParser.js"
-         "../templateParser.js"
+          "https://openbekeniot.github.io/webapp/templateParser.js"
+         //"../templateParser.js"
         );
         plugin.async = true;
         document.head.appendChild(plugin);
