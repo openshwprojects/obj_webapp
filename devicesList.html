@@ -371,14 +371,15 @@ function refreshJSON(json) {
   tableBody.innerHTML = '';
 	var arrayLength = json.devices.length;
 	for (var i = 0; i < arrayLength; i++) {
-		var image = json.devices[i].image;
-		var bDetailed = json.devices[i].bDetailed;
-		var name = json.devices[i].name;;
-		var wiki = json.devices[i].wiki;
-		var chip = json.devices[i].chip;
-		var board = json.devices[i].board;
-		var keywords = json.devices[i].keywords;
-		var vendor = json.devices[i].vendor;
+		let device_i = json.devices[i];
+		var image = device_i.image;
+		var bDetailed = device_i.bDetailed;
+		var name = device_i.name;;
+		var wiki = device_i.wiki;
+		var chip = device_i.chip;
+		var board = device_i.board;
+		var keywords = device_i.keywords;
+		var vendor = device_i.vendor;
 		
 		var chipStr = generateChipStr(chip,board);
 		if(vendor == null)
@@ -480,7 +481,7 @@ function refreshJSON(json) {
 		//s += name;
 		//s += "<br>";
 		
-		
+		let jsonTextForThisDevice = JSON.stringify(device_i, null, 2);
 		var tr = document.createElement('tr');   
 
 		var th = document.createElement('th');
@@ -489,6 +490,18 @@ function refreshJSON(json) {
 		var td3 = document.createElement('td');
 		var td4 = document.createElement('td');
 		var td5 = document.createElement('td');
+		var bt = document.createElement('button');
+		bt.innerText = "Copy!";
+		td5.appendChild(bt);
+		bt.onclick = function() {
+			navigator.clipboard.writeText(jsonTextForThisDevice)
+				.then(function() {
+				console.log('Text copied to clipboard:', jsonTextForThisDevice);
+				})
+				.catch(function(err) {
+				console.error('Could not copy text: ', jsonTextForThisDevice);
+				});
+		};
 
 		var img = document.createElement('img');
 		
