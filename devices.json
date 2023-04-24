@@ -4163,6 +4163,54 @@
       "product": ""
     },
     {
+      "vendor": "Antela",
+      "bDetailed": "0",
+      "name": "Smart Plug Model: F1s202-EU",
+      "model": "F1s202-EU",
+      "chip": "BK7231T",
+      "board": "WB2S",
+      "keywords": [
+        "plug",
+        "power monitoring",
+        "BL0937"
+      ],
+      "pins": {
+        "8": "BL0937CF1;0",
+        "7": "BL0937CF;0",
+        "6": "LED_n;1",
+        "10": "Btn;1",
+        "24": "BL0937SEL;0",
+        "26": "Rel;1"
+      },
+      "image": "https://obrazki.elektroda.pl/9821062200_1668865013.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3935136.html",
+      "product": "https://www.amazon.de/gp/product/B098JT64SZ/ref=ppx_yo_dt_b_asin_title_o08_s00?ie=UTF8&th=1"
+    },
+    {
+      "vendor": "Denver",
+      "bDetailed": "0",
+      "name": "Denver SHP-102",
+      "model": "SHP-102",
+      "chip": "BK7231T",
+      "board": "WB2S",
+      "keywords": [
+        "plug",
+        "power monitoring",
+        "BL0937"
+      ],
+      "pins": {
+        "8": "BL0937CF1;0",
+        "7": "BL0937CF;0",
+        "6": "LED_n;1",
+        "10": "WiFILED_n;1",
+        "11": "Btn;1",
+        "24": "BL0937SEL;0",
+        "26": "Rel;1"
+      },
+      "image": "https://obrazki.elektroda.pl/4338606900_1682363169_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20553564#20553564"
+    },
+    {
       "vendor": "Aubess",
       "bDetailed": "0",
       "name": "Smart Plug (Aubess LSPA9 clone)",
