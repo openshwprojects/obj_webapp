@@ -1329,7 +1329,10 @@
       "name": "B05-BL-A60 RGBCW E27 Bulb",
       "chip": "BL602",
       "board": "",
-      "pins": {},
+      "pins": {
+        "2": "BP5758D_CLK;0",
+        "21": "BP5758D_DAT;0"
+	  },
       "keywords": [
         "RGB",
         "E27",
