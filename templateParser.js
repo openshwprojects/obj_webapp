@@ -18,7 +18,7 @@ function processJSON_UserParamKeyStyle(js,user_param_key) {
         chip: "BK7231T",
         board: "TODO",
         keywords: [],
-        pins:[],
+        pins:{},
         command: "",
         image: "https://obrazki.elektroda.pl/YOUR_IMAGE.jpg",
         wiki: "https://www.elektroda.com/rtvforum/topic_YOUR_TOPIC.html"
@@ -42,6 +42,7 @@ function processJSON_UserParamKeyStyle(js,user_param_key) {
             desc += "- Relay (channel " +i + ") on P"+value+"\n";
             scr += "backlog setPinRole "+value+" Rel"+"; ";
             scr += "setPinChannel "+value+" "+i+"\n";
+            tmpl.pins[""+value] = "Rel;"+i+"";
         }
     }
     for(let i = -1; i < 10; i++) {
@@ -55,6 +56,7 @@ function processJSON_UserParamKeyStyle(js,user_param_key) {
         if(value != undefined) {
             desc += "- WiFi LED on P"+value+"\n";
             scr += "setPinRole "+value+" WifiLED_n"+"\n";
+            tmpl.pins[""+value] = "WifiLED_n;0";
         }
     }
     for(let i = 0; i < 10; i++) {
@@ -64,6 +66,7 @@ function processJSON_UserParamKeyStyle(js,user_param_key) {
             desc += "- Door Sensor (channel " +i + ") on P"+value+"\n";
             scr += "backlog setPinRole "+value+" dInput"+"; ";
             scr += "setPinChannel "+value+" "+i+"\n";
+            tmpl.pins[""+value] = "dInput;"+i+"";
         }
     }
     for(let i = 0; i < 10; i++) {
@@ -73,6 +76,7 @@ function processJSON_UserParamKeyStyle(js,user_param_key) {
             desc += "- Button (channel " +i + ") on P"+value+"\n";
             scr += "backlog setPinRole "+value+" Btn"+"; ";
             scr += "setPinChannel "+value+" "+i+"\n";
+            tmpl.pins[""+value] = "Btn;"+i+"";
         }
     }
     for(let i = 0; i < 10; i++) {
@@ -82,22 +86,26 @@ function processJSON_UserParamKeyStyle(js,user_param_key) {
             desc += "- TglChannelToggle (channel " +i + ") on P"+value+"\n";
             scr += "backlog setPinRole "+value+" TglChanOnTgl"+"; ";
             scr += "setPinChannel "+value+" "+i+"\n";
+            tmpl.pins[""+value] = "TglChanOnTgl;"+i+"";
         }
     }
     value = user_param_key.ele_pin;
     if(value != undefined) {
         desc += "- BL0937 ELE on P"+value+"\n";
         scr += "setPinRole "+value+" BL0937CF"+"\n";
+        tmpl.pins[""+value] = "BL0937CF;0";
     }
     value = user_param_key.vi_pin;
     if(value != undefined) {
         desc += "- BL0937 VI on P"+value+"\n";
         scr += "setPinRole "+value+" BL0937CF1"+"\n";
+        tmpl.pins[""+value] = "BL0937CF1;0";
     }
     value = user_param_key.sel_pin_pin;
     if(value != undefined) {
         desc += "- BL0937 SEL on P"+value+"\n";
         scr += "setPinRole "+value+" BL0937SEL"+"\n";
+        tmpl.pins[""+value] = "BL0937SEL;0";
     }
     value = user_param_key.r_pin;
     if(value != undefined) {
@@ -105,6 +113,7 @@ function processJSON_UserParamKeyStyle(js,user_param_key) {
         desc += "- LED Red (Channel 1) on P"+value+"\n";
         scr += "backlog setPinRole "+value+" PWM"+"; ";
         scr += "setPinChannel "+value+" "+ch+"\n";
+        tmpl.pins[""+value] = "PWM;"+ch;
     }
     value = user_param_key.g_pin;
     if(value != undefined) {
@@ -112,6 +121,7 @@ function processJSON_UserParamKeyStyle(js,user_param_key) {
         desc += "- LED Green (Channel 2) on P"+value+"\n";
         scr += "backlog setPinRole "+value+" PWM"+"; ";
         scr += "setPinChannel "+value+" "+ch+"\n";
+        tmpl.pins[""+value] = "PWM;"+ch;
     }
     value = user_param_key.b_pin;
     if(value != undefined) {
@@ -119,6 +129,7 @@ function processJSON_UserParamKeyStyle(js,user_param_key) {
         desc += "- LED Blue (Channel 3) on P"+value+"\n";
         scr += "backlog setPinRole "+value+" PWM"+"; ";
         scr += "setPinChannel "+value+" "+ch+"\n";
+        tmpl.pins[""+value] = "PWM;"+ch;
     }
     value = user_param_key.c_pin;
     if(value != undefined) {
@@ -126,6 +137,7 @@ function processJSON_UserParamKeyStyle(js,user_param_key) {
         desc += "- LED Cool (Channel 4) on P"+value+"\n";
         scr += "backlog setPinRole "+value+" PWM"+"; ";
         scr += "setPinChannel "+value+" "+ch+"\n";
+        tmpl.pins[""+value] = "PWM;"+ch;
     }
     value = user_param_key.w_pin;
     if(value != undefined) {
@@ -133,6 +145,7 @@ function processJSON_UserParamKeyStyle(js,user_param_key) {
         desc += "- LED Warm (Channel 5) on P"+value+"\n";
         scr += "backlog setPinRole "+value+" PWM"+"; ";
         scr += "setPinChannel "+value+" "+ch+"\n";
+        tmpl.pins[""+value] = "PWM;"+ch;
     }
     value = user_param_key.ctrl_pin;
     if(value != undefined) {
@@ -143,6 +156,7 @@ function processJSON_UserParamKeyStyle(js,user_param_key) {
     if(value != undefined) {
         desc += "- Pair/Toggle All Pin on P"+value+"\n";
         scr += "setPinRole "+value+" Btn_Tgl_All"+"\n";
+        tmpl.pins[""+value] = "Btn_Tgl_All;0";
     }
     // LED
     if(user_param_key.iicscl != undefined)
@@ -176,6 +190,8 @@ function processJSON_UserParamKeyStyle(js,user_param_key) {
         scr += "setPinRole "+iicsda+" "+dat_name+"\n";
         scr += "setPinRole "+iicscl+" "+clk_name+"\n";
         scr += "LED_Map "+map+" \n";
+        tmpl.pins[""+iicsda] = ""+dat_name+";0";
+        tmpl.pins[""+iicscl] = ""+clk_name+";0";
         
         
     }
