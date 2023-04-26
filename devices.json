@@ -1324,6 +1324,31 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3933836.html"
     },
 	{
+	  "vendor": "Smart Life",
+	  "bDetailed": "1",
+	  "name": "Smart Life DS-151 N+L, WiFi+BLE Curtain Switch",
+	  "model": "DS-151",
+	  "chip": "BK7231T",
+	  "board": "WB3S",
+	  "keywords": [
+		"shutter",
+		"curtain",
+	  ],
+	  "pins": {
+		"6": "Rel;1",
+		"8": "Btn;3",
+		"9": "Rel;3",
+		"10": "Btn;2",
+		"11": "LED_n;3",
+		"14": "LED_n;1",
+		"24": "Btn;1",
+		"26": "LED_n;2"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/1301347400_1681902530.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3972935.html"
+	},
+	{
 	  "vendor": "Tuya",
 	  "bDetailed": "1",
 	  "name": "Spacetronik shutter controller module SL-SC-01",
@@ -1331,7 +1356,8 @@
 	  "chip": "BK7231N",
 	  "board": "CB2S",
 	  "keywords": [
-	  "BL2028N" 
+		  "BL2028N",
+		  "curtains"
 	  ],
 	  "pins": {
 		"6": "Rel;1",
@@ -5864,6 +5890,7 @@
 			"Curtain module",
 			"2 gang",
 			"switch",
+			"shutter",
 			"DL-0602S"
 		],
 		"pins": {
