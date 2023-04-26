@@ -1323,6 +1323,45 @@
       "image": "https://obrazki.elektroda.pl/2965726800_1668407558.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3933836.html"
     },
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "4vision Model 4V-TU-GN1-F with energy meter",
+	  "model": "4V-TU-GN1-F",
+	  "chip": "BK7231T",
+	  "board": "WB2S",
+	  "keywords": [],
+	  "pins": {
+		"6": "WifiLED_n;0",
+		"7": "BL0937CF;0",
+		"8": "BL0937CF1;0",
+		"10": "Btn;1",
+		"24": "BL0937SEL;0",
+		"26": "Rel;1"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/3348708100_1682410171.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20554529#20554529"
+	},
+	{
+		"vendor": "Tuya",
+		"bDetailed": "0",
+		"name": "SmartLife generic no-name LSPA9-like plug, no energy meter",
+		"model": "",
+		"chip": "BK7231N",
+		"board": "CB2S",
+		"flags": "1024",
+		"keywords": [
+		],
+		"pins": {
+			"8": "WifiLED;1",
+			"10": "Btn;1",
+			"26": "Rel;1"
+		},
+		"command": "startDriver NTP",
+		"image": "https://obrazki.elektroda.pl/4771663500_1682492845.jpg",
+		"wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20555763#20555763"
+	},
     {
       "vendor": "Sonoff",
       "bDetailed": "1",
