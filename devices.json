@@ -1325,6 +1325,28 @@
     },
 	{
 	  "vendor": "Tuya",
+	  "bDetailed": "1",
+	  "name": "Spacetronik shutter controller module SL-SC-01",
+	  "model": "SL-SC-01",
+	  "chip": "BK7231N",
+	  "board": "CB2S",
+	  "keywords": [
+	  "BL2028N" 
+	  ],
+	  "pins": {
+		"6": "Rel;1",
+		"7": "Rel;3",
+		"10": "Btn;1",
+		"11": "Btn;3",
+		"24": "WifiLED_n;0",
+		"26": "Btn;2"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/8239650400_1679669488.jpg",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic3974291.html"
+	},
+	{
+	  "vendor": "Tuya",
 	  "bDetailed": "0",
 	  "name": "4vision Model 4V-TU-GN1-F with energy meter",
 	  "model": "4V-TU-GN1-F",
