@@ -1332,7 +1332,7 @@
 	  "board": "WB3S",
 	  "keywords": [
 		"shutter",
-		"curtain",
+		"curtain"
 	  ],
 	  "pins": {
 		"6": "Rel;1",
