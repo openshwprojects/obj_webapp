@@ -1324,6 +1324,25 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3933836.html"
     },
 	{
+	  "vendor": "MOKO",
+	  "bDetailed": "0",
+	  "name": "MOKO Smart Bulb C37 E14 5W 400lm",
+	  "model": "C37",
+	  "chip": "BK7231T",
+	  "board": "FL_M44_V1.6.1z",
+	  "keywords": [],
+	  "pins": {
+		"6": "PWM;4",
+		"7": "PWM;3",
+		"8": "PWM;5",
+		"24": "PWM;2",
+		"26": "PWM;1"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/8098298300_1682628832.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3974662.html"
+	},
+	{
 	  "vendor": "Smart Life",
 	  "bDetailed": "1",
 	  "name": "Smart Life DS-151 N+L, WiFi+BLE Curtain Switch",
