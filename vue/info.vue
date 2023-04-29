@@ -12,6 +12,7 @@
       <p>MAC Address: {{mac}}</p>
       <p>MQTT Server: {{mqtthost}}</p>
       <p>MQTT Topic: {{mqtttopic}}</p>
+      <p>Device Short Name: {{shortName}}</p>
       <p>WEBAPP Url root: {{webapp}}</p>
       <p>Chipset: {{chipset}}</p>
       <p>Flags: {{flags}}</p>
@@ -20,6 +21,9 @@
       <h4>Export Current Template</h4>
       <p>Please fill all fields before submitting.</p>
 	  <textarea id="deviceTemplate"  placeholder="qqq" style="vertical-align: top; width: 300px; height:500px"></textarea>
+    <br>
+          <button @click="getTemplateAsFile">Download template as file</button>
+          <button @click="getTemplateAsClipboard">Copy To Clipboard</button>
 
     </div>
 
@@ -99,6 +103,7 @@
         mac:'unknown',
         mqtthost:'unknown',
         mqtttopic:'unknown',
+        shortName:'unknown',
         webapp:'unknown',
         chipset:'unknown',
         shortStartupCommand:'',
@@ -294,6 +299,7 @@
                 this.mac        = res.mac;
                 this.mqtthost   = res.mqtthost;
                 this.mqtttopic  = res.mqtttopic;
+                this.shortName  = res.shortName;
                 this.webapp     = res.webapp;
                 this.chipset    = res.chipset;
                 this.flags      = res.flags;
@@ -370,8 +376,7 @@
         }
 		deviceTemplate = JSON.stringify(device, null, 2);
 		// fix for not working textArea for me?
-		let ar = document.getElementById("deviceTemplate");
-		ar.value = deviceTemplate;
+		this.deviceTemplateElement.value = deviceTemplate;
 	  },
       getPins(){
         let url = window.device+'/api/pins';
@@ -483,6 +488,30 @@
         }
         return res;
       },
+      getTemplateAsFile() {  
+        let baseName = "Unnamed";
+        if(this.shortName != undefined && this.shortName.length > 0) {
+          baseName = this.shortName;
+        } else {
+          baseName = this.mqtttopic;
+        }
+        let text = this.deviceTemplateElement.value;
+        let timestamp = new Date().toLocaleString().replace(/[:/]/g, '-');
+        timestamp = timestamp.replace(", ","_");
+        const filename = `${baseName}_${timestamp}.json`;
+        const blob = new Blob([text], { type: 'text/plain' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.setAttribute('download', filename);
+        a.setAttribute('href', url);
+        a.click();
+        URL.revokeObjectURL(url);
+      },
+      getTemplateAsClipboard() {
+        this.deviceTemplateElement.select();
+        document.execCommand('copy');
+        this.deviceTemplateElement.blur();
+      },
       useDevice(){
         if (this.selectedDevice === null){ //No device was selected, keep current pin values
           return;
@@ -550,6 +579,7 @@
     mounted (){
         this.msg = 'fred';
         console.log('mounted controller');
+		    this.deviceTemplateElement = document.getElementById("deviceTemplate");
         this.getPins();
         this.getChannelTypes();
         this.getinfo();
