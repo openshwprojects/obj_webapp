@@ -3218,6 +3218,30 @@
       "image": "https://obrazki.elektroda.pl/3465786200_1675538229.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3954947.html"
     },
+	{
+		"vendor": "Tuya",
+		"bDetailed": "0",
+		"name": "Bingoelec DIY Series Smart WiFi Wall Touch Switch Base",
+		"model": "TW2-0001A",
+		"chip": "BK7231N",
+		"board": "TW2-0001A",
+		"flags": "1024",
+		"keywords": [
+			"Bingoelec",
+			"DAJIMEI",
+			"T34",
+			"TW2-0001A"
+		],
+		"pins": {
+			"17": "Rel;0",
+			"20": "WifiLED_n;0",
+			"24": "Rel_n;1",
+			"28": "Btn;0"
+		},
+		"command": "",
+		"image": "https://obrazki.elektroda.pl/8186154900_1682756167.jpg",
+		"wiki": "https://www.elektroda.com/rtvforum/topic3974861.html"
+	},
     {
       "vendor": "Bunnings",
       "name": "[BK7231T] Deta Grid Connect Smart Double Gang Touch Light Switch (6912HA)",
