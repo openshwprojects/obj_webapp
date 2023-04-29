@@ -14,7 +14,7 @@
             <button @click="create(null, $event)">Create File</button>
             <button @click="resetSVM(null, $event)">Reset scripts</button>
             <br/>
-            <button @click="getTar(null, $event)">Download Tar of FS</button>
+            <button @click="getTar(null, $event)">Download FS Backup in Tar Archive</button>
 
         </div>
         <div class="bottom">
@@ -58,7 +58,8 @@
         status:'nothing going on',
         folder:'',
         otatext:'drop file(s) or .tar here',
-
+        shortName:'',
+        mqtttopic:'',
         output: '',
 
         edittext:'',
@@ -69,6 +70,19 @@
       }
     },
     methods:{
+        getinfo(){
+            let url = window.device+'/api/info';
+            fetch(url)
+                .then(response => response.json())
+                .then(res => {
+                    this.shortName = res.shortName;
+                    this.mqtttopic = res.mqtttopic;
+                })
+                .catch(err => {
+                    this.error = err.toString();
+                    console.error(err)
+                }); // Never forget the final catch!
+        },
         dropHandler(ev){
             ev.preventDefault();
             console.log('drop');
@@ -793,6 +807,17 @@
 
         // get a tarball of the files on the device
         getTar(cb){
+            
+            let baseName = "Unnamed";
+            if(this.shortName != undefined && this.shortName.length > 0) {
+            baseName = this.shortName;
+            } else {
+            baseName = this.mqtttopic;
+            }
+            let timestamp = new Date().toLocaleString().replace(/[:/]/g, '-');
+            timestamp = timestamp.replace(", ","_");
+            const filename = `LittleFS_${baseName}_${timestamp}.tar`;
+
             // read all file names....
             this.files = [];
             // calback gets called when no more folders to be read.
@@ -815,7 +840,7 @@
                         }
                     }
                     // no files left to do...
-                    tar.download('files.tar');
+                    tar.download(filename);
                     if (cb)cb();
                 };
                 setTimeout(nextfile, 0);
@@ -864,6 +889,7 @@
         this.tar = this.tarball();
 
         console.log('mounted ota');
+        this.getinfo();
     }
   }
 //@ sourceURL=/vue/filesystem.vue
