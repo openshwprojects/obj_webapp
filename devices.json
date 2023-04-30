@@ -4038,7 +4038,7 @@
 	  "name": "Universal IR Remote Control",
 	  "model": "FLY_S06",
 	  "chip": "BK7231N",
-	  "board": "S06",
+	  "board": "CB3S",
 	  "keywords": [
 		"IR",
 		"Tuya",
@@ -4052,6 +4052,27 @@
 	  },
 	  "image": "https://obrazki.elektroda.pl/6078036200_1677795924.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3961676.html"
+	},
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "S18 IRBlaster IR Remote Universal Control",
+	  "model": "S18",
+	  "chip": "BK7231N",
+	  "board": "CB3S",
+	  "keywords": [
+		"IR",
+		"Tuya",
+		"CB3S"
+	  ],
+	  "pins": {
+		"6": "Btn;1",
+		"7": "IRRecv;0",
+		"8": "LED;0",
+		"26": "IRSend;0"
+	  },
+	  "image": "https://obrazki.elektroda.pl/9597187000_1680209358.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20516931#20516931"
 	},
     {
       "vendor": "Smart Life",
