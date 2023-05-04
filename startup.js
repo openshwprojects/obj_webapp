@@ -37,6 +37,7 @@ window.onload = ()=>{
         { name:'tools', path: window.root+'vue/tools.vue'+unique },
         { name:'import', path: window.root+'vue/import.vue'+unique },
         { name:'logs', path: window.root+'vue/logs.vue'+unique },
+        { name:'gpioDoctor', path: window.root+'vue/gpioDoctor.vue'+unique },
         { name:'myComponent', path: window.root+'vue/myComponent.vue'+unique },
     ];
 

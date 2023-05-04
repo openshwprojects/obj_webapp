@@ -10,6 +10,7 @@
       <button :class="'tablinks '+Toolsclass" @click="open($event, 'Tools')">Tools</button>
       <button :class="'tablinks '+Importclass" @click="open($event, 'Import')">Import</button>
       <button :class="'tablinks '+Filesystemclass" @click="open($event, 'Filesystem')">Filesystem</button>
+    <!--  <button :class="'tablinks '+GPIODoctorclass" @click="open($event, 'GPIODoctor')">GPIO Tester</button> -->
       <button :class="'tablinks '+Aboutclass" @click="open($event, 'About')">About</button>
     </div>
     
@@ -58,6 +59,10 @@
       <filesystem-controller></filesystem-controller>
     </div>
 
+    <div class="tabcontent" v-if="tab === 'GPIODoctor'">
+      <h3>GPIODoctor (TODO)</h3>
+      <gpio-controller></gpio-controller>
+    </div>
     </div>
 </template>
 
@@ -72,6 +77,7 @@
     'logs-controller': window.getComponent('logs'),
     'tools-controller': window.getComponent('tools'),
     'import-controller': window.getComponent('import'),
+    'gpio-controller': window.getComponent('gpioDoctor'),
   },
       
     data: ()=>{
@@ -89,6 +95,7 @@
         Flashclass: '',
         Toolsclass: '',
         Importclass: '',
+        GPIODoctorclass: '',
 
       }
     },
@@ -105,15 +112,18 @@
             this.Filesystemclass = '';
             this.Flashclass = '';
             this.Importclass = '';
+            this.GPIODoctorclass = '';
 
             this[name+'class'] = 'active';
+
+           // console.log("GPIO controller is " + window.getComponent('gpioDoctor'));
         },       
         
     },
     mounted (){
         this.nativeurl = window.device+'/';
         this.msg = 'fred';
-        console.log('mounted');
+        console.log('mounted myComponent');
     }
   }
 //@ sourceURL=/vue/myComponent.vue
