@@ -70,6 +70,16 @@ function processJSON_UserParamKeyStyle(js,user_param_key) {
         }
     }
     for(let i = 0; i < 10; i++) {
+        let name = "led"+i+"_pin";
+        value = user_param_key[name];
+        if(value != undefined) {
+            desc += "- LED (channel " +i + ") on P"+value+"\n";
+            scr += "backlog setPinRole "+value+" LED"+"; ";
+            scr += "setPinChannel "+value+" "+i+"\n";
+            tmpl.pins[""+value] = "LED;"+i+"";
+        }
+    }
+    for(let i = 0; i < 10; i++) {
         let name = "bt"+i+"_pin";
         value = user_param_key[name];
         if(value != undefined) {
