@@ -5811,6 +5811,30 @@
       "image": "https://obrazki.elektroda.pl/7879920800_1678042069.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20474832#20474832"
     },
+	{
+	  "vendor": "Filohome",
+	  "bDetailed": "0",
+	  "name": "FL-M3 Triple Smart Switch 3Gang",
+	  "model": "FL-M3",
+	  "chip": "BK7231N",
+	  "board": "CB3S",
+	  "keywords": [],
+	  "pins": {
+		"6": "WifiLED_n;0",
+		"7": "LED;1",
+		"8": "Rel;3",
+		"9": "Rel;2",
+		"10": "LED;2",
+		"11": "LED;3",
+		"14": "Rel;1",
+		"23": "Btn;3",
+		"24": "Btn;2",
+		"26": "Btn;1"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/6017105400_1683097482_thumb.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3975813.html"
+	},
     {
       "vendor": "Globe Electric",
       "bDetailed": "0",
