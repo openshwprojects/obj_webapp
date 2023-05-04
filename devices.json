@@ -5818,7 +5818,9 @@
 	  "model": "FL-M3",
 	  "chip": "BK7231N",
 	  "board": "CB3S",
-	  "keywords": [],
+	  "keywords": [
+        "3 gang"
+		],
 	  "pins": {
 		"6": "WifiLED_n;0",
 		"7": "LED;1",
