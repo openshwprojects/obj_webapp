@@ -162,9 +162,13 @@
         if(bOnlyStates == false) {
                 this.pins = res;
         }
-        for(let i = 0; i < res.roles.length; i++)
-        {
-           this.$set(this.pins.states, i,  res.states[i]);
+        if(this.pins.states != undefined) {
+          for(let i = 0; i < res.roles.length; i++)
+          {
+            this.$set(this.pins.states, i,  res.states[i]);
+          }
+        } else {
+          console.log("There are no pins.states, you must have older OBK?");
         }
       },
         getinfo(){
