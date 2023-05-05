@@ -10,7 +10,7 @@
       <button :class="'tablinks '+Toolsclass" @click="open($event, 'Tools')">Tools</button>
       <button :class="'tablinks '+Importclass" @click="open($event, 'Import')">Import</button>
       <button :class="'tablinks '+Filesystemclass" @click="open($event, 'Filesystem')">Filesystem</button>
-    <!--  <button :class="'tablinks '+GPIODoctorclass" @click="open($event, 'GPIODoctor')">GPIO Tester</button> -->
+      <button :class="'tablinks '+GPIODoctorclass" @click="open($event, 'GPIODoctor')">GPIO Finder</button> 
       <button :class="'tablinks '+Aboutclass" @click="open($event, 'About')">About</button>
     </div>
     
@@ -60,7 +60,8 @@
     </div>
 
     <div class="tabcontent" v-if="tab === 'GPIODoctor'">
-      <h3>GPIODoctor (TODO)</h3>
+      <h3>GPIO Doctor - easily find GPIO roles for your relays, PWMs, and buttons (Work In Progress)</h3>
+      <h6>Please also UPDATE OBK to latest version to get best experience, otherwise reading values won't work</h6>
       <gpio-controller></gpio-controller>
     </div>
     </div>
