@@ -169,6 +169,9 @@
           }
         } else {
           console.log("There are no pins.states, you must have older OBK?");
+          if(this.pins.states == undefined) {
+            this.pins.states = new Array(res.roles.length).fill(0);
+          }
         }
       },
         getinfo(){
