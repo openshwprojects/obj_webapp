@@ -5812,6 +5812,33 @@
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20474832#20474832"
     },
 	{
+	  "vendor": "Arlec",
+	  "bDetailed": "0",
+	  "name": "Arlec Grid Connect PC191 Series 2 Smart Plug-In Socket with Energy Meter",
+	  "model": "PC191",
+	  "chip": "BK7231N",
+	  "board": "CB2S",
+	  "flags": "1024",
+	  "keywords": [
+        "switch",
+        "4 pack",
+        "Bunnings Australia",
+        "BL0937",
+        "two relays, cuts off both N and L"
+	  ],
+	  "pins": {
+		"6": "BL0937SEL;0",
+		"7": "BL0937CF1;0",
+		"8": "BL0937CF;0",
+		"10": "Btn;0",
+		"24": "Rel;0",
+		"26": "WifiLED;0"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/6722285900_1683369451.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20568869#20568869"
+	},
+	{
 	  "vendor": "Filohome",
 	  "bDetailed": "0",
 	  "name": "FL-M3 Triple Smart Switch 3Gang",
