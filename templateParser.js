@@ -177,7 +177,7 @@ function processJSON_UserParamKeyStyle(js,user_param_key) {
         let iicsda = user_param_key.iicsda;
         let ledType = "Unknown";
         // use current (color/cw) setting
-        if(user_param_key.ehccur != undefined) {
+        if(user_param_key.ehccur != undefined || user_param_key.wampere != undefined || user_param_key.iicccur != undefined) {
             ledType = "SM2135";
         } else if(user_param_key.dccur != undefined) {
             ledType = "BP5758D_";
