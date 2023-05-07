@@ -647,6 +647,23 @@
     {
       "vendor": "Action",
       "bDetailed": "0",
+      "name": "LSC RGBCW Ceiling Lamp",
+      "chip": "BK7231T",
+      "board": "WBLC5",
+      "pins": {
+        "24": "SM2135_DAT;1",
+        "26": "SM2135_CLK;1"
+      },
+      "keywords": [
+      ],
+      "image": "https://obrazki.elektroda.pl/5052870800_1683402572.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3976436.html",
+      "command": "SM2135_Map 0 1 2 3 4",
+      "flag": 16
+    },
+    {
+      "vendor": "Action",
+      "bDetailed": "0",
       "name": "LSC Smart GU10-RGBCW",
       "chip": "BK7231T",
       "board": "on board",
@@ -810,6 +827,28 @@
       ],
       "image": "https://obrazki.elektroda.pl/1632162600_1647560633.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3880540.html"
+    },
+    {
+      "vendor": "Merkury",
+      "bDetailed": "1",
+      "name": "Smart Wi-Fi LED 5V RGB Strip [PN: MI-EW014-999W]",
+      "chip": "BK7231T",
+      "board": "WB3S",
+      "pins": {
+        "1": "Btn_SmartLED;0",
+        "9": "PWM;0",
+        "24": "PWM;1",
+        "26": "PWM;2"
+      },
+      "keywords": [
+        "RGB",
+        "LED strip",
+        "17902",
+        "Geeni",
+        "5V"
+      ],
+      "image": "https://obrazki.elektroda.pl/3586629900_1683434967.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3976477.html"
     },
     {
       "vendor": "Magic Home",
