@@ -828,6 +828,26 @@
       "image": "https://obrazki.elektroda.pl/1632162600_1647560633.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3880540.html"
     },
+	{
+	  "vendor": "Modemix",
+	  "bDetailed": "1",
+	  "name": "Modemix 2gang relay module MOD003",
+	  "model": "MOD003",
+	  "chip": "BK7231N",
+	  "board": "CBU",
+	  "keywords": ["Allegro", "Modemix", "2 gang", "two relays", "module", "mini switch","two switches"],
+	  "pins": {
+		"7": "WifiLED_n;0",
+		"8": "Btn_Tgl_All;0",
+		"9": "Rel;1",
+		"17": "Rel;2",
+		"24": "TglChanOnTgl;1",
+		"26": "TglChanOnTgl;2"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/3094131900_1678448837.jpg",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic3976806.html"
+	},
     {
       "vendor": "Merkury",
       "bDetailed": "1",
