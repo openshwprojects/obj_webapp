@@ -4160,7 +4160,12 @@
       "model": "S06",
       "chip": "BK7231T",
       "board": "WB3S",
-      "pins": {},
+      "pins": {
+		"6": "Btn;0",
+		"8": "IRRecv;0",
+		"9": "LED;0",
+		"26": "IRSend;0"
+	  },
       "keywords": [
         "IR",
         "38kHz",
@@ -4730,6 +4735,28 @@
       ],
       "image": "https://obrazki.elektroda.pl/6612034000_1676533769.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3957863.html"
+    },
+    {
+      "vendor": "LightingInside",
+      "bDetailed": "0",
+      "name": "WiFi G16.5 Candelabra E12",
+      "chip": "BK7231N",
+      "board": "CBLC9",
+      "pins": {
+        "9": "SM2235_DAT;1",
+        "7": "SM2235_CLK;1"
+      },
+      "command": "SM2235_Map 2 0 1 3 4",
+      "keywords": [
+        "ASIN B0BS14VHH3",
+        "Item model number ‎LYS-009",
+        "Part Number ‎LTD-SM-G16.5-E12-4P",
+        "G16 1/2",
+        "E12"
+      ],
+      "image": "https://obrazki.elektroda.pl/6222169900_1683650145.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3976993.html",
+      "product": "https://www.amazon.com/gp/product/B0BS14VHH3"
     },
     {
       "vendor": "Mirabella",
