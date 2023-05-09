@@ -829,6 +829,26 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3880540.html"
     },
 	{
+	  "vendor": "Onforu",
+	  "bDetailed": "0",
+	  "name": "D100WIFI 90W IP66 Flood Light",
+	  "model": "D100WIFI",
+	  "chip": "BK7231N",
+	  "board": "CBU",
+	  "keywords": [
+	   "outdoor" ],
+	  "pins": {
+		"6": "PWM;5",
+		"7": "PWM;3",
+		"8": "PWM;2",
+		"24": "PWM;1",
+		"26": "PWM;4"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/6543848200_1683616839.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3976935.html"
+	},
+	{
 	  "vendor": "Modemix",
 	  "bDetailed": "1",
 	  "name": "Modemix 2gang relay module MOD003",
