@@ -263,21 +263,38 @@
             this.status += ''+this.fullDumpCurAt.toString(16)+"...";
             console.log("downloadFullDumpFragment is requesting " + fullAdr + "!");
             let url = window.device+'/api/flash/'+fullAdr;
+            
+            const retryWithDelay = () => {
+                setTimeout(() => {
+                this.downloadFullDumpFragment();
+                }, 500);
+            };
+            const nextWithDelay = () => {
+                setTimeout(() => {
+                this.downloadFullDumpFragment();
+                }, 250);
+            };
+
             fetch(url)
                 .then(response => response.arrayBuffer())
                 .then(buffer => {
+                    if(buffer.byteLength != this.fullDumpChunkSize) {
+                        this.status += "bad len " + buffer.byteLength + ", retrying...";
+                        retryWithDelay();
+                        return;
+                    }
                     this.fullDumpErrors = 0;
                     this.fullDumpData = this.appendArrayBuffers(this.fullDumpData, buffer);
                     this.fullDumpCurAt += this.fullDumpChunkSize;
-                    if(this.fullDumpCurAt > 2000000){
+                    if(this.fullDumpCurAt >= 2097152){
                         this.onFullDumpReadyForDownload();
                         return;
                     }
-                    this.downloadFullDumpFragment();
+                    nextWithDelay();
                 })
                 .catch(err => {
                         this.fullDumpErrors ++;
-                        if(this.fullDumpErrors > 3) {
+                        if(this.fullDumpErrors > 10) {
                             console.error("Fragment error, too many failed attempts, stopping!");
                             console.error(err);
                             this.status += "error! Too many failed attempts.<br>";
@@ -286,11 +303,15 @@
                             console.warn("Fragment error, will retry!");
                             console.warn(err);
                             this.status += "error, retrying...";
-                            this.downloadFullDumpFragment();
+                            retryWithDelay();
                         }
                     }); // Never forget the final catch!
         },
         downloadFullDump() {
+            if(1){
+                alert("Not functional yet");
+                return;
+            }
             if(this.fullDumpRunning!=0){
                 alert("Full dump is already requested, wait for processing.");
                 return;
