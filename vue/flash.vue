@@ -267,7 +267,7 @@
             const retryWithDelay = () => {
                 setTimeout(() => {
                 this.downloadFullDumpFragment();
-                }, 500);
+                }, 1000);
             };
             const nextWithDelay = () => {
                 setTimeout(() => {
@@ -294,7 +294,7 @@
                 })
                 .catch(err => {
                         this.fullDumpErrors ++;
-                        if(this.fullDumpErrors > 10) {
+                        if(this.fullDumpErrors > 100) {
                             console.error("Fragment error, too many failed attempts, stopping!");
                             console.error(err);
                             this.status += "error! Too many failed attempts.<br>";
@@ -308,8 +308,17 @@
                     }); // Never forget the final catch!
         },
         downloadFullDump() {
-            if(1){
+            if(0){
                 alert("Not functional yet");
+                return;
+            }
+			let rep = prompt("Are you certain? This option is currently slow, may crash OBK on older version so you have to repower it manually, and also may still restart OBK several times on newer builds. It is better to just download only config partition and LittleFS TAR. Enter yes.", "no");
+			if (rep != null) {
+				  if(rep[0] == "y") {
+				  } else {
+                    return;
+                  }
+			} else {
                 return;
             }
             if(this.fullDumpRunning!=0){
