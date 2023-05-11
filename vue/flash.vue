@@ -40,11 +40,15 @@
             </tr>
             <tr>
                 <td></td>
-                <td></td>
+                <td> <button @click="downloadFullDump(null, $event)">Download full 2MB dump</button></td>
                 <td></td>
                 <td></td>
             </tr>
             </table>
+                <div>
+                    <h4> Current job status</h4>
+                    <div v-html="status" :class=""></div>
+                </div>
 
 
 
@@ -71,11 +75,17 @@
       return {
         msg: 'world!',
         rfdata: null,
+        fullDumpData: null,
+        fullDumpCurAt: 0,
+        fullDumpErrors: 0,
+        fullDumpRunning:0,
+        fullDumpChunkSize: 0,
         display: '',
         configdata: null,
         build:'unknown',
         chipset:'unknown',
         status:'',
+        shortName:'',
         rfurl: '',
         configurl: '',
         flashvarsurl: '',
@@ -93,6 +103,7 @@
                 .then(response => response.json())
                 .then(res => {
                     this.build = res.build;
+                    this.shortName = res.shortName;
                     this.chipset = res.chipset;     //Set chipset to fixed value for testing
                     this.rfurl = window.device+'/api/flash/'+this.getRFAddress();
                     this.configurl = window.device+'/api/flash/'+this.getConfigAddress();
@@ -205,6 +216,94 @@
 			}
             console.log('getConfigAddress is not implemented for '+this.chipset);
 			return '1e1000-1000';
+        },
+        appendArrayBuffers(buffer1, buffer2) {
+            const combinedLength = buffer1.byteLength + buffer2.byteLength;
+            const combinedBuffer = new ArrayBuffer(combinedLength);
+            const combinedView = new Uint8Array(combinedBuffer);
+
+            const buffer1View = new Uint8Array(buffer1);
+            const buffer2View = new Uint8Array(buffer2);
+
+            combinedView.set(buffer1View, 0);
+            combinedView.set(buffer2View, buffer1.byteLength);
+
+            return combinedBuffer;
+        },
+        downloadArrayBuffer(arrayBuffer, filename) {
+            const blob = new Blob([arrayBuffer]);
+            const link = document.createElement('a');
+            link.href = window.URL.createObjectURL(blob);
+            link.download = filename;
+
+            // Programmatically click the link to start the download
+            link.click();
+
+            // Clean up resources
+            window.URL.revokeObjectURL(link.href);
+        },
+        generateFullDumpDownloadForBrowser() {
+            let fileName = this.chipset + "_QIO_";
+            if(this.shortName!=undefined && this.shortName.length>0){
+                fileName += this.shortName;
+            }
+            else{
+                fileName += "Unnamed";
+            }
+            this.downloadArrayBuffer(this.fullDumpData, fileName+".bin");
+        },
+        onFullDumpReadyForDownload(){
+            this.fullDumpRunning = 0;
+            this.status += '<br>Full dump ready!</br>';
+            this.generateFullDumpDownloadForBrowser();
+        },
+        downloadFullDumpFragment(){
+            // set address and size to string like "1e3000-2000"
+            let fullAdr = this.fullDumpCurAt.toString(16) + "-"+ this.fullDumpChunkSize.toString(16);
+            this.status += ''+this.fullDumpCurAt.toString(16)+"...";
+            console.log("downloadFullDumpFragment is requesting " + fullAdr + "!");
+            let url = window.device+'/api/flash/'+fullAdr;
+            fetch(url)
+                .then(response => response.arrayBuffer())
+                .then(buffer => {
+                    this.fullDumpErrors = 0;
+                    this.fullDumpData = this.appendArrayBuffers(this.fullDumpData, buffer);
+                    this.fullDumpCurAt += this.fullDumpChunkSize;
+                    if(this.fullDumpCurAt > 2000000){
+                        this.onFullDumpReadyForDownload();
+                        return;
+                    }
+                    this.downloadFullDumpFragment();
+                })
+                .catch(err => {
+                        this.fullDumpErrors ++;
+                        if(this.fullDumpErrors > 3) {
+                            console.error("Fragment error, too many failed attempts, stopping!");
+                            console.error(err);
+                            this.status += "error! Too many failed attempts.<br>";
+                            this.fullDumpRunning = 0;
+                        } else {
+                            console.warn("Fragment error, will retry!");
+                            console.warn(err);
+                            this.status += "error, retrying...";
+                            this.downloadFullDumpFragment();
+                        }
+                    }); // Never forget the final catch!
+        },
+        downloadFullDump() {
+            if(this.fullDumpRunning!=0){
+                alert("Full dump is already requested, wait for processing.");
+                return;
+            }
+            // start with empty data
+            this.fullDumpRunning = 1;
+            console.log("downloadFullDump started!");
+            this.status += '<br/>reading full dump...';
+            this.fullDumpData = new ArrayBuffer();
+            this.fullDumpCurAt = 0;
+            this.fullDumpChunkSize = 4096;
+            this.fullDumpErrors = 0;
+            this.downloadFullDumpFragment();
         },
         getFlashVarsAddress(){
             // "NET info" + len(0x1000) + 0x1000
