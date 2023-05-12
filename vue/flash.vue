@@ -312,7 +312,7 @@
                 alert("Not functional yet");
                 return;
             }
-			let rep = prompt("Are you certain? This option is currently slow, may crash OBK on older version so you have to repower it manually, and also may still restart OBK several times on newer builds. It is better to just download only config partition and LittleFS TAR. Enter yes.", "no");
+			let rep = prompt("Are you certain? This option is currently slow, may crash OBK on older version so you have to repower it manually, and also may still restart OBK several times on newer builds. It is better to just download only config partition and LittleFS TAR. Futhermore, flashing full 2MB of one device to another device is BAD idea. WiFi calibration is per device! Enter yes.", "no");
 			if (rep != null) {
 				  if(rep[0] == "y") {
 				  } else {
