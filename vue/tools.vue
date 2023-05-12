@@ -194,7 +194,7 @@
               this.runCommand(full);
         },
         runLED(cmd){
-              let full = "backlog ;"+cmd+"; Dimmer 100; led_enableAll 1"
+              let full = "backlog "+cmd+"; Dimmer 100; led_enableAll 1"
               this.runCommand(full);
         },
         applyVoltage(ev){
