@@ -44,6 +44,12 @@
                 <td></td>
                 <td></td>
             </tr>
+            <tr>
+                <td>  <button @click="readTuyaConfig(null, $event)">Read Tuya GPIO Config from 0x1EE000</button></td>
+                <td> <button @click="downloadTuyaConfig(null, $event)">Download Tuya GPIO Config from 0x1EE000</button></td>
+                <td></td>
+                <td></td>
+            </tr>
             </table>
                 <div>
                     <h4> Current job status</h4>
@@ -77,6 +83,8 @@
         rfdata: null,
         fullDumpData: null,
         fullDumpCurAt: 0,
+        fullDumpFlashStart: 0,
+        fullDumpFlashSize: 0,
         fullDumpErrors: 0,
         fullDumpRunning:0,
         fullDumpChunkSize: 0,
@@ -243,7 +251,7 @@
             window.URL.revokeObjectURL(link.href);
         },
         generateFullDumpDownloadForBrowser() {
-            let fileName = this.chipset + "_QIO_";
+            let fileName = this.chipset + "_"+this.fullDumpStyle+"_";
             if(this.shortName!=undefined && this.shortName.length>0){
                 fileName += this.shortName;
             }
@@ -286,7 +294,7 @@
                     this.fullDumpErrors = 0;
                     this.fullDumpData = this.appendArrayBuffers(this.fullDumpData, buffer);
                     this.fullDumpCurAt += this.fullDumpChunkSize;
-                    if(this.fullDumpCurAt >= 2097152){
+                    if(this.fullDumpCurAt >= (this.fullDumpFlashStart+this.fullDumpFlashSize)){
                         this.onFullDumpReadyForDownload();
                         return;
                     }
@@ -307,6 +315,13 @@
                         }
                     }); // Never forget the final catch!
         },
+        downloadTuyaConfig() {
+            this.fullDumpFlashStart = 2023424;
+            this.fullDumpFlashSize = 73728;
+            this.fullDumpStyle = "TuyaConfig";
+            // it ends at 2097152 - at 2MB
+            this.doFlashDumpInternal();
+        },
         downloadFullDump() {
             if(0){
                 alert("Not functional yet");
@@ -321,16 +336,22 @@
 			} else {
                 return;
             }
+            this.fullDumpStyle = "QIO";
+            this.fullDumpFlashStart = 0;
+            this.fullDumpFlashSize = 2097152;
+            this.doFlashDumpInternal();
+        },
+        doFlashDumpInternal() {
             if(this.fullDumpRunning!=0){
-                alert("Full dump is already requested, wait for processing.");
+                alert("Flash dump is already requested, wait for processing first.");
                 return;
             }
             // start with empty data
             this.fullDumpRunning = 1;
-            console.log("downloadFullDump started!");
+            console.log("doFlashDumpInternal started!");
             this.status += '<br/>reading full dump...';
             this.fullDumpData = new ArrayBuffer();
-            this.fullDumpCurAt = 0;
+            this.fullDumpCurAt = this.fullDumpFlashStart;
             this.fullDumpChunkSize = 4096;
             this.fullDumpErrors = 0;
             this.downloadFullDumpFragment();
@@ -361,6 +382,21 @@
                 })
                 .catch(err => console.error(err)); // Never forget the final catch!
         },
+        readTuyaConfig(cb){
+            this.status += '<br/>reading tuya config...';
+            let url = window.device+'/api/flash/1EE000-1000';
+            console.log('Will use URL '+url);
+            fetch(url)
+                .then(response => response.arrayBuffer())
+                .then(buffer => {
+                    this.configdata = buffer; 
+                    console.log('received '+buffer.byteLength);
+                    this.status += '..got tuya config...';
+                    this.dump(buffer);
+                    if(cb) cb();
+                })
+                .catch(err => console.error(err)); // Never forget the final catch!
+        },
         config(cb){
             this.status += '<br/>reading config...';
             let url = window.device+'/api/flash/'+this.getConfigAddress();
@@ -370,7 +406,7 @@
                 .then(buffer => {
                     this.configdata = buffer; 
                     console.log('received '+buffer.byteLength);
-                    this.status += '..got rf config...';
+                    this.status += '..got  config...';
                     this.dump(buffer);
                     if(cb) cb();
                 })
