@@ -4055,6 +4055,32 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3928677.html",
       "product": ""
     },
+	{
+	  "vendor": "Feit",
+	  "bDetailed": "0",
+	  "name": "Feit Power Strip - 4 sockets with USB",
+	  "model": "POWERSTRIP/WIFI",
+	  "chip": "BK7231T",
+	  "board": "unknown",
+	  "flags": "1024",
+	  "keywords": [
+		"Amazon",
+		"120V",
+		"Feit Electric"
+	  ],
+	  "pins": {
+		"1": "WifiLED_n;0",
+		"6": "Rel;1",
+		"8": "Btn_Tgl_All;0",
+		"9": "Rel;5",
+		"14": "Rel;4",
+		"24": "Rel;2",
+		"26": "Rel;3"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/1763210500_1684134843.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3978056.html"
+	},
     {
       "vendor": "Tuya",
       "bDetailed": "1",
