@@ -241,8 +241,10 @@ function processJSON_OpenBekenTemplateStyle(tmpl) {
         desc += "- Flags are set to " + tmpl.flags +"\n";
       }
       if(tmpl.command != undefined) {
-        scr += "StartupCommand "+tmpl.command+"\n";
-        desc += "- StartupCommand is set to " + tmpl.command +"\n";
+        if(tmpl.command.length > 0) {
+            scr += "StartupCommand "+tmpl.command+"\n";
+            desc += "- StartupCommand is set to " + tmpl.command +"\n";
+        }
       }
     const res = {
       desc: desc,
