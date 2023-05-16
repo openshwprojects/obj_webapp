@@ -868,6 +868,26 @@
 	  "image": "https://obrazki.elektroda.pl/3094131900_1678448837.jpg",
 	  "wiki": "https://www.elektroda.pl/rtvforum/topic3976806.html"
 	},
+	{
+	  "vendor": "ModeMix",
+	  "bDetailed": "0",
+	  "name": "MOD001 Smart Curtain Module",
+	  "model": "MOD001",
+	  "chip": "BK7231N",
+	  "board": "CBU",
+	  "keywords": ["Allegro", "Modemix", "two relays", "module", "mini switch","two switches"],
+	  "pins": {
+		"7": "WifiLED_n;0",
+		"8": "Btn_Tgl_All;0",
+		"9": "Rel;1",
+		"17": "Rel;3",
+		"24": "Btn;1",
+		"26": "Btn;3"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/2795045500_1678464707.jpg",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic3978325.html"
+	},
     {
       "vendor": "Merkury",
       "bDetailed": "1",
