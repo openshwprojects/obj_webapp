@@ -4056,6 +4056,35 @@
       "product": ""
     },
 	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "DS-101JL 3-Gang No Neutral Smart Switch",
+	  "model": "DS-101JL",
+	  "chip": "BK7231T",
+	  "board": "WB3S",
+	  "flags": "1024",
+	  "keywords": [
+		"no neutral",
+		"3 gang",
+		"wall switch"
+	  ],
+	  "pins": {
+		"1": "WifiLED;0",
+		"6": "Rel;1",
+		"7": "Rel;3",
+		"8": "Btn;3",
+		"9": "Rel;2",
+		"10": "Btn;2",
+		"11": "LED_n;3",
+		"14": "LED_n;1",
+		"24": "Btn;1",
+		"26": "LED_n;2"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/8878189300_1684163043.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3978184.html"
+	},
+	{
 	  "vendor": "Feit",
 	  "bDetailed": "0",
 	  "name": "Feit Power Strip - 4 sockets with USB",
