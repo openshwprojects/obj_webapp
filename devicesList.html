@@ -378,7 +378,7 @@ function refreshJSON(json) {
   tableBody.innerHTML = '';
 	var arrayLength = json.devices.length;
 	for (var i = 0; i < arrayLength; i++) {
-		if(i >= maxDevices)
+		if(cnt >= maxDevices)
 		{
 			break;
 		}
