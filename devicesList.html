@@ -52,99 +52,104 @@
 <h6>Also keep in mind that we have some Zigbee or TODO devices on list, just for the sake of completeness.</h6>
 
 <form onsubmit="return false;">
-  <div class="form-row align-items-center">
-    <div class="col-auto">
-      <label class="sr-only" for="filter_text">Name</label>
-      <label class="mr-sm-2" for="filter_text">Keyword filter:</label>
-      <input type="text" class="form-control mb-2" id="filter_text" placeholder="Keyword Filter">
-    </div>
-    <div class="col-auto" style="display:none">
-      <label class="sr-only" for="inlineFormInputGroup">Username</label>
-      <label class="mr-sm-2" for="inlineFormCustomSelect">Keyword filter:</label>
-      <div class="input-group mb-2">
-		  <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-			<option selected>All...</option>
-			<option value="1">All</option>
-			<option value="2">Two</option>
-			<option value="3">Three</option>
+	<div class="form-row align-items-center">
+	  <div class="col-auto">
+		<label class="sr-only" for="filter_text">Name</label>
+		<label class="mr-sm-2" for="filter_text">Keyword filter:</label>
+		<input type="text" class="form-control mb-2" id="filter_text" placeholder="Keyword Filter">
+	  </div>
+	  <div class="col-auto" >
+		<label class="sr-only" for="inlineFormInputGroup">Username</label>
+		<label class="mr-sm-2" for="inlineFormCustomSelect">Max:</label>
+		<div class="input-group mb-2">
+		  <select class="custom-select mr-sm-2" id="selectMax">
+			<option value="5">5</option>
+			<option selected value="10">10</option>
+			<option value="25">25</option>
+			<option value="50">50</option>
+			<option value="100">100</option>
+			<option value="250">250</option>
+			<option value="500">500</option>
 		  </select>
-      </div>
-    </div>
-    <div class="col-auto">
-      <label class="mr-sm-2" for="filter_BK7231N"></label>
-      <div class="form-check mb-2">
-        <input class="form-check-input" type="checkbox" id="filter_BK7231N" checked>
-        <label class="form-check-label" for="filter_BK7231N">
-         BK7231N
-        </label>
-      </div>
-    </div>
-    <div class="col-auto">
-      <label class="mr-sm-2" for="filter_BK7231T"></label>
-      <div class="form-check mb-2">
-        <input class="form-check-input" type="checkbox" id="filter_BK7231T" checked>
-        <label class="form-check-label" for="filter_BK7231T">
-         BK7231T
-        </label>
-      </div>
-    </div>
-    <div class="col-auto">
-      <label class="mr-sm-2" for="filter_XR809"></label>
-      <div class="form-check mb-2">
-        <input class="form-check-input" type="checkbox" id="filter_XR809" checked>
-        <label class="form-check-label" for="filter_XR809">
-         XR809
-        </label>
-      </div>
-    </div>
-    <div class="col-auto">
-      <label class="mr-sm-2" for="filter_BL602"></label>
-      <div class="form-check mb-2">
-        <input class="form-check-input" type="checkbox" id="filter_BL602" checked>
-        <label class="form-check-label" for="filter_BL602">
-         BL602
-        </label>
-      </div>
-    </div>
-    <div class="col-auto">
-      <label class="mr-sm-2" for="filter_W80X"></label>
-      <div class="form-check mb-2">
-        <input class="form-check-input" type="checkbox" id="filter_W80X" checked>
-        <label class="form-check-label" for="filter_W80X">
-         W80X
-        </label>
-      </div>
-    </div>
-    <div class="col-auto">
-      <label class="mr-sm-2" for="filter_W60X"></label>
-      <div class="form-check mb-2">
-        <input class="form-check-input" type="checkbox" id="filter_W60X" checked>
-        <label class="form-check-label" for="filter_W60X">
-         W60X
-        </label>
-      </div>
-    </div>
-    <div class="col-auto">
-      <label class="mr-sm-2" for="filter_ESP82XX"></label>
-      <div class="form-check mb-2">
-        <input class="form-check-input" type="checkbox" id="filter_ESP82XX">
-        <label class="form-check-label" for="filter_ESP82XX">
-         ESP82XX
-        </label>
-      </div>
-    </div>
-    <div class="col-auto">
-      <label class="mr-sm-2" for="filter_detailed"></label>
-      <div class="form-check mb-2">
-        <input class="form-check-input" type="checkbox" id="filter_detailed">
-        <label class="form-check-label" for="filter_detailed">
-          Only show DETAILED teardowns
-        </label>
-      </div>
-    </div>
-    <div class="col-auto">
-      <button  class="btn btn-primary mb-2"  onclick="refreshForFilters()">Apply filtering</button>
-    </div>
+		</div>
+	  </div>
+	  
+	  <div class="col-auto">
+		<label class="mr-sm-2" for="filter_BK7231N"></label>
+		<div class="form-check mb-2">
+		  <input class="form-check-input" type="checkbox" id="filter_BK7231N" checked>
+		  <label class="form-check-label" for="filter_BK7231N">
+			BK7231N
+		  </label>
+		</div>
+	  </div>
+	  <div class="col-auto">
+		<label class="mr-sm-2" for="filter_BK7231T"></label>
+		<div class="form-check mb-2">
+		  <input class="form-check-input" type="checkbox" id="filter_BK7231T" checked>
+		  <label class="form-check-label" for="filter_BK7231T">
+			BK7231T
+		  </label>
+		</div>
+	  </div>
+	  <div class="col-auto">
+		<label class="mr-sm-2" for="filter_XR809"></label>
+		<div class="form-check mb-2">
+		  <input class="form-check-input" type="checkbox" id="filter_XR809" checked>
+		  <label class="form-check-label" for="filter_XR809">
+			XR809
+		  </label>
+		</div>
+	  </div>
+	  <div class="col-auto">
+		<label class="mr-sm-2" for="filter_BL602"></label>
+		<div class="form-check mb-2">
+		  <input class="form-check-input" type="checkbox" id="filter_BL602" checked>
+		  <label class="form-check-label" for="filter_BL602">
+			BL602
+		  </label>
+		</div>
+	  </div>
+	  <div class="col-auto">
+		<label class="mr-sm-2" for="filter_W80X"></label>
+		<div class="form-check mb-2">
+		  <input class="form-check-input" type="checkbox" id="filter_W80X" checked>
+		  <label class="form-check-label" for="filter_W80X">
+			W80X
+		  </label>
+		</div>
+	  </div>
+	  <div class="col-auto">
+		<label class="mr-sm-2" for="filter_W60X"></label>
+		<div class="form-check mb-2">
+		  <input class="form-check-input" type="checkbox" id="filter_W60X" checked>
+		  <label class="form-check-label" for="filter_W60X">
+			W60X
+			</label>
+			</div>
+			</div>
+			<div class="col-auto">
+			<label class="mr-sm-2" for="filter_ESP82XX"></label>
+			<div class="form-check mb-2">
+			<input class="form-check-input" type="checkbox" id="filter_ESP82XX">
+			<label class="form-check-label" for="filter_ESP82XX">
+			ESP82XX
+			</label>
+			</div>
+			</div>
+			<div class="col-auto">
+			<label class="mr-sm-2" for="filter_detailed"></label>
+			<div class="form-check mb-2">
+			<input class="form-check-input" type="checkbox" id="filter_detailed">
+			<label class="form-check-label" for="filter_detailed">
+			Only show DETAILED teardowns
+			</label>
+			</div>
+			</div>
+			
+			<div class="col-auto">
+		<button class="btn btn-primary mb-2" onclick="refreshForFilters()">Apply filtering</button>
+	</div>	
   </div>
 </form>
 <h6>NOTE: BL0937, BL0942 and CSE7766 (HLW8032) are chips used for energy metering.</h6>
@@ -365,12 +370,18 @@ function refreshJSON(json) {
   var filter_W80X = document.getElementById("filter_W80X").checked;
   var filter_W60X = document.getElementById("filter_W60X").checked;
   var g_state = document.getElementById("g_state");
-  
+  var selectMax = document.getElementById("selectMax");
+  var maxDevices = selectMax.value;
+
   var cnt = 0;
   var tableBody = document.getElementById("tableBody");
   tableBody.innerHTML = '';
 	var arrayLength = json.devices.length;
 	for (var i = 0; i < arrayLength; i++) {
+		if(i >= maxDevices)
+		{
+			break;
+		}
 		let device_i = json.devices[i];
 		var image = device_i.image;
 		var bDetailed = device_i.bDetailed;
