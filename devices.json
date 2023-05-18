@@ -6008,6 +6008,26 @@
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20474832#20474832"
     },
 	{
+	  "vendor": "Feit",
+	  "bDetailed": "0",
+	  "name": "Feit Electric ST21 Dimmable Color Changing Spiral Filament Wifi LED Bulb",
+	  "model": "ST2160/RGBW/FIL/AG",
+	  "chip": "BK7231N",
+	  "board": "CBLC5",
+	  "flags": "151262224",
+	  "keywords": [
+		"E26"
+	  ],
+	  "pins": {
+		"24": "SM2235DAT;0",
+		"26": "SM2235CLK;0"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/6917821400_1684299593.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic_YOUR_TOPIC.html",
+	  "product":"https://www.feit.com/products/st19-curved-filament-alexa-google-decorative-smart-bulb-st2160-rgbw-fil-ag"
+	},
+	{
 	  "vendor": "Arlec",
 	  "bDetailed": "0",
 	  "name": "Arlec Grid Connect PC191 Series 2 Smart Plug-In Socket with Energy Meter",
