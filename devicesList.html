@@ -696,7 +696,7 @@ function refreshJSON() {
 			a.onclick = function() {alert('Sorry, the contributor didnt add link to Elektroda. If you have this device, please take some photos and it to our forums, and we will update this database later.'); return false; };
 		}
 		a.target = "blank";
-		a.innerHTML = name;
+		a.innerHTML = name + " ("+vendor+")";
 		td1.appendChild(img);
 		
 		th.innerHTML = cnt;
