@@ -31,28 +31,107 @@
 <h6>Want to get cloud-free? Pair with HA? Flash OpenBeken - now supporting BK7231N, BK7231T, XR809, BL602, T34, W800/W801, W600/W601!</h6>
 <h6>Need help? Ask <a href="https://www.elektroda.com/rtvforum/topic3866123-960.html">here!</a> Direct contact with developers, daily feedback and bugfixes!</h6>
 <h5>Please watch our English flashing/configuration tutorials:</h5>
-<iframe width="420" height="345" src="https://www.youtube.com/embed/Yb3zXtBdSnE"></iframe>
-<iframe width="420" height="345" src="https://www.youtube.com/embed/PKkiqDNFIx8"></iframe>
-<iframe width="420" height="345" src="https://www.youtube.com/embed/KU0tDwtjfjw"></iframe>
-<iframe width="420" height="345" src="https://www.youtube.com/embed/fSbeKwCCMHM"></iframe>
-<iframe width="420" height="345" src="https://www.youtube.com/embed/2e1SUQNMrgY"></iframe>
-<iframe width="420" height="345" src="https://www.youtube.com/embed/-a5hV1y5aIU"></iframe>
-<iframe width="420" height="345" src="https://www.youtube.com/embed/pkcspey25V4"></iframe>
-<iframe width="420" height="345" src="https://www.youtube.com/embed/x4p3JHXbK1E"></iframe>
-<iframe width="420" height="345" src="https://www.youtube.com/embed/YQdR7r6lXRY"></iframe>
-<iframe width="420" height="345" src="https://www.youtube.com/embed/L6d42IMGhHw"></iframe>
+<div id="videoContainer"></div>
+
+<script>
+  // Array of YouTube video IDs
+  var youtubeIds = [
+    'VDbaLR_0YWs',
+    'Yb3zXtBdSnE',
+    'PKkiqDNFIx8',
+    'KU0tDwtjfjw',
+    'fSbeKwCCMHM',
+    '2e1SUQNMrgY',
+    '-a5hV1y5aIU',
+    'pkcspey25V4',
+    'x4p3JHXbK1E',
+    'YQdR7r6lXRY',
+    'L6d42IMGhHw',
+    'KEjOPuYd3CE',
+    'xGE-DVrm3BU',
+    'e1xcq3OUR5M',
+	'vDh8Y_NDrb4'
+  ];
+
+  // Array of YouTube video IDs to always show
+  var alwaysShowIds = [
+    'VDbaLR_0YWs'
+  ];
+
+  // Function to select random videos excluding the always shown videos
+  function getRandomVideos(array, alwaysShown, count) {
+    var shuffled = array.filter(function (videoId) {
+      return !alwaysShown.includes(videoId);
+    });
+    var randomVideos = alwaysShown.slice(0);
+    var i = shuffled.length;
+    var min = i - (count - alwaysShown.length);
+    var temp;
+    var index;
+
+    while (i-- > min) {
+      index = Math.floor((i + 1) * Math.random());
+      temp = shuffled[index];
+      shuffled[index] = shuffled[i];
+      shuffled[i] = temp;
+      randomVideos.push(temp);
+    }
+
+    return randomVideos;
+  }
+
+  // Select and add random videos to the container
+  var videoContainer = document.getElementById('videoContainer');
+  var randomVideos = getRandomVideos(youtubeIds, alwaysShowIds, 4);
+
+  randomVideos.forEach(function (videoId) {
+    var iframe = document.createElement('iframe');
+    iframe.width = '420';
+    iframe.height = '345';
+    iframe.src = 'https://www.youtube.com/embed/' + videoId;
+    videoContainer.appendChild(iframe);
+  });
+</script>
+
+
 <br>
 <h6>We have also Polish translations for <a href="https://www.youtube.com/watch?v=7MyfSgxLAOo">RGBCW bulb flashing & soldering tutorial</a> , <a href="https://www.youtube.com/watch?v=0V0kaRVnk18">CB2S Relay flashing</a>, <a href="https://www.youtube.com/watch?v=JCqq-gn-X2c">WB3S wall switch flashing.</a></h6>
-<h5>New tool for BK7231T and BK7231N flashing: <a href="https://github.com/openshwprojects/BK7231GUIFlashTool">BK7231 GUI Flash Tool</a></h5>
-<h5>Old tool for BK7231T flashing: <a href="https://github.com/openshwprojects/OpenBK7231T/blob/master/bk_writer1.60.zip">bkWriter 1.60</a></h5>
-<h5>Old tool for BK7231N flashing: <a href="https://github.com/OpenBekenIOT/hid_download_py">hid_download_py</a></h5>
+<h5>New tool for BK7231 T and N flashing (and for automatic template extraction): <a href="https://github.com/openshwprojects/BK7231GUIFlashTool">BK7231 GUI Flash Tool</a></h5>
+<h5>Old tool for BK7231T flashing (do not use it to restore backup): <a href="https://github.com/openshwprojects/OpenBK7231T/blob/master/bk_writer1.60.zip">bkWriter 1.60</a></h5>
+<h5>Old tool for BK7231N flashing (requires Python): <a href="https://github.com/OpenBekenIOT/hid_download_py">hid_download_py</a></h5>
 <h5>Tool for BL602 flashing (inside tools/flash_tool): <a href="https://github.com/openshwprojects/OpenBL602">BLDevCube</a></h5>
 <h6>Click on device name to get a detailed teardown article, often with pins configuration and setup.</h6>
 <h6>Some devices were submitted by contributors and not by me, and might not have complete info.</h6>
 <h6>Also keep in mind that we have some Zigbee or TODO devices on list, just for the sake of completeness.</h6>
 
+<script type="text/javascript">
+
+function hideNotNeeded()
+{
+  var selectType = document.getElementById("selectType");
+  var mode = selectType.value;
+  var elements = document.querySelectorAll("#forumFilter");
+	for (var i = 0; i < elements.length; i++) {
+		elements[i].style.display = mode == "guide" ? "block" : "none";
+	}
+   elements = document.querySelectorAll("#cutterFilter");
+	for (var i = 0; i < elements.length; i++) {
+		elements[i].style.display = mode == "guide" ?  "none" : "block";
+	}
+}
+
+</script>
 <form onsubmit="return false;">
 	<div class="form-row align-items-center">
+		<div class="col-auto" >
+		  <label class="mr-sm-2" for="inlineFormCustomSelect">Type:</label>
+		  <div class="input-group mb-2">
+			<select class="custom-select mr-sm-2" id="selectType" onchange="hideNotNeeded()">
+			  <option selected value="guide">Template/Guide</option>
+			  <option value="cutter">Cloudcutter Profile</option>
+			</select>
+		  </div>
+		</div>
 	  <div class="col-auto">
 		<label class="sr-only" for="filter_text">Name</label>
 		<label class="mr-sm-2" for="filter_text">Keyword filter:</label>
@@ -74,7 +153,7 @@
 		</div>
 	  </div>
 	  
-	  <div class="col-auto">
+	  <div class="col-auto" id="forumFilter">
 		<label class="mr-sm-2" for="filter_BK7231N"></label>
 		<div class="form-check mb-2">
 		  <input class="form-check-input" type="checkbox" id="filter_BK7231N" checked>
@@ -83,7 +162,7 @@
 		  </label>
 		</div>
 	  </div>
-	  <div class="col-auto">
+	  <div class="col-auto" id="forumFilter">
 		<label class="mr-sm-2" for="filter_BK7231T"></label>
 		<div class="form-check mb-2">
 		  <input class="form-check-input" type="checkbox" id="filter_BK7231T" checked>
@@ -92,7 +171,7 @@
 		  </label>
 		</div>
 	  </div>
-	  <div class="col-auto">
+	  <div class="col-auto" id="forumFilter">
 		<label class="mr-sm-2" for="filter_XR809"></label>
 		<div class="form-check mb-2">
 		  <input class="form-check-input" type="checkbox" id="filter_XR809" checked>
@@ -101,7 +180,7 @@
 		  </label>
 		</div>
 	  </div>
-	  <div class="col-auto">
+	  <div class="col-auto" id="forumFilter">
 		<label class="mr-sm-2" for="filter_BL602"></label>
 		<div class="form-check mb-2">
 		  <input class="form-check-input" type="checkbox" id="filter_BL602" checked>
@@ -110,7 +189,7 @@
 		  </label>
 		</div>
 	  </div>
-	  <div class="col-auto">
+	  <div class="col-auto" id="forumFilter">
 		<label class="mr-sm-2" for="filter_W80X"></label>
 		<div class="form-check mb-2">
 		  <input class="form-check-input" type="checkbox" id="filter_W80X" checked>
@@ -119,7 +198,7 @@
 		  </label>
 		</div>
 	  </div>
-	  <div class="col-auto">
+	  <div class="col-auto" id="forumFilter">
 		<label class="mr-sm-2" for="filter_W60X"></label>
 		<div class="form-check mb-2">
 		  <input class="form-check-input" type="checkbox" id="filter_W60X" checked>
@@ -128,7 +207,7 @@
 			</label>
 			</div>
 			</div>
-			<div class="col-auto">
+			<div class="col-auto" id="forumFilter">
 			<label class="mr-sm-2" for="filter_ESP82XX"></label>
 			<div class="form-check mb-2">
 			<input class="form-check-input" type="checkbox" id="filter_ESP82XX">
@@ -137,7 +216,7 @@
 			</label>
 			</div>
 			</div>
-			<div class="col-auto">
+			<div class="col-auto" id="forumFilter">
 			<label class="mr-sm-2" for="filter_detailed"></label>
 			<div class="form-check mb-2">
 			<input class="form-check-input" type="checkbox" id="filter_detailed">
@@ -146,16 +225,17 @@
 			</label>
 			</div>
 			</div>
-			
 			<div class="col-auto">
 		<button class="btn btn-primary mb-2" onclick="refreshForFilters()">Apply filtering</button>
 	</div>	
   </div>
 </form>
-<h6>NOTE: BL0937, BL0942 and CSE7766 (HLW8032) are chips used for energy metering.</h6>
-<h6>NOTE: SM2135, BP1658 and BP5758 are "I2C" RGBCW LED drivers.</h6>
-<h6>NOTE: Type filter "RGBCW" to find RGBCW devices, try also "4CH", "relay", try shop names, like "Action", "Blitzwolf", "Aubess", etc...</h6>
-<h6>NOTE: If config template is missing, check linked topic, it may not been just entered in Database</h6>
+<h6 id="forumFilter">NOTE: BL0937, BL0942 and CSE7766 (HLW8032) are chips used for energy metering.</h6>
+<h6 id="forumFilter">NOTE: SM2135, BP1658 and BP5758 are "I2C" RGBCW LED drivers.</h6>
+<h6 id="forumFilter">NOTE: Type filter "RGBCW" to find RGBCW devices, try also "4CH", "relay", try shop names, like "Action", "Blitzwolf", "Aubess", etc...</h6>
+<h6 id="forumFilter">NOTE: If config template is missing, check linked topic, it may not been just entered in Database</h6>
+<h6 id="cutterFilter">NOTE: Following list is fetched from Cloudcutter repository. The configs are extracted from 2MB device dumps.</h6>
+<h6 id="cutterFilter">NOTE: The configs here may be incomplete.</h6>
 <p id="demo"></p>
 <h6 id="g_state">Table is loading.</h6>
 <table class="table table-image">
@@ -175,6 +255,7 @@
 </table>
 <script>
 var g_database;
+var g_cloudCuttable;
 var getJSON = function(url, callback) {
     var xhr = new XMLHttpRequest();
     xhr.open('GET', url, true);
@@ -192,17 +273,25 @@ var getJSON = function(url, callback) {
     xhr.send();
 };
 
+function processJSONCutter(json) {
+	//json = JSON.parse(json);
+	if(json == null)
+	{
+		alert("JSON for Cloudcutter get error? JSON was NULL");
+	}
+	g_cloudCuttable = json;
+}
 function processJSON(json) {
 	//json = JSON.parse(json);
 	if(json == null)
 	{
-		alert("JSON get error? JSON was NULL");
+		alert("JSON for Guides/Reviews get error? JSON was NULL");
 	}
 	g_database = json;
-	refreshJSON(g_database);
+	refreshJSON();
 }
 function refreshForFilters() {
-	refreshJSON(g_database);
+	refreshJSON();
 }
 function findDocsURLForChip(chip) {
 
@@ -358,7 +447,10 @@ function generateChipStr(chip, board) {
 	}
 	return chipStr;
 }
-function refreshJSON(json) {
+function refreshJSON() {
+	let json;
+
+
  //var s = "";
   var filter_BK7231T = document.getElementById("filter_BK7231T").checked;
   var filter_text = document.getElementById("filter_text").value;
@@ -371,11 +463,14 @@ function refreshJSON(json) {
   var filter_W60X = document.getElementById("filter_W60X").checked;
   var g_state = document.getElementById("g_state");
   var selectMax = document.getElementById("selectMax");
+  var selectType = document.getElementById("selectType");
   var maxDevices = selectMax.value;
 
   var cnt = 0;
   var tableBody = document.getElementById("tableBody");
   tableBody.innerHTML = '';
+  if(selectType.value == "guide") {
+	json = g_database;
 	var arrayLength = json.devices.length;
 	for (var i = 0; i < arrayLength; i++) {
 		if(cnt >= maxDevices)
@@ -545,6 +640,85 @@ function refreshJSON(json) {
 		tableBody.appendChild(tr);
 		cnt++;
 	}
+} else {
+	console.log(g_cloudCuttable);
+	json = g_cloudCuttable;
+	var arrayLength = json.length;
+	for (var i = 0; i < arrayLength; i++) {
+		if(cnt >= maxDevices)
+		{
+			break;
+		}
+		let name = json[i].name;
+		let vendor = json[i].manufacturer;
+		let image = json[i].image_url;
+		let slug = json[i].slug;//who was naming that?
+		let url = json[i].deviceFile = "https://tuya-cloudcutter.github.io/api/devices/"+slug+".json";
+		let chipStr = "";
+		let keywords = "";
+
+		if(filter_text != null){
+			if(filter_text.length > 0)
+			{
+				// at least one of fields must contain
+				if(name.toLowerCase().includes(filter_text.toLowerCase()) == false && vendor.toLowerCase().includes(filter_text.toLowerCase()) == false) {
+					//console.log("Skipping cuttable " +name);
+					continue;
+				}
+			}
+		}
+
+		var tr = document.createElement('tr');   
+
+		var th = document.createElement('th');
+		var td1 = document.createElement('td');
+		var td2 = document.createElement('td');
+		var td3 = document.createElement('td');
+		var td4 = document.createElement('td');
+		var td5 = document.createElement('td');
+		var bt = document.createElement('button');
+		bt.innerText = "Open!";
+		td5.appendChild(bt);
+		bt.onclick = function() {
+			alert("Please just select all text and copy/paste it into the Web App/Import tab of OBK (or a preferred tool of your choice). The config will now open.");
+		
+			window.open(url, "_blank");
+		};
+
+		var img = document.createElement('img');
+		
+		var a = document.createElement('a');
+		let wiki = url;
+		if(wiki.length > 0) {
+			a.href = wiki;
+		} else {
+			a.href = "#";
+			a.onclick = function() {alert('Sorry, the contributor didnt add link to Elektroda. If you have this device, please take some photos and it to our forums, and we will update this database later.'); return false; };
+		}
+		a.target = "blank";
+		a.innerHTML = name;
+		td1.appendChild(img);
+		
+		th.innerHTML = cnt;
+		td1.class = "w-25";
+		img.class = "img-fluid img-thumbnail";
+		img.width = 200;
+		img.src = image;
+		td2.appendChild(a);
+		td3.innerHTML = chipStr;
+		td4.innerHTML = keywords;
+		tr.appendChild(th);
+		tr.appendChild(td1);
+		tr.appendChild(td2);
+		tr.appendChild(td3);
+		tr.appendChild(td4);
+		tr.appendChild(td5);
+
+		tableBody.appendChild(tr);
+		cnt++;
+
+	}
+}
 	g_state.innerHTML = "Showing " + cnt + " out of " +arrayLength +" devices.";
   //document.getElementById("demo").innerHTML = s;
 
@@ -553,12 +727,21 @@ function refreshJSON(json) {
 getJSON('https://openbekeniot.github.io/webapp/devices.json',
 function(err, data) {
   if (err !== null) {
-    alert('Something went wrong: ' + err);
+    alert('Something went wrong with Guides/Templates database download: ' + err);
   } else {
-    //alert('Your query count: ' + data);
 	processJSON(data);
   }
 });
+getJSON('https://tuya-cloudcutter.github.io/api/devices.json',
+function(err, data) {
+  if (err !== null) {
+    alert('Something went wrong with Guides/Templates database download: ' + err);
+  } else {
+	processJSONCutter(data);
+  }
+});
+
+hideNotNeeded();
 
 </script>
 
