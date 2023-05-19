@@ -87,6 +87,26 @@
       "image": "https://obrazki.elektroda.pl/3591447000_1647901952.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3881416.html"
     },
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "Smart WiFi plug CSH-PLGPM-001 from BingLee/GoodGuys",
+	  "model": "CSH-PLGPM-001",
+	  "chip": "BK7231N",
+	  "board": "CB2S",
+	  "keywords": ["dual relay", "cuts of both N and L"],
+	  "pins": {
+		"6": "BL0937CF1;0",
+		"7": "BL0937CF;0",
+		"8": "WifiLED_n;0",
+		"10": "Btn;1",
+		"24": "BL0937SEL;0",
+		"26": "Rel;1"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/5956127900_1684367359.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3979011.html"
+	},
     {
       "vendor": "Tuya",
       "bDetailed": "0",
