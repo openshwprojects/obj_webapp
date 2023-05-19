@@ -30,9 +30,19 @@ function processJSON_UserParamKeyStyle(js,user_param_key) {
       if(js.name!=undefined){
         tmpl.name = js.name;
       }
-
-    let desc = "";
-    let scr = "";
+      let desc = "";
+      let scr = "";
+    if(js.module != undefined)
+    {
+        tmpl.board = js.module;
+        if(tmpl.board[0] == 'C') {
+            tmpl.chip = "BK7231N";
+        }
+        if(tmpl.board[0] == 'W') {
+            tmpl.chip = "BK7231T";
+        }
+        desc += "Device seems to be using " + tmpl.board + " module, which is " + tmpl.chip + " chip."+"\n";
+    }
     
     let value;
     for(let i = 0; i < 10; i++) {
