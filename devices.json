@@ -90,6 +90,26 @@
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
+	  "name": "Tuya AU LSPA9? Smart Socket: Energy Monitoring",
+	  "model": "LSPA9",
+	  "chip": "BK7231N",
+	  "board": "CB2S",
+	  "keywords": ["Australia", "AU"],
+	  "pins": {
+		"6": "BL0937CF1;0",
+		"7": "BL0937CF;0",
+		"8": "WifiLED_n;0",
+		"11": "Btn;1",
+		"24": "BL0937SEL;0",
+		"26": "Rel;1"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/1980609100_1684465186.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3979012.html"
+	},
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
 	  "name": "Smart WiFi plug CSH-PLGPM-001 from BingLee/GoodGuys",
 	  "model": "CSH-PLGPM-001",
 	  "chip": "BK7231N",
