@@ -481,6 +481,7 @@ function refreshJSON() {
 		let device_i = json.devices[i];
 		var image = device_i.image;
 		var bDetailed = device_i.bDetailed;
+		var model = device_i.model;;
 		var name = device_i.name;;
 		var wiki = device_i.wiki;
 		var chip = device_i.chip;
@@ -493,12 +494,23 @@ function refreshJSON() {
 		{
 			vendor = "";
 		}
+		if(model == null)
+		{
+			model = "";
+		}
 		// if full display name has no vendor included, add italic
 		if(vendor.length > 0)
 		{
 			if(name.toLowerCase().includes(vendor.toLowerCase()) == false)
 			{
-				name += " (" + vendor + ")";
+				name = "(" + vendor + ") "+name;
+			}
+		}
+		if(model.length > 0)
+		{
+			if(name.toLowerCase().includes(model.toLowerCase()) == false)
+			{
+				name = name +" (" + model + ")";
 			}
 		}
 		if(filter_BK7231T == false)
@@ -577,7 +589,11 @@ function refreshJSON() {
 			if(filter_text.length > 0)
 			{
 				// at least one of fields must contain
-				if(name.toLowerCase().includes(filter_text.toLowerCase()) == false && chipStr.toLowerCase().includes(filter_text.toLowerCase()) == false && wiki.toLowerCase().includes(filter_text.toLowerCase()) == false && vendor.toLowerCase().includes(filter_text.toLowerCase()) == false
+				if(name.toLowerCase().includes(filter_text.toLowerCase()) == false &&
+				 chipStr.toLowerCase().includes(filter_text.toLowerCase()) == false &&
+				  wiki.toLowerCase().includes(filter_text.toLowerCase()) == false &&
+				  model.toLowerCase().includes(filter_text.toLowerCase()) == false &&
+				   vendor.toLowerCase().includes(filter_text.toLowerCase()) == false
 				 && keywordsString.toLowerCase().includes(filter_text.toLowerCase()) == false) {
 					continue;
 				}
