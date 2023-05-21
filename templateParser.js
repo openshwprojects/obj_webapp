@@ -24,14 +24,16 @@ function processJSON_UserParamKeyStyle(js,user_param_key) {
         wiki: "https://www.elektroda.com/rtvforum/topic_YOUR_TOPIC.html"
       };
       
-      if(js.manufacturer!=undefined){
-        tmpl.vendor = js.manufacturer;
-      }
-      if(js.name!=undefined){
-        tmpl.name = js.name;
-      }
       let desc = "";
       let scr = "";
+      if(js.name!=undefined){
+        tmpl.name = js.name;
+        desc += "Device name seems to be " + js.name +"\n";
+      }
+      if(js.manufacturer!=undefined){
+        tmpl.vendor = js.manufacturer;
+        desc += "Device manufacturer seems to be " + js.manufacturer +"\n";
+      }
     if(js.module != undefined)
     {
         tmpl.board = js.module;
@@ -263,7 +265,18 @@ function processJSON_OpenBekenTemplateStyle(tmpl) {
     };
     return res;
 }
-function processJSON(txt) {
+function fetchJSONSync(url) {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', url, false); // false parameter makes the request synchronous
+    xhr.send();
+  
+    if (xhr.status === 200) {
+      return xhr.responseText;
+    } else {
+      throw new Error('Failed to fetch JSON: ' + xhr.status);
+    }
+  }
+function processJSONInternal(txt) {
     let js = JSON.parse(txt);
     if(js.pins != undefined && js.chip != undefined && js.board != undefined) {
         return processJSON_OpenBekenTemplateStyle(js);
@@ -272,4 +285,10 @@ function processJSON(txt) {
     let user_param_key = findUserParamKey(js);
     console.log(user_param_key);
     return processJSON_UserParamKeyStyle(js,user_param_key);
+}
+function processJSON(txt) {
+    if (txt.startsWith("http")) {
+       txt = fetchJSONSync(txt);
+    }
+    return processJSONInternal(txt);
 }
