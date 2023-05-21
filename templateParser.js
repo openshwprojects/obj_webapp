@@ -217,6 +217,10 @@ function processJSON_UserParamKeyStyle(js,user_param_key) {
         
         
     }
+    if(user_param_key["baud"] != undefined) {
+        let baud = user_param_key["baud"];
+        desc += "This device seems to be using UART at "+baud+", maybe it's TuyaMCU or BL0942?\n";
+    }
     let ele_rx = user_param_key.ele_rx;
     let ele_tx = user_param_key.ele_tx;
     if(user_param_key.ele_rx != undefined) {
