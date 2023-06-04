@@ -6531,6 +6531,54 @@
     "command": "",
     "image": "https://obrazki.elektroda.pl/3251406900_1682267088.png",
     "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20552462"
+  },
+  {
+    "vendor": "Calex",
+    "bDetailed": "1",
+    "name": "LED Lightbulb CW ST64",
+    "model": "Calex Smart ST64 led lighbulb",
+    "chip": "BK7231T",
+    "board": "WBLC5",
+    "flags": "398337",
+    "keywords": [
+      "Calex",
+      "CCT",
+      "E27",
+      "LED",
+      "Light",
+      "ST64"
+    ],
+    "pins": {
+      "24": "PWM;1",
+      "26": "PWM;0"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/3530517900_1685889830.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic3982014.html"
+  },
+  {
+    "vendor": "Calex",
+    "bDetailed": "1",
+    "name": "LED Lightbulb CW G125",
+    "model": "Calex Smart Globe G125 led lighbulb",
+    "chip": "BK7231N",
+    "board": "CBLC5",
+    "flags": "398337",
+    "keywords": [
+      "Calex",
+      "CCT",
+      "E27",
+      "G125",
+      "LED",
+      "Light"
+    ],
+    "pins": {
+      "24": "PWM;1",
+      "26": "PWM;0"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/5947717300_1685890710.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic3982011.html"
   }
   ]
 }
