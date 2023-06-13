@@ -2741,6 +2741,32 @@
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "1",
+	  "name": "Suraielec 40A Outdoor Plug UBTW01B",
+	  "model": "UBTW01B",
+	  "chip": "BK7231N",
+	  "board": "CB3S",
+	  "flags": "1024",
+	  "keywords": [
+		"Amazon",
+		"FCC ID: 2AFNL-TYWE3S",
+		"T40W", 
+		"IC ID: 23243-TYWE3S",
+		"Intertek",
+		"4007168"
+	  ],
+	  "pins": {
+		"6": "Btn;1",
+		"8": "LED_n;1",
+		"24": "Rel;1"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/9966371500_1686354934.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3982959.html",
+	  "product":"https://www.amazon.com/dp/B08VRJSH5Z"
+	},
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "1",
 	  "name": "Laser RGB CW+WW Downlight",
 	  "model": "LSH-240RGB10W",
 	  "chip": "BK7231N",
