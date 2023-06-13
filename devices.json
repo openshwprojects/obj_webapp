@@ -2738,6 +2738,28 @@
       ],
       "command": ""
     },
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "1",
+	  "name": "Laser RGB CW+WW Downlight",
+	  "model": "LSH-240RGB10W",
+	  "chip": "BK7231N",
+	  "board": "onboard",
+	  "flags": "1024",
+	  "keywords": [
+		"Downlight","eBay","Australia","CSH-240RGB10W"
+	  ],
+	  "pins": {
+		"6": "PWM;5",
+		"8": "PWM;4",
+		"9": "PWM;1",
+		"24": "PWM;2",
+		"26": "PWM;3"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/1870116000_1680582505.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3969582.html"
+	},
     {
       "vendor": "Nedis",
       "bDetailed": "0",
