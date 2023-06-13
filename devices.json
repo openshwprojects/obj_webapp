@@ -1060,6 +1060,31 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3850712.html#19824097"
     },
 	{
+	  "vendor": "Tuya",
+	  "bDetailed": "1",
+	  "name": "RTX WCM1MR Shutter Controller",
+	  "model": "WCM1MR ",
+	  "chip": "BK7231N",
+	  "board": "CBLC9",
+	  "flags": "1024",
+	  "keywords": [
+		"shutters",
+		"blinds",
+		"Allegro"
+	  ],
+	  "pins": {
+		"6": "Btn;1",
+		"7": "Rel;1",
+		"8": "WifiLED_n;0",
+		"9": "Rel;2",
+		"24": "Btn;3",
+		"26": "Btn;2"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/4505180200_1679658393.png",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic3981644.html"
+	},
+	{
 	  "vendor": "RTX",
 	  "bDetailed": "1",
 	  "name": "2gang relay module QS-WIFI-S04-2C WRS2",
@@ -1343,6 +1368,22 @@
       ],
       "image": "https://obrazki.elektroda.pl/5419031800_1665142792.jpg",
       "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?t=3929412&highlight="
+    },
+    {
+      "vendor": "MaxCom",
+      "bDetailed": "1",
+      "name": "MaxCom Smart Breaker SHSB111W10",
+      "chip": "W701",
+      "board": "WBR2",
+      "pins": {},
+      "keywords": [
+        "W701",
+        "Allegro",
+        "BP2905",
+        "AMS1117"
+      ],
+      "image": "https://obrazki.elektroda.pl/4679035000_1678457121.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic3979433.html"
     },
     {
       "vendor": "Generic",
