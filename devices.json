@@ -2837,6 +2837,22 @@
       "command": "backlog startDriver BL0937; PREF 1.2; VREF 0.124868; IREF 0.010548"
     },
     {
+      "vendor": "Bakibo",
+      "bDetailed": "0",
+      "name": "Bakibo TB95 9W 1000lm RGBCWW Light",
+      "model": "TB95",
+      "chip": "W600",
+      "board": "AJ-05",
+      "pins": {},
+      "keywords": [
+        "Amazon"
+      ],
+      "image": "https://obrazki.elektroda.pl/5695976400_1675678006.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3955353.html",
+	  "product": "https://www.amazon.fr/gp/product/B07SPYB4TQ",
+      "command": ""
+    },
+    {
       "vendor": "Tuya",
       "bDetailed": "0",
       "name": "LSPA9 (W600) Power metering plug BL0937 version",
