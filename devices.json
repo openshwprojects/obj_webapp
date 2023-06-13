@@ -1629,6 +1629,30 @@
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
+	  "name": "MHCOZY Relay module (dry contact)",
+	  "model": "TYWRA-RF",
+	  "chip": "BK7231N",
+	  "board": "CB3S",
+	  "flags": "0",
+	  "keywords": [
+		"Dry contact",
+		"5V",
+		"USB",
+		"RF 433MHz"
+	  ],
+	  "pins": {
+		"6": "Btn;0",
+		"8": "LED_n;0",
+		"14": "Btn;0",
+		"24": "Rel;0"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/1802123700_1685975320.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3982190.html"
+	},
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
 	  "name": "AliExpres generic PIR Motion Movement Sensor",
 	  "model": "HW4008-W",
 	  "chip": "BK7231N",
