@@ -1059,6 +1059,36 @@
       "image": "",
       "wiki": "https://www.elektroda.com/rtvforum/topic3850712.html#19824097"
     },
+	{
+	  "vendor": "RTX",
+	  "bDetailed": "1",
+	  "name": "2gang relay module QS-WIFI-S04-2C WRS2",
+	  "model": "QS-WIFI-S04-2C",
+	  "chip": "BK7231N",
+	  "board": "CBU",
+	  "keywords": ["Allegro", "RTX", "2 gang", "two relays", "module", "mini switch","two switches"],
+	  "pins": {
+		"7": "WifiLED_n;0",
+		"8": "Btn_Tgl_All;0",
+		"9": "Rel;1",
+		"17": "Rel;2",
+		"24": "TglChanOnTgl;1",
+		"26": "TglChanOnTgl;2"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/6431927100_1679653819.png",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic3982614.html"
+	},
+    {
+      "vendor": "Blitzwolf",
+      "bDetailed": "1",
+      "name": "Blitzwolf BW-LT29 E27 Lamp",
+      "chip": "ESP8266",
+      "board": "",
+      "pins": {},
+      "image": "https://obrazki.elektroda.pl/6483602500_1686237083.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic3983154.html"
+    },
     {
       "vendor": "Blitzwolf",
       "bDetailed": "1",
