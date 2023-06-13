@@ -1626,6 +1626,30 @@
       "image": "https://obrazki.elektroda.pl/5659192700_1670838739.jpg",
       "wiki": "https://www.elektroda.pl/rtvforum/topic3941004.html"
     },
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "AliExpres generic PIR Motion Movement Sensor",
+	  "model": "HW4008-W",
+	  "chip": "BK7231N",
+	  "board": "CB3S",
+	  "flags": "1024",
+	  "keywords": [
+		"battery-powered",
+		"USB",
+		"5V",
+		"Aliexpress"
+	  ],
+	  "pins": {
+		"7": "DoorSnsrWSleep;2",
+		"8": "DoorSnsrWSleep;2",
+		"26": "PWM;1"
+	  },
+	  "command": "backlog dstime 10",
+	  "image": "https://obrazki.elektroda.pl/4563259300_1686203972.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3982613.html",
+	  "product":"https://www.aliexpress.com/item/4000785415902.html?spm=a2g0o.order_detail.order_detail_item.3.28fcf19cv5xMHt"
+	},
     {
       "vendor": "LSC",
       "bDetailed": "1",
