@@ -7,6 +7,7 @@
         "Reset scripts" will stop all script threads running (if you have started any) without stopping the device.
         When editing a file, use "Save, Reset (...), and run" file to test new scripts, it will restart scripting every time with a clear state.
         </p>
+		<p>You can access LittleFS HTML files by the following url: DEVICE_IP/api/lfs/FILENAME, for example: http://192.168.0.213/api/lfs/cfg.html . See <a href="https://www.elektroda.com/rtvforum/topic3971355.html">OBK/TASMOTA rest tutorial</a> for details</p>
         <div class="top">
             <button @click="backup(null, $event)">Read fsblock</button>
             <button @click="restore(null, $event)">Restore fsblock</button>
