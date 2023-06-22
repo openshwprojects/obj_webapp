@@ -526,6 +526,27 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3822484.html"
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Intelligent Spray System WD-01CE Pump",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "pins": {
+        "6": "Buzzer;1",
+        "8": "Btn;1",
+        "16": "Rel;1",
+        "20": "LED_n;1"
+      },
+      "keywords": [
+        "Water Pump",
+        "5V",
+        "USB",
+        ""
+      ],
+      "image": "https://obrazki.elektroda.pl/3357885600_1687268115.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3984948.html"
+    },
+    {
       "vendor": "Lepro",
       "bDetailed": "0",
       "name": "Lepro LE Wifi Smart LED Bulb A19 E26 Model No. 901003-US SM2135",
