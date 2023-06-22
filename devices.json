@@ -2210,6 +2210,23 @@
       "image": "https://obrazki.elektroda.pl/2129193900_1670533906.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3940178.html"
     },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Universal IR+RF WIFI REMOTE Control Smatrul PCB CODE S11-SH4-CBU-V2.4",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "pins": {},
+      "command": "",
+      "keywords": [
+        "RF",
+        "IR",
+        "5V",
+        "USB"
+      ],
+      "image": "https://obrazki.elektroda.pl/1277391400_1686839633.webp",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3983995.html"
+    },
 	{
 	  "vendor": "Generic",
 	  "bDetailed": "0",
