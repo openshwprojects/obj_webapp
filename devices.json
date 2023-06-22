@@ -397,6 +397,24 @@
     },
     {
       "vendor": "TreatLife",
+      "bDetailed": "1",
+      "name": "Treatlife Intertek DS03 Fan/Light Dimmer Tutorial",
+      "chip": "BK7231T",
+      "board": "WB3S",
+      "pins": {},
+      "keywords": [
+        "TuyaMCU",
+        "dimmer",
+        "",
+        "",
+        "",
+		"Nuvoton M031LC2AE"
+      ],
+      "image": "https://obrazki.elektroda.pl/5416648300_1687136924.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3984791.html"
+    },
+    {
+      "vendor": "TreatLife",
       "bDetailed": "0",
       "name": "Treatlife Intertek DS03 Fan/Light Dimmer Switch 2AFNL-TYWE3S",
       "chip": "BK7231T",
