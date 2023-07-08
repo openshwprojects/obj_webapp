@@ -2329,7 +2329,7 @@
         "26": "Btn;0",
         "28": "LED;0"
       },
-      "command": "backlog startDriver BL0942;",
+      "command": "",
       "keywords": [
         "BL0942",
         "DIN rail",
