@@ -160,6 +160,22 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3949764.html"
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "S1-B-WT Triac Dimmer with RF",
+      "chip": "BK7231T",
+      "board": "WB2S",
+      "pins": {},
+      "keywords": [
+        "UK LED lighting specialist",
+        "RF",
+        "433",
+        "TuyaMCU"
+      ],
+      "image": "https://obrazki.elektroda.pl/3319546200_1689410252_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3988755.html"
+    },
+    {
       "vendor": "eBelong",
       "bDetailed": "0",
       "name": "ERC2202  dual smart light controller",
