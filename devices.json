@@ -160,6 +160,22 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3949764.html"
     },
     {
+      "vendor": "eBelong",
+      "bDetailed": "0",
+      "name": "ERC2202  dual smart light controller",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "pins": {},
+      "keywords": [
+        "ERC2202",
+        "two relays",
+        "2 gang module",
+        "TuyaMCU"
+      ],
+      "image": "https://obrazki.elektroda.pl/2945161600_1689167676.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3989088.html"
+    },
+    {
       "vendor": "HomeMate",
       "bDetailed": "1",
       "name": "HomeMate Wi-Fi + Bluetooth Smart 4 Gang Touch Switch",
