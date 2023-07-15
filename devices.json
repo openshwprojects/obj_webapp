@@ -162,6 +162,42 @@
     {
       "vendor": "Tuya",
       "bDetailed": "0",
+      "name": "YSS102 (Junlit) Single Pole Switch - BK7231T version",
+      "chip": "BK7231T",
+      "board": "WB3S",
+      "pins": {
+        "6": "Rel;1",
+        "1": "Btn;1",
+        "14": "WifiLED_n;1"
+      },
+      "keywords": [
+        "1 gang",
+        "light switch"
+      ],
+      "image": "https://obrazki.elektroda.pl/2125677500_1688154172.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3986823.html"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "YSS102 (Junlit) Single Pole Switch - BK7231N version",
+      "chip": "BK7231N",
+      "board": "onboard",
+      "pins": {
+        "6": "Rel;1",
+        "9": "Btn;1",
+        "7": "WifiLED_n;1"
+      },
+      "keywords": [
+        "1 gang",
+        "light switch"
+      ],
+      "image": "https://obrazki.elektroda.pl/2125677500_1688154172.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3986823.html"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
       "name": "S1-B-WT Triac Dimmer with RF",
       "chip": "BK7231T",
       "board": "WB2S",
