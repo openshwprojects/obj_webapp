@@ -1854,6 +1854,26 @@
 	},
 	{
 	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "Power Metering Relay  MS-101 16A SWT89",
+	  "model": "MS-101 16A SWT89",
+	  "chip": "BK7231T",
+	  "board": "WB2S",
+	  "keywords": [],
+	  "pins": {
+		"6": "WifiLED_n;0",
+		"7": "BL0937CF;0",
+		"8": "BL0937CF1;0",
+		"10": "Btn;1",
+		"24": "BL0937SEL;0",
+		"26": "Rel;1"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/1596642900_1684671114.jpg",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic3989224.html"
+	},
+	{
+	  "vendor": "Tuya",
 	  "bDetailed": "1",
 	  "name": "Generic PIR Sensor with Deep Sleep",
 	  "model": "",
