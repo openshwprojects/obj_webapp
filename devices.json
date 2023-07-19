@@ -4649,7 +4649,7 @@
     },
     {
       "vendor": "eWeLink",
-      "bDetailed": "0",
+      "bDetailed": "1",
       "name": "ECN SN SE831L Smart Garage Door Controller USB powered",
       "model": "SE831L",
       "chip": "ESP8285",
