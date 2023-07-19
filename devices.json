@@ -1852,6 +1852,25 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3982613.html",
 	  "product":"https://www.aliexpress.com/item/4000785415902.html?spm=a2g0o.order_detail.order_detail_item.3.28fcf19cv5xMHt"
 	},
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "1",
+	  "name": "Generic PIR Sensor with Deep Sleep",
+	  "model": "",
+	  "chip": "BK7231N",
+	  "board": "CBU",
+	  "keywords": [],
+	  "pins": {
+		"20": "Btn;0",
+		"16": "DoorSnsrWSleep;0",
+		"26": "LED;0",
+		"17": "BAT_Relay;0",
+		"23": "BAT_ADC;0"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/4151166400_1688738201.jpg",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic3988602.html"
+	},
     {
       "vendor": "LSC",
       "bDetailed": "1",
