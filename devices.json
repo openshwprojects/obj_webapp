@@ -4648,6 +4648,22 @@
       "product": ""
     },
     {
+      "vendor": "eWeLink",
+      "bDetailed": "0",
+      "name": "ECN SN SE831L Smart Garage Door Controller USB powered",
+      "model": "SE831L",
+      "chip": "ESP8285",
+      "board": "on PCB",
+      "pins": {
+	  },
+      "keywords": [
+	  "Sonoff","eWeLink","5V","USB-powered","8051 MCU","STC 15W104 H41U58 2241.XA"
+      ],
+      "image": "https://obrazki.elektroda.pl/6842365100_1682085604.png",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic3987060.html",
+      "product": ""
+    },
+    {
       "vendor": "Smart Life",
       "bDetailed": "0",
       "name": "IR Blaster S06Pro WB3S ",
