@@ -4464,6 +4464,24 @@
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
+	  "name": "DS-101JL 1 Gang switch",
+	  "model": "DS-101JL",
+	  "chip": "BK7231N",
+	  "board": "CB3S",
+	  "keywords": [],
+	  "pins": {
+		"6": "Rel;1",
+		"20": "Btn;1",
+		"22": "WifiLED_n;0",
+		"26": "LED;1"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/1281502600_1684234595.png",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic3988310.html"
+	},
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
 	  "name": "DS-101JL 3-Gang No Neutral Smart Switch",
 	  "model": "DS-101JL",
 	  "chip": "BK7231T",
