@@ -1870,7 +1870,7 @@
 	  },
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/1596642900_1684671114.jpg",
-	  "wiki": "https://www.elektroda.pl/rtvforum/topic3989224.html"
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3989224.html"
 	},
 	{
 	  "vendor": "Tuya",
@@ -1889,7 +1889,7 @@
 	  },
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/4151166400_1688738201.jpg",
-	  "wiki": "https://www.elektroda.pl/rtvforum/topic3988602.html"
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3988602.html"
 	},
     {
       "vendor": "LSC",
@@ -4477,7 +4477,7 @@
 	  },
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/1281502600_1684234595.png",
-	  "wiki": "https://www.elektroda.pl/rtvforum/topic3988310.html"
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3988310.html"
 	},
 	{
 	  "vendor": "Tuya",
@@ -4660,7 +4660,7 @@
 	  "Sonoff","eWeLink","5V","USB-powered","8051 MCU","STC 15W104 H41U58 2241.XA"
       ],
       "image": "https://obrazki.elektroda.pl/6842365100_1682085604.png",
-      "wiki": "https://www.elektroda.pl/rtvforum/topic3987060.html",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3987060.html",
       "product": ""
     },
     {
