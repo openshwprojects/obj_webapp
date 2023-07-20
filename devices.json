@@ -4463,6 +4463,21 @@
     },
 	{
 	  "vendor": "Tuya",
+	  "bDetailed": "1",
+	  "name": "Tuya generic Radar, TuyaMCU with JYSJ_5807_A01 MD5G20",
+	  "model": "Tuya Radar",
+	  "chip": "W701-VA2-CG",
+	  "board": "WBR3",
+	  "keywords": ["Radar", "Leapmmw 5.8GHz Motion Detection"],
+	  "pins": {
+
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/5876657200_1688391246.png",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic3987582.html"
+	},
+	{
+	  "vendor": "Tuya",
 	  "bDetailed": "0",
 	  "name": "DS-101JL 1 Gang switch",
 	  "model": "DS-101JL",
