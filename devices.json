@@ -4462,6 +4462,29 @@
       "product": ""
     },
 	{
+	  "vendor": "Tongou",
+	  "bDetailed": "0",
+	  "name": "TO-Q-SY-JWT Switch and Meter for DIN Rail",
+	  "model": "TO-Q-SY-JWT",
+	  "chip": "BK7231N",
+	  "board": "TODO",
+	  "flags": "33555456",
+	  "keywords": [
+		"Power metering",
+		"DIN rail"
+	  ],
+	  "pins": {
+		"9": "LED_n;1",
+		"15": "WifiLED_n;0",
+		"17": "Btn;1",
+		"24": "Rel;1",
+		"26": "Rel_n;1"
+	  },
+	  "command": "backlog startDriver BL0942; startDriver NTP",
+	  "image": "https://obrazki.elektroda.pl/9488569200_1689981200.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3990985.html"
+	},
+	{
 	  "vendor": "Tuya",
 	  "bDetailed": "1",
 	  "name": "Tuya generic Radar, TuyaMCU with JYSJ_5807_A01 MD5G20",
