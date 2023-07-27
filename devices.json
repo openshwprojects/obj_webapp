@@ -903,6 +903,24 @@
 	  "image": "https://obrazki.elektroda.pl/3390467000_1690393472.png",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3991520.html"
 	},
+	{
+	  "vendor": "OpenLit",
+	  "bDetailed": "0",
+	  "name": "OpenLit WF-M4 RGB LED controller",
+	  "model": "WF-M4",
+	  "chip": "ESP8266",
+	  "board": "LM1",
+	  "keywords": [
+		"similiar to WF-M2",
+		"OPURU_MINI_V20 2007-11-23",
+		"A09T-AO3400"
+	  ],
+	  "pins": {
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/8766402500_1690127290.jpg",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic3992073.html"
+	},
     {
       "vendor": "LSC",
       "bDetailed": "1",
