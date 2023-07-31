@@ -881,6 +881,46 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3914634.html",
       "flag": 8
     },
+	{
+	  "vendor": "Sylvania",
+	  "bDetailed": "0",
+	  "name": "Sylvania Smart+ WiFi Plug",
+	  "model": "Model Number: 75822 Menards",
+	  "chip": "BK7231T",
+	  "board": "WB2S",
+	  "flags": "1024",
+	  "keywords": [
+		"120V",
+		"SKU: 3581089",
+		"4 outlets pack"
+	  ],
+	  "pins": {
+		"6": "LED_n;1",
+		"11": "Btn;1",
+		"26": "Rel;1"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/3390467000_1690393472.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3991520.html"
+	},
+	{
+	  "vendor": "OpenLit",
+	  "bDetailed": "0",
+	  "name": "OpenLit WF-M4 RGB LED controller",
+	  "model": "WF-M4",
+	  "chip": "ESP8266",
+	  "board": "LM1",
+	  "keywords": [
+		"similiar to WF-M2",
+		"OPURU_MINI_V20 2007-11-23",
+		"A09T-AO3400"
+	  ],
+	  "pins": {
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/8766402500_1690127290.jpg",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic3992073.html"
+	},
     {
       "vendor": "LSC",
       "bDetailed": "1",
