@@ -1035,6 +1035,23 @@
 	  "image": "https://obrazki.elektroda.pl/2795045500_1678464707.jpg",
 	  "wiki": "https://www.elektroda.pl/rtvforum/topic3978325.html"
 	},
+	{
+	  "vendor": "SmartLED",
+	  "bDetailed": "1",
+	  "name": "8044 1 Gang Smart Switch",
+	  "model": "1xCLY701-1G 8044",
+	  "chip": "BK7231N",
+	  "board": "CBU",
+	  "keywords": ["Allegro","SmartLED"],
+	  "pins": {
+		"20": "Btn;1",
+		"22": "WifiLED_n;0",
+		"28": "Rel;1"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/7678902700_1685888381.png",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic3992800.html"
+	},
     {
       "vendor": "Merkury",
       "bDetailed": "1",
