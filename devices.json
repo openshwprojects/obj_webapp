@@ -3922,6 +3922,22 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3966365.html"
 	},
 	{
+	  "vendor": "Avatar",
+	  "bDetailed": "0",
+	  "name": "ALS08L-B22 Smart RGBCW Bulb",
+	  "model": "ALS08L-B22",
+	  "chip": "BK7231N",
+	  "board": "CBLC5",
+	  "keywords": [],
+	  "pins": {
+		"24": "SM2135DAT;0",
+		"26": "SM2135CLK;0"
+	  },
+	  "command": "backlog LED_Map 2 1 0 4 3",
+	  "image": "https://obrazki.elektroda.pl/7696747300_1690815160.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3992920.html"
+	},
+	{
 	  "vendor": "Mirabella",
 	  "bDetailed": "0",
 	  "name": "Genio Smart Plug with USB A and C",
