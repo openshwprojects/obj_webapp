@@ -3922,6 +3922,30 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3966365.html"
 	},
 	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "Lumary 5/6 Inch Downlight",
+	  "model": "US-DL6A-4",
+	  "chip": "BK7231N",
+	  "board": "CB2L",
+	  "flags": "1024",
+	  "keywords": [
+		"KP18058esp",
+		"I2C",
+		"4 pack",
+		"110V",
+		"US-DL6A-4",
+		"B07WHBZ6T7"
+	  ],
+	  "pins": {
+		"7": "KP18058_CLK;0",
+		"8": "KP18058_DAT;0"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/4654591700_1687301859.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3985037.html"
+	},
+	{
 	  "vendor": "Avatar",
 	  "bDetailed": "0",
 	  "name": "ALS08L-B22 Smart RGBCW Bulb",
