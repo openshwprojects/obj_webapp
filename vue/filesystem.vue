@@ -352,7 +352,7 @@
         openInBrowser(cb) {   
             if (this.editname) {
                 let url = window.device+'/api/lfs'+this.editname;
-                alert("Will try to open - url is "+url);
+              //  alert("Will try to open - url is "+url);
                 // open URL in new window
                 window.open(url, '_blank');
             } else {
