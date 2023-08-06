@@ -42,6 +42,7 @@
                     <button @click="save(startScript_simple)">Save, Run file as script thread</button>
                     <button @click="save(startScript_firstReset)">Save, Reset SVM and run file as script thread</button>         
                     <button @click="deleteFile(null, $event)">Delete</button>
+                    <button @click="openInBrowser(null, $event)">Open in Browser</button>
                     <textarea v-model="edittext" rows="40" cols="100" style="height:90%"></textarea>
                 </div>
             </div>
@@ -344,6 +345,16 @@
                          if (cb) cb();
                          readCallback();
                     })
+            } else {
+                alert("Please begin editing some file first. Just click the name on list to edit.");
+            }
+        },
+        openInBrowser(cb) {   
+            if (this.editname) {
+                let url = window.device+'/api/lfs'+this.editname;
+                alert("Will try to open - url is "+url);
+                // open URL in new window
+                window.open(url, '_blank');
             } else {
                 alert("Please begin editing some file first. Just click the name on list to edit.");
             }
