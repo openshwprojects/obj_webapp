@@ -3922,6 +3922,44 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3966365.html"
 	},
 	{
+	  "vendor": "Aubess",
+	  "bDetailed": "0",
+	  "name": "Door Sensor (no TuyaMCU) guide for DeepSleep",
+	  "model": "",
+	  "chip": "BK7231N",
+	  "board": "CBU",
+	  "flags": "1",
+	  "keywords": [
+	  ],
+	  "pins": {
+		"16": "DoorSnsrWSleep;0",
+		"17": "BAT_Relay;1",
+		"20": "Btn;2",
+		"23": "BAT_ADC;1",
+		"26": "WifiLED_n;0"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/1324893100_1691349663.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3994294.html"
+	},
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "(Single color) DW LED Light Strip Wireless Remote Controller",
+	  "model": "Smart Life LED Controller",
+	  "chip": "BK7231N",
+	  "board": "CB3S",
+	  "flags": "0",
+	  "keywords": [
+	  ],
+	  "pins": {
+		"26": "PWM;0"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/6492722600_1691256384.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20682390#20682390"
+	},
+	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
 	  "name": "Lumary 5/6 Inch Downlight",
@@ -4002,6 +4040,29 @@
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/8714341200_1679386306_thumb.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3966148.html"
+	},
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "Connectify Smart WiFi Remote Control Automatic Shut Off Valve for Gas Stoves/Water Pipes",
+	  "model": "SM-AW713",
+	  "chip": "BK7231T",
+	  "board": "WB3S",
+	  "flags": "1024",
+	  "keywords": [
+		"B08GG7H5CP",
+		"TODO",
+		"TODO"
+	  ],
+	  "pins": {
+		"1": "WifiLED;0",
+		"6": "Rel;1",
+		"9": "LED;1",
+		"24": "Btn;1"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/9786473100_1691368350.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20684106#20684106"
 	},
 	{
 		"vendor": "Tuya",
