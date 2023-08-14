@@ -40,6 +40,28 @@
       "image": "https://obrazki.elektroda.pl/2852136700_1665152530.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3924817.html"
     },
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "Elivco EU Smart Socket 16A (BK version)",
+	  "model": "RMC004",
+	  "chip": "BK7231N",
+	  "board": "CB2S",
+	  "flags": "1024",
+	  "keywords": [
+	  ],
+	  "pins": {
+		"6": "BL0937CF1;0",
+		"7": "BL0937CF;0",
+		"8": "LED_n;1",
+		"10": "Btn;1",
+		"24": "BL0937SEL;0",
+		"26": "Rel;1"
+	  },
+	  "command": "PowerSave 1",
+	  "image": "https://obrazki.elektroda.pl/8298087300_1692028221.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20693371#20693371"
+	},
     {
       "vendor": "Genio",
       "bDetailed": "1",
