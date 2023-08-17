@@ -7177,6 +7177,31 @@
     "command": "",
     "image": "https://obrazki.elektroda.pl/5947717300_1685890710.jpg",
     "wiki": "https://www.elektroda.com/rtvforum/topic3982011.html"
-  }
+  },
+    {
+      "vendor": "Connex Connect",
+      "bDetailed": "0",
+      "name": "Smart WiFi Switch 10A",
+      "model": "CC-P2000",
+      "chip": "BK7231T",
+      "board": "WB2S",
+      "product": "https://connexconnect.com/product/smart-wifi-switch-10a/",
+      "flags": "0",
+      "keywords": [
+        "WIFI401-N-V1.2",
+        "OB2222MCP",
+        "AMS1117",
+        "YX202-S-105D"
+      ],
+      "pins": {
+        "6": "LED_n;1",
+        "7": "Rel;1",
+        "8": "Btn;1",
+        "26": "WifiLED_n;0"
+      },
+      "command": "backlog PowerSave 1;",
+      "image": "https://obrazki.elektroda.pl/7322999100_1692195471.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3995489.html"
+    }
   ]
 }
