@@ -6695,7 +6695,8 @@
         "LED strip",
 		"20_cp6a71.1",
 		"SC95F8615",
-        "LED Controller"
+        "LED Controller",
+		"baud 115200"
       ],
       "pins": {
 
