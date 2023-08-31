@@ -1826,6 +1826,26 @@
 		"wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20555763#20555763"
 	},
     {
+      "vendor": "Generic",
+      "bDetailed": "0",
+      "name": "WiFi Smart Switch KR2302 20220515",
+      "chip": "BL602",
+      "board": "",
+	  "pins": {
+		"2": "TglChanOnTgl;0",
+		"3": "Rel;0",
+		"20": "LED_n;0",
+		"22": "Btn;0"
+	  },
+      "keywords": [
+        "relay",
+        "module",
+        "switch"
+      ],
+      "image": "https://obrazki.elektroda.pl/3433866200_1677141027.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3959678.html"
+    },
+    {
       "vendor": "Sonoff",
       "bDetailed": "1",
       "name": "B05-BL-A60 RGBCW E27 Bulb",
