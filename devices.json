@@ -1882,7 +1882,7 @@
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
 	  "name": "DETA Grid Connect Smart Outdoor Double Powerpoint",
-	  "model": "6294HA,
+	  "model": "6294HA",
 	  "chip": "BK7231T",
 	  "board": "WB2S",
 	  "flags": "1088",
@@ -4717,6 +4717,28 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3928677.html",
       "product": ""
     },
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "USB Smart Adapter HC-S050-WIFI",
+	  "model": "HC-S050-WIFI"",
+	  "chip": "BK7231N",
+	  "board": "TODO",
+	  "flags": "1024",
+	  "keywords": [
+		"5V",
+		"MOSFET"
+	  ],
+	  "pins": {
+		"6": "WifiLED_n;0",
+		"7": "Rel;1",
+		"8": "Btn_Tgl_All;0",
+		"24": "Btn;1"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/5839545100_1692292748_thumb.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20697534#20697534"
+	},
 	{
 	  "vendor": "Tongou",
 	  "bDetailed": "0",
