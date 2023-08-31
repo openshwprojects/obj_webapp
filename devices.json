@@ -1862,6 +1862,29 @@
 	  "image": "https://obrazki.elektroda.pl/6887933500_1693450644.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3999381.html"
 	},
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "DETA Grid Connect Smart Outdoor Double Powerpoint",
+	  "model": "6294HA,
+	  "chip": "BK7231T",
+	  "board": "WB2S",
+	  "flags": "1088",
+	  "keywords": [
+		"DETA",
+		"Outdoor Sockets"
+	  ],
+	  "pins": {
+		"6": "Rel;1",
+		"7": "Btn;1",
+		"8": "WifiLED_n;2",
+		"24": "Btn;2",
+		"26": "Rel;2"
+	  },
+	  "command": "backlog startDriver CSE7766; SetupEnergyStats 1 30 120 0",
+	  "image": "https://obrazki.elektroda.pl/7831152900_1693482683.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20716120#20716120"
+	},
     {
       "vendor": "Sonoff",
       "bDetailed": "1",
