@@ -6681,6 +6681,31 @@
       ]
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "WT5 Multi-Channel LED Control with RF Remote",
+      "model": "WT5",
+      "chip": "BK7231T",
+      "board": "WB3S",
+      "flags": "0",
+      "keywords": [
+        "5in1 Dimmer",
+        "DC12V 24V",
+        "TuyaMCU",
+        "LED strip",
+		"20_cp6a71.1",
+		"SC95F8615",
+        "LED Controller"
+      ],
+      "pins": {
+
+      },
+      "command": "",
+      "product": "https://www.aliexpress.com/item/1005003394879757.html",
+      "image": "https://obrazki.elektroda.pl/8095607400_1693500251.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3994996.html"
+    },
+    {
       "vendor": "FEIT",
       "bDetailed": "0",
       "name": "Smart LED Light Strip",
