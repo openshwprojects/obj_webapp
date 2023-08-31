@@ -4721,7 +4721,7 @@
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
 	  "name": "USB Smart Adapter HC-S050-WIFI",
-	  "model": "HC-S050-WIFI"",
+	  "model": "HC-S050-WIFI",
 	  "chip": "BK7231N",
 	  "board": "TODO",
 	  "flags": "1024",
