@@ -1845,6 +1845,23 @@
       "image": "https://obrazki.elektroda.pl/3433866200_1677141027.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3959678.html"
     },
+	{
+	  "vendor": "Kogan",
+	  "bDetailed": "0",
+	  "name": "Kogan Smart Plug with USB ports & Energy Meter",
+	  "model": "KASPUSBAC1A",
+	  "chip": "BK7231N",
+	  "board": "CB2S",
+	  "keywords": ["USB", "power metering", "BL0942"],
+	  "pins": {
+		"6": "WifiLED_n;0",
+		"7": "Btn;1",
+		"26": "Rel;1"
+	  },
+	  "command": "startDriver BL0942",
+	  "image": "https://obrazki.elektroda.pl/6887933500_1693450644.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3999381.html"
+	},
     {
       "vendor": "Sonoff",
       "bDetailed": "1",
