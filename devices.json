@@ -5697,6 +5697,19 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3933025.html"
     },
     {
+      "vendor": "TOMZN",
+      "bDetailed": "0",
+      "name": "TOMPD-63-LW Wifi Multi Function (DIN)",
+      "model": "TOMPD-63-LW",
+      "chip": "BK7231T",
+      "board": "WB3S",
+      "pins": {
+      },
+	  "tags": ["TuyaMCU","HC89F0541","2242R1","AA5062161","baud 9600","din rail"],
+      "image": "https://obrazki.elektroda.pl/9200142600_1692031367.png",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20517656#20517656"
+    },
+    {
       "vendor": "LSC",
       "bDetailed": "0",
       "name": "Smart Led Light Strip RGBCW 3000342 alternate pinout IR recv and button",
