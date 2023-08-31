@@ -1464,6 +1464,22 @@
     {
       "vendor": "Tuya",
       "bDetailed": "0",
+      "name": "WiFi Smoke Detector with CX32L003F8 MCU",
+      "chip": "BK7231N",
+      "board": "CB3S",
+      "pins": {
+        
+      },
+      "keywords": [
+        "TuyaMCU",
+        "CX32L003F8"
+      ],
+      "image": "https://obrazki.elektroda.pl/2327546900_1691809956.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3995347.html"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
       "name": "WiFi Smoke Detector",
       "chip": "BK7231N",
       "board": "CBU",
