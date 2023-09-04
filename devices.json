@@ -7339,6 +7339,30 @@
       "command": "backlog PowerSave 1;",
       "image": "https://obrazki.elektroda.pl/7322999100_1692195471.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3995489.html"
+    },
+    {
+      "vendor": "Globe Electric",
+      "bDetailed": "1",
+      "name": "PAR20 WiFi RGBCW Bulb",
+      "model": "34869",
+      "chip": "BK7231N",
+      "board": "CBLC5",
+      "flags": "5632",
+      "keywords": [
+        "34869",
+        "Globe Electric",
+        "CBLC5",
+        "PAR20",
+        "Light",
+        "LED"
+      ],
+      "pins": {
+        "24": "SM2135DAT;0",
+        "26": "SM2135CLK;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/6297038600_1693845478.png",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20721244#20721244"
     }
   ]
 }
