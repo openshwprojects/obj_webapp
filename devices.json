@@ -7404,7 +7404,8 @@
         "CBLC5",
         "PAR20",
         "Light",
-        "LED"
+        "LED",
+		"GB34869"
       ],
       "pins": {
         "24": "SM2135DAT;0",
