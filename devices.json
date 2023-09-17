@@ -2109,6 +2109,27 @@
       "image": "https://obrazki.elektroda.pl/7448941600_1676914280.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20450224#20450224"
     },
+	{
+	  "vendor": "Calex",
+	  "bDetailed": "0",
+	  "name": "Calex Powerplug EU Plug (429198)",
+	  "chip": "BK7231T",
+	  "board": "WB2S",
+	  "pins": {
+		"6": "Btn;1",
+		"7": "LED_n;1",
+		"8": "WifiLED_n;1",
+		"24": "Rel;1"
+	  },
+	  "command": "",
+	  "keywords": [
+		"Calex",
+		"429198",
+		"EU"
+	  ],
+	  "image": "https://obrazki.elektroda.pl/6645277400_1694771451_thumb.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4002300.html"
+	},
     {
       "vendor": "LSC",
       "bDetailed": "0",
