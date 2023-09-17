@@ -2110,6 +2110,35 @@
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20450224#20450224"
     },
 	{
+	  "vendor": "Generic",
+	  "bDetailed": "1",
+	  "name": "SCS86-03AJAI Smart Curtain Switch",
+	  "model": "SCS86-03AJAI",
+	  "chip": "BK7231T",
+	  "board": "WB3S",
+	  "flags": "1024",
+	  "keywords": [
+		"https://www.aliexpress.com/item/1005001698604457.html",
+		"https://www.ebay.de/itm/285467516282",
+		"https://www.ebay.de/itm/355006643266"
+	  ],
+	  "pins": {
+		"0": "Rel;3",
+		"1": "WifiLED_n;0",
+		"6": "Rel;1",
+		"7": "Rel;3",
+		"8": "Btn;3",
+		"10": "Btn;2",
+		"11": "LED;4",
+		"14": "LED;1",
+		"24": "Btn;1",
+		"26": "LED;2"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/7035845600_1694622383.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4001984.html"
+	},
+	{
 	  "vendor": "Calex",
 	  "bDetailed": "0",
 	  "name": "Calex Powerplug EU Plug (429198)",
