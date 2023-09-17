@@ -6832,6 +6832,27 @@
       "image": "https://obrazki.elektroda.pl/7879920800_1678042069.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20474832#20474832"
     },
+	  {
+		"vendor": "Anko",
+		"bDetailed": "0",
+		"name": "Sunset Lamp (I004055) RGB LED lamp controller",
+		"model": "I004055",
+		"chip": "BK7231N",
+		"board": "",
+		"flags": "0",
+		"keywords": [
+		  "LED"
+		],
+		"pins": {
+		  "20": "Btn_SmartLed;1",
+		  "6": "PWM;1",
+		  "7": "PWM;2",
+		  "8": "PWM;3"
+		},
+		"command": "",
+		"image": "https://obrazki.elektroda.pl/3815747000_1693207546.png",
+		"wiki": "https://www.elektroda.com/rtvforum/topic3998715.html"
+	  },
 	{
 	  "vendor": "Feit",
 	  "bDetailed": "0",
