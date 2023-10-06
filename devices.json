@@ -5504,6 +5504,29 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic4005967.html",
 	  "product":"https://www.amazon.de/dp/B0C3M5CQKS/ref=twister_B0C3M3XNMZ?_encoding=UTF8&th=1"
     },
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "1",
+	  "name": "Tuya Generic Water Pump",
+	  "model": "WIFI-V1.11",
+	  "chip": "BK7231N",
+	  "board": "WIFI-V1.11",
+	  "flags": "1024",
+	  "keywords": [
+		"CB3S",
+		"BK7231N",
+		"water",
+		"pump"
+	  ],
+	  "pins": {
+		"7": "Rel;1",
+		"8": "WifiLED_n;0",
+		"14": "Btn;2"
+	  },
+	  "command": "backlog AddEventHandler OnClick 14 ToggleChannel 1; AddEventHandler OnHoldStart 14 backlog OpenAP",
+	  "image": "https://obrazki.elektroda.pl/2842963700_1694381412.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20728797#20728797"
+	},
     {
       "vendor": "Generic",
       "bDetailed": "1",
