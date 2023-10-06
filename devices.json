@@ -5506,6 +5506,30 @@
     },
 	{
 	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "Andowl Q-DL52 Tuya Smart 63Amp Wifi Circuit Breaker ",
+	  "model": "Q-DL52",
+	  "chip": "BK7231N",
+	  "board": "CBU",
+	  "flags": "0",
+	  "keywords": [
+		"10006258",
+		"din rail",
+		"electromannsa"
+	  ],
+	  "pins": {
+		"15": "WifiLED_n;0",
+		"17": "Btn;1",
+		"24": "Rel;1",
+		"26": "Rel_n;1"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/7846055800_1696331560.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4005835.html",
+	  "product":"https://electromannsa.co.za/product/andowl-q-dl52-tuya-smart-63amp-wifi-circuit-breaker/"
+	},
+	{
+	  "vendor": "Tuya",
 	  "bDetailed": "1",
 	  "name": "Tuya Generic Water Pump",
 	  "model": "WIFI-V1.11",
