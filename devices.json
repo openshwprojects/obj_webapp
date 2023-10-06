@@ -7213,6 +7213,25 @@
       "image": "https://obrazki.elektroda.pl/5743401700_1680463883.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3969247.html"
     },
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "1",
+	  "name": "Wall Switch 2 Gang 8046 SmartLED",
+	  "model": "2xCLY701-2G (8046)",
+	  "chip": "BK7231N",
+	  "board": "CBU",
+	  "keywords": ["Allegro", "2 gang", "BP2525"],
+	  "pins": {
+		"9": "Rel;2",
+		"16": "Btn;2",
+		"20": "Btn;1",
+		"22": "WifiLED_n;0",
+		"28": "Rel;1"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/8627783500_1690777324.png",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic4001860.html"
+	},
     {
       "vendor": "Connect",
       "bDetailed": "1",
