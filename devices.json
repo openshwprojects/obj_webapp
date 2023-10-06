@@ -5536,6 +5536,20 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3933033.html"
     },
     {
+      "vendor": "Moes",
+      "bDetailed": "0",
+      "name": "Smart LED Bulb WB-TD5-RWW-GU10-MS (BP5758)",
+      "model": "WB-TD5-RWW-GU10-MS",
+      "chip": "BK7231N",
+      "board": "CBLC5",
+      "pins": {
+        "24": "BP5758_DAT;1",
+        "26": "BP5758_CLK;1"
+      },
+      "image": "https://obrazki.elektroda.pl/5455138600_1676893052.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3958962.html"
+    },
+    {
       "vendor": "Tuya",
       "bDetailed": "1",
       "name": "Tuya E14 Lamp RGB+CW+WW - 9w [Belon BL2028N] (BK7231N) ",
