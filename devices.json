@@ -1007,6 +1007,22 @@
     {
       "vendor": "Aigostar",
       "bDetailed": "1",
+      "name": "Aigostar Smart LED 600x600x25 CCT 3000-6500K ",
+      "chip": "EMW3071",
+      "board": "EMW3071",
+      "pins": {
+      },
+      "keywords": [
+        "YL42800-AK51 (WiFi)",
+		"plafon",
+		"Allegro"
+      ],
+      "image": "https://obrazki.elektroda.pl/6612415200_1690775827.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic3999998.html"
+    },
+    {
+      "vendor": "Aigostar",
+      "bDetailed": "1",
       "name": "Aigostar Smart 18872 18W RGB+CCT",
       "chip": "EMW3072",
       "board": "EMW3072",
