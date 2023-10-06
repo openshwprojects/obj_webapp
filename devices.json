@@ -4773,7 +4773,7 @@
 	  "name": "USB Smart Adapter HC-S050-WIFI",
 	  "model": "HC-S050-WIFI",
 	  "chip": "BK7231N",
-	  "board": "TODO",
+	  "board": "on PCB",
 	  "flags": "1024",
 	  "keywords": [
 		"5V",
