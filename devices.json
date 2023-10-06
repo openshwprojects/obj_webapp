@@ -7572,6 +7572,30 @@
 	  "image": "https://obrazki.elektroda.pl/3658062900_1696423040.png",
 	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20754984"
 	},
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "WD-01ADE water pump with WiFi",
+	  "model": "WD-01ADE",
+	  "chip": "BK7231N",
+	  "board": "CBU",
+	  "flags": "1024",
+	  "keywords": [
+		"garden",
+		"JOEKOL",
+		"Irrigation"
+	  ],
+	  "pins": {
+		"7": "Btn;2",
+		"8": "Btn;1",
+		"14": "Rel;2",
+		"16": "Rel;1",
+		"20": "WifiLED;0"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/5341773600_1686167391.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3982582.html"
+	},
     {
       "vendor": "Globe Electric",
       "bDetailed": "1",
