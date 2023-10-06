@@ -5451,6 +5451,23 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3929601.html"
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Shawader 1 gang light touch switch",
+      "chip": "BK7231N",
+      "board": "CB3S",
+      "keywords": [
+        "switch"
+      ],
+      "pins": {
+        "10": "Btn;1",
+        "11": "LED_n;1",
+        "26": "Rel;1"
+      },
+      "image": "https://obrazki.elektroda.pl/5408146600_1696476359.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4006216.html"
+    },
+    {
       "vendor": "Generic",
       "bDetailed": "1",
       "name": "SmartPlug W600 WinnerMicro TC0025_TW02_PLUG_L1_P0",
