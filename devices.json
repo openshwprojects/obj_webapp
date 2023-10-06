@@ -5523,6 +5523,25 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3931229.html"
     },
     {
+      "vendor": "Crabtek",
+      "bDetailed": "0",
+      "name": "Smart LED Bulb A65 CCT 11W",
+      "chip": "BK7231N",
+      "board": "",
+      "pins": {
+        "7": "PWM;0",
+        "8": "PWM;1"
+      },
+      "command": "",
+      "keywords": [
+        "CCT",
+        "CW",
+        "white temperature"
+      ],
+      "image": "https://obrazki.elektroda.pl/9501159700_1696559269.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4006396.html"
+    },
+    {
       "vendor": "Neo LITE",
       "bDetailed": "1",
       "name": "6W RGBCCT E14 LED candle bulb (Immax Neo LITE) ",
