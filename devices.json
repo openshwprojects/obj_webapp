@@ -5468,6 +5468,23 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic4006216.html"
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Shawader Dimmer light touch switch",
+      "chip": "BK7231N",
+      "board": "CB3S",
+      "keywords": [
+        "dimmer",
+        "TuyaMCU",
+         "D07-TOUCH-V1.0_2022.9.3"
+      ],
+      "pins": {
+
+      },
+      "image": "https://obrazki.elektroda.pl/8023860200_1696476384.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4006216.html"
+    },
+    {
       "vendor": "Generic",
       "bDetailed": "1",
       "name": "SmartPlug W600 WinnerMicro TC0025_TW02_PLUG_L1_P0",
