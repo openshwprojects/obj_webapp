@@ -4213,6 +4213,23 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20684106#20684106"
 	},
 	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "SmartLED 8073 Jinvoo SM-AW713 Smart Valve",
+	  "model": "SM-AW713",
+	  "chip": "TYWE3S",
+	  "board": "ESP8266",
+	  "flags": "0",
+	  "keywords": [
+		"allegro"
+	  ],
+	  "pins": {
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/4272065400_1690979515.jpg",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic4005011.html"
+	},
+	{
 		"vendor": "Tuya",
 		"bDetailed": "0",
 		"name": "LgowithU Smart Water Valve/Steren Valvula Valve (SHOME-150) ",
