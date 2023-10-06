@@ -6966,6 +6966,69 @@
       "image": "https://obrazki.elektroda.pl/7879920800_1678042069.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20474832#20474832"
     },
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "Smart Life Intelligent WiFi IR Remote Control IRC02",
+	  "model": "IRC02",
+	  "chip": "BK7231N",
+	  "board": "CB3S",
+	  "flags": "4228096",
+	  "keywords": [
+		"TODO"
+	  ],
+	  "pins": {
+		"6": "Btn;1",
+		"7": "IRRecv;0",
+		"24": "WifiLED;0",
+		"26": "IRSend;0"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/9770801000_1693552721_thumb.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3999618.html"
+	},
+	{
+  "vendor": "Tuya",
+  "bDetailed": "0",
+  "name": "Smart Life Mini Universal IR Remote S18",
+  "model": "S18",
+  "chip": "BK7231N",
+  "board": "CB3S",
+  "flags": "4228096",
+  "keywords": [
+    "TODO"
+  ],
+  "pins": {
+    "6": "Btn;1",
+    "7": "IRRecv;0",
+    "8": "WifiLED;0",
+    "26": "IRSend;0"
+  },
+  "command": "",
+  "image": "https://obrazki.elektroda.pl/1876705700_1693552720_thumb.jpg",
+  "wiki": "https://www.elektroda.com/rtvforum/topic3999618.html"
+},
+{
+  "vendor": "Tuya",
+  "bDetailed": "0",
+  "name": "Smart Life Mini Universal IR Remote S06",
+  "model": "S06",
+  "chip": "BK7231T",
+  "board": "WB3S",
+  "flags": "4228096",
+  "keywords": [
+    "TODO"
+  ],
+  "pins": {
+    "6": "Btn;1",
+    "8": "IRRecv;0",
+    "9": "WifiLED;0",
+    "26": "IRSend;0"
+  },
+  "command": "",
+  "image": "https://obrazki.elektroda.pl/7172745100_1693552720_thumb.jpg",
+  "wiki": "https://www.elektroda.com/rtvforum/topic3999618.html"
+},
 	  {
 		"vendor": "Anko",
 		"bDetailed": "0",
