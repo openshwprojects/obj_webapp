@@ -5485,6 +5485,26 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic4006216.html"
     },
     {
+      "vendor": "Maxcio",
+      "bDetailed": "0",
+      "name": "WF-CS01 Wifi Shutter Controller",
+      "chip": "BK7231N",
+      "board": "CB3S",
+      "keywords": [
+        "rollers",
+        "TuyaMCU",
+         "shutters",
+		 "ASIN B0C3M5CQKS",
+		 "WFS-01"
+      ],
+      "pins": {
+
+      },
+      "image": "https://obrazki.elektroda.pl/8569159300_1696589900.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4005967.html",
+	  "product":"https://www.amazon.de/dp/B0C3M5CQKS/ref=twister_B0C3M3XNMZ?_encoding=UTF8&th=1"
+    },
+    {
       "vendor": "Generic",
       "bDetailed": "1",
       "name": "SmartPlug W600 WinnerMicro TC0025_TW02_PLUG_L1_P0",
