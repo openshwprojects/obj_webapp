@@ -6106,6 +6106,31 @@
       "image": "https://static.elektroda.pl/attach/msg1652874704-36669_1801977.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3925796.html"
     },
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "Modern/lfxbb Two Pack 14inch  35W 4000LM WiFi LED Flush Mount Ceiling Light + RGB Backlight",
+	  "model": "B08T75TY8K",
+	  "chip": "BK7231T",
+	  "board": "WB3S",
+	  "flags": "5120",
+	  "keywords": [
+		"amazon",
+		"B08T75TY8K",
+		"LFXBB"
+	  ],
+	  "pins": {
+		"6": "PWM;1",
+		"7": "PWM;4",
+		"8": "PWM;3",
+		"9": "PWM;2",
+		"24": "PWM;5"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/7629450400_1692287848.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3996449.html",
+	  "product":"https://www.amazon.com/Ceiling-Backlight-compatible-ambiance-ceiling/dp/B08T75TY8K"
+	},
     {
       "vendor": "Taloya",
       "bDetailed": "1",
