@@ -943,6 +943,27 @@
 	  "image": "https://obrazki.elektroda.pl/8766402500_1690127290.jpg",
 	  "wiki": "https://www.elektroda.pl/rtvforum/topic3992073.html"
 	},
+	{
+	  "vendor": "OpenLit",
+	  "bDetailed": "0",
+	  "name": "OpenLit RGB WS03 LED controller",
+	  "model": "WS03",
+	  "chip": "ESP8266",
+	  "board": "LM1",
+	  "keywords": [
+		"Allegro",
+		"Open-Lit",
+		"DC 12-24V",
+		"DTU 09N03S",
+		"WSP4888",
+		"74HC4050"
+	  ],
+	  "pins": {
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/5746502900_1690456997.jpg",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic4001659.html"
+	},
     {
       "vendor": "LSC",
       "bDetailed": "1",
