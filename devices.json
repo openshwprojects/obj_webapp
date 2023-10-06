@@ -5507,7 +5507,7 @@
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
-	  "name": "Andowl Q-DL52 Tuya Smart 63Amp Wifi Circuit Breaker ",
+	  "name": "Andowl Q-DL52 Tuya Smart 63Amp Wifi Circuit Breaker",
 	  "model": "Q-DL52",
 	  "chip": "BK7231N",
 	  "board": "CBU",
@@ -7545,6 +7545,33 @@
       "image": "https://obrazki.elektroda.pl/7322999100_1692195471.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3995489.html"
     },
+	{
+	  "vendor": "Dewenwils",
+	  "bDetailed": "0",
+	  "name": "200W Wi-Fi Low Voltage Transformer",
+	  "model": "TD-200-12WF-1 WiFi",
+	  "chip": "BK7231N",
+	  "board": "on PCB",
+	  "flags": "0",
+	  "keywords": [
+		"landscape",
+		"transformer",
+		"led"
+	  ],
+	  "pins": {
+		"6": "Rel;3",
+		"14": "Btn;3",
+		"15": "Btn;1",
+		"16": "Btn;2",
+		"20": "Rel;2",
+		"21": "Rel;1",
+		"23": "ADC;5",
+		"26": "WifiLED;4"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/3658062900_1696423040.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20754984"
+	},
     {
       "vendor": "Globe Electric",
       "bDetailed": "1",
