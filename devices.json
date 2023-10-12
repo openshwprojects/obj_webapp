@@ -4129,6 +4129,26 @@
 	},
 	{
 	  "vendor": "Tuya",
+	  "bDetailed": "1",
+	  "name": "Generic WiFi Temperature and Humidity sensor hygrometer TuyaMCU",
+	  "model": "",
+	  "chip": "BK7231N",
+	  "board": "CB3S",
+	  "flags": "0",
+	  "keywords": [
+		"TuyaMCU",
+		"battery powered",
+		"AliExpress",
+		"SHT30 "
+	  ],
+	  "pins": {
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/9488151600_1683048590.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3975583.html"
+	},
+	{
+	  "vendor": "Tuya",
 	  "bDetailed": "0",
 	  "name": "MINI Smart Switch",
 	  "model": "86-TDQ INNOV2",
