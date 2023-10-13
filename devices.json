@@ -1004,6 +1004,28 @@
       "image": "https://obrazki.elektroda.pl/1301171200_1673036209.png",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20372825"
     },
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "ONiOFF Wifi Smart Switch",
+	  "model": "AL-034A",
+	  "chip": "W600",
+	  "board": "T102 w600-v2.0",
+	  "flags": "1024",
+	  "keywords": [
+		"switch",
+		"relay",
+		"w600"
+	  ],
+	  "pins": {
+		"6": "Btn;1",
+		"14": "Rel;1",
+		"16": "LED_n;1"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/1434237000_1696851243.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20764156"
+	},
     {
       "vendor": "Aigostar",
       "bDetailed": "1",
