@@ -221,6 +221,14 @@ function processJSON_UserParamKeyStyle(js,user_param_key) {
         let baud = user_param_key["baud"];
         desc += "This device seems to be using UART at "+baud+", maybe it's TuyaMCU or BL0942?\n";
     }
+    if(user_param_key["buzzer_io"] != undefined) {
+        let buzzer_pin = user_param_key["buzzer_io"];
+        desc += "There is a buzzer on P"+buzzer_pin+"\n";
+    }
+    if(user_param_key["buzzer_pwm"] != undefined) {
+        let buzzer_f = user_param_key["buzzer_pwm"];
+        desc += "Buzzer frequency is "+buzzer_f+"Hz\n";
+    }
     let ele_rx = user_param_key.ele_rx;
     let ele_tx = user_param_key.ele_tx;
     if(user_param_key.ele_rx != undefined) {
