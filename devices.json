@@ -5214,6 +5214,23 @@
       "product": ""
     },
     {
+      "vendor": "Blitzwolf",
+      "bDetailed": "1",
+      "name": "smart socket BW-SHP10 (no metering)",
+      "model": "BW-SHP10",
+      "chip": "ESP8266",
+      "board": "",
+      "pins": {},
+      "keywords": [
+        "",
+        "",
+        ""
+      ],
+      "image": "https://obrazki.elektroda.pl/9378975700_1685889594.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic4008392.html",
+      "product": ""
+    },
+    {
       "vendor": "SmartLife",
       "bDetailed": "1",
       "name": "WF-DS01 Dimmer SmartLife Wall Switch",
