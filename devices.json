@@ -4128,6 +4128,30 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3994294.html"
 	},
 	{
+	  "vendor": "Suraielec",
+	  "bDetailed": "0",
+	  "name": "Low Voltage 200W Smart Wi-Fi Transformer",
+	  "model": "ULTW20B",
+	  "chip": "BK7231N",
+	  "board": "N/A",
+	  "flags": "0",
+	  "keywords": [
+		"landscape",
+		"transformer",
+		"led"
+	  ],
+	  "pins": {
+		"6": "WifiLED_n;3",
+		"7": "Btn;1",
+		"8": "Btn;2",
+		"24": "Rel;1",
+		"26": "Rel;2"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/2257367400_1697425459.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20772013"
+	},
+	{
 	  "vendor": "Tuya",
 	  "bDetailed": "1",
 	  "name": "Generic WiFi Temperature and Humidity sensor hygrometer TuyaMCU",
