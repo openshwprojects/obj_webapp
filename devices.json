@@ -5230,6 +5230,48 @@
       "wiki": "https://www.elektroda.pl/rtvforum/topic4008392.html",
       "product": ""
     },
+	{
+	  "vendor": "Mirabella",
+	  "bDetailed": "0",
+	  "name": "Mirabella Genio Wi-Fi Dimmable 12W G95 LED Bulb",
+	  "model": "",
+	  "chip": "BK7231N",
+	  "board": "CBLC5",
+	  "flags": "1024",
+	  "keywords": [
+		"SKU : P_42905806",
+	   "I002928",
+		"kmart"
+	  ],
+	  "pins": {
+		"6": "PWM;2",
+		"7": "PWM;4",
+		"8": "PWM;3",
+		"24": "PWM;1",
+		"26": "PWM;0"
+	  },
+	  "command": "",
+	   "product":"https://www.kmart.com.au/product/mirabella-genio-wi-fi-dimmable-12w-g95-led-bulb-42905806/",
+	  "image": "https://obrazki.elektroda.pl/8460732400_1692416876.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20699221#20699221"
+	},
+    {
+      "vendor": "Blitzwolf",
+      "bDetailed": "1",
+      "name": "smart socket BW-SHP6 (with metering)",
+      "model": "BW-SHP6",
+      "chip": "ESP8266",
+      "board": "",
+      "pins": {},
+      "keywords": [
+        "",
+        "",
+        ""
+      ],
+      "image": "https://obrazki.elektroda.pl/7111451800_1652420546.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic3893014.html",
+      "product": ""
+    },
     {
       "vendor": "SmartLife",
       "bDetailed": "1",
