@@ -4614,7 +4614,7 @@
       "pins": {},
       "keywords": ["TuyaMCU", "battery-powered"],
       "image": "https://obrazki.elektroda.pl/1452278400_1660223934.jpg",
-      "wiki": "https://www.elektroda.pl/rtvforum/topic3914412.html",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3914412.html",
       "command": "backlog startDriver tuyaMCU; startDriver tmSensor; linkTuyaMCUOutputToChannel 1 val 1; setChannelType 1 ReadOnly; linkTuyaMCUOutputToChannel 3 val 3; setChannelType 3 ReadOnly;"
     },
     {
