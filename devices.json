@@ -1005,6 +1005,32 @@
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20372825"
     },
 	{
+	  "vendor": "Nedis",
+	  "bDetailed": "0",
+	  "name": "Nedis SmartLife LED floodlight 20W RGB+WW+CW",
+	  "model": "WIFILOFC20FBK",
+	  "chip": "BK7231T",
+	  "board": "WB2S",
+	  "flags": "1280",
+	  "keywords": [
+		"Floodlight",
+		"Outdoor",
+		"Nedis",
+		"WIFILOFC20FBK"
+	  ],
+	  "pins": {
+		"6": "PWM;2",
+		"7": "PWM;1",
+		"8": "PWM;0",
+		"24": "PWM_n;3",
+		"26": "PWM;4"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/8890381000_1697735210.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4009073.html",
+	  "vendor":"https://nedis.com/en-us/product/lighting/fixtures/floodlights/550750896/smartlife-outdoor-light-1600-lm-wi-fi-20-w-rgb-warm-to-cool-white-2700-6500-k-aluminium-android-ios"
+	},
+	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
 	  "name": "ONiOFF Wifi Smart Switch",
