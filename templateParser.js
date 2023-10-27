@@ -180,6 +180,34 @@ function processJSON_UserParamKeyStyle(js,user_param_key) {
         scr += "setPinRole "+value+" Btn_Tgl_All"+"\n";
         tmpl.pins[""+value] = "Btn_Tgl_All;0";
     }
+    value = user_param_key.key_pin;
+    if(value != undefined) {
+        desc += "- Pair/Toggle All Pin on P"+value+"\n";
+        scr += "setPinRole "+value+" Btn_Tgl_All"+"\n";
+        tmpl.pins[""+value] = "Btn_Tgl_All;0";
+    }
+    value = user_param_key.mic;
+    if(value != undefined) {
+        desc += "- Microphone (ADC?) Pin on P"+value+"\n";
+        scr += "setPinRole "+value+" ADC"+"\n";
+        tmpl.pins[""+value] = "ADC;0";
+    }
+    value = user_param_key.firstpin_pin;
+    if(value != undefined) {
+		let ch = 1;
+        desc += "- PWM (?) on P"+value+"\n";
+        scr += "backlog setPinRole "+value+" PWM"+"; ";
+        scr += "setPinChannel "+value+" "+ch+"\n";
+        tmpl.pins[""+value] = "PWM;"+ch;
+    }
+    value = user_param_key.secpin_pin;
+    if(value != undefined) {
+		let ch = 2;
+        desc += "- PWM (?) on P"+value+"\n";
+        scr += "backlog setPinRole "+value+" PWM"+"; ";
+        scr += "setPinChannel "+value+" "+ch+"\n";
+        tmpl.pins[""+value] = "PWM;"+ch;
+    }
     // LED
     if(user_param_key.iicscl != undefined)
     {
