@@ -22,6 +22,27 @@
       "image": "https://obrazki.elektroda.pl/5120493600_1650616045.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3895572.html#20033093"
     },
+	{
+	  "vendor": "Feit",
+	  "bDetailed": "0",
+	  "name": "Feit Electric Wi-Fi Smart Outdoor Plug BPPLUG/WIFI/WP/2 (T version)",
+	  "model": "BPPLUG/WIFI/WP/2",
+	  "chip": "BK7231T",
+	  "board": "on PCB",
+	  "keywords": [
+		"Costco",
+		"plug"
+	  ],
+	  "pins": {
+		"7": "WifiLED_n;1",
+		"8": "LED_n;1",
+		"24": "Rel;1",
+		"26": "Btn;1"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/3366663900_1698638406.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20791576"
+	},
     {
       "vendor": "Aoycocr",
       "bDetailed": "1",
