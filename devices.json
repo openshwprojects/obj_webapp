@@ -4073,7 +4073,7 @@
 		"Blinds",
 		"Switch",
 		"Roller",
-		"Shutters",
+		"Shutters"
 	  ],
 	  "pins": {
 		"6": "WifiLED_n;0",
