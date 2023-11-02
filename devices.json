@@ -4058,6 +4058,37 @@
       "image": "https://obrazki.elektroda.pl/4522969700_1669703361.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3937714.html"
     },
+	{
+	  "vendor": "LoraTap",
+	  "bDetailed": "0",
+	  "name": "Shutter Controller Wall Switch",
+	  "model": "SC400W-EU",
+	  "chip": "BK7231N",
+	  "board": "TODO",
+	  "flags": "0",
+	  "keywords": [
+		"LoraTap",
+		"SC400W-EU",
+		"Curtains",
+		"Blinds",
+		"Switch",
+		"Roller",
+		"Shutters",
+	  ],
+	  "pins": {
+		"6": "WifiLED_n;0",
+		"7": "Btn;2",
+		"8": "LED_n;2",
+		"9": "Btn;1",
+		"14": "Rel;3",
+		"23": "Btn;3",
+		"24": "LED;3",
+		"26": "Rel;1"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/8913814600_1698850663.webp",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20795168"
+	},
     {
       "vendor": "Feit",
       "name": "Feit Electric Wi-Fi Smart Outdoor Plug SKU: BPPLUG/WIFI/WP/2 (N version)",
