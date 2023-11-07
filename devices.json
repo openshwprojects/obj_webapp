@@ -4089,6 +4089,29 @@
 	  "image": "https://obrazki.elektroda.pl/8913814600_1698850663.webp",
 	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20795168"
 	},
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "Universal IR Remote Control",
+	  "model": "IRC03",
+	  "chip": "BK7231N",
+	  "board": "on PCB",
+	  "keywords": [
+		"IR",
+		"remote",
+		"control",
+		"USB",
+		"WiFi"
+	  ],
+	  "pins": {
+		"7": "IRSend;0",
+		"8": "IRRecv;0",
+		"9": "Btn;0",
+		"24": "WifiLED;0"
+	  },
+	  "image": "https://obrazki.elektroda.pl/9580055500_1699282664.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4012905.html"
+	},
     {
       "vendor": "Feit",
       "name": "Feit Electric Wi-Fi Smart Outdoor Plug SKU: BPPLUG/WIFI/WP/2 (N version)",
