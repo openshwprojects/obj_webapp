@@ -4091,6 +4091,38 @@
 	},
 	{
 	  "vendor": "Tuya",
+	  "bDetailed": "1",
+	  "name": "WiFi + RF Curtain Module",
+	  "model": "HFY-CL02WF+RF",
+	  "chip": "BK7231N",
+	  "board": "CB2S",
+	  "keywords": [
+		"RF",
+		"433 Mhz",
+		"curtain",
+		"blind",
+		"rollers",
+		"roller",
+		"shutters",
+		"shutter",
+		"awning",
+		"sunblind",
+		"marquee",
+		"WiFi"
+	  ],
+	  "pins": {
+		"6": "Rel;1",
+		"7": "Rel;3",
+		"10": "WifiLED_n;0",
+		"23": "Btn;2",
+		"24": "Btn;1",
+		"26": "Btn;3"
+	  },
+	  "image": "https://obrazki.elektroda.pl/4633099700_1700258844.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4015497.html"
+	},
+	{
+	  "vendor": "Tuya",
 	  "bDetailed": "0",
 	  "name": "2CH Mini Smart Switch",
 	  "model": "FL-S108A-V1.1",
