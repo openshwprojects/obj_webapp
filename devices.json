@@ -5749,6 +5749,23 @@
     },
     {
       "vendor": "Mirabella",
+      "name": "Mirabella Genio Wi-Fi Dimmable 5W LED Candle - Part I003987",
+      "chip": "BK7231N",
+      "pins": {
+        "24": "SM2135_DAT;0",
+        "26": "SM2135_CLK;0"
+      },
+      "command": "SM2135_Map 1 0 2 4 3",
+      "keywords": [
+        "RGBCW",
+        "E14",
+        "Cloudcutter"
+      ],
+      "image": "https://obrazki.elektroda.pl/8983092100_1700375354.webp",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20821883"
+    },
+    {
+      "vendor": "Mirabella",
       "bDetailed": "0",
       "name": "Mirabella Genio 9W 750Lumen, 2700K~6500K RGB + CCT Downlight - Part I004544",
       "chip": "BK7231N",
