@@ -6238,6 +6238,22 @@
     },
     {
       "vendor": "LSC",
+      "bDetailed": "0",
+      "name": "Smart Outdoor Flood Light RGBW",
+      "model": "?",
+      "chip": "BK7231N",
+      "board": "?",
+      "pins": {
+        "7": "PWM;4",
+        "6": "PWM;3",
+        "24": "PWM;2",
+        "26": "PWM;1"
+      },
+      "image": "https://obrazki.elektroda.pl/4661630000_1699015059.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4012186.html"
+    },
+    {
+      "vendor": "LSC",
       "bDetailed": "1",
       "name": "Smart Led Light Strip RGBCW 3000342",
       "model": "970752 v1.0",
