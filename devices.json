@@ -6253,6 +6253,19 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic4012186.html"
     },
     {
+      "vendor": "MoesGo",
+      "bDetailed": "0",
+      "name": "Two Channel Smart Dimmer Module",
+      "model": "MS-105B",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "pins": {
+      },
+      "tags": ["TuyaMCU","HT66F3195","SLD8N65SV","baud 9600"],
+      "image": "https://obrazki.elektroda.pl/4925459200_1700605581.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4016459.html"
+    },
+    {
       "vendor": "LSC",
       "bDetailed": "1",
       "name": "Smart Led Light Strip RGBCW 3000342",
