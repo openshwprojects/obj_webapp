@@ -6236,6 +6236,31 @@
       "image": "https://obrazki.elektroda.pl/4645750300_1668258739.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3933390.html"
     },
+	{
+	  "vendor": "POWRUI",
+	  "bDetailed": "0",
+	  "name": "POWRUI Smart Power Strip with 4-Outlet Extender",
+	  "model": "POWRUI Outdoor",
+	  "chip": "BK7231T",
+	  "board": "WB3S",
+	  "flags": "1024",
+	  "keywords": [
+		"POWRUI",
+		"Outdoor",
+		"Strip"
+	  ],
+	  "pins": {
+		"6": "Rel;2",
+		"8": "LED_n;5",
+		"9": "Rel;1",
+		"14": "Btn_Tgl_All;1",
+		"24": "Rel;3",
+		"26": "Rel;4"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/8175200700_1670758273.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3940704.html"
+	},
     {
       "vendor": "LSC",
       "bDetailed": "0",
