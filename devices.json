@@ -6240,9 +6240,9 @@
       "vendor": "LSC",
       "bDetailed": "0",
       "name": "Smart Outdoor Flood Light RGBW",
-      "model": "?",
+      "model": "3200719",
       "chip": "BK7231N",
-      "board": "?",
+      "board": "CB2L",
       "pins": {
         "7": "PWM;4",
         "6": "PWM;3",
