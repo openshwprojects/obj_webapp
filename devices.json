@@ -6237,6 +6237,27 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3933390.html"
     },
 	{
+	  "vendor": "Hama",
+	  "bDetailed": "0",
+	  "name": "WLAN-LED-light bulb E14, 5.5W, RGBW, dimmable",
+	  "model": "WLAN-LED-light bulb E14",
+	  "chip": "BK7231T",
+	  "board": "WBLC5",
+	  "flags": "525312",
+	  "keywords": [
+		"Hama",
+		"RGBCW",
+		"E14"
+	  ],
+	  "pins": {
+		"24": "BP1658CJ_DAT;1",
+		"26": "BP1658CJ_CLK;1"
+	  },
+	  "command": "BP1658CJ_Map 1 0 2 3 4",
+	  "image": "https://obrazki.elektroda.pl/9630787600_1700687065_thumb.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20828711#20828711"
+	},
+	{
 	  "vendor": "POWRUI",
 	  "bDetailed": "0",
 	  "name": "POWRUI Smart Power Strip with 4-Outlet Extender",
