@@ -4497,8 +4497,8 @@
 	  "bDetailed": "0",
 	  "name": "SmartLED 8073 Jinvoo SM-AW713 Smart Valve",
 	  "model": "SM-AW713",
-	  "chip": "TYWE3S",
-	  "board": "ESP8266",
+	  "chip": "ESP8266",
+	  "board": "TYWE3S",
 	  "flags": "0",
 	  "keywords": [
 		"allegro"
