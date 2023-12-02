@@ -4493,9 +4493,48 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20684106#20684106"
 	},
 	{
+	  "vendor": "Sonoff",
+	  "bDetailed": "1",
+	  "name": " Sonoff POWR316D Elite16A WiFi smart Energy Meter",
+	  "model": "POWR316D",
+	  "chip": "ESP32",
+	  "board": "on PCB",
+	  "flags": "0",
+	  "keywords": [
+		"allegro",
+		"LCD",
+		"display",
+		"power metering"
+	  ],
+	  "pins": {
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/7014008100_1695390526.png",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic4016557.html"
+	},
+	{
+	  "vendor": "Elhome",
+	  "bDetailed": "1",
+	  "name": "WS-05H1 (clone of Sonoff Dual R2)",
+	  "model": "WS-05H1",
+	  "chip": "ESP8285",
+	  "board": "on PCB",
+	  "flags": "0",
+	  "keywords": [
+		"allegro",
+		"two relays",
+		"2 relays"
+	  ],
+	  "pins": {
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/7973236900_1697203569.jpg",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic4018703.html"
+	},
+	{
 	  "vendor": "Appio",
 	  "bDetailed": "1",
-	  "name": "Appio 9605 No Neutral 2 gang switch",
+	  "name": "Appio Lumenix 9605 No Neutral 2 gang switch",
 	  "model": "9605",
 	  "chip": "ESP8285",
 	  "board": "TYWE3S",
