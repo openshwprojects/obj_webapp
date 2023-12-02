@@ -4493,6 +4493,25 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20684106#20684106"
 	},
 	{
+	  "vendor": "Appio",
+	  "bDetailed": "1",
+	  "name": "Appio 9605 No Neutral 2 gang switch",
+	  "model": "9605",
+	  "chip": "ESP8285",
+	  "board": "TYWE3S",
+	  "flags": "0",
+	  "keywords": [
+		"allegro",
+		"new TYWE3S gpio pinout"
+	  ],
+	  "pins": {
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/3819295000_1701184406.jpg",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic4018062.html"
+	},
+	{
+	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
 	  "name": "SmartLED 8073 Jinvoo SM-AW713 Smart Valve",
