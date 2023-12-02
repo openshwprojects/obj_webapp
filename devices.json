@@ -4513,6 +4513,25 @@
 	  "wiki": "https://www.elektroda.pl/rtvforum/topic4016557.html"
 	},
 	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "Mini Smart Switch",
+	  "model": "EZB-WBZS1H16N-A V1.0",
+	  "chip": "BK7231N",
+	  "board": "on PCB",
+	  "keywords": [],
+	  "pins": {
+		"6": "WifiLED_n;0",
+		"8": "Btn_Tgl_All;0",
+		"14": "TglChanOnTgl;1",
+		"15": "Rel;1"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/1432934700_1701471674.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20842297#20842297",
+	  "vendor": "https://www.aliexpress.com/item/1005005021644441.html"
+	},
+	{
 	  "vendor": "Elhome",
 	  "bDetailed": "1",
 	  "name": "WS-05H1 (clone of Sonoff Dual R2)",
