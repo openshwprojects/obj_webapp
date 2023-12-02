@@ -4515,6 +4515,29 @@
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
+	  "name": "Smart 4 Gang Switch: WiFi not Zigbee",
+	  "model": "",
+	  "chip": "BK7231N",
+	  "board": "CB3S",
+	  "keywords": [],
+	  "pins": {
+		"6": "WifiLED_n;0",
+		"7": "Rel;4",
+		"8": "Rel;3",
+		"9": "Rel;2",
+		"10": "Btn;4",
+		"14": "Rel;1",
+		"23": "Btn;3",
+		"24": "Btn;2",
+		"26": "Btn;1"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/6315968800_1701470190.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4018672.html"
+	},
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
 	  "name": "Mini Smart Switch",
 	  "model": "EZB-WBZS1H16N-A V1.0",
 	  "chip": "BK7231N",
