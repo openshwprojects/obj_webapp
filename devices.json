@@ -4536,6 +4536,21 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4018672.html"
 	},
 	{
+	  "vendor": "Ledvance",
+	  "bDetailed": "0",
+	  "name": "Ledvance Remote Control for Sun@Home Planon Plus",
+	  "model": "",
+	  "chip": "BK7231N",
+	  "board": "on PCB",
+	  "keywords": [],
+	  "pins": {
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/7298194200_1701200718.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4017963.html",
+	  "vendor": "https://www.ledvance.com/consumer/smart/control-options/smart-wifi-remote-control"
+	},
+	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
 	  "name": "Mini Smart Switch",
