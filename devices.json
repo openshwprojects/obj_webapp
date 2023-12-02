@@ -4872,6 +4872,27 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3968377.html",
       "command": "backlog startDriver tuyaMCU; startDriver tmSensor; linkTuyaMCUOutputToChannel 1 val 1; setChannelType 1 temperature_div10; linkTuyaMCUOutputToChannel 2 val 2; setChannelType 2 Humidity;linkTuyaMCUOutputToChannel 3 val 3; setChannelType 3 ReadOnly;"
     },
+	{
+	  "vendor": "Spectrum",
+	  "bDetailed": "0",
+	  "name": "LED GLS 9W E-27 SPECTRUM SMART",
+	  "model": "WOJ+14412",
+	  "chip": "BK7231N",
+	  "board": "CBLC5",
+	  "flags": "5140",
+	  "keywords": [
+		"SM2185N",
+		"Wojnarowscy Sp. z o.o.",
+		"WOJ14412"
+	  ],
+	  "pins": {
+		"24": "SM2235DAT;0",
+		"26": "SM2235CLK;0"
+	  },
+	  "command": "PowerSave 1",
+	  "image": "https://obrazki.elektroda.pl/6578369000_1699868581.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4014350.html"
+	},
     {
       "vendor": "AVATTO",
       "bDetailed": "1",
