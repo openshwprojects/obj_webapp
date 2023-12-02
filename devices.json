@@ -5756,10 +5756,10 @@
       "chip": "BK7231N",
       "board": "CBU",
       "keywords": [
-        "BL0937 in SPI mode",
+        "BL0942 in SPI mode",
         "SPI",
         "power monitoring",
-        "BL0937",
+        "BL0942",
         "non-contact metering"
       ],
       "pins": {},
