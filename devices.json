@@ -5748,6 +5748,25 @@
       "image": "https://obrazki.elektroda.pl/4585838600_1677699602_thumb.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20464986"
     },
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "LED 4,5W RGBW GU10 Spectrum SMART WOJ+16823",
+	  "model": "WOJ16823",
+	  "chip": "BK7231N",
+	  "board": "CBLC5",
+	  "flags": "4096",
+	  "keywords": [
+
+	  ],
+	  "pins": {
+		"24": "SM2235DAT;0",
+		"26": "SM2235CLK;0"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/5106933800_1701625571.png",
+	  "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?t=4018565"
+	},
     {
       "vendor": "Tuya",
       "bDetailed": "0",
