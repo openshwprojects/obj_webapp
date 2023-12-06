@@ -7821,6 +7821,31 @@
 	  "image": "https://obrazki.elektroda.pl/8627783500_1690777324.png",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4001860.html"
 	},
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "1",
+	  "name": "Power Metering Socket SWP86-01OG BL0937",
+	  "model": "SWP86-01OG",
+	  "chip": "BK7231N",
+	  "board": "CB2S",
+	  "flags": "1024",
+	  "keywords": [
+		"wall socket",
+		"Allegro",
+		"BL0937"
+	  ],
+	  "pins": {
+		"6": "Btn;0",
+		"7": "Rel;0",
+		"8": "BL0937SEL;0",
+		"10": "WifiLED_n;0",
+		"24": "BL0937CF;0",
+		"26": "BL0937CF1;0"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/8445150600_1684235807.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3994030.html"
+	},
     {
       "vendor": "Connect",
       "bDetailed": "1",
