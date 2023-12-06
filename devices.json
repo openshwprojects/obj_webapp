@@ -4303,6 +4303,26 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3994294.html"
 	},
 	{
+	  "vendor": "Sonoff",
+	  "bDetailed": "1",
+	  "name": "Door Sensor",
+	  "model": "DW2",
+	  "chip": "OPL1000",
+	  "board": "",
+	  "keywords": [
+		"2APN5DW2-WIFI",
+		"DW2-Wi-Fi",
+		"DW2-WiFi V1.2",
+		"2021.01.13",
+		"TH25Q80UA"
+	  ],
+	  "pins": {
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/3180967800_1691762816.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4007556.html"
+	},
+	{
 	  "vendor": "Suraielec",
 	  "bDetailed": "0",
 	  "name": "Low Voltage 200W Smart Wi-Fi Transformer",
