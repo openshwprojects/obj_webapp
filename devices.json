@@ -4533,6 +4533,27 @@
 	  "wiki": "https://www.elektroda.pl/rtvforum/topic4016557.html"
 	},
 	{
+	  "vendor": "Home Safety Solution",
+	  "bDetailed": "1",
+	  "name": "WS-05H1 aka Sonoff Dual R2 clone",
+	  "model": "WS-05H1",
+	  "chip": "ESP8285",
+	  "board": "on PCB",
+	  "flags": "0",
+	  "keywords": [
+		"allegro",
+		"two relays",
+		"dual relay",
+		"CSC7102C",
+		"eura-tech"
+	  ],
+	  "pins": {
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/7973236900_1697203569.jpg",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic4018703.html"
+	},
+	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
 	  "name": "Smart 4 Gang Switch: WiFi not Zigbee",
