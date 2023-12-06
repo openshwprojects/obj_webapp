@@ -4538,15 +4538,19 @@
 	{
 	  "vendor": "Ledvance",
 	  "bDetailed": "0",
-	  "name": "Ledvance Remote Control for Sun@Home Planon Plus",
+	  "name": "Remote Control for Sun@Home Planon Plus",
 	  "model": "",
 	  "chip": "BK7231N",
 	  "board": "on PCB",
-	  "keywords": [],
+	  "keywords": [
+			"keyboard",
+			"wifi remote",
+			"key matrix"
+	  ],
 	  "pins": {
 	  },
 	  "command": "",
-	  "image": "https://obrazki.elektroda.pl/7298194200_1701200718.jpg",
+	  "image": "https://obrazki.elektroda.pl/7753728000_1701806422.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4017963.html",
 	  "vendor": "https://www.ledvance.com/consumer/smart/control-options/smart-wifi-remote-control"
 	},
