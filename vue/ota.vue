@@ -112,9 +112,10 @@
         /* Check if the ArrayBuffer represents RBL file */
         isRBL(arrayBuffer){
             let view = new DataView(arrayBuffer);
-            if (view.byteLength < 3) return false;
+            if (view.byteLength < 30)return false;
             console.log(view);
-            return view.getUint8(0) === 82 && view.getUint8(1) === 66 && view.getUint8(2) === 76;
+            return view.getUint8(0) === 82 && view.getUint8(1) === 66 && view.getUint8(2) === 76
+                 && view.getUint8(28) === 45 && view.getUint8(29) === 111;
         },
 
         /* Check if the ArrayBuffer contains magic number 0xa0ffff9f (tls_fwup_img_header_check) */
