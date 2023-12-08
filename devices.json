@@ -4594,6 +4594,25 @@
 	  "vendor": "https://www.aliexpress.com/item/1005005021644441.html"
 	},
 	{
+	  "vendor": "Eurolamp.gr",
+	  "bDetailed": "0",
+	  "name": "SMART WIFI LED GU10 6W RGBW 220-240V",
+	  "model": "147-77903",
+	  "chip": "BK7231N",
+	  "board": "CBLC5",
+	  "keywords": [
+		"Product code: 147-77903",
+		"Barcode: 5207227076831"
+		],
+	  "pins": {
+		"24": "BP1658CJ_DAT;0",
+		"26": "BP1658CJ_CLK;0"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/2148762200_1701974385.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4019931.html"
+	},
+	{
 	  "vendor": "Elhome",
 	  "bDetailed": "1",
 	  "name": "WS-05H1 (clone of Sonoff Dual R2)",
