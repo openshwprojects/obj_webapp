@@ -4594,6 +4594,29 @@
 	  "vendor": "https://www.aliexpress.com/item/1005005021644441.html"
 	},
 	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "Circuit breaker with bridge relay",
+	  "model": "TOMZ-TOB9-63M",
+	  "chip": "BK7231N",
+	  "board": "CBU",
+	  "flags": "1024",
+	  "keywords": [
+		"WIFI circuit breakers",
+		"DIN rail"
+	  ],
+	  "pins": {
+		"9": "LED;1",
+		"15": "WifiLED;1",
+		"17": "Btn_Tgl_All;1",
+		"24": "Rel;1",
+		"26": "Rel_n;1"
+	  },
+	  "command": "startDriver BL0942",
+	  "image": "https://obrazki.elektroda.pl/2634256800_1702281280.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20855531#20855531"
+	},
+	{
 	  "vendor": "Energizer",
 	  "bDetailed": "0",
 	  "name": "Smart Led Flexi Strip",
