@@ -4594,6 +4594,24 @@
 	  "vendor": "https://www.aliexpress.com/item/1005005021644441.html"
 	},
 	{
+	  "vendor": "Energizer",
+	  "bDetailed": "0",
+	  "name": "Smart Led Flexi Strip",
+	  "model": "",
+	  "chip": "BK7231T",
+	  "board": "WB3S",
+	  "keywords": ["B&M Bargains","4 channels","RGBW"],
+	  "pins": {
+		"6": "PWM;3",
+		"7": "PWM;1",
+		"8": "PWM;2",
+		"24": "PWM;4"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/3607991100_1702221389.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4020505.html"
+	},
+	{
 	  "vendor": "Eurolamp.gr",
 	  "bDetailed": "0",
 	  "name": "SMART WIFI LED GU10 6W RGBW 220-240V",
