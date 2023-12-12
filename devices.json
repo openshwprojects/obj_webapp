@@ -4596,6 +4596,30 @@
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
+	  "name": "Mini Smart Switch",
+	  "model": "",
+	  "chip": "BK7231N",
+	  "board": "CB2S",
+	  "flags": "0",
+	  "keywords": [
+		"mini",
+		"10a",
+		"smart"
+		"switch"
+	  ],
+	  "pins": {
+		"8": "WifiLED_n;0",
+		"10": "Btn_Tgl_All;0",
+		"23": "TglChanOnTgl;1",
+		"26": "Rel;1"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/1725709300_1702327785.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20853216#20853216"
+	},
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
 	  "name": "Circuit breaker with bridge relay",
 	  "model": "TOMZ-TOB9-63M",
 	  "chip": "BK7231N",
