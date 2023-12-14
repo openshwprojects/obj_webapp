@@ -1639,6 +1639,30 @@
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20411879#20411879"
     },
     {
+      "vendor": "LSC",
+      "bDetailed": "0",
+      "name": "(new) Smart Connect E27 RGBCW 9.4W 806lumen F 2578539",
+      "chip": "BK7231N",
+      "board": "CB2L",
+	  "pins": {
+		  "7": "BP5758D_CLK;1", 
+		  "8": "BP5758D_DAT;0" 
+	  },
+      "keywords": [
+        "RGBCW",
+        "LED",
+        "Action",
+        "E27",
+        "bulb",
+        "BP5768",
+        "BP5758",
+        "A60"
+      ],      
+	  "command": "BP5758D_Map 4 3 1 0 2",
+      "image": "https://obrazki.elektroda.pl/7825042400_1702546544.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4021287.html"
+    },
+    {
       "vendor": "DayBetter",
       "bDetailed": "0",
       "name": "DayBetter RGBCW 9W E26 800LM 120V DBSWTYBRGB04 B08THDWFBL",
