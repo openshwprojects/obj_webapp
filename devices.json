@@ -8530,11 +8530,11 @@
       ],
       "pins": {
         "6": "PWM_n;3",
-        "7": "PWM;4",
-        "8": "PWM;5",
+        "7": "PWM;5",
+        "8": "PWM;4",
         "14": "Btn_SmartLED;0",
-        "20": "Btn_NextColor;0",
-        "22": "Btn_NextColor;0",
+        "20": "Btn_ScriptOnly;0",
+        "22": "Btn_ScriptOnly;0",
         "24": "PWM_n;2",
         "26": "PWM_n;1"
       },
