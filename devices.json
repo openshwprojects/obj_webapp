@@ -1638,6 +1638,28 @@
       "image": "https://obrazki.elektroda.pl/3565197100_1675017558.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20411879#20411879"
     },
+	{
+	  "vendor": "Vanters",
+	  "bDetailed": "0",
+	  "name": "Automatic Fish Feeder",
+	  "model": "ANT325 V0",
+	  "chip": "BL602",
+	  "board": "XT-BL12",
+	  "flags": "-2080373664",
+	  "keywords": [
+		"Feed",
+		"Fish"
+	  ],
+	  "pins": {
+		"2": "Btn_n;1",
+		"3": "Btn;2",
+		"4": "WifiLED_n;0",
+		"5": "PWM;3"
+	  },
+	  "command": "waitFor WiFiState 4;waitFor MQTTState 1",
+	  "image": "https://obrazki.elektroda.pl/1292380900_1702478023.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4021144.html"
+	},
     {
       "vendor": "LSC",
       "bDetailed": "0",
