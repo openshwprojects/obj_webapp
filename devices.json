@@ -2788,8 +2788,8 @@
       "board": "CBU",
       "pins": {
         "9": "WifiLED;0",
-        "16": "Rel_n;0",
-        "24": "Rel;0",
+        "16": "BridgeREV;0",
+        "24": "BridgeFWD;0",
         "26": "Btn;0",
         "28": "LED;0"
       },
@@ -4700,8 +4700,8 @@
 		"9": "LED;1",
 		"15": "WifiLED;1",
 		"17": "Btn_Tgl_All;1",
-		"24": "Rel;1",
-		"26": "Rel_n;1"
+		"24": "BridgeFWD;1",
+		"26": "BridgeREV;1"
 	  },
 	  "command": "startDriver BL0942",
 	  "image": "https://obrazki.elektroda.pl/2634256800_1702281280.png",
@@ -5415,8 +5415,8 @@
 		"9": "LED_n;1",
 		"15": "WifiLED_n;0",
 		"17": "Btn;1",
-		"24": "Rel;1",
-		"26": "Rel_n;1"
+		"24": "BridgeFWD;1",
+		"26": "BridgeREV;1"
 	  },
 	  "command": "backlog startDriver BL0942; startDriver NTP",
 	  "image": "https://obrazki.elektroda.pl/9488569200_1689981200.jpg",
@@ -6225,8 +6225,8 @@
 	  "pins": {
 		"15": "WifiLED_n;0",
 		"17": "Btn;1",
-		"24": "Rel;1",
-		"26": "Rel_n;1"
+		"24": "BridgeFWD;1",
+		"26": "BridgeREV;1"
 	  },
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/7846055800_1696331560.jpg",
