@@ -3800,6 +3800,24 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3892473.html#20014441"
     },
 	{
+	  "vendor": "Smart Home",
+	  "bDetailed": "0",
+	  "name": "V1.2 Smart Breaker Teardown and Configuration Guide",
+	  "model": "WHD06",
+	  "chip": "BK7231N",
+	  "board": "CB2S",
+	  "keywords": [],
+	  "pins": {
+		"7": "WifiLED_n;0",
+		"8": "Btn_Tgl_All;0",
+		"23": "TglChanOnTgl;1",
+		"24": "Rel;1"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/6050697600_1703164290.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4023251.html"
+	},
+	{
 	  "vendor": "Shenzhen Qingning Tongchuang Technology Co.Ltd",
 	  "bDetailed": "0",
 	  "name": "EWelink Smart Life Light Switch",
@@ -3823,6 +3841,7 @@
 	  "image": "https://obrazki.elektroda.pl/6767295300_1703067357.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3970659.html"
 	},
+	
 	{
 	  "vendor": "Shenzhen Qingning Tongchuang Technology Co.Ltd",
 	  "bDetailed": "0",
