@@ -3799,6 +3799,56 @@
       "image": "https://obrazki.elektroda.pl/8563462300_1652196315.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3892473.html#20014441"
     },
+	{
+	  "vendor": "Shenzhen Qingning Tongchuang Technology Co.Ltd",
+	  "bDetailed": "0",
+	  "name": "EWelink Smart Life Light Switch",
+	  "model": "2-Gang",
+	  "chip": "BL602",
+	  "board": "SDV-002_V1.2",
+	  "flags": "1024",
+	  "keywords": [
+		"Wall switch",
+		"Switch",
+		"2-Gang"
+	  ],
+	  "pins": {
+		"1": "Rel;1",
+		"2": "Btn;1",
+		"12": "WifiLED;0",
+		"20": "Btn;0",
+		"21": "Rel;0"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/6767295300_1703067357.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3970659.html"
+	},
+	{
+	  "vendor": "Shenzhen Qingning Tongchuang Technology Co.Ltd",
+	  "bDetailed": "0",
+	  "name": "EWelink Smart Life Light Switch",
+	  "model": "3-Gang",
+	  "chip": "BL602",
+	  "board": "SDV-002_V1.2",
+	  "flags": "1024",
+	  "keywords": [
+		"Wall switch",
+		"Switch",
+		"3-Gang"
+	  ],
+		"pins": {
+		"1": "Rel;2",
+		"2": "Btn;2",
+		"3": "Rel;1",
+		"12": "WifiLED;0",
+		"14": "Btn;1",
+		"20": "Btn;0",
+		"21": "Rel;0"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/1389703800_1703067376.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3970659.html"
+	},
     {
       "vendor": "DETA",
       "bDetailed": "0",
