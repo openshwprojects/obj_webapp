@@ -3814,6 +3814,30 @@
 	  "wiki": "https://www.elektroda.pl/rtvforum/topic3989796.html"
 	},
 	{
+	  "vendor": "Onenuo",
+	  "bDetailed": "0",
+	  "name": "ONENUO Tuya Micro Smart USB Adapter Switch",
+	  "model": "ZHQ01",
+	  "chip": "BK7231N",
+	  "board": "",
+	  "flags": "0",
+	  "keywords": [
+		"onenuo",
+		"micro",
+		"usb",
+		"switch"
+	  ],
+	  "pins": {
+		"6": "WifiLED_n;0",
+		"7": "Rel;1",
+		"8": "Btn_Tgl_All;0",
+		"24": "Btn;1"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/4975790000_1703174571.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4023290.html"
+	},
+	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
 	  "name": "iQtech SmartLife",
