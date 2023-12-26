@@ -8661,6 +8661,7 @@
     },
     {
       "vendor": "Minoston",
+      "bDetailed": "0",
       "name": "WiFi Countdown Timer Switch"
       "model": "MT10W",
       "chip": "BK7231N",
