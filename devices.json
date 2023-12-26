@@ -3814,6 +3814,25 @@
 	  "wiki": "https://www.elektroda.pl/rtvforum/topic3989796.html"
 	},
 	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "iQtech SmartLife",
+	  "model": "WS024",
+	  "chip": "BK7231T",
+	  "board": "TODO",
+	  "flags": "524320",
+	  "keywords": [
+	  ],
+	  "pins": {
+		"10": "Btn;1",
+		"24": "Rel;1",
+		"26": "LED_n;1"
+	  },
+	  "command": "backlog",
+	  "image": "https://obrazki.elektroda.pl/8647098200_1703538706.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4023937.html"
+	},
+	{
 	  "vendor": "Smart Home",
 	  "bDetailed": "0",
 	  "name": "V1.2 Smart Breaker Teardown and Configuration Guide",
