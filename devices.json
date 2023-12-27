@@ -6414,7 +6414,8 @@
     {
       "vendor": "Miboxer",
       "bDetailed": "0",
-      "name": "Single Color LED Controller FUT036W",
+      "name": "Single Color LED Controller",
+      "model": "FUT036W",
       "chip": "BK7231N",
       "board": "CB3S",
       "pins": {},
@@ -6425,6 +6426,23 @@
       ],
       "image": "https://obrazki.elektroda.pl/7772577700_1680443330.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3969126.html"
+    },
+    {
+      "vendor": "Miboxer",
+      "bDetailed": "0",
+      "name": "CW CCT LED Controller",
+      "model": "FUT035W+",
+      "chip": "BK7231N",
+      "board": "CB3S",
+      "pins": {},
+      "keywords": [
+        "TuyaMCU",
+        "warm and cool white",
+        "led strip",
+        "12-24V 13A"
+      ],
+      "image": "https://obrazki.elektroda.pl/7250657100_1683527101.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3976714.html"
     },
     {
       "vendor": "Moes",
