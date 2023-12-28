@@ -6427,6 +6427,29 @@
       "image": "https://obrazki.elektroda.pl/7772577700_1680443330.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3969126.html"
     },
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "AU Avoir IP66 Outdoor Dual Smart Socket",
+	  "model": "SNW-2AU",
+	  "chip": "BK7231N",
+	  "board": "CB3S",
+	  "flags": "1024",
+	  "keywords": [
+		"single relay",
+		"cuts off L"
+	  ],
+	  "pins": {
+		"6": "BL0937CF1;0",
+		"7": "Btn;0",
+		"8": "Rel;0",
+		"9": "WifiLED;0",
+		"24": "BL0937CF;0",
+		"26": "BL0937SEL;0"
+	  },
+	  "image": "https://obrazki.elektroda.pl/7329927800_1703746545.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4024413.html"
+	},
     {
       "vendor": "Miboxer",
       "bDetailed": "0",
