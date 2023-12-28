@@ -6430,6 +6430,24 @@
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
+	  "name": "Single Relay Smart Switch Module",
+	  "model": "LXU402",
+	  "chip": "BK7231N",
+	  "board": "FL_M99_V3",
+	  "keywords": ["Allegro"],
+	  "pins": {
+		"6": "Rel;1",
+		"7": "Btn_Tgl_All;0",
+		"8": "WifiLED_n;0",
+		"23": "Btn;1"
+	  },
+	  "command": "PowerSave 1",
+	  "image": "https://obrazki.elektroda.pl/4195778700_1703706599.jpg",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic4024417.html"
+	},
+		{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
 	  "name": "AU Avoir IP66 Outdoor Dual Smart Socket",
 	  "model": "SNW-2AU",
 	  "chip": "BK7231N",
