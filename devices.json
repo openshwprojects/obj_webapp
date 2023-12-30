@@ -8756,7 +8756,7 @@
       "keywords": [
         "switch",
         "relay",
-        "autoexec.bat"
+        "autoexec.bat",
         "TuyaMCU"
       ],
       "pins": { },
