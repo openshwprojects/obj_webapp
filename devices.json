@@ -8750,15 +8750,15 @@
 	  "name": "RGB WiFi Smart Strip Model 50278",
 	  "model": "globe-rgbstrip-50278",
 	  "chip": "BK7231T",
-	  "board": "TODO",
+	  "board": "WB3S",
 	  "flags": "0",
 	  "keywords": [
-	    "TODO",
-	    "TODO",
-	    "TODO"
+	    "LED strip controller",
+	    "RGB strip",
+	    "button"
 	  ],
 	  "pins": {
-	    "6": "dInput;0",
+	    "6": "Btn_SmartLED;0",
 	    "9": "PWM;1",
 	    "24": "PWM;2",
 	    "26": "PWM;3"
