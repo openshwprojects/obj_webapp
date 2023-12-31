@@ -8747,7 +8747,7 @@
     {
       "vendor": "Minoston",
       "bDetailed": "0",
-      "name": "WiFi Countdown Timer Switch"
+      "name": "WiFi Countdown Timer Switch",
       "model": "MT10W",
       "chip": "BK7231N",
       "board": "on PCB",
@@ -8763,7 +8763,7 @@
       "command": "",
       "image": "https://obrazki.elektroda.pl/8682934300_1703624628.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic4023528.html"
-},
+	},
 	{
 	  "vendor": "Globe Electric",
 	  "bDetailed": "0",
