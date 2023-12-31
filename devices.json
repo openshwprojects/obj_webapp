@@ -8744,6 +8744,33 @@
       "image": "https://obrazki.elektroda.pl/6297038600_1693845478.png",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20721244#20721244"
     },
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "1",
+	  "name": "Artika Skyshade Smart LED Panel",
+	  "model": "FLP14-SSWTR-C1WH",
+	  "chip": "BK7231N",
+	  "board": "CBU",
+	  "flags": "272700675",
+	  "keywords": [
+		"RGBWW",
+		"Panel",
+		"Costco",
+		"IR receiver",
+		"supports IRRemote"
+	  ],
+	  "pins": {
+		"6": "PWM;3",
+		"7": "PWM;2",
+		"8": "PWM;5",
+		"23": "IRRecv;0",
+		"24": "PWM_n;4",
+		"26": "PWM;1"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/8249013800_1703830959.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4024658.html"
+	},
     {
       "vendor": "Minoston",
       "bDetailed": "0",
