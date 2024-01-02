@@ -8745,6 +8745,28 @@
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20721244#20721244"
     },
 	{
+	  "vendor": "Calex",
+	  "bDetailed": "0",
+	  "name": "Calex Powerplug UK Plug (5202000300)",
+	  "chip": "BK7231T",
+	  "board": "WB2S",
+	  "pins": {
+		"6": "Btn;1",
+		"7": "LED_n;1",
+		"8": "WifiLED_n;1",
+		"24": "Rel;1"
+	  },
+	  "command": "",
+	  "keywords": [
+		"Calex",
+		"5202000300",
+		"UK",
+		"tesco"
+	  ],
+	  "image": "https://obrazki.elektroda.pl/9314794300_1701897781.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4019761.html"
+	},
+	{
 	  "vendor": "KingArt",
 	  "bDetailed": "0",
 	  "name": "Smart Switch 2 Way No Neutral 3 Gang Teardown and Flashing",
