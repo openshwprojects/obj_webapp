@@ -8745,6 +8745,29 @@
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20721244#20721244"
     },
 	{
+	  "vendor": "KingArt",
+	  "bDetailed": "0",
+	  "name": "Smart Switch 2 Way No Neutral 3 Gang Teardown and Flashing",
+	  "model": "KING-K3-W",
+	  "chip": "BK7231N",
+	  "board": "CBU",
+	  "keywords": [],
+	  "pins": {
+		"6": "Btn;1",
+		"7": "Rel;1",
+		"8": "LED;1",
+		"9": "Btn;2",
+		"14": "Rel;2",
+		"15": "LED;2",
+		"16": "Btn;3",
+		"17": "Rel;3",
+		"26": "LED;3"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/9357370000_1703739533_thumb.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4024404.html"
+	},
+	{
 	  "vendor": "Tuya",
 	  "bDetailed": "1",
 	  "name": "Artika Skyshade Smart LED Panel",
