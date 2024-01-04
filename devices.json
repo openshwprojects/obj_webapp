@@ -8768,6 +8768,28 @@
 	},
 	{
 	  "vendor": "Tuya",
+	  "bDetailed": "1",
+	  "name": "Appio Strip 7331",
+	  "model": "7331",
+	  "chip": "BK7231N",
+	  "board": "CBU",
+	  "flags": "1024",
+	  "keywords": [
+		"Allegro",
+		"36W"
+	  ],
+	  "pins": {
+		"6": "PWM;3",
+		"7": "PWM;2",
+		"8": "PWM;1",
+		"26": "IRRecv;1"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/9759474100_1703514958.jpg",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic4026051.html"
+	},
+	{
+	  "vendor": "Tuya",
 	  "bDetailed": "0",
 	  "name": "LEDVANCE SMART+ PLANON PLUS tunable white",
 	  "model": "30x30 45x45 30x60 60x60 120x30 TW",
