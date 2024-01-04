@@ -8767,6 +8767,29 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4019761.html"
 	},
 	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "LEDVANCE SMART+ PLANON PLUS tunable white",
+	  "model": "30x30 45x45 30x60 60x60 120x30 TW",
+	  "chip": "BK7231T",
+	  "board": "WB3S",
+	  "flags": "5888",
+	  "keywords": [
+		"LEDVANCE",
+		"LED Panel",
+		"dimmable",
+		"tunable",
+		"tuya-Cloudcutter"
+	  ],
+	  "pins": {
+		"6": "PWM_n;0",
+		"8": "PWM;1"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/5275845800_1704325195_thumb.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20890516"
+	},
+	{
 	  "vendor": "KingArt",
 	  "bDetailed": "0",
 	  "name": "Smart Switch 2 Way No Neutral 3 Gang Teardown and Flashing",
