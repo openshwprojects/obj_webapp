@@ -1087,7 +1087,7 @@
 		"Allegro"
       ],
       "image": "https://obrazki.elektroda.pl/6612415200_1690775827.jpg",
-      "wiki": "https://www.elektroda.pl/rtvforum/topic3999998.html"
+      "wiki": "https://www.elektroda.com/rtvforum/topic3999998.html"
     },
     {
       "vendor": "Aigostar",
@@ -8776,7 +8776,8 @@
 	  "flags": "1024",
 	  "keywords": [
 		"Allegro",
-		"36W"
+		"36W",
+		"SHY_TY_RGB_V1.0"
 	  ],
 	  "pins": {
 		"6": "PWM;3",
