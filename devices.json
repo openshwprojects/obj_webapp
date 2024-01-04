@@ -1414,7 +1414,7 @@
       "board": "LM2",
       "pins": {},
       "image": "https://obrazki.elektroda.pl/4490916400_1602520214_thumb.jpg",
-      "wiki": "https://www.elektroda.pl/rtvforum/topic3736876.html"
+      "wiki": "https://www.elektroda.com/rtvforum/topic3736876.html"
     },
     {
       "vendor": "Blitzwolf",
@@ -1428,8 +1428,28 @@
         "STL6118A"
       ],
       "image": "https://obrazki.elektroda.pl/8170361000_1587643996_thumb.jpg",
-      "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?p=18652154#18652154"
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=18652154#18652154"
     },
+	{
+	  "vendor": "Amysen",
+	  "bDetailed": "0",
+	  "name": "Amysen Wifi Smart Plug YX-WS01",
+	  "chip": "BL602",
+	  "board": "YX-X3-T71C-VER03",
+	  "flags": "1024",
+	  "pins": {
+		"1": "LED_n;1",
+		"12": "Rel;1",
+		"16": "Btn;1"
+	  },
+	  "keywords": [
+		"plug",
+		"relay",
+		"TG7100C"
+	  ],
+	  "image": "https://obrazki.elektroda.pl/9135692300_1704034050.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20886589"
+	},
     {
       "vendor": "Blitzwolf",
       "bDetailed": "1",
