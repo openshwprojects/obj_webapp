@@ -1431,6 +1431,33 @@
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=18652154#18652154"
     },
 	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "Usee Link USB-C PD Surge Protector",
+	  "model": "SM-306U-PA65",
+	  "chip": "BK7231N",
+	  "board": "CBU",
+	  "flags": "1024",
+	  "keywords": [
+		"USB-C PD",
+		"4-port",
+		"Powerstrip"
+	  ],
+	  "pins": {
+		"6": "Rel;1",
+		"7": "Rel;2",
+		"8": "Rel;3",
+		"9": "Rel;4",
+		"17": "LED;6",
+		"22": "Btn_Tgl_All;8",
+		"24": "Rel;5",
+		"28": "WifiLED;7"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/7345684300_1704571106_thumb.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4026639.html"
+	},
+	{
 	  "vendor": "Amysen",
 	  "bDetailed": "0",
 	  "name": "Amysen Wifi Smart Plug YX-WS01",
