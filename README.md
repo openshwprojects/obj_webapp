@@ -25,3 +25,8 @@ For developing web app, you might want to run it locally and not from github
 4. Right click on code and "Open with live server"
 5. On OBK device (or OBK simulator), change Web App URL to your device IP + port from Visual Studio Code - for example: http://192.168.0.118:5500/
 6. Then your OBK device will access your local web app server instead of the one from github. Then you can easily develop and test code changes quickly.
+
+
+# How to host Web App with Docker?
+
+See guide: [Hosting OpenBeken Webapp Locally with Docker on Various Operating Systems](https://www.elektroda.com/rtvforum/topic4022819.html)
