@@ -1431,6 +1431,28 @@
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=18652154#18652154"
     },
 	{
+	  "vendor": "Ledvance",
+	  "bDetailed": "0",
+	  "name": "SmartPlus Classic A100 14W Multicolor",
+	  "model": "A100",
+	  "chip": "BK7231T",
+	  "board": "WB8P",
+	  "flags": "1024",
+	  "keywords": [
+		"E27"
+	  ],
+	  "pins": {
+		"7": "PWM;0",
+		"8": "PWM;1",
+		"9": "PWM;2",
+		"24": "PWM;4",
+		"26": "PWM;3"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/7726775800_1704666944.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4026971.html"
+	},
+	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
 	  "name": "Usee Link USB-C PD Surge Protector",
