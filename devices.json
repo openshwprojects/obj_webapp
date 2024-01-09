@@ -1431,6 +1431,54 @@
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=18652154#18652154"
     },
 	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "MINI-W1 3-Gang WiFi Switch Module",
+	  "model": "MINI-W1-3CH",
+	  "chip": "BK7231N",
+	  "board": "CB2S",
+	  "flags": "1024",
+	  "keywords": [
+		"PSW3-23v3B"
+	  ],
+	  "pins": {
+		"6": "TglChanOnTgl;1",
+		"7": "TglChanOnTgl;2",
+		"8": "TglChanOnTgl;3",
+		"10": "Rel;1",
+		"11": "WifiLED_n;0",
+		"23": "Btn_Tgl_All;0",
+		"24": "Rel;2",
+		"26": "Rel;3"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/9026804300_1704633863.jpg",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic4026798.html"
+	},
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "MINI-W1 2-Gang WiFi Switch Module",
+	  "model": "MINI-W1-2CH",
+	  "chip": "BK7231N",
+	  "board": "CB2S",
+	  "flags": "1024",
+	  "keywords": [
+			"PSW2-23v1B"
+	  ],
+	  "pins": {
+		"6": "TglChanOnTgl;1",
+		"7": "TglChanOnTgl;2",
+		"10": "Rel;1",
+		"11": "WifiLED_n;0",
+		"23": "Btn_Tgl_All;0",
+		"24": "Rel;2"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/4786852700_1704633029.jpg",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic4026798.html"
+	},
+	{
 	  "vendor": "Ledvance",
 	  "bDetailed": "0",
 	  "name": "SmartPlus Classic A100 14W Multicolor",
