@@ -9017,6 +9017,31 @@
       "image": "https://obrazki.elektroda.pl/8682934300_1703624628.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic4023528.html"
 	},
+  {
+    "vendor": "ONENUO",
+    "bDetailed": "0",
+    "name": "ONENUO Tuya Wifi Magnetic Door Sensor",
+    "model": "19JWT",
+    "chip": "BK7231N",
+    "board": "CBU-NL",
+    "flags": "1024",
+    "keywords": [
+      "sensor",
+      "battery-powered",
+      "door sensor",
+      "hall sensor"
+    ],
+    "pins": {
+      "14": "dInput_NoPullUp_n;2",
+      "15": "WifiLED_n;1",
+      "20": "BAT_Relay;4",
+      "22": "DoorSnsrWSleep;0",
+      "23": "BAT_ADC;3"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/7623210600_1704647495.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20896810"
+  },
 	{
 	  "vendor": "Globe Electric",
 	  "bDetailed": "0",
