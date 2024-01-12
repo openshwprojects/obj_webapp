@@ -3931,6 +3931,25 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3989796.html"
 	},
 	{
+	  "vendor": "Sinotimer",
+	  "bDetailed": "0",
+	  "name": "Home Smart 18mm 1P Circuit Breaker Timing Switch Staircase Din Rail",
+	  "model": "TM609",
+	  "chip": "ESP8266",
+	  "board": "TYWE2S",
+	  "flags": "0",
+	  "keywords": [
+		"banggood",
+		"din rail"
+	  ],
+	  "pins": {
+		
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/2748029700_1641497914.png",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic3860846.html"
+	},
+	{
 	  "vendor": "Onenuo",
 	  "bDetailed": "0",
 	  "name": "ONENUO Tuya Micro Smart USB Adapter Switch",
