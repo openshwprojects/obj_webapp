@@ -2973,7 +2973,7 @@
         "SC95F8613X"
       ],
       "image": "https://obrazki.elektroda.pl/2560946000_1666618650.png",
-      "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?t=3929151&highlight="
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?t=3929151&highlight="
     },
     {
       "vendor": "Ledlumen",
@@ -3057,7 +3057,7 @@
         "RGBCW"
       ],
       "image": "https://obrazki.elektroda.pl/9188059200_1668416800.jpg",
-      "wiki": "https://www.elektroda.pl/rtvforum/topic3934503.html"
+      "wiki": "https://www.elektroda.com/rtvforum/topic3934503.html"
     },
     {
       "vendor": "Nous",
@@ -3635,7 +3635,7 @@
         "26": "Rel;1"
       },
       "image": "https://obrazki.elektroda.pl/2027206500_1656763373.jpg",
-      "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?t=3917832&highlight=",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?t=3917832&highlight=",
       "command": "backlog startDriver BL0937;"
     },
     {
@@ -3650,7 +3650,7 @@
         "26": "Rel;1"
       },
       "image": "https://obrazki.elektroda.pl/4878877200_1662475527.jpg",
-      "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?t=3917832&highlight=",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?t=3917832&highlight=",
       "command": "backlog startDriver BL0942;"
     },
     {
@@ -3928,7 +3928,7 @@
 	  },
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/6004957700_1686239706.jpg",
-	  "wiki": "https://www.elektroda.pl/rtvforum/topic3989796.html"
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3989796.html"
 	},
 	{
 	  "vendor": "Onenuo",
@@ -4819,7 +4819,7 @@
 	  },
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/7014008100_1695390526.png",
-	  "wiki": "https://www.elektroda.pl/rtvforum/topic4016557.html"
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4016557.html"
 	},
 	{
 	  "vendor": "Tuya",
@@ -5007,7 +5007,7 @@
 	  },
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/7973236900_1697203569.jpg",
-	  "wiki": "https://www.elektroda.pl/rtvforum/topic4018703.html"
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4018703.html"
 	},
 	{
 	  "vendor": "Appio",
@@ -5025,7 +5025,7 @@
 	  },
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/3819295000_1701184406.jpg",
-	  "wiki": "https://www.elektroda.pl/rtvforum/topic4018062.html"
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4018062.html"
 	},
 	{
 	  "vendor": "Tuya",
@@ -5447,6 +5447,24 @@
       "wiki": "https://www.elektroda.pl/rtvforum/topic3816656.html",
       "product": ""
     },
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "Smart Switch",
+	  "model": "SW02-1",
+	  "chip": "BK7231N",
+	  "board": "on PCB",
+	  "keywords": ["TP02_N","2022.10.20","5A"],
+	  "pins": {
+		"6": "WifiLED_n;0",
+		"8": "Rel;1",
+		"10": "Btn_Tgl_All;0",
+		"24": "TglChanOnTgl;1"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/3542572100_1705042362_thumb.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4027983.html"
+	},
     {
       "vendor": "Tuya",
       "bDetailed": "0",
