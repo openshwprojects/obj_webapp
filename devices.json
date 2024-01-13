@@ -3950,6 +3950,32 @@
 	  "wiki": "https://www.elektroda.pl/rtvforum/topic3860846.html"
 	},
 	{
+	  "vendor": "Anslut",
+	  "bDetailed": "0",
+	  "name": "Smart Wall Switch teardown and flashing - 2 gang version",
+	  "model": "NAS-SC01W6-1",
+	  "chip": "BK7231N",
+	  "board": "on PCB",
+	  "flags": "134218816",
+	  "keywords": [
+		"025895",
+		"wall switch",
+		"jula.se"
+	  ],
+	  "pins": {
+		"6": "Rel;2",
+		"8": "Rel;1",
+		"14": "Btn;1",
+		"15": "LED;2",
+		"20": "Btn;2",
+		"22": "LED;1",
+		"24": "WifiLED_n;0"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/1010758700_1705153499.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4028315.html"
+	},
+	{
 	  "vendor": "Onenuo",
 	  "bDetailed": "0",
 	  "name": "ONENUO Tuya Micro Smart USB Adapter Switch",
