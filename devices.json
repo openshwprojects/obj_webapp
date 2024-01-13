@@ -3952,6 +3952,27 @@
 	{
 	  "vendor": "Anslut",
 	  "bDetailed": "0",
+	  "name": "Anslut Halo LED (42cm/22w, 29cm/14w)",
+	  "model": "LS7D03-2215-1W",
+	  "chip": "BK7231T",
+	  "board": "WB3S",
+	  "flags": "134222852",
+	  "keywords": [
+		"plafon",
+		"ceiling lamp",
+		"plafond-led-024724"
+	  ],
+	  "pins": {
+		"6": "PWM;5",
+		"8": "PWM;4"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/3213249200_1705155801.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4028310.html"
+	},
+	{
+	  "vendor": "Anslut",
+	  "bDetailed": "0",
 	  "name": "Smart Wall Switch teardown and flashing - 2 gang version",
 	  "model": "NAS-SC01W6-1",
 	  "chip": "BK7231N",
