@@ -3950,6 +3950,26 @@
 	  "wiki": "https://www.elektroda.pl/rtvforum/topic3860846.html"
 	},
 	{
+	  "vendor": "Tuya",
+	  "bDetailed": "1",
+	  "name": "Ceiling Lamp 30cm 15W 1200lm 100W",
+	  "model": "Woox 5111",
+	  "chip": "BK7231T",
+	  "board": "WB3S",
+	  "keywords": [
+		"Allegro",
+		"Woox Home"
+		],
+	  "pins": {
+		"0": "IRRecv;0",
+		"6": "PWM;5",
+		"8": "PWM;4"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/8496716800_1703564725.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4027381.html"
+	},
+	{
 	  "vendor": "Anslut",
 	  "bDetailed": "0",
 	  "name": "Anslut Halo LED (42cm/22w, 29cm/14w)",
