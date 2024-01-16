@@ -5491,7 +5491,7 @@
       "board": "CB3S",
       "pins": {},
       "image": "https://obrazki.elektroda.pl/9412782200_1660417605.jpg",
-      "wiki": "https://www.elektroda.pl/rtvforum/topic3914412.html",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3914412.html",
       "command": "backlog startDriver tuyaMCU; startDriver tmSensor; linkTuyaMCUOutputToChannel 1 val 1; setChannelType 1 ReadOnly; linkTuyaMCUOutputToChannel 3 val 3; setChannelType 3 ReadOnly;"
     },
     {
@@ -5530,7 +5530,7 @@
         "6211A"
       ],
       "image": "https://obrazki.elektroda.pl/5058501400_1625684278_thumb.jpg",
-      "wiki": "https://www.elektroda.pl/rtvforum/topic3816656.html",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3816656.html",
       "product": ""
     },
 	{
@@ -5607,6 +5607,31 @@
       "wiki": "https://zorruno.com/2022/zemismart-ks-811-with-openbk7231n-openbeken/",
       "product": "https://www.aliexpress.com/item/4000979779573.html"
     },
+	{
+	  "vendor": "Elivco",
+	  "bDetailed": "0",
+	  "name": "Elivco Cozylife 16A Mini Switch",
+	  "model": "RMW002",
+	  "chip": "LN882H",
+	  "board": "LN-02",
+	  "flags": "1024",
+	  "keywords": [
+		"ln882hki",
+		"lightning",
+		"switch",
+		"mini",
+		"16a",
+		"cozylife"
+	  ],
+	  "pins": {
+		"1": "Rel;0",
+		"19": "LED_n;0",
+		"24": "Btn;0"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/2417205600_1705389856.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20911009"
+	},
     {
       "vendor": "Shenzhen Neo Electronic Co., LTD.",
       "bDetailed": "1",
@@ -5620,7 +5645,7 @@
         "Allegro",
         "S47B9BB",
         "BS813A",
-        " NAS-SC01W-2"
+        "NAS-SC01W-2"
       ],
       "image": "https://obrazki.elektroda.pl/1281349600_1666869882.jpg",
       "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?t=3933329&highlight=",
