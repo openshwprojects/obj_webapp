@@ -90,6 +90,8 @@
                     if (this.chipset){
                         if(this.chipset=="BL602") {
                              this.otaFileExtension = ".bin.xz.ota";
+                        } else if(this.chipset=="LN882H") {
+                             this.otaFileExtension = ".bin";
                         } else if(this.chipSetUsesRBL()) {
                              this.otaFileExtension = ".rbl";
                         } else {
@@ -179,6 +181,8 @@
                 this.invalidOTASelected = !this.isWinnerMicroImage(result);
             } else if (this.chipset === "BL602"){
                 this.invalidOTASelected = !this.isBL602Image(result);
+            } else if (this.chipset === "LN882H"){
+                this.invalidOTASelected = false;
             }
             else{
                 //At this point W800 is the only other chipset with has OTA images e.g. OpenW800_1.12.40_ota.img
