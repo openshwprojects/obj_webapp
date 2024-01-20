@@ -5648,7 +5648,7 @@
         "NAS-SC01W-2"
       ],
       "image": "https://obrazki.elektroda.pl/1281349600_1666869882.jpg",
-      "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?t=3933329&highlight=",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?t=3933329&highlight=",
       "product": ""
     },
     {
@@ -5807,7 +5807,7 @@
 	  },
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/5876657200_1688391246.png",
-	  "wiki": "https://www.elektroda.pl/rtvforum/topic3987582.html"
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3987582.html"
 	},
 	{
 	  "vendor": "Tuya",
@@ -6051,6 +6051,29 @@
       "wiki": "https://www.elektroda.pl/rtvforum/topic3850717.html",
       "product": ""
     },
+	{
+	  "vendor": "CozyLife",
+	  "bDetailed": "0",
+	  "name": "Mini Smart Switch",
+	  "model": "LN882H",
+	  "chip": "LN882H",
+	  "board": "LN-02",
+	  "flags": "1024",
+	  "keywords": [
+		"switch module",
+		"single relay",
+		"single module"
+	  ],
+	  "pins": {
+		"0": "TglChanOnTgl;0",
+		"1": "Rel;0",
+		"19": "LED_n;0",
+		"24": "Btn;0"
+	  },
+	  "command": "PowerSave 1",
+	  "image": "https://obrazki.elektroda.pl/8132417200_1705759867.jpg",
+	  "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?p=20919279#20919279"
+	},
     {
       "vendor": "Blitzwolf",
       "bDetailed": "1",
