@@ -9013,6 +9013,37 @@
       "image": "https://obrazki.elektroda.pl/6297038600_1693845478.png",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20721244#20721244"
     },
+    {
+      "vendor": "Generic",
+      "bDetailed": "0",
+      "name": "Smart LED Galaxy Projector",
+      "model": "SK26",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "flags": "1446912",
+      "keywords": [
+        "led",
+        "rgb",
+        "star",
+        "nebula",
+        "projector",
+        "laser",
+        "motor"
+      ],
+      "pins": {
+        "6": "PWM_n;3",
+        "7": "PWM;5",
+        "8": "PWM;4",
+        "14": "Btn_SmartLED;0",
+        "20": "Btn_ScriptOnly;0",
+        "22": "Btn_ScriptOnly;0",
+        "24": "PWM_n;2",
+        "26": "PWM_n;1"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/2917649700_1702586359.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20863828#20863828"
+    },
 	{
 	  "vendor": "Calex",
 	  "bDetailed": "0",
