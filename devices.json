@@ -6052,6 +6052,27 @@
       "product": ""
     },
 	{
+	  "vendor": "Sonoff",
+	  "bDetailed": "0",
+	  "name": "B02-BL-A60 CW CCT",
+	  "model": "B02-BL-A60",
+	  "chip": "BL602",
+	  "board": "",
+	  "flags": "1024",
+	  "keywords": [
+		"CW",
+		"CCT",
+		"BP6772"
+	  ],
+	  "pins": {
+		"20": "PWM;1",
+		"21": "PWM;2"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/3056182400_1705759399.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4029987.html"
+	},
+	{
 	  "vendor": "CozyLife",
 	  "bDetailed": "0",
 	  "name": "Mini Smart Switch",
