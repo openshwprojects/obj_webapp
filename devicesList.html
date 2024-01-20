@@ -28,7 +28,7 @@
 <h2><a href="https://github.com/openshwprojects/OpenBK7231T_App">OpenBeken</a> IoT devices teardowns database</h2>
 <h4>Powered by <a href="https://www.elektroda.com/rtvforum/forum507.html">Elektroda.com</a>  teardowns section</h4>
 <h6>Have a device? Help us! Submit a teardown <a href="https://www.elektroda.com/rtvforum/forum507.html">here!</a></h6>
-<h6>Want to get cloud-free? Pair with HA? Flash OpenBeken - now supporting BK7231N, BK7231T, XR809, BL602, T34, W800/W801, W600/W601!</h6>
+<h6>Want to get cloud-free? Pair with HA? Flash OpenBeken - now supporting BK7231N, BK7231T, XR809, BL602, T34, W800/W801, W600/W601, LN882/LN882H!</h6>
 <h4>Do you like our Teardowns List? <a href="https://www.paypal.com/paypalme/openshwprojects">Donate to help us</a>  so we can buy more devices for teardowns! Every 1$ counts!</h4>
 <h6>Need help? Ask <a href="https://www.elektroda.com/rtvforum/topic3866123-960.html">here!</a> Direct contact with developers, daily feedback and bugfixes!</h6>
 <h5>Please watch our English flashing/configuration tutorials:</h5>
@@ -209,6 +209,15 @@ function hideNotNeeded()
 			</label>
 			</div>
 			</div>
+			<div class="col-auto" id="forumFilter">
+			  <label class="mr-sm-2" for="filter_LN882"></label>
+			  <div class="form-check mb-2">
+				<input class="form-check-input" type="checkbox" id="filter_LN882" checked>
+				<label class="form-check-label" for="filter_LN882">
+				  LN882
+				  </label>
+				  </div>
+				  </div>
 			<div class="col-auto" id="forumFilter">
 			<label class="mr-sm-2" for="filter_ESP82XX"></label>
 			<div class="form-check mb-2">
@@ -463,6 +472,7 @@ function refreshJSON() {
   var filter_detailed = document.getElementById("filter_detailed").checked;
   var filter_W80X = document.getElementById("filter_W80X").checked;
   var filter_W60X = document.getElementById("filter_W60X").checked;
+  var filter_LN882 = document.getElementById("filter_LN882").checked;
   var g_state = document.getElementById("g_state");
   var selectMax = document.getElementById("selectMax");
   var selectType = document.getElementById("selectType");
@@ -549,6 +559,14 @@ function refreshJSON() {
 				continue;
 			}
 		}
+		if(filter_LN882 == false)
+		{
+			if(chip.includes("LN882"))
+			{
+				continue;
+			}
+		}
+		
 		if(filter_W80X == false)
 		{
 			if(chip == "W800" || chip == "W801")
