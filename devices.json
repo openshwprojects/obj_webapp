@@ -5624,6 +5624,7 @@
 		"cozylife"
 	  ],
 	  "pins": {
+		"0": "TglChanOnTgl;0",
 		"1": "Rel;0",
 		"19": "LED_n;0",
 		"24": "Btn;0"
