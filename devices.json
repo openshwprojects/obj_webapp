@@ -5633,6 +5633,26 @@
 	  "image": "https://obrazki.elektroda.pl/2417205600_1705389856.png",
 	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20911009"
 	},
+	{
+	  "vendor": "Aubess",
+	  "bDetailed": "0",
+	  "name": "16A/20A plug from aliexpress ZN275250",
+	  "model": "LSPA9",
+	  "chip": "BK7231N",
+	  "board": "CB2S",
+	  "keywords": [],
+	  "pins": {
+		"6": "BL0937CF1;0",
+		"7": "BL0937CF;0",
+		"8": "WifiLED_n;0",
+		"23": "Btn;1",
+		"24": "BL0937SEL;0",
+		"26": "Rel;1"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/9664021800_1706198050.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4031269.html"
+	},
     {
       "vendor": "Shenzhen Neo Electronic Co., LTD.",
       "bDetailed": "1",
