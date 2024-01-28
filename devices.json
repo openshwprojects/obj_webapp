@@ -5634,6 +5634,32 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20911009"
 	},
 	{
+	  "vendor": "Avatto",
+	  "bDetailed": "0",
+	  "name": "3 Gang No Neutral Switch",
+	  "model": "TS03",
+	  "chip": "BK7231N",
+	  "board": "CB3S",
+	  "flags": "1024",
+	  "keywords": [
+		"Aliexpress",
+		"no neutral",
+		"wall switch"
+	  ],
+	  "pins": {
+		"7": "Btn;2",
+		"8": "Btn;3",
+		"10": "Btn;1",
+		"14": "Rel;1",
+		"23": "WifiLED_n;0",
+		"24": "Rel;3",
+		"26": "Rel;2"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/8934679300_1705035037.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4027971.html"
+	},
+	{
 	  "vendor": "Aubess",
 	  "bDetailed": "0",
 	  "name": "16A/20A plug from aliexpress ZN275250",
