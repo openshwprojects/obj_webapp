@@ -7757,6 +7757,23 @@
       "image": "https://obrazki.elektroda.pl/7069327900_1669279820.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20300613#20300613"
     },
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "Smart Power Metering Plug with BL0942",
+	  "model": "LSPA7",
+	  "chip": "BK7231N",
+	  "board": "CB2S",
+	  "keywords": ["KP3210SG","BL0942"],
+	  "pins": {
+		"6": "Btn;1",
+		"8": "WifiLED_n;0",
+		"26": "Rel;1"
+	  },
+	  "command": "startDriver BL0942",
+	  "image": "https://static.elektroda.pl/attach/IMG_20230708_194228623_HDR_1618192.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4032087.html"
+	},
     {
       "vendor": "Kogan",
       "bDetailed": "0",
