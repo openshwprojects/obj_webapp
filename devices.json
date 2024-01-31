@@ -7757,6 +7757,46 @@
       "image": "https://obrazki.elektroda.pl/7069327900_1669279820.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20300613#20300613"
     },
+
+    {
+      "vendor": "ELEGRP",
+      "bDetailed": "0",
+      "name": "Single Pole 1 Way Switch",
+      "model": "SPN10",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "keywords": [
+
+      ],
+      "pins": {
+		"6": "Btn;1",
+		"7": "Rel;1",
+		"23": "Btn;1",
+		"24": "LED_n;1"
+		},
+      "image": "https://obrazki.elektroda.pl/3724687600_1706678426_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4032527.html"
+    },
+    {
+      "vendor": "ELEGRP",
+      "bDetailed": "0",
+      "name": "Single Pole 3Way Switch",
+      "model": "SPN10",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "keywords": [
+
+      ],
+		"pins": {
+		"6": "Btn;1",
+		"7": "Rel;1",
+		"8": "dInput_NoPullUp_n;1",
+		"23": "Btn;1",
+		"24": "LED_n;1"
+		},
+      "image": "https://obrazki.elektroda.pl/3724687600_1706678426_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4032527.html"
+    },
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
