@@ -7777,6 +7777,26 @@
       "image": "https://obrazki.elektroda.pl/3724687600_1706678426_thumb.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic4032527.html"
     },
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "Schneider smart plug with power metering",
+	  "model": "550B6000",
+	  "chip": "BK7231N",
+	  "board": "CB3S",
+	  "flags": "1024",
+	  "keywords": [
+		"BL0942"
+	  ],
+	  "pins": {
+		"9": "Btn;1",
+		"24": "LED;1",
+		"26": "Rel;1"
+	  },
+	  "command": "startDriver BL0942",
+	  "image": "https://obrazki.elektroda.pl/5157340400_1706708868.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20937705"
+	},
     {
       "vendor": "ELEGRP",
       "bDetailed": "0",
