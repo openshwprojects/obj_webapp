@@ -8085,6 +8085,35 @@
       "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?p=20363756#20363756",
       "product": ""
     },
+	{
+	  "vendor": "Yinsan",
+	  "bDetailed": "0",
+	  "name": "E27 Smart Bulb 9W",
+	  "model": "",
+	  "chip": "W600",
+	  "board": "TW-05",
+	  "flags": "5632",
+	  "keywords": [
+		"yinsan",
+		"smart bulb",
+		"light",
+		"w600",
+		"tw-05",
+		"e27",
+		"800lm",
+		"850lm"
+	  ],
+	  "pins": {
+		"3": "PWM;1",
+		"6": "PWM;5",
+		"11": "PWM;2",
+		"13": "PWM;3",
+		"14": "PWM;4"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/6035509400_1706733874_thumb.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4032697.html"
+	},
     {
       "vendor": "Tuya",
       "bDetailed": "1",
