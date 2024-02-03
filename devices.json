@@ -8086,6 +8086,30 @@
       "product": ""
     },
 	{
+	  "vendor": "LSC",
+	  "bDetailed": "0",
+	  "name": "LSC Smart Mood Light",
+	  "model": "3204432",
+	  "chip": "BK7231N",
+	  "board": "on board",
+	  "flags": "1024",
+	  "keywords": [
+		"Action",
+		"RGB+3000K",
+		"200lm"
+	  ],
+	  "pins": {
+		"6": "PWM;1",
+		"7": "PWM;2",
+		"14": "Btn;5",
+		"24": "PWM;3",
+		"26": "PWM;4"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/1414285900_1706982172.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4033331.html"
+	}
+	{
 	  "vendor": "Yinsan",
 	  "bDetailed": "0",
 	  "name": "E27 Smart Bulb 9W",
