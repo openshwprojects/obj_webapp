@@ -9427,6 +9427,62 @@
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/1070781500_1703816693.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20880891"
-	}  
+	},
+  {
+    "vendor": "Elivco",
+    "bDetailed": "0",
+    "name": "Elivco 20A BSD34 EU Power Monitoring (BL0937) Plug",
+    "model": "BSD34",
+    "chip": "LN882H",
+    "board": "WL2S",
+    "flags": "1024",
+    "keywords": [
+      "power monitor",
+      "BL0937",
+      "LN882HKI",
+    "EU",
+    "PLUG",
+    "socket"
+    ],
+    "pins": {
+      "0": "LED;0",
+      "3": "Btn;0",
+      "7": "BL0937CF1;0",
+      "10": "LED_n;0",
+      "11": "Rel;0",
+      "12": "BL0937CF;0",
+      "19": "BL0937SEL;0"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/5953470600_1706549252.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20935260"
+  },
+{
+  "vendor": "Tuya / Smart Life",
+  "bDetailed": "0",
+  "name": "Smart Life Tuya IR USB Remote Control US01",
+  "model": "US01",
+  "chip": "BK7231N",
+  "board": "CB3S",
+  "flags": "32768",
+  "keywords": [
+    "USB",
+    "US01",
+    "IR",
+	"infra-red",
+	"tuya",
+	"cb3s"
+	"UNIVERSAL"
+  ],
+    "pins": {
+    "6": "Btn;0",
+    "7": "IRRecv;0",
+    "8": "WifiLED;0",
+    "26": "IRSend;0"
+  },
+  "command": "",
+  "image": "https://obrazki.elektroda.pl/3777891700_1706130396.jpg",
+  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20927159"
+}
   ]
 }
