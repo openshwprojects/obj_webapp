@@ -4947,7 +4947,7 @@
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/7753728000_1701806422.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4017963.html",
-	  "vendor": "https://www.ledvance.com/consumer/smart/control-options/smart-wifi-remote-control"
+	  "product": "https://www.ledvance.com/consumer/smart/control-options/smart-wifi-remote-control"
 	},
 	{
 	  "vendor": "Tuya",
@@ -4966,7 +4966,7 @@
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/1432934700_1701471674.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20842297#20842297",
-	  "vendor": "https://www.aliexpress.com/item/1005005021644441.html"
+	  "product": "https://www.aliexpress.com/item/1005005021644441.html"
 	},
 	{
 	  "vendor": "Action",
@@ -7391,8 +7391,7 @@
         "26": "Rel;3",
         "16": "Rel;4",
         "14": "Btn;1",
-        "7": "Btn;1",
-        "16": "Btn;2",
+        "7": "Btn;2",
         "9": "Btn;3",
         "15": "Btn;4"
       },
