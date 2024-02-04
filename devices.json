@@ -9440,8 +9440,6 @@
       "power monitor",
       "BL0937",
       "LN882HKI",
-    "EU",
-    "PLUG",
     "socket"
     ],
     "pins": {
@@ -9466,12 +9464,8 @@
   "board": "CB3S",
   "flags": "32768",
   "keywords": [
-    "USB",
-    "US01",
     "IR",
 	"infra-red",
-	"tuya",
-	"cb3s",
 	"UNIVERSAL"
   ],
     "pins": {
