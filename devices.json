@@ -7374,6 +7374,32 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3920286.html",
       "product": "https://shopee.com.my/product/68463208/6454092983?smtt=0.5847450-1663473183.9"
     },
+	{
+	  "vendor": "Elworks",
+	  "bDetailed": "0",
+	  "name": "Smart Dual Socket",
+	  "model": "CLY809M-GE",
+	  "chip": "BK7231N",
+	  "board": "CB2S",
+	  "flags": "1024",
+	  "keywords": [
+		"two sockets",
+		"power metering",
+		"two relays"
+	  ],
+	  "pins": {
+		"6": "Btn_Tgl_All;1",
+		"7": "BL0937CF;0",
+		"8": "BL0937CF1;0",
+		"10": "WifiLED_n;0",
+		"23": "BL0937SEL;0",
+		"24": "Rel;1",
+		"26": "Rel;2"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/2773645000_1707143046.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4033779.html"
+	},
     {
       "vendor": "Tuya",
       "bDetailed": "0",
