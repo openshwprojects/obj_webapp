@@ -3175,6 +3175,30 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3930622.html"
     },
     {
+      "vendor": "Gleco",
+      "bDetailed": "0",
+      "name": "Gleco Smart Bulb 15W RGB+2700~6500K",
+      "model": "",
+      "chip": "BK7231N",
+      "board": "CB2L",
+      "flags": "5122",
+      "keywords": [
+        "aliexpress",
+        "e27",
+        "es"
+      ],
+      "pins": {
+        "6": "PWM;3",
+        "7": "PWM;2",
+        "8": "PWM;1",
+        "24": "PWM;5",
+        "26": "PWM;4"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/8268653800_1696802287.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4007008.html"
+    },
+    {
       "vendor": "Kanlux",
       "bDetailed": "1",
       "name": "Kanlux S A60 LED lamp 11.5W E27 RGBCW [CB3L / BK7231N] ",
