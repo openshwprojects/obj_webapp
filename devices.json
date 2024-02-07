@@ -2256,7 +2256,7 @@
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
 	  "name": "AliExpres generic PIR Motion Movement Sensor",
-	  "model": "HW4008-W",
+	  "model": "HW400B-W",
 	  "chip": "BK7231N",
 	  "board": "CB3S",
 	  "flags": "1024",
@@ -2755,7 +2755,7 @@
     {
       "vendor": "Tuya",
       "bDetailed": "0",
-      "name": "Tuya ATORCH AT4P(WP/BW) Smartlife Energy monitor (BK7231N) (C3BS) (CH573F) (BL0924)",
+      "name": "Tuya ATORCH AT4P(WP/BW) Smartlife Energy monitor (BK7231N) (CB3S) (CH573F) (BL0924)",
       "chip": "BK7231N",
       "board": "CB3S",
       "pins": {},
@@ -2767,6 +2767,21 @@
       ],
       "image": "https://obrazki.elektroda.pl/6768510300_1671107680.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3941692.html"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Tuya ATORCH S1-B/W/T/H Smart Socket Energy Monitor (BK7231N) (CB3S) (CH573F) (BL0942)",
+      "chip": "BK7231N",
+      "board": "CB3S",
+      "pins": {},
+      "command": "",
+      "keywords": [
+        "TuyaMCU",
+        "LCD"
+      ],
+      "image": "https://obrazki.elektroda.pl/7012209800_1695398060.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4003739.html"
     },
     {
       "vendor": "Sumart",
@@ -3903,7 +3918,7 @@
     {
       "vendor": "AliExpress",
       "bDetailed": "1",
-      "name": "Cheap AliExpress 13a socket with CB2S (BK7321N)",
+      "name": "Cheap AliExpress 13a socket with CB2S (BK7231N)",
       "chip": "BK7231N",
       "board": "CB2S",
       "pins": {
@@ -7774,7 +7789,7 @@
     {
       "vendor": "Generic",
       "bDetailed": "0",
-      "name": "TOPGREENER Smart Mini Wi-Fi Plug with Energy Monitoring, TGWF115PQM (C2BS BK7231N)",
+      "name": "TOPGREENER Smart Mini Wi-Fi Plug with Energy Monitoring, TGWF115PQM (CB2S BK7231N)",
       "model": "TGWF115PQM",
       "chip": "BK7231N",
       "board": "CB2S",
