@@ -7379,6 +7379,25 @@
       "image": "https://obrazki.elektroda.pl/2139408300_1665942159_thumb.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3926915.html"
     },
+	{
+	  "vendor": "Xenon",
+	  "bDetailed": "0",
+	  "name": "smart outlet dual wall socket",
+	  "model": "SM-PW801-U2",
+	  "chip": "BK7231T",
+	  "board": "WB3S",
+	  "keywords": [],
+	  "pins": {
+		"1": "WifiLED_n;1",
+		"6": "Rel;1",
+		"9": "Rel;2",
+		"10": "Btn;2",
+		"24": "Btn;1"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/5596486600_1700145306.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4015180.html"
+	},
     {
       "vendor": "Lumiman",
       "bDetailed": "0",
