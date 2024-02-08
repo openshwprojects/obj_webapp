@@ -91,6 +91,8 @@
       line = line.trim();
         if(line.length < 2)
           return;
+        if(line[0]=='/' && line[1] == '/')
+            return;
       console.log("sending line: " + line);
       let url = window.device+'/api/cmnd';
       return new Promise((resolve, reject) => {
