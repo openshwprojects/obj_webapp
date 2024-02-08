@@ -7380,6 +7380,23 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3926915.html"
     },
 	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "Treatlife DP10 smart dimmer plug",
+	  "model": "DP10",
+	  "chip": "BK7231N",
+	  "board": "CB3S",
+	  "flags": "1024",
+	  "keywords": [
+		"smart socket",
+		"smart dimmer"
+	  ],
+	  "pins": {},
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/2112688900_1707364259.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20950756#20950756"
+	},
+	{
 	  "vendor": "Xenon",
 	  "bDetailed": "0",
 	  "name": "smart outlet dual wall socket",
