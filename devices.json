@@ -9552,7 +9552,32 @@
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/1070781500_1703816693.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20880891"
-	},
+	},  
+{
+  "vendor": "UME",
+  "bDetailed": "0",
+  "name": "UME Tuya Smart LED Outdoor Security Floodlight CW 2700K-6500K",
+  "model": "N/A",
+  "chip": "BK7231T",
+  "board": "WB3S",
+  "flags": "1024",
+  "keywords": [
+    "pir",
+    "motion",
+    "ACTIVATED",
+    "3000LM",
+    "dimmable"
+  ],
+  "pins": {
+    "6": "dInput_NoPullUp;3",
+    "8": "Rel;1",
+    "9": "Rel;2",
+    "23": "ADC;5"
+  },
+  "command": "",
+  "image": "https://obrazki.elektroda.pl/2082550400_1696896808.jpg",
+  "wiki": "https://www.elektroda.com/rtvforum/topic4007225.html"
+},
   {
     "vendor": "Elivco",
     "bDetailed": "0",
