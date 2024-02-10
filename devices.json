@@ -7378,7 +7378,27 @@
       ],
       "image": "https://obrazki.elektroda.pl/2139408300_1665942159_thumb.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3926915.html"
-    },
+    }, 
+	{
+	  "vendor": "Spectrum",
+	  "bDetailed": "0",
+	  "name": "Spectrum Smart Light 1500lm 13W 115lm/W E27 with KP18068 (compatible with KP18058)",
+	  "model": "WOJ14473",
+	  "chip": "BK7231N",
+	  "board": "CB2L",
+	  "flags": "1024",
+	  "keywords": [
+		"KP18068",
+		"1132033"
+	  ],
+	  "pins": {
+		"7": "KP18058_CLK;0",
+		"8": "KP18058_DAT;0"
+	  },
+	  "command": "KP18058_Maq 2 0 1 4 3",
+	  "image": "https://obrazki.elektroda.pl/5025700900_1681333896.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20537029#20537029"
+	},
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
