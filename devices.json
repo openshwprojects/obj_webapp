@@ -257,7 +257,7 @@
     {
       "vendor": "eBelong",
       "bDetailed": "0",
-      "name": "ERC2202  dual smart light controller",
+      "name": "ERC2202 dual smart light controller",
       "chip": "BK7231N",
       "board": "CB2S",
       "pins": {},
@@ -2279,7 +2279,7 @@
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
-	  "name": "Power Metering Relay  MS-101 16A SWT89",
+	  "name": "Power Metering Relay MS-101 16A SWT89",
 	  "model": "MS-101 16A SWT89",
 	  "chip": "BK7231T",
 	  "board": "WB2S",
@@ -7582,7 +7582,7 @@
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
-	  "name": "Modern/lfxbb Two Pack 14inch  35W 4000LM WiFi LED Flush Mount Ceiling Light + RGB Backlight",
+	  "name": "Modern/lfxbb Two Pack 14inch 35W 4000LM WiFi LED Flush Mount Ceiling Light + RGB Backlight",
 	  "model": "B08T75TY8K",
 	  "chip": "BK7231T",
 	  "board": "WB3S",
