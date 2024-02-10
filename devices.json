@@ -2255,7 +2255,7 @@
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
-	  "name": "AliExpres generic PIR Motion Movement Sensor",
+	  "name": "AliExpress Generic PIR Motion Movement Sensor",
 	  "model": "HW400B-W",
 	  "chip": "BK7231N",
 	  "board": "CB3S",
