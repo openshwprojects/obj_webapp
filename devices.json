@@ -5484,6 +5484,30 @@
     {
       "vendor": "Tuya",
       "bDetailed": "0",
+      "name": "Tuya Generic S09 Temperature/Humidity/Clock/IR - LCD, TuyaMCU",
+      "model": "S09",
+      "chip": "BK7231T",
+      "board": "WB3S",
+      "flags": "1024",
+      "keywords": [
+        "Hygrometer",
+        "AHT20",
+        "CUTESLIVING",
+        "5V",
+        "USB"
+      ],
+      "pins": {
+        "6": "Btn;0",
+        "8": "IRRecv;0",
+        "26": "IRSend;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/1941958200_1707803034.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20959091"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
       "name": "S09 LCD Temperature & Humidity & Calendar with IR, 5V USB-powered",
       "chip": "BK7231T",
       "board": "WB3S",
