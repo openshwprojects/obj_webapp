@@ -2693,7 +2693,7 @@
     {
       "vendor": "HomeKit",
       "bDetailed": "0",
-      "name": "WHDZ03 Smart Plug with Energy Monitoring BK7231N - Need help configuring",
+      "name": "WHDZ03 Smart Plug with Energy Monitoring",
       "chip": "BK7231N",
       "board": "CB2S",
       "pins": {
@@ -2735,6 +2735,25 @@
       ],
       "image": "https://obrazki.elektroda.pl/4489923600_1671076661.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3941677.html"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "TH08 Backlit LCD Temperature & Humidity & Calendar",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "pins": {},
+      "keywords": [
+        "TuyaMCU",
+        "TH08-CBU-ATH20-V2",
+        "hygrometer",
+		"AHT20",
+		"BL55070",
+		"Backlight"
+      ],
+      "image": "https://obrazki.elektroda.pl/2989380300_1693991809.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4000657.html",
+      "command": ""
     },
     {
       "vendor": "Tuya",
@@ -5531,7 +5550,7 @@
     {
       "vendor": "Tuya",
       "bDetailed": "1",
-      "name": "TH06LCD Temperature & Humidity & Calendar SKUH77374, 5V USB-powered",
+      "name": "TH06 LCD Temperature & Humidity & Calendar SKUH77374, 5V USB-powered",
       "chip": "BK7231T",
       "board": "WB3S",
       "pins": {},
