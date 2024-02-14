@@ -2740,7 +2740,7 @@
       "vendor": "Tuya",
       "bDetailed": "0",
       "name": "TH08 Backlit LCD Temperature & Humidity & Calendar, 3x AAA Batteries",
-      "model": "TH06",
+      "model": "TH08",
       "chip": "BK7231N",
       "board": "CBU",
       "pins": {},
