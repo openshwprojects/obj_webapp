@@ -5311,6 +5311,7 @@
         "power metering",
         "Power Monitor Switch"
       ],
+      "command": "startDriver BL0942",
       "image": "https://obrazki.elektroda.pl/5997065600_1667509176.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20266899#20266899"
     },
