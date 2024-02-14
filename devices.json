@@ -2740,6 +2740,7 @@
       "vendor": "Tuya",
       "bDetailed": "0",
       "name": "TH08 Backlit LCD Temperature & Humidity & Calendar, 3x AAA Batteries",
+      "model": "TH06",
       "chip": "BK7231N",
       "board": "CBU",
       "pins": {},
@@ -2791,7 +2792,7 @@
     {
       "vendor": "SZKOSTON",
       "bDetailed": "0",
-      "name": "SZKOSTON Tuya Door / Window Sensor - 2x AAA Batteries",
+      "name": "Tuya Door / Window Sensor - 2x AAA Batteries",
       "model": "",
       "chip": "BK7231N",
       "board": "CB3S",
