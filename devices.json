@@ -2739,7 +2739,7 @@
     {
       "vendor": "Tuya",
       "bDetailed": "0",
-      "name": "TH08 Backlit LCD Temperature & Humidity & Calendar",
+      "name": "TH08 Backlit LCD Temperature & Humidity & Calendar, 3x AAA Batteries",
       "chip": "BK7231N",
       "board": "CBU",
       "pins": {},
@@ -2747,14 +2747,15 @@
         "TuyaMCU",
         "TH08-CBU-ATH20-V2",
         "hygrometer",
-		"AHT20",
-		"BL55070",
-		"Backlight"
+		    "AHT20",
+		    "BL55070",
+		    "Backlight",
+        "battery"
       ],
       "image": "https://obrazki.elektroda.pl/2989380300_1693991809.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic4000657.html",
       "command": ""
-    },
+    }, 
     {
       "vendor": "Tuya",
       "bDetailed": "0",
@@ -2786,6 +2787,28 @@
       ],
       "image": "https://obrazki.elektroda.pl/6768510300_1671107680.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3941692.html"
+    },
+    {
+      "vendor": "SZKOSTON",
+      "bDetailed": "0",
+      "name": "SZKOSTON Tuya Door / Window Sensor - 2x AAA Batteries",
+      "model": "",
+      "chip": "BK7231N",
+      "board": "CB3S",
+      "flags": "0",
+      "keywords": [
+        "battery"
+      ],
+      "pins": {
+        "8": "DoorSnsrWSleep;0",
+        "14": "BAT_Relay;0",
+        "23": "BAT_ADC;0",
+        "24": "Btn;0",
+        "26": "WifiLED_n;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/7057404500_1705011297.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20904497"
     },
     {
       "vendor": "Tuya",
