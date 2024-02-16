@@ -257,7 +257,7 @@
     {
       "vendor": "eBelong",
       "bDetailed": "0",
-      "name": "ERC2202  dual smart light controller",
+      "name": "ERC2202 dual smart light controller",
       "chip": "BK7231N",
       "board": "CB2S",
       "pins": {},
@@ -2281,7 +2281,7 @@
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
-	  "name": "AliExpres generic PIR Motion Movement Sensor",
+	  "name": "AliExpress Generic PIR Motion Movement Sensor",
 	  "model": "HW400B-W",
 	  "chip": "BK7231N",
 	  "board": "CB3S",
@@ -2305,7 +2305,7 @@
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
-	  "name": "Power Metering Relay  MS-101 16A SWT89",
+	  "name": "Power Metering Relay MS-101 16A SWT89",
 	  "model": "MS-101 16A SWT89",
 	  "chip": "BK7231T",
 	  "board": "WB2S",
@@ -2719,7 +2719,7 @@
     {
       "vendor": "HomeKit",
       "bDetailed": "0",
-      "name": "WHDZ03 Smart Plug with Energy Monitoring BK7231N - Need help configuring",
+      "name": "WHDZ03 Smart Plug with Energy Monitoring",
       "chip": "BK7231N",
       "board": "CB2S",
       "pins": {
@@ -2765,6 +2765,27 @@
     {
       "vendor": "Tuya",
       "bDetailed": "0",
+      "name": "Backlit LCD Temperature & Humidity & Calendar, 3x AAA Batteries",
+      "model": "TH08",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "pins": {},
+      "keywords": [
+        "TuyaMCU",
+        "TH08-CBU-ATH20-V2",
+        "hygrometer",
+		    "AHT20",
+		    "BL55070",
+		    "Backlight",
+        "battery"
+      ],
+      "image": "https://obrazki.elektroda.pl/2989380300_1693991809.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4000657.html",
+      "command": ""
+    }, 
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
       "name": "Tuya wifi ceiling lamp dimmable KZB2436-36W",
       "chip": "BK7231N",
       "board": "CBU",
@@ -2793,6 +2814,28 @@
       ],
       "image": "https://obrazki.elektroda.pl/6768510300_1671107680.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3941692.html"
+    },
+    {
+      "vendor": "SZKOSTON",
+      "bDetailed": "0",
+      "name": "Tuya Door / Window Sensor - 2x AAA Batteries",
+      "model": "",
+      "chip": "BK7231N",
+      "board": "CB3S",
+      "flags": "0",
+      "keywords": [
+        "battery"
+      ],
+      "pins": {
+        "8": "DoorSnsrWSleep;0",
+        "14": "BAT_Relay;0",
+        "23": "BAT_ADC;0",
+        "24": "Btn;0",
+        "26": "WifiLED_n;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/7057404500_1705011297.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20904497"
     },
     {
       "vendor": "Tuya",
@@ -5294,6 +5337,7 @@
         "power metering",
         "Power Monitor Switch"
       ],
+      "command": "startDriver BL0942",
       "image": "https://obrazki.elektroda.pl/5997065600_1667509176.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20266899#20266899"
     },
@@ -5510,7 +5554,32 @@
     {
       "vendor": "Tuya",
       "bDetailed": "0",
-      "name": "S09 LCD Temperature & Humidity & Calendar with IR, 5V USB-powered",
+      "name": "Tuya Generic Temperature/Humidity/Clock/IR - LCD, TuyaMCU",
+      "model": "S09",
+      "chip": "BK7231T",
+      "board": "WB3S",
+      "flags": "1024",
+      "keywords": [
+        "Hygrometer",
+        "AHT20",
+        "CUTESLIVING",
+        "5V",
+        "USB"
+      ],
+      "pins": {
+        "6": "Btn;0",
+        "8": "IRRecv;0",
+        "26": "IRSend;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/1941958200_1707803034.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20959091"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "LCD Temperature & Humidity & Calendar with IR, 5V USB-powered",
+      "model": "S09",
       "chip": "BK7231T",
       "board": "WB3S",
       "pins": {
@@ -5524,7 +5593,8 @@
         "IR",
         "Remote",
         "Humidity",
-        "thermometer"
+        "thermometer",
+        "emylo"
       ],
       "image": "https://obrazki.elektroda.pl/3146904300_1672406025.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20359471#20359471",
@@ -5533,7 +5603,8 @@
     {
       "vendor": "Tuya",
       "bDetailed": "1",
-      "name": "TH06LCD Temperature & Humidity & Calendar SKUH77374, 5V USB-powered",
+      "name": "LCD Temperature & Humidity & Calendar SKUH77374, 5V USB-powered",
+      "model": "TH06",
       "chip": "BK7231T",
       "board": "WB3S",
       "pins": {},
@@ -5544,7 +5615,7 @@
         "Humidity",
         "thermometer"
       ],
-      "image": "https://obrazki.elektroda.pl/5199588700_1626964930_thumb.jpg",
+      "image": "https://obrazki.elektroda.pl/5199588700_1626964930.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3819498.html",
       "command": ""
     },
@@ -7608,7 +7679,7 @@
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
-	  "name": "Modern/lfxbb Two Pack 14inch  35W 4000LM WiFi LED Flush Mount Ceiling Light + RGB Backlight",
+	  "name": "Modern/lfxbb Two Pack 14inch 35W 4000LM WiFi LED Flush Mount Ceiling Light + RGB Backlight",
 	  "model": "B08T75TY8K",
 	  "chip": "BK7231T",
 	  "board": "WB3S",
@@ -9598,7 +9669,32 @@
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/1070781500_1703816693.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20880891"
-	},
+	},  
+{
+  "vendor": "UME",
+  "bDetailed": "0",
+  "name": "UME Tuya Smart LED Outdoor Security Floodlight CW 2700K-6500K",
+  "model": "N/A",
+  "chip": "BK7231T",
+  "board": "WB3S",
+  "flags": "1024",
+  "keywords": [
+    "pir",
+    "motion",
+    "ACTIVATED",
+    "3000LM",
+    "dimmable"
+  ],
+  "pins": {
+    "6": "dInput_NoPullUp;3",
+    "8": "Rel;1",
+    "9": "Rel;2",
+    "23": "ADC;5"
+  },
+  "command": "",
+  "image": "https://obrazki.elektroda.pl/2082550400_1696896808.jpg",
+  "wiki": "https://www.elektroda.com/rtvforum/topic4007225.html"
+},
   {
     "vendor": "Elivco",
     "bDetailed": "0",
