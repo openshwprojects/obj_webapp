@@ -986,6 +986,55 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4001659.html"
 	},
 	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "Ener-J Touch Switch",
+	  "model": "ETS301W",
+	  "chip": "BK7231N",
+	  "board": "on PCB",
+	  "flags": "0",
+	  "keywords": [
+		"1 gang",
+		"single switch",
+		"wall switch"
+	  ],
+	  "pins": {
+		"6": "Rel;1",
+		"10": "WifiLED_n;1",
+		"14": "LED_n;1",
+		"24": "Btn;1"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/5120528600_1708015168.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4036274.html"
+	},
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "Ener-J Touch Switch",
+	  "model": "ETS302W",
+	  "chip": "BK7231N",
+	  "board": "on PCB",
+	  "flags": "0",
+	  "keywords": [
+		"2 gang",
+		"dual switch",
+		"wall switch"
+	  ],
+	  "pins": {
+		"7": "Rel;1",
+		"10": "WifiLED_n;1",
+		"16": "LED_n;1",
+		"20": "Rel;2",
+		"22": "Btn;2",
+		"26": "Btn;1",
+		"28": "LED_n;2"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/5120528600_1708015168.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4036274.html"
+	},
+	{
 	  "vendor": "Action",
 	  "bDetailed": "0",
 	  "name": "LCS Smart Connect Ceiling Light v2",
