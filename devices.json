@@ -985,12 +985,38 @@
 	  "image": "https://obrazki.elektroda.pl/5746502900_1690456997.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4001659.html"
 	},
+	{
+	  "vendor": "Action",
+	  "bDetailed": "0",
+	  "name": "LCS Smart Connect Ceiling Light v2",
+	  "model": "3007213.2",
+	  "chip": "BK7231N",
+	  "board": "CB2S",
+	  "flags": "1024",
+	  "keywords": [
+		"LSC",
+		"Action",
+		"Lamp",
+		"Light"
+	  ],
+	  "pins": {
+		"6": "PWM;1",
+		"7": "PWM;2",
+		"8": "PWM;3",
+		"24": "PWM;4",
+		"26": "PWM;5"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/6662126500_1708015562_org.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4036246.html"
+	},
     {
       "vendor": "LSC",
       "bDetailed": "1",
-      "name": "LSC Smart Ceiling Light RGBCW - 3007213 - CB2S (BK7231N) (review 1)",
+      "name": "LSC Smart Ceiling Light RGBCW - CB2S (BK7231N) (review 1)",
       "chip": "BK7231N",
       "board": "CB2S",
+      "model": "3007213",
       "pins": {
         "6": "PWM;1",
         "7": "PWM;2",
