@@ -986,6 +986,28 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4001659.html"
 	},
 	{
+	  "vendor": "Bardi",
+	  "bDetailed": "0",
+	  "name": "Bardi On Off Breaker",
+	  "model": "JKY101-F-SR-V31",
+	  "chip": "BK7231T",
+	  "board": "WB2S",
+	  "flags": "1024",
+	  "keywords": [
+		"indonesia",
+		"single smart switch",
+		"single relay"
+	  ],
+	  "pins": {
+		"6": "Btn;0",
+		"7": "LED_n;0",
+		"24": "Rel;0"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/4378967800_1708226561.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4036753.html"
+	},
+	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
 	  "name": "Ener-J Touch Switch",
