@@ -370,10 +370,19 @@
 				continue;
 			}
 			let rName = this.pins.rolenames[this.pins.roles[i]];
-			let ch1 = this.pins.channels[i];
+			let ch1 = 0;
+      if(this.pins.channels && i < this.pins.channels.length)
+      {
+          ch1 = this.pins.channels[i];
+      }
 			//let obj = { "5", "Relay;1" };
 			device.pins[i] = rName+";"+ch1;
-        }
+      if(this.pins.channels2 && i < this.pins.channels2.length)
+      {
+			  let ch2 = this.pins.channels2[i];
+        device.pins[i] += ";"+ch2;
+      }
+    }
 		deviceTemplate = JSON.stringify(device, null, 2);
 		// fix for not working textArea for me?
 		this.deviceTemplateElement.value = deviceTemplate;
