@@ -63,7 +63,7 @@
   module.exports = {
     data: ()=>{
       return {
-        pins:{ rolenames:[], roles:[], channels:[] },
+        pins:{ rolenames:[], roles:[], channels:[], channels2:[] },
         channels:{},
         outputchannelroles:[],
         outputchannelrolenames:[],

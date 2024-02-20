@@ -360,7 +360,7 @@
     device.flags = this.flags;
 		device.chip = this.chipset;
 		//device.pins = 
-    for (let i = 0; i < this.pins.channels.length; i++){
+    for (let i = 0; i < this.pins.roles.length; i++){
 			if(this.pins.roles[i] == 0)
 			{
 				continue;
