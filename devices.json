@@ -4840,6 +4840,24 @@
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20496080#20496080"
     },
 	{
+	  "vendor": "SHUNSHUN",
+	  "bDetailed": "0",
+	  "name": "",
+	  "model": "16A WIFI Mini Smart Switch",
+	  "chip": "BK7231N",
+	  "board": "CB2S",
+	  "keywords": [],
+	  "pins": {
+		"7": "WifiLED_n;0",
+		"10": "Btn_Tgl_All;0",
+		"26": "TglChanOnTgl;1",
+		"8": "Rel;1"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/9529283700_1708433294.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4036451.html"
+	},
+	{
 	  "vendor": "MOES",
 	  "bDetailed": "0",
 	  "name": "WiFi Smart Temperature and Humidity Switch Module MS-103",
