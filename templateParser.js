@@ -279,14 +279,20 @@ function processJSON_OpenBekenTemplateStyle(tmpl) {
     for (const pin in pins) {
         pinDesc = pins[pin];
         console.log(`Pin ${pin} is connected to ${pinDesc}.`);
-        [roleName, channel] = pinDesc.split(';');
+        [roleName, channel, channel2] = pinDesc.split(';');
         // remap some old convention
         if(roleName == "Button") {roleName = "Btn"; }
         if(roleName == "Button_n") {roleName = "Btn_n"; }
         if(roleName == "Relay") {roleName = "Rel"; }
         if(roleName == "Relay_n") {roleName = "Rel_n"; }
         desc += "- P"+pin+" is " + roleName + " on channel " + channel +"\n";
-        scr += "backlog setPinRole "+pin+" "+roleName+"; setPinChannel " + pin + " " +channel+"\n";
+        scr += "backlog setPinRole "+pin+" "+roleName+"; setPinChannel " + pin + " " +channel;
+        // setPinChannel command can take now third argument, which is optional
+        if(channel2 != undefined && channel2 != 0)
+        {
+            scr += " " +channel2+"";
+        }
+        scr += "\n";
       }
       if(tmpl.flags != undefined) {
         scr += "Flags "+tmpl.flags+"\n";
