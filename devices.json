@@ -6620,6 +6620,35 @@
       "product": ""
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Generic Wi-Fi TH08 Temperature & Humidity Sensor [CHT8310]",
+      "model": "TH08",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "flags": "0",
+      "keywords": [
+      "battery",
+      "environment",
+      "AAA",
+      "hygrometer",
+      "th01?",
+      "blue pcb",
+      "sensylink"
+      ],
+     "pins": {
+        "8": "BAT_Relay;3",
+        "15": "Btn;4",
+        "16": "WifiLED_n;0",
+        "20": "CHT8305_SCK;0",
+        "22": "CHT8305_SDA;0;1",
+        "23": "BAT_ADC;2"
+      },
+      "command": "backlog PowerSave 1; startDriver battery; startDriver NTP; startDriver CHT8305",
+      "image": "https://obrazki.elektroda.pl/5743076800_1701986603.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4019974.html"
+    },
+    {
       "vendor": "Antela",
       "bDetailed": "0",
       "name": "Antela - smart bulb E27 RGB BAW534 9W",
