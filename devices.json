@@ -3380,6 +3380,28 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3920298.html"
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Cabinet CW LED Lamp - PIR Motion Sensor - USB Rechargeable",
+      "model": "",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "pins": {
+        "24": "PWM;4"
+      },
+      "keywords": [
+        "strip",
+        "cupboard",
+        "wardobe",
+        "kitchen",
+        "wall",
+        "cool white"
+      ],
+      "image": "https://obrazki.elektroda.pl/6121029200_1706394851.png",
+      "wiki": "",
+      "product": "https://www.elektroda.com/rtvforum/topic4031757.html"
+    },
+    {
       "vendor": "Arlec",
       "bDetailed": "0",
       "name": "RGB+CCT LED Downlight",
