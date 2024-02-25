@@ -3402,6 +3402,24 @@
       "product": ""
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Evolution Dimmable RGBW Night Light 2000k/4000k/5700k",
+      "model": "SL-02",
+      "chip": "BK7231T",
+      "board": "WB3S",
+      "pins": {},
+      "keywords": [
+        "TUYAMCU",
+        "bed",
+        "table",
+        "dc 5v"
+      ],
+      "image": "https://obrazki.elektroda.pl/4291330400_1708687567.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4037961.html",
+      "product": "https://evolution.by/product/evolution-sl-02"
+    },
+    {
       "vendor": "Arlec",
       "bDetailed": "0",
       "name": "RGB+CCT LED Downlight",
