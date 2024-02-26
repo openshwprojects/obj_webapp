@@ -22,6 +22,28 @@
       "image": "https://obrazki.elektroda.pl/5120493600_1650616045.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3895572.html#20033093"
     },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Generic 16A DIY Mini Switch",
+      "model": "",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "flags": "1024",
+      "keywords": [
+        "breaker",
+        "smart life",
+      ],
+      "pins": {
+        "7": "WifiLED_n;0",
+        "8": "Btn_Tgl_All;0",
+        "24": "Rel;1",
+        "26": "TglChanOnTgl;1"
+      },
+      "command": "backlog PowerSave 1",
+      "image": "https://obrazki.elektroda.pl/4061541000_1708980775.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4038842.html"
+    },
 	{
 	  "vendor": "Feit",
 	  "bDetailed": "0",
