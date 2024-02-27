@@ -9284,7 +9284,7 @@
 	{
 		"vendor": "Tuya",
 		"bDetailed": "0",
-		"name": "Display for Temperature/Pressure/Humidity, USB powered, 5V",
+		"name": "Display for Temperature/Humidity, USB powered, 5V",
 		"model": "",
 		"chip": "BK7231N",
 		"board": "CBU",
@@ -9293,13 +9293,19 @@
 			"CHT8305",
 			"GN6932",
 			"7-segment",
-			"5V"
+      "LED",
+      "CHT8310",
+      "micro usb"
 		],
-		  "pins": {
-
-		},
+    "pins": {
+      "15": "GN6932_DAT;3",
+      "17": "GN6932_CLK;3",
+      "20": "CHT8305_SCK;0",
+      "22": "CHT8305_SDA;1;0",
+      "28": "GN6932_STB;3"
+    },
 		"command": "",
-		"image": "https://obrazki.elektroda.pl/2853109500_1681248512.jpg",
+		"image": "https://obrazki.elektroda.pl/3835169900_1709017025.png",
 		"wiki": "https://www.elektroda.com/rtvforum/topic3971252.html"
 	},
 	{
