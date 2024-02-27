@@ -32,7 +32,7 @@
       "flags": "1024",
       "keywords": [
         "breaker",
-        "smart life",
+        "smart life"
       ],
       "pins": {
         "7": "WifiLED_n;0",
