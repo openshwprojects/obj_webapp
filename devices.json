@@ -9285,7 +9285,7 @@
 		"vendor": "Tuya",
 		"bDetailed": "0",
 		"name": "Display for Temperature/Humidity, USB powered, 5V",
-		"model": "",
+		"model": "TH03",
 		"chip": "BK7231N",
 		"board": "CBU",
 		"flags": "0",
