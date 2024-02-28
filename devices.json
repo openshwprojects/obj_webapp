@@ -22,6 +22,29 @@
       "image": "https://obrazki.elektroda.pl/5120493600_1650616045.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3895572.html#20033093"
     },
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "Frankever Smart IR",
+	  "model": "FK-UFO-R6",
+	  "chip": "BK7231N",
+	  "board": "CB3S",
+	  "flags": "1024",
+	  "keywords": [
+		"HF_Wifi_RF_V1.4",
+		"TuyaMCU",
+		"humidity",
+		"temperature",
+		"USB"
+	  ],
+	  "pins": {
+		"7": "IRRecv;0",
+		"8": "IRSend;55"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/3368646600_1708393825_thumb.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4037213.html"
+	},
     {
       "vendor": "Tuya",
       "bDetailed": "0",
