@@ -3408,6 +3408,31 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic4007008.html"
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "CozyLife RGBCW ES/E27 9w 850lm 2700-6500K Bulb",
+      "model": "",
+      "chip": "BL602",
+      "board": "DT-BL200",
+      "flags": "1024",
+      "keywords": [
+        "BL602L20",
+        "dimmable",
+        "LED",
+        "XLD-QFLWP-YT2.1"
+      ],
+      "pins": {
+        "3": "PWM;5",
+        "14": "PWM;1",
+        "20": "PWM;2",
+        "21": "PWM;3",
+        "22": "PWM;4"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/9633952600_1709134022.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4039283.html"
+    },
+    {
       "vendor": "Kanlux",
       "bDetailed": "1",
       "name": "Kanlux S A60 LED lamp 11.5W E27 RGBCW [CB3L / BK7231N] ",
