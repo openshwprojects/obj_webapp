@@ -25,6 +25,28 @@
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
+	  "name": "Door sensor",
+	  "model": "19JWT-B",
+	  "chip": "BK7231N",
+	  "board": "CBU",
+	  "flags": "1024",
+	  "keywords": [
+		"battery powered",
+		"deepsleep"
+	  ],
+	  "pins": {
+		"15": "WifiLED;0",
+		"20": "BAT_Relay;1",
+		"22": "DoorSnsrWSleep_pd;0",
+		"23": "BAT_ADC;1"
+	  },
+	  "command": "Battery_Setup 2000 3000 1.98 2400 4096",
+	  "image": "https://obrazki.elektroda.pl/1810618200_1705094609.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20906219"
+	},
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
 	  "name": "Frankever Smart IR",
 	  "model": "FK-UFO-R6",
 	  "chip": "BK7231N",
