@@ -2696,7 +2696,7 @@
       "bDetailed": "0",
       "name": "Aubess WiFi Smart LED Light Bulb 15W E27 RGBCW based on - BK7231N (CB2L)",
       "chip": "BK7231N",
-      "board": "CB2L",
+      "board": "QM-02L",
       "pins": {
         "6": "PWM;3",
         "7": "PWM;2",
@@ -2706,9 +2706,9 @@
       },
       "command": "",
       "keywords": [
-        "QM-02L",
-        "",
-        ""
+        "ES",
+        "B22",
+        "2700K-6500K"
       ],
       "image": "https://obrazki.elektroda.pl/7918570900_1670918896.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3941220.html"
