@@ -35,6 +35,7 @@
 		"deepsleep"
 	  ],
 	  "pins": {
+		"14": "Btn;2",
 		"15": "WifiLED;0",
 		"20": "BAT_Relay;1",
 		"22": "DoorSnsrWSleep_pd;0",
