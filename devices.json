@@ -23,6 +23,24 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3895572.html#20033093"
     },
 	{
+	  "vendor": "OXT",
+	  "bDetailed": "0",
+	  "name": "Single volt-free (dry contact) relay module",
+	  "model": "SWT10",
+	  "chip": "BK7231N",
+	  "board": "CB3S",
+	  "keywords": ["dry contact","allegro"],
+	  "pins": {
+		"6": "Rel;1",
+		"8": "TglChanOnTgl;1",
+		"9": "WifiLED_n;0",
+		"26": "Btn_Tgl_All;0"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/9582970800_1680176127.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3986611.html"
+	},
+	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
 	  "name": "Door sensor",
