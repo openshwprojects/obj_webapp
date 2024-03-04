@@ -23,6 +23,24 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3895572.html#20033093"
     },
 	{
+	  "vendor": "Geeni",
+	  "bDetailed": "0",
+	  "name": "Current + Charge outlet",
+	  "model": "",
+	  "chip": "BK7231T",
+	  "board": "WB2S",
+	  "keywords": ["socket","USB"],
+	  "pins": {
+		"6": "Rel;3",
+		"7": "Rel;2",
+		"8": "Rel;1",
+		"24": "Btn_Tgl_All;0"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/6314433700_1706377112_thumb.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4031764.html"
+	},
+	{
 	  "vendor": "OXT",
 	  "bDetailed": "0",
 	  "name": "Single volt-free (dry contact) relay module",
