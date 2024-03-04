@@ -9903,6 +9903,29 @@
     "image": "https://obrazki.elektroda.pl/7623210600_1704647495.jpg",
     "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20896810"
   },
+  {
+	  "vendor": "Ewelink",
+	  "bDetailed": "0",
+	  "name": "DIY smart switch",
+	  "model": "",
+	  "chip": "BL602",
+	  "board": "SM-028_V1.3",
+	  "flags": "1024",
+	  "keywords": [
+		"switch",
+		"relay",
+		"single"
+	  ],
+	  "pins": {
+		"2": "TglChanOnTgl;1",
+		"14": "LED_n;1",
+		"20": "Btn;1",
+		"21": "Rel;1"
+	  },
+	  "command": "powersave 1",
+	  "image": "https://obrazki.elektroda.pl/3889877500_1709032216.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20980720"
+	},
 	{
 	  "vendor": "Globe Electric",
 	  "bDetailed": "0",
