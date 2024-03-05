@@ -23,6 +23,42 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3895572.html#20033093"
     },
 	{
+	  "vendor": "Geeni",
+	  "bDetailed": "0",
+	  "name": "Current + Charge outlet",
+	  "model": "",
+	  "chip": "BK7231T",
+	  "board": "WB2S",
+	  "keywords": ["socket","USB"],
+	  "pins": {
+		"6": "Rel;3",
+		"7": "Rel;2",
+		"8": "Rel;1",
+		"24": "Btn_Tgl_All;0"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/6314433700_1706377112_thumb.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4031764.html"
+	},
+	{
+	  "vendor": "OXT",
+	  "bDetailed": "0",
+	  "name": "Single volt-free (dry contact) relay module",
+	  "model": "SWT10",
+	  "chip": "BK7231N",
+	  "board": "CB3S",
+	  "keywords": ["dry contact","allegro"],
+	  "pins": {
+		"6": "Rel;1",
+		"8": "TglChanOnTgl;1",
+		"9": "WifiLED_n;0",
+		"26": "Btn_Tgl_All;0"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/9582970800_1680176127.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3986611.html"
+	},
+	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
 	  "name": "Door sensor",
@@ -35,6 +71,7 @@
 		"deepsleep"
 	  ],
 	  "pins": {
+		"14": "Btn;2",
 		"15": "WifiLED;0",
 		"20": "BAT_Relay;1",
 		"22": "DoorSnsrWSleep_pd;0",
@@ -9954,6 +9991,29 @@
     "image": "https://obrazki.elektroda.pl/7623210600_1704647495.jpg",
     "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20896810"
   },
+  {
+	  "vendor": "Ewelink",
+	  "bDetailed": "0",
+	  "name": "DIY smart switch",
+	  "model": "",
+	  "chip": "BL602",
+	  "board": "SM-028_V1.3",
+	  "flags": "1024",
+	  "keywords": [
+		"switch",
+		"relay",
+		"single"
+	  ],
+	  "pins": {
+		"2": "TglChanOnTgl;1",
+		"14": "LED_n;1",
+		"20": "Btn;1",
+		"21": "Rel;1"
+	  },
+	  "command": "powersave 1",
+	  "image": "https://obrazki.elektroda.pl/3889877500_1709032216.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20980720"
+	},
 	{
 	  "vendor": "Globe Electric",
 	  "bDetailed": "0",
