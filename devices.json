@@ -23,6 +23,31 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3895572.html#20033093"
     },
 	{
+	  "vendor": "Gerier",
+	  "bDetailed": "0",
+	  "name": "2CH WiFi Switch",
+	  "model": "LED 2*150W 2*5A",
+	  "chip": "BK7231N",
+	  "board": "CB2S",
+	  "flags": "1024",
+	  "keywords": [
+		"Relay",
+		"module",
+		"ZH-Z17 REV:B"
+	  ],
+	  "pins": {
+		"6": "WifiLED_n;0",
+		"7": "Rel;2",
+		"8": "Btn_Tgl_All;0",
+		"23": "Rel;1",
+		"24": "TglChanOnTgl;2",
+		"26": "TglChanOnTgl;1"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/7728453700_1709671235.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4040700.html"
+	},
+	{
 	  "vendor": "Geeni",
 	  "bDetailed": "0",
 	  "name": "Current + Charge outlet",
