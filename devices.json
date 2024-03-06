@@ -2801,11 +2801,37 @@
       "product": "https://nedis.com/en-us/product/lighting/decorative-lighting/led-lights/550690705/smartlife-led-strip-wi-fi-cool-white-rgb-warm-white-smd-500-m-ip65-2700-6500-k-960-lm-android-ios"
     },
     {
+      "vendor": "Qiachip",
+      "bDetailed": "0",
+      "name": "Ewelink Wifi Smart Switch DC5V 12V 24V 48V Breaker 1 Channel",
+      "model": "KR0548-1CH-W",
+      "chip": "BL602",
+      "board": "SM-028_V1.3",
+      "flags": "1024",
+      "keywords": [
+        "single channel",
+        "relay",
+        "NO.COM.NC",
+        "normally open",
+        "normally closed",
+        "micro usb",
+        "7v-48v"
+      ],
+      "pins": {
+        "14": "Btn;0",
+        "20": "Rel;0",
+        "22": "WifiLED;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/8179062100_1709393804.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20987133#20987133"
+    },
+    {
       "vendor": "Aubess",
       "bDetailed": "0",
       "name": "Aubess WiFi Smart LED Light Bulb 15W E27 RGBCW based on - BK7231N (CB2L)",
       "chip": "BK7231N",
-      "board": "CB2L",
+      "board": "QM-02L",
       "pins": {
         "6": "PWM;3",
         "7": "PWM;2",
@@ -2815,9 +2841,9 @@
       },
       "command": "",
       "keywords": [
-        "QM-02L",
-        "",
-        ""
+        "ES",
+        "B22",
+        "2700K-6500K"
       ],
       "image": "https://obrazki.elektroda.pl/7918570900_1670918896.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3941220.html"
@@ -3350,6 +3376,26 @@
 		"wiki": "https://www.elektroda.com/rtvforum/topic3965108.html",
 		"product": "https://templates.blakadder.com/lerlink_X801A.html"
 	},
+  {
+    "vendor": "Eveready",
+    "bDetailed": "0",
+    "name": "GU10 RGBCCT 4.8W 345LM RGB+2700-6500K Bulb",
+    "model": "S19263",
+    "chip": "BK7231N",
+    "board": "CBLC5",
+    "flags": "1024",
+    "keywords": [
+      "poundland",
+      "BP5758D"
+    ],
+    "pins": {
+      "24": "BP5758D_DAT;0",
+      "26": "BP5758D_CLK;0"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/2072813000_1709672386.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4040714.html"
+  },
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
@@ -3515,6 +3561,31 @@
       "command": "",
       "image": "https://obrazki.elektroda.pl/8268653800_1696802287.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic4007008.html"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "CozyLife RGBCW ES/E27 9w 850lm 2700-6500K Bulb",
+      "model": "",
+      "chip": "BL602",
+      "board": "DT-BL200",
+      "flags": "1024",
+      "keywords": [
+        "BL602L20",
+        "dimmable",
+        "LED",
+        "XLD-QFLWP-YT2.1"
+      ],
+      "pins": {
+        "3": "PWM;5",
+        "14": "PWM;1",
+        "20": "PWM;2",
+        "21": "PWM;3",
+        "22": "PWM;4"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/9633952600_1709134022.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4039283.html"
     },
     {
       "vendor": "Kanlux",
