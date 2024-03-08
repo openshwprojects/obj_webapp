@@ -1944,6 +1944,30 @@
     },
     {
       "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "220v 9W E14 Candle RGBCCT Bulb (2800K-6500K)",
+      "model": "W505Z2",
+      "chip": "LN882H",
+      "board": "",
+      "flags": "1024",
+      "keywords": [
+        "lamp",
+        "ln882hki",
+        "candel",
+        "dimmable",
+        "warm white",
+        "cool white"
+      ],
+      "pins": {
+        "0": "BP5758D_CLK;0",
+        "1": "BP5758D_DAT;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/1884684600_1708426526.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4037269.html"
+    },
+    {
+      "vendor": "Tuya",
       "bDetailed": "1",
       "name": "Tuya 4CH touch switch 10A",
       "chip": "BK7231T",
