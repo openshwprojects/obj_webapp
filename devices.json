@@ -25,6 +25,27 @@
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
+	  "name": "Smart Plug Power Monitoring",
+	  "model": "SP400W-IL",
+	  "chip": "BK7231T",
+	  "board": "WB2S",
+	  "flags": "1156",
+	  "keywords": [
+		"power metering",
+		"energy metering"
+	  ],
+	  "pins": {
+		"6": "LED_n;1",
+		"7": "Btn;1",
+		"26": "Rel;1"
+	  },
+	  "command": "startDriver BL0942",
+	  "image": "https://obrazki.elektroda.pl/6350829200_1709888597.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4041210.html"
+	},
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
 	  "name": "Wifi Smart Plug with Energy Measurement",
 	  "model": "RMC021",
 	  "chip": "BK7231N",
@@ -1965,7 +1986,7 @@
         "1": "BP5758D_DAT;0"
       },
       "command": "",
-      "image": "https://obrazki.elektroda.pl/YOUR_IMAGE.jpg",
+      "image": "https://obrazki.elektroda.pl/1884684600_1708426526.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic4037269.html"
     },
     {
