@@ -1922,6 +1922,29 @@
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=19868255#19868255"
     },
     {
+      "vendor": "SIXWGH",
+      "bDetailed": "0",
+      "name": "Tuya 16A (15A) Mini Smart Switch + RF 433.92Mhz",
+      "model": "WHD03",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "flags": "1024",
+      "keywords": [
+        "breaker",
+        "DIY",
+        "circuit"
+      ],
+      "pins": {
+        "7": "WifiLED_n;0",
+        "8": "Btn_Tgl_All;0",
+        "24": "Rel;1",
+        "26": "TglChanOnTgl;1"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/9563681900_1710194409.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4042000.html"
+    },
+    {
       "vendor": "Tuya",
       "bDetailed": "0",
       "name": "220v 9W E14 Candle RGBCCT Bulb (2800K-6500K)",
