@@ -621,7 +621,17 @@
       "model": "KR0548-4CH",
       "chip": "BL602",
       "board": "SM-028_V1.3",
-      "pins": {},
+	"pins": {
+		"1": "Btn;2",
+		"2": "Rel;1",
+		"3": "Btn;1",
+		"4": "Btn;3",
+		"14": "WifiLED;0",
+		"17": "Rel;3",
+		"20": "Btn;4",
+		"21": "Rel;4",
+		"22": "Rel;2"
+	  },
       "keywords": [
         "switch",
         "relay",
