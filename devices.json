@@ -720,7 +720,7 @@
     {
       "vendor": "Tuya",
       "bDetailed": "0",
-      "name": "Mini Ceiling Fan Controller (ZN30460201)",
+      "name": "Mini Ceiling Fan Speed Controller (ZN30460201)",
       "model": "TMWF02",
       "chip": "BK7231T",
       "board": "WB2S",
@@ -729,8 +729,10 @@
         "tuyamcu",
         "dimmer",
         "puya",
-      "PY32F003",
-      "ZN304602_01"
+        "PY32F003",
+        "ZN304602_01",
+        "WB_MD1",
+        "20220811"
       ],
       "pins": {},
       "command": "",
