@@ -46,6 +46,29 @@
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
+	  "name": "Smart Socket 20A",
+	  "model": "BL602/BL0937",
+	  "chip": "BL602",
+	  "board": "SM-028_V1.3",
+	  "flags": "69731332",
+	  "keywords": [
+	
+	  ],
+	  "pins": {
+		"2": "Rel;1",
+		"3": "BL0937CF1;0",
+		"14": "BL0937CF;0",
+		"17": "Btn;1",
+		"20": "LED_n;1",
+		"21": "BL0937SEL;0"
+	  },
+	  "command": "backlog startDriver BL0937; startDriver NTP; startDriver SSDP",
+	  "image": "https://obrazki.elektroda.pl/9568515100_1707749274.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4020634.html"
+	},
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
 	  "name": "Wifi Smart Plug with Energy Measurement",
 	  "model": "RMC021",
 	  "chip": "BK7231N",
