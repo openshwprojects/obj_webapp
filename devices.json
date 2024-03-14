@@ -728,6 +728,28 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3954253.html"
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Mini Ceiling Fan Speed Controller (ZN30460201)",
+      "model": "TMWF02",
+      "chip": "BK7231T",
+      "board": "WB2S",
+      "flags": "1024",
+      "keywords": [
+        "tuyamcu",
+        "dimmer",
+        "puya",
+        "PY32F003",
+        "ZN304602_01",
+        "WB_MD1",
+        "20220811"
+      ],
+      "pins": {},
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/5815138200_1710277150.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4003295.html"
+    },
+    {
       "vendor": "MoesHouse",
       "bDetailed": "1",
       "name": "MoesHouse DIY Smart WiFi Light LED Dimmer Switch Smart Life",
@@ -1951,6 +1973,29 @@
       ],
       "image": "https://obrazki.elektroda.pl/2114413500_1644162876_thumb.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=19868255#19868255"
+    },
+    {
+      "vendor": "SIXWGH",
+      "bDetailed": "0",
+      "name": "Tuya 16A (15A) Mini Smart Switch + RF 433.92Mhz",
+      "model": "WHD03",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "flags": "1024",
+      "keywords": [
+        "breaker",
+        "DIY",
+        "circuit"
+      ],
+      "pins": {
+        "7": "WifiLED_n;0",
+        "8": "Btn_Tgl_All;0",
+        "24": "Rel;1",
+        "26": "TglChanOnTgl;1"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/9563681900_1710194409.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4042000.html"
     },
     {
       "vendor": "Tuya",
