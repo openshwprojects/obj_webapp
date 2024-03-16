@@ -6985,6 +6985,54 @@
     {
       "vendor": "Tuya",
       "bDetailed": "0",
+      "name": "Smart Plug 16A ЕU AU UK + 2.1A Dual Independent USB (Config Type 1)",
+      "model": "LSPA2",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "flags": "1024",
+      "keywords": [
+        "RELAY",
+        "switch",
+        "socket"
+      ],
+      "pins": {
+        "7": "Rel;3",
+        "8": "WifiLED_n;0",
+        "10": "Btn_Tgl_All;0",
+        "24": "Rel;2",
+        "26": "Rel;1"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/2632682400_1710611028.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21006754#21006754"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Smart Plug 16A ЕU AU UK + 2.1A Dual Independent USB (Config Type 2)",
+      "model": "LSPA2",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "flags": "1024",
+      "keywords": [
+        "RELAY",
+        "switch",
+        "socket"
+      ],
+      "pins": {
+        "6": "Rel;1",
+        "7": "Rel;2",
+        "10": "Btn_Tgl_All;0",
+        "24": "Rel;0",
+        "26": "WifiLED_n;1"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/1114790300_1686685394.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3983684.html"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
       "name": "Generic Temperature and Humidity Sensor Battery Powered SHT30",
       "model": "",
       "chip": "BK7231N",
