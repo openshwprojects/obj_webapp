@@ -5087,6 +5087,61 @@
 	  "image": "https://obrazki.elektroda.pl/4633099700_1700258844.png",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4015497.html"
 	},
+  {
+    "vendor": "Etersky",
+    "bDetailed": "0",
+    "name": "Wifi Roller Curtain Shutter Switch",
+    "model": "WF-CS01",
+    "chip": "BK7231T",
+    "board": "WB3S",
+    "flags": "0",
+    "keywords": [
+      "autoexec required",
+      "blinds",
+      "shutters"
+    ],
+    "pins": {
+      "0": "LED;3",
+      "1": "LED_n;6",
+      "6": "Rel;1",
+      "7": "Rel;3",
+      "8": "Btn;0",
+      "10": "Btn;0",
+      "14": "LED;1",
+      "24": "Btn;0",
+      "26": "LED;2"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/9953066400_1710663548.png",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4042856.html"
+  },
+  {
+    "vendor": "Etersky",
+    "bDetailed": "0",
+    "name": "Wifi Roller Curtain Shutter Switch",
+    "model": "WF-CS01",
+    "chip": "BK7231N",
+    "board": "CB3S",
+    "flags": "0",
+    "keywords": [
+      "autoexec required",
+      "blinds",
+      "shutters"
+    ],
+    "pins": {
+      "6": "Rel;1",
+      "7": "Btn;0",
+      "8": "LED;2",
+      "9": "Rel;3",
+      "10": "Btn;0",
+      "14": "LED;1",
+      "23": "LED;3",
+      "24": "Btn;0"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/9953066400_1710663548.png",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4042856.html"
+  },
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
