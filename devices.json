@@ -5482,9 +5482,7 @@
 	  "board": "WB3S",
 	  "flags": "1024",
 	  "keywords": [
-		"B08GG7H5CP",
-		"TODO",
-		"TODO"
+		"B08GG7H5CP"
 	  ],
 	  "pins": {
 		"1": "WifiLED;0",
@@ -9280,7 +9278,7 @@
 	  "board": "CB3S",
 	  "flags": "4228096",
 	  "keywords": [
-		"TODO"
+		"infra-red"
 	  ],
 	  "pins": {
 		"6": "Btn;1",
@@ -9301,7 +9299,7 @@
   "board": "CB3S",
   "flags": "4228096",
   "keywords": [
-    "TODO"
+    "infra-red"
   ],
   "pins": {
     "6": "Btn;1",
@@ -9322,7 +9320,7 @@
   "board": "WB3S",
   "flags": "4228096",
   "keywords": [
-    "TODO"
+    "infra-red"
   ],
   "pins": {
     "6": "Btn;1",
@@ -9591,9 +9589,12 @@
 	  "board": "WB2L",
 	  "flags": "1024",
 	  "keywords": [
-		"TODO",
-		"TODO",
-		"TODO"
+		  "bulb",
+		  "RGB+2700K-6500K",
+		  "lamp",
+      "ES",
+      "60W",
+      "120V"
 	  ],
 	  "pins": {
 		"7": "BP5758D_CLK;0",
@@ -9694,9 +9695,10 @@
 	  "board": "SDV-002_V1.2",
 	  "flags": "536871936",
 	  "keywords": [
-		"TODO",
-		"TODO",
-		"TODO"
+		  "touch",
+		  "sensor",
+		  "remote",
+      "no neutral"
 	  ],
 	 "pins": {
 		"3": "Rel;1",
@@ -9760,9 +9762,10 @@
 	  "board": "SDV-002_V1.2",
 	  "flags": "536871936",
 	  "keywords": [
-		"TODO",
-		"TODO",
-		"TODO"
+      "touch",
+      "sensor",
+      "remote",
+      "no neutral"
 	  ],
 	  "pins": {
 		"1": "Rel;1",
@@ -9784,9 +9787,10 @@
 	  "board": "SDV-002_V1.2",
 	  "flags": "536871936",
 	  "keywords": [
-		"TODO",
-		"TODO",
-		"TODO"
+      "touch",
+      "sensor",
+      "remote",
+      "no neutral"
 	  ],
 		"pins": {
 		"1": "Rel;2",
