@@ -5030,7 +5030,7 @@
 	  "name": "Shutter Controller Wall Switch",
 	  "model": "SC400W-EU",
 	  "chip": "BK7231N",
-	  "board": "TODO",
+	  "board": "CB3S",
 	  "flags": "0",
 	  "keywords": [
 		"LoraTap",
@@ -6461,7 +6461,7 @@
 	  "name": "TO-Q-SY-JWT Switch and Meter for DIN Rail",
 	  "model": "TO-Q-SY-JWT",
 	  "chip": "BK7231N",
-	  "board": "TODO",
+	  "board": "CBU",
 	  "flags": "33555456",
 	  "keywords": [
 		"Power metering",
@@ -6993,7 +6993,8 @@
       "keywords": [
         "RELAY",
         "switch",
-        "socket"
+        "socket",
+        "LSPA2TY"
       ],
       "pins": {
         "7": "Rel;3",
@@ -7017,7 +7018,8 @@
       "keywords": [
         "RELAY",
         "switch",
-        "socket"
+        "socket",
+        "LSPA2TY"
       ],
       "pins": {
         "6": "Rel;1",
