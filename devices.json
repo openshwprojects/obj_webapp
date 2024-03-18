@@ -152,6 +152,31 @@
 	  "image": "https://obrazki.elektroda.pl/9582970800_1680176127.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3986611.html"
 	},
+  {
+    "vendor": "Ai-Thinker",
+    "bDetailed": "0",
+    "name": "Dev Board",
+    "model": "Ai-WB2-32S-Kit",
+    "chip": "BL602",
+    "board": "Ai-WB2-32S",
+    "flags": "1032",
+    "keywords": [
+      "development",
+      "BL602C40",
+      "PCB",
+      "usb-c",
+      "4mb",
+      "smd-38"
+    ],
+    "pins": {
+      "3": "PWM;3",
+      "14": "PWM;1",
+      "17": "PWM;2"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/3143722700_1710709633.png",
+    "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21008424#21008424"
+  },
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
