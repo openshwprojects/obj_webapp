@@ -153,6 +153,28 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3986611.html"
 	},
   {
+    "vendor": "Poundland UK",
+    "bDetailed": "0",
+    "name": "Ultrabrite Smart Wifi Plug",
+    "model": "20J ST3",
+    "chip": "BK7231T",
+    "board": "WB2S",
+    "flags": "1024",
+    "keywords": [
+      "ULP1GWIFIPLUG",
+      "socket"
+    ],
+    "pins": {
+      "6": "Btn;1",
+      "7": "LED_n;1",
+      "8": "WifiLED;0",
+      "24": "Rel;1"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/7571119300_1685476866.png",
+    "wiki": "https://www.elektroda.com/rtvforum/topic3981200.html"
+  },
+  {
     "vendor": "Ai-Thinker",
     "bDetailed": "0",
     "name": "Dev Board",
