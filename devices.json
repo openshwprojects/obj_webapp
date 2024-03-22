@@ -87,6 +87,31 @@
 		"24": "BL0937SEL;0",
 		"26": "Rel;1"
 	  },
+	  "command": "startDriver NTP",
+	  "image": "https://obrazki.elektroda.pl/3064808200_1711062407.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21014244#21014244"
+	},
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "Wifi Smart Plug with Energy Measurement",
+	  "model": "RMC021",
+	  "chip": "BK7231N",
+	  "board": "CB2S",
+	  "flags": "1024",
+	  "keywords": [
+		"power metering",
+		"smart plug",
+		"bl0937"
+	  ],
+	  "pins": {
+		"6": "BL0937CF1;0",
+		"7": "BL0937CF;0",
+		"8": "WifiLED_n;0",
+		"10": "Btn;1",
+		"24": "BL0937SEL;0",
+		"26": "Rel;1"
+	  },
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/4143902500_1709667653.webp",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4040624.html"
