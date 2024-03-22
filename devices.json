@@ -177,6 +177,53 @@
 	  "image": "https://obrazki.elektroda.pl/9582970800_1680176127.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3986611.html"
 	},
+  {
+    "vendor": "Poundland UK",
+    "bDetailed": "0",
+    "name": "Ultrabrite Smart Wifi Plug",
+    "model": "20J ST3",
+    "chip": "BK7231T",
+    "board": "WB2S",
+    "flags": "1024",
+    "keywords": [
+      "ULP1GWIFIPLUG",
+      "socket"
+    ],
+    "pins": {
+      "6": "Btn;1",
+      "7": "LED_n;1",
+      "8": "WifiLED;0",
+      "24": "Rel;1"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/7571119300_1685476866.png",
+    "wiki": "https://www.elektroda.com/rtvforum/topic3981200.html"
+  },
+  {
+    "vendor": "Ai-Thinker",
+    "bDetailed": "0",
+    "name": "Dev Board",
+    "model": "Ai-WB2-32S-Kit",
+    "chip": "BL602",
+    "board": "Ai-WB2-32S",
+    "flags": "1032",
+    "keywords": [
+      "development",
+      "BL602C40",
+      "PCB",
+      "usb-c",
+      "4mb",
+      "smd-38"
+    ],
+    "pins": {
+      "3": "PWM;3",
+      "14": "PWM;1",
+      "17": "PWM;2"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/3143722700_1710709633.png",
+    "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21008424#21008424"
+  },
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
@@ -5055,7 +5102,7 @@
 	  "name": "Shutter Controller Wall Switch",
 	  "model": "SC400W-EU",
 	  "chip": "BK7231N",
-	  "board": "TODO",
+	  "board": "CB3S",
 	  "flags": "0",
 	  "keywords": [
 		"LoraTap",
@@ -5112,6 +5159,61 @@
 	  "image": "https://obrazki.elektroda.pl/4633099700_1700258844.png",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4015497.html"
 	},
+  {
+    "vendor": "Etersky",
+    "bDetailed": "0",
+    "name": "Wifi Roller Curtain Shutter Switch",
+    "model": "WF-CS01",
+    "chip": "BK7231T",
+    "board": "WB3S",
+    "flags": "0",
+    "keywords": [
+      "autoexec required",
+      "blinds",
+      "shutters"
+    ],
+    "pins": {
+      "0": "LED;3",
+      "1": "LED_n;6",
+      "6": "Rel;1",
+      "7": "Rel;3",
+      "8": "Btn;0",
+      "10": "Btn;0",
+      "14": "LED;1",
+      "24": "Btn;0",
+      "26": "LED;2"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/9953066400_1710663548.png",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4042856.html"
+  },
+  {
+    "vendor": "Etersky",
+    "bDetailed": "0",
+    "name": "Wifi Roller Curtain Shutter Switch",
+    "model": "WF-CS01",
+    "chip": "BK7231N",
+    "board": "CB3S",
+    "flags": "0",
+    "keywords": [
+      "autoexec required",
+      "blinds",
+      "shutters"
+    ],
+    "pins": {
+      "6": "Rel;1",
+      "7": "Btn;0",
+      "8": "LED;2",
+      "9": "Rel;3",
+      "10": "Btn;0",
+      "14": "LED;1",
+      "23": "LED;3",
+      "24": "Btn;0"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/9953066400_1710663548.png",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4042856.html"
+  },
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
@@ -5507,9 +5609,7 @@
 	  "board": "WB3S",
 	  "flags": "1024",
 	  "keywords": [
-		"B08GG7H5CP",
-		"TODO",
-		"TODO"
+		"B08GG7H5CP"
 	  ],
 	  "pins": {
 		"1": "WifiLED;0",
@@ -6486,7 +6586,7 @@
 	  "name": "TO-Q-SY-JWT Switch and Meter for DIN Rail",
 	  "model": "TO-Q-SY-JWT",
 	  "chip": "BK7231N",
-	  "board": "TODO",
+	  "board": "CBU",
 	  "flags": "33555456",
 	  "keywords": [
 		"Power metering",
@@ -7006,6 +7106,56 @@
       "image": "https://obrazki.elektroda.pl/5367287900_1672547459.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3945664.html",
       "product": "https://www.aliexpress.com/item/1005004119428520.html"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Smart Plug 16A ЕU AU UK + 2.1A Dual Independent USB (Config Type 1)",
+      "model": "LSPA2",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "flags": "1024",
+      "keywords": [
+        "RELAY",
+        "switch",
+        "socket",
+        "LSPA2TY"
+      ],
+      "pins": {
+        "7": "Rel;3",
+        "8": "WifiLED_n;0",
+        "10": "Btn_Tgl_All;0",
+        "24": "Rel;2",
+        "26": "Rel;1"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/2632682400_1710611028.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21006754#21006754"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Smart Plug 16A ЕU AU UK + 2.1A Dual Independent USB (Config Type 2)",
+      "model": "LSPA2",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "flags": "1024",
+      "keywords": [
+        "RELAY",
+        "switch",
+        "socket",
+        "LSPA2TY"
+      ],
+      "pins": {
+        "6": "Rel;1",
+        "7": "Rel;2",
+        "10": "Btn_Tgl_All;0",
+        "24": "Rel;0",
+        "26": "WifiLED_n;1"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/1114790300_1686685394.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3983684.html"
     },
     {
       "vendor": "Tuya",
@@ -9255,7 +9405,7 @@
 	  "board": "CB3S",
 	  "flags": "4228096",
 	  "keywords": [
-		"TODO"
+		"infra-red"
 	  ],
 	  "pins": {
 		"6": "Btn;1",
@@ -9276,7 +9426,7 @@
   "board": "CB3S",
   "flags": "4228096",
   "keywords": [
-    "TODO"
+    "infra-red"
   ],
   "pins": {
     "6": "Btn;1",
@@ -9297,7 +9447,7 @@
   "board": "WB3S",
   "flags": "4228096",
   "keywords": [
-    "TODO"
+    "infra-red"
   ],
   "pins": {
     "6": "Btn;1",
@@ -9566,9 +9716,12 @@
 	  "board": "WB2L",
 	  "flags": "1024",
 	  "keywords": [
-		"TODO",
-		"TODO",
-		"TODO"
+		  "bulb",
+		  "RGB+2700K-6500K",
+		  "lamp",
+      "ES",
+      "60W",
+      "120V"
 	  ],
 	  "pins": {
 		"7": "BP5758D_CLK;0",
@@ -9669,9 +9822,10 @@
 	  "board": "SDV-002_V1.2",
 	  "flags": "536871936",
 	  "keywords": [
-		"TODO",
-		"TODO",
-		"TODO"
+		  "touch",
+		  "sensor",
+		  "remote",
+      "no neutral"
 	  ],
 	 "pins": {
 		"3": "Rel;1",
@@ -9735,9 +9889,10 @@
 	  "board": "SDV-002_V1.2",
 	  "flags": "536871936",
 	  "keywords": [
-		"TODO",
-		"TODO",
-		"TODO"
+      "touch",
+      "sensor",
+      "remote",
+      "no neutral"
 	  ],
 	  "pins": {
 		"1": "Rel;1",
@@ -9759,9 +9914,10 @@
 	  "board": "SDV-002_V1.2",
 	  "flags": "536871936",
 	  "keywords": [
-		"TODO",
-		"TODO",
-		"TODO"
+      "touch",
+      "sensor",
+      "remote",
+      "no neutral"
 	  ],
 		"pins": {
 		"1": "Rel;2",
