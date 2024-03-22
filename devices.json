@@ -94,6 +94,31 @@
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
+	  "name": "Tuya IR+RF Remote",
+	  "model": "CS-SSRC-IRC",
+	  "chip": "BK7231T",
+	  "board": "WB3S",
+	  "flags": "50180",
+	  "keywords": [
+		"IR",
+		"RF",
+		"Remote",
+		"USB",
+		"5V"
+	  ],
+	  "pins": {
+		"8": "IRRecv;20",
+		"9": "LED;10",
+		"23": "dInput;40",
+		"26": "IRSend;30"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/2498866000_1709734701.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4040835.html"
+	},
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
 	  "name": "Wifi Smart Plug with Energy Measurement",
 	  "model": "RMC021",
 	  "chip": "BK7231N",
