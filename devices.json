@@ -117,6 +117,31 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4040835.html"
 	},
 	{
+	  "vendor": "ANTELA",
+	  "bDetailed": "0",
+	  "name": "Smart Plug",
+	  "model": "F1s202-EU",
+	  "chip": "BK7231N",
+	  "board": "CB2S",
+	  "flags": "1073742848",
+	  "keywords": [
+		"B09M3MR51K",
+		"amazon",
+		"eu"
+	  ],
+	  "pins": {
+		"6": "BL0937CF1;0",
+		"7": "BL0937CF;0",
+		"8": "WifiLED_n;0",
+		"10": "Btn;1",
+		"24": "BL0937SEL;0",
+		"26": "Rel;1"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/9378954200_1710675549.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4043082.html"
+	},
+	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
 	  "name": "Wifi Smart Plug with Energy Measurement",
@@ -7306,9 +7331,9 @@
         "BL0937"
       ],
       "pins": {
-        "8": "BL0937CF1;0",
-        "7": "BL0937CF;0",
         "6": "LED_n;1",
+        "7": "BL0937CF;0",
+        "8": "BL0937CF1;0",
         "10": "Btn;1",
         "24": "BL0937SEL;0",
         "26": "Rel;1"
