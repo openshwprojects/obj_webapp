@@ -3666,6 +3666,28 @@
     "image": "https://obrazki.elektroda.pl/2072813000_1709672386.jpg",
     "wiki": "https://www.elektroda.com/rtvforum/topic4040714.html"
   },
+  {
+    "vendor": "Eveready",
+    "bDetailed": "0",
+    "name": "E14/SES RGBCCT 4.8W 450LM RGB+2700-6500K Bulb",
+    "model": "S19261",
+    "chip": "BK7231N",
+    "board": "CBLC5",
+    "flags": "1024",
+    "keywords": [
+      "poundland",
+      "BP5758D",
+      "candle",
+      "RGBW"
+    ],
+    "pins": {
+      "7": "BP5758D_DAT;0",
+      "8": "BP5758D_CLK;0"
+    },
+    "command": "backlog BP5758D_Map 4 2 3 1 0; BP5758D_Current 7 14",
+    "image": "https://obrazki.elektroda.pl/2072813000_1709672386.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4040714.html"
+  },
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
