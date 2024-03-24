@@ -8878,6 +8878,26 @@
       "image": "https://obrazki.elektroda.pl/1530383600_1670474695.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3939980.html"
     },
+{
+  "vendor": "Merkury",
+  "bDetailed": "0",
+  "name": "Merkury 1050lm 11W RGBW WiFi LED Bulb",
+  "model": "MI-BW210-999WW",
+  "chip": "BK7231T",
+  "board": "WB2L",
+  "flags": "16778240",
+  "keywords": [
+    "BP5758D",
+    "EBE-BAW419C"
+  ],
+  "pins": {
+    "7": "BP5758D_DAT;0",
+    "8": "BP5758D_CLK;0"
+  },
+  "command": "backlog startDriver BP5758D; BP5758D_Map 2 1 0 4 3; BP5758D_Current 29 65",
+  "image": "https://obrazki.elektroda.pl/8308439600_1685054084.jpg",
+  "wiki": "https://www.elektroda.com/rtvforum/topic3980300.html"
+},
     {
       "vendor": "Merkury",
       "bDetailed": "0",
