@@ -6634,6 +6634,29 @@
       "product": ""
     },
     {
+      "vendor": "Anslut",
+      "bDetailed": "0",
+      "name": "E14/SES RGBCCT Candle Bulb - 470lm 4.9w 2700-6500k",
+      "model": "C37",
+      "chip": "BK7231T",
+      "board": "WBLC9",
+      "flags": "",
+      "keywords": [
+        "lamp",
+        "small edison screw"
+      ],
+      "pins": {
+        "7": "PWM;5",
+        "8": "PWM;1",
+        "9": "PWM;2",
+        "24": "PWM;3",
+        "26": "PWM;4"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/6878278800_1707662486.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4035270.html"
+    },
+    {
       "vendor": "Tuya",
       "bDetailed": "0",
       "name": "Generic Tuya Downlight Recessed 6\" RGBCW",
