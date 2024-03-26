@@ -6657,6 +6657,33 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic4035270.html"
     },
     {
+      "vendor": "Aoycocr",
+      "bDetailed": "0",
+      "name": "PWM RGBCW E14 5w 400lm Candle Bulb",
+      "model": "Q2SC2M",
+      "chip": "BK7231T",
+      "board": "WB9",
+      "flags": "1024",
+      "keywords": [
+        "wb3s",
+        "MB6F",
+        "KP3210BSG",
+        "JWH6J",
+        "lamp",
+        "e12"
+      ],
+      "pins": {
+        "6": "PWM;5",
+        "7": "PWM;3",
+        "8": "PWM;4",
+        "9": "PWM;1",
+        "24": "PWM;2"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/5761374400_1711491919.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4045170.html"
+    },
+    {
       "vendor": "Tuya",
       "bDetailed": "0",
       "name": "Generic Tuya Downlight Recessed 6\" RGBCW",
