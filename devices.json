@@ -6701,10 +6701,10 @@
 		    "outside"
       ],
       "pins": {
-		    "7": "Rel;1",
-		    "8": "Btn;1,2",
-		    "24": "Rel;2",
-		    "26": "LED_n;0"
+		  "7": "Rel;1",
+		  "8": "Btn;1,2",
+		  "24": "Rel;2",
+		  "26": "LED_n;0"
       },
       "command": "",
       "image": "https://obrazki.elektroda.pl/7500807500_1675748043.jpg",
