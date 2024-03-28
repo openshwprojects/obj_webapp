@@ -6684,6 +6684,33 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic4045170.html"
     },
     {
+      "vendor": "Energizer",
+      "bDetailed": "0",
+      "name": "Outdoor Twin Socket Smart Plug (US)",
+      "model": "EOX3-1002-BLK",
+      "chip": "BK7231N",
+      "board": "",
+      "flags": "1024",
+      "keywords": [
+        "2A3ZO-ETS-C-020",
+        "menards",
+        "EOX3-1002-ME2",
+        "double",
+        "splitter",
+        "external",
+		    "outside"
+      ],
+      "pins": {
+		    "7": "Rel;1",
+		    "8": "Btn;1,2",
+		    "24": "Rel;2",
+		    "26": "LED_n;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/7500807500_1675748043.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3955578.html"
+    },
+    {
       "vendor": "Tuya",
       "bDetailed": "0",
       "name": "Generic Tuya Downlight Recessed 6\" RGBCW",
