@@ -6711,6 +6711,27 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3955578.html"
     },
     {
+      "vendor": "Energizer",
+      "bDetailed": "0",
+      "name": "15A Smart Wifi Plug (US)",
+      "model": "EIX3-1003-ME2",
+      "chip": "BK7231N",
+      "board": "",
+      "flags": "1024",
+      "keywords": [
+        "socket",
+        "cloudcutter"
+      ],
+	  "pins": {
+	  "7": "Rel;1",
+	  "11": "Btn;1",
+	  "26": "LED_n;1"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/4728666100_1684203672.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3978288.html"
+    },
+    {
       "vendor": "Tuya",
       "bDetailed": "0",
       "name": "Generic Tuya Downlight Recessed 6\" RGBCW",
