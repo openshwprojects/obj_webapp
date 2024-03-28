@@ -3666,6 +3666,28 @@
     "image": "https://obrazki.elektroda.pl/2072813000_1709672386.jpg",
     "wiki": "https://www.elektroda.com/rtvforum/topic4040714.html"
   },
+  {
+    "vendor": "Eveready",
+    "bDetailed": "0",
+    "name": "E14/SES RGBCCT 4.8W 450LM RGB+2700-6500K Bulb",
+    "model": "S19261",
+    "chip": "BK7231N",
+    "board": "CBLC5",
+    "flags": "1024",
+    "keywords": [
+      "poundland",
+      "BP5758D",
+      "candle",
+      "RGBW"
+    ],
+    "pins": {
+      "7": "BP5758D_DAT;0",
+      "8": "BP5758D_CLK;0"
+    },
+    "command": "backlog BP5758D_Map 4 2 3 1 0; BP5758D_Current 7 14",
+    "image": "https://obrazki.elektroda.pl/2072813000_1709672386.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4040714.html"
+  },
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
@@ -6610,6 +6632,104 @@
       "image": "https://obrazki.elektroda.pl/4483867300_1673319939.png",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20377440#20377440",
       "product": ""
+    },
+    {
+      "vendor": "Anslut",
+      "bDetailed": "0",
+      "name": "E14/SES RGBCCT Candle Bulb - 470lm 4.9w 2700-6500k",
+      "model": "C37",
+      "chip": "BK7231T",
+      "board": "WBLC9",
+      "flags": "",
+      "keywords": [
+        "lamp",
+        "small edison screw"
+      ],
+      "pins": {
+        "7": "PWM;5",
+        "8": "PWM;1",
+        "9": "PWM;2",
+        "24": "PWM;3",
+        "26": "PWM;4"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/6878278800_1707662486.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4035270.html"
+    },
+    {
+      "vendor": "Aoycocr",
+      "bDetailed": "0",
+      "name": "PWM RGBCW E14 5w 400lm Candle Bulb",
+      "model": "Q2SC2M",
+      "chip": "BK7231T",
+      "board": "WB9",
+      "flags": "1024",
+      "keywords": [
+        "wb3s",
+        "MB6F",
+        "KP3210BSG",
+        "JWH6J",
+        "lamp",
+        "e12"
+      ],
+      "pins": {
+        "6": "PWM;5",
+        "7": "PWM;3",
+        "8": "PWM;4",
+        "9": "PWM;1",
+        "24": "PWM;2"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/5761374400_1711491919.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4045170.html"
+    },
+    {
+      "vendor": "Energizer",
+      "bDetailed": "0",
+      "name": "Outdoor Twin Socket Smart Plug (US)",
+      "model": "EOX3-1002-BLK",
+      "chip": "BK7231N",
+      "board": "",
+      "flags": "1024",
+      "keywords": [
+        "2A3ZO-ETS-C-020",
+        "menards",
+        "EOX3-1002-ME2",
+        "double",
+        "splitter",
+        "external",
+		    "outside"
+      ],
+      "pins": {
+        "7": "Rel;1",
+        "8": "Btn;1,2",
+        "24": "Rel;2",
+        "26": "LED_n;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/7500807500_1675748043.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3955578.html"
+    },
+    {
+      "vendor": "Energizer",
+      "bDetailed": "0",
+      "name": "15A Smart Wifi Plug (US)",
+      "model": "EIX3-1003-ME2",
+      "chip": "BK7231N",
+      "board": "",
+      "flags": "1024",
+      "keywords": [
+        "socket",
+        "cloudcutter"
+      ],
+	  "pins": {
+	  "7": "Rel;1",
+	  "11": "Btn;1",
+	  "26": "LED_n;1"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/4728666100_1684203672.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3978288.html"
     },
     {
       "vendor": "Tuya",
