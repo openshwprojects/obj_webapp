@@ -8793,13 +8793,14 @@
     {
       "vendor": "Cree",
       "bDetailed": "0",
-      "name": "Cree 5-Button Wifi Scene Controller",
+      "name": "Cree Connected Max Smart In-Wall 5-Button Scene Controller",
       "model": "CMACC-CMSC-UNV-WH",
       "chip": "BK7231N",
       "board": "CBU",
       "keywords": [
         "switch",
-        "dimmer"
+        "dimmer",
+        "button"
       ],
       "pins": {
         "14": "Btn;4",
@@ -8810,6 +8811,31 @@
       },
       "image": "https://obrazki.elektroda.pl/6492805100_1677772771.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3961578.html"
+    },
+    {
+      "vendor": "Cree",
+      "bDetailed": "0",
+      "name": "Cree Connected Max Smart In-Wall 4-Button Dimmer & Tunable Controller",
+      "model": "CMACC-DRBL-HWBAT-WH",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "keywords": [
+        "switch",
+        "dimmer",
+        "scene",
+        "CMACC-CMWD-UNV-WH"
+      ],
+      "pins": {
+        "6": "Btn_ScriptOnly;0",
+        "7": "Btn_ScriptOnly;0",
+        "8": "Btn_ScriptOnly;0",
+        "14": "LED;6",
+        "15": "AlwaysLow;0",
+        "17": "AlwaysLow;0",
+        "26": "Btn_ScriptOnly;0"
+      },
+      "image": "https://obrazki.elektroda.pl/5562531900_1711738117.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4010854.html"
     },
     {
       "vendor": "Cree",
