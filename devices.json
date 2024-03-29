@@ -8793,6 +8793,27 @@
     {
       "vendor": "Cree",
       "bDetailed": "0",
+      "name": "Cree 5-Button Wifi Scene Controller",
+      "model": "CMACC-CMSC-UNV-WH",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "keywords": [
+        "switch",
+        "dimmer"
+      ],
+      "pins": {
+        "14": "Btn;4",
+        "15": "Btn;5",
+        "20": "Btn;1",
+        "22": "Btn;2",
+        "28": "Btn;3"
+      },
+      "image": "https://obrazki.elektroda.pl/6492805100_1677772771.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3961578.html"
+    },
+    {
+      "vendor": "Cree",
+      "bDetailed": "0",
       "name": "Cree A21 100W RGBCW bulb 2ANDL-WB8P CMA21-100W-AL-9ACK",
       "model": "2ANDL-WB8P",
       "chip": "BK7231T",
