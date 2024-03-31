@@ -6183,6 +6183,26 @@
     },
     {
       "vendor": "KMC",
+      "bDetailed": "0",
+      "name": "120V 15A Low-Profile Smart Plug (US)",
+      "model": "30154",
+      "chip": "BK7231T",
+      "board": "WB2S",
+      "keywords": [
+        "4 pack",
+        "socket",
+        "amazon"
+      ],
+      "pins": {
+        "6": "Btn;1",
+        "11": "WifiLED;0",
+        "26": "Rel;1"
+      },
+      "image": "https://obrazki.elektroda.pl/1353315400_1711905244.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4045465.html"
+    },
+    {
+      "vendor": "KMC",
       "bDetailed": "1",
       "name": "KMC 30153 smart mini plug 15A 125VAC 60Hz (LSPA7 clone)",
       "model": "6911HA",
