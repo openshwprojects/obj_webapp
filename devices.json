@@ -6195,7 +6195,7 @@
       ],
       "pins": {
         "6": "Btn;1",
-		"11": "WifiLED;0",
+        "11": "WifiLED;0",
         "26": "Rel;1"
       },
       "image": "https://obrazki.elektroda.pl/1353315400_1711905244.png",
