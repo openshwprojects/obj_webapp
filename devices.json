@@ -9628,6 +9628,29 @@
       ]
     },
     {
+      "vendor": "Topeler/Junlit",
+      "bDetailed": "0",
+      "name": "125V 15A WiFi Smart Socket with Independent Outlets",
+      "model": "YSW102",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "flags": "5120",
+      "keywords": [
+        "socket",
+        "smart outlet",
+        "plug"
+      ],
+      "pins": {
+        "8": "Rel;1",
+        "10": "Btn_Tgl_All;0",
+        "11": "WifiLED_n;0",
+        "26": "Rel;2"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/8517688900_1711976288.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4046153.html"
+    },
+    {
       "vendor": "Tuya",
       "bDetailed": "0",
       "name": "WT5 Multi-Channel LED Control with RF Remote",
