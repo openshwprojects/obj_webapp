@@ -209,6 +209,30 @@
 	  "image": "https://obrazki.elektroda.pl/6314433700_1706377112_thumb.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4031764.html"
 	},
+  {
+    "vendor": "Laxihub",
+    "bDetailed": "0",
+    "name": "A60/B22 Smart RGBCW 9w Tuya Bulb",
+    "model": "LAB22S",
+    "chip": "BK7231T",
+    "board": "WB2L",
+    "flags": "0",
+    "keywords": [
+      "lamp",
+      "bayonet",
+      "220-240v",
+      "2700-6500k",
+      "73ma",
+      "EBP548-REV1.3"
+    ],
+    "pins": {
+      "7": "SM2135DAT;0",
+      "8": "SM2135CLK;0"
+    },
+    "command": "backlog PowerSave 1; SM2135_Map 2 1 0 4 3; SM2135_Current 0x01 0x06",
+    "image": "https://obrazki.elektroda.pl/9144948700_1712075055.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21029581#21029581"
+  },
 	{
 	  "vendor": "OXT",
 	  "bDetailed": "0",
@@ -1035,9 +1059,39 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3984948.html"
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "2x AAA Battery 2-Button Wireless Scene Switch",
+      "model": "LKWSW201",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "flags": "1024",
+      "keywords": [
+        "LKWSW201_0202",
+        "switcher",
+        "batteries",
+        "3v",
+        "2 gang",
+        "double",
+        "remote",
+        "2-key"
+      ],
+      "pins": {
+        "16": "dInput;6",
+        "17": "BAT_Relay;3",
+        "20": "dInput;5",
+        "23": "BAT_ADC;2",
+        "26": "WifiLED_n;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/7533077400_1712124658.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4046324.html"
+    },
+    {
       "vendor": "Lepro",
       "bDetailed": "0",
-      "name": "Lepro LE Wifi Smart LED Bulb A19 E26 Model No. 901003-US SM2135",
+      "name": "Lepro LE Wifi Smart LED Bulb A19 E26",
+      "model": "901003-US",
       "chip": "BK7231T",
       "board": "WB2L",
       "pins": {
@@ -1047,7 +1101,6 @@
       "keywords": [
         "RGBCW",
         "E26",
-        "",
         "SM2135"
       ],
       "image": "https://obrazki.elektroda.pl/4842854400_1676748124.jpg",
