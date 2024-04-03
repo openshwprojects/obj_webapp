@@ -1058,6 +1058,35 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3984948.html"
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "2x AAA Battery 2-Button Wireless Scene Switch",
+      "model": "LKWSW201",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "flags": "1024",
+      "keywords": [
+        "LKWSW201_0202",
+        "switcher",
+        "batteries",
+        "3v",
+        "2 gang",
+        "double",
+        "remote",
+        "2-key"
+      ],
+      "pins": {
+        "16": "dInput;6",
+        "17": "BAT_Relay;3",
+        "20": "dInput;5",
+        "23": "BAT_ADC;2",
+        "26": "WifiLED_n;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/7533077400_1712124658.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4046324.html"
+    },
+    {
       "vendor": "Lepro",
       "bDetailed": "0",
       "name": "Lepro LE Wifi Smart LED Bulb A19 E26 Model No. 901003-US SM2135",
