@@ -9132,6 +9132,32 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4033331.html"
 	},
 	{
+	  "vendor": "LSC",
+	  "bDetailed": "0",
+	  "name": "Action SmartPlug with power monitoring",
+	  "model": "3202088",
+	  "chip": "BK7231T",
+	  "board": "WB2S",
+	  "flags": "1024",
+	  "keywords": [
+		"BL0937",
+		"WiFi",
+		"LSC-SmartConnect"
+	  ],
+	  "pins": {
+		"6": "Rel;1",
+		"7": "Btn;1",
+		"8": "LED;1",
+		"10": "WifiLED_n;0",
+		"11": "BL0937SEL;0",
+		"24": "BL0937CF1;0",
+		"26": "BL0937CF;0"
+	  },
+	  "command": "",
+	  "image": "https://static.elektroda.pl/attach/lsc_smart_plug_1266846.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4038087.html"
+	},
+	{
 	  "vendor": "Yinsan",
 	  "bDetailed": "0",
 	  "name": "E27 Smart Bulb 9W",
