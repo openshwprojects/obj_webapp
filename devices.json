@@ -9418,6 +9418,31 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4038087.html"
 	},
 	{
+	  "vendor": "LSC",
+	  "bDetailed": "0",
+	  "name": "LED Smart white and color ambiance E27 9.4W 806lm",
+	  "chip": "BK7231N",
+	  "model": "2578539",
+	  "board": "on pcb",
+	  "flags": "0",
+	  "keywords": [
+		"RGBCW",
+		"LED",
+		"Action",
+		"E27",
+		"bulb",
+		"KP18068",
+		"CB2L"
+	  ],
+	  "pins": {
+		"7": "KP18058_CLK;1",
+		"8": "KP18058_DAT;0"
+	  },
+	  "command": "backlog startDriver KP18058; KP18058_Map 1 2 0 4 3",
+	  "image": "https://obrazki.elektroda.pl/7583804800_1712132196_thumb.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4046526.html"
+	},
+	{
 	  "vendor": "Yinsan",
 	  "bDetailed": "0",
 	  "name": "E27 Smart Bulb 9W",
