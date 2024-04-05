@@ -274,6 +274,30 @@
     "wiki": "https://www.elektroda.com/rtvforum/topic3981200.html"
   },
   {
+    "vendor": "Prime",
+    "bDetailed": "1",
+    "name": "Prime WiFi Smart Outdoor Outlets + Remote control from Costco",
+    "model": "CCRCOWF2PK",
+    "chip": "BK7231N",
+    "board": "CB2S",
+    "flags": "1024",
+    "keywords": [
+      "Oexternal",
+      "outside",
+      "Plug",
+      "socket",
+      "One Button"
+    ],
+    "pins": {
+      "6": "Btn;1",
+      "7": "LED_n;1",
+      "8": "Rel;1"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/7382316300_1712211576.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4046718.html"
+  },
+  {
     "vendor": "Ai-Thinker",
     "bDetailed": "0",
     "name": "Dev Board",
