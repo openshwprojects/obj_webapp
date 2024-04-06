@@ -3361,6 +3361,27 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3941677.html"
     },
     {
+  "vendor": "Currysmarter",
+  "bDetailed": "0",
+  "name": "WiFi Roller Shutter Switch 6Gen",
+  "model": "W01",
+  "chip": "BK7231N",
+  "board": "CBU",
+  "flags": "1024",
+  "keywords": [
+    "gen6",
+    "curtain",
+    "TUYAMCU",
+    "MCU",
+    "EU-CL-01/02-2 10-00130-10 2023-3-3",
+    "CMS79FT738"
+  ],
+  "pins": {},
+  "command": "",
+  "image": "https://obrazki.elektroda.pl/9077436000_1712324125.jpg",
+  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21033819#21033819"
+    },
+    {
       "vendor": "Tuya",
       "bDetailed": "0",
       "name": "Backlit LCD Temperature & Humidity & Calendar, 3x AAA Batteries",
