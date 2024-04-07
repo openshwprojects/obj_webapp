@@ -3442,6 +3442,31 @@
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20928892#20928892"
     },
     {
+      "vendor": "MAXCIO",
+      "bDetailed": "0",
+      "name": "Smart Plug WiFi 16A (IT)",
+      "model": "RMC068",
+      "chip": "W600",
+      "board": "TW-02",
+      "flags": "1024",
+      "keywords": [
+        "Italiana",
+        "Italian",
+        "socket"
+      ],
+      "pins": {
+        "3": "Btn;0",
+        "6": "LED_n;0",
+        "11": "BL0937CF1;0",
+        "13": "Rel;0",
+        "14": "BL0937SEL;0",
+        "16": "BL0937CF;0"
+      },
+      "command": "backlog startDriver BL0937; PowerSave 1",
+      "image": "https://obrazki.elektroda.pl/6952783500_1711443319.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4044488.html"
+    },
+    {
       "vendor": "Tuya",
       "bDetailed": "0",
       "name": "Tuya ATORCH AT4P(WP/BW) Smartlife Energy monitor (BK7231N) (CB3S) (CH573F) (BL0924)",
