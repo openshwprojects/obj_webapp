@@ -3419,6 +3419,29 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3943037.html"
     },
     {
+      "vendor": "GoSund",
+      "bDetailed": "0",
+      "name": "GoSund 10A Power Monitoring Plug (EU)",
+      "model": "EP2",
+      "chip": "BK7231N",
+      "board": "CUCO-Z6-N",
+      "flags": "0",
+      "keywords": [
+        "socket",
+        "outlet",
+        "SHENZHEN CUCO SMART TECHNOLOGY CO"
+      ],
+      "pins": {
+        "6": "Rel;1",
+        "7": "Btn;1",
+        "8": "AlwaysHigh;2",
+        "9": "AlwaysHigh;1"
+      },
+      "command": "backlog startDriver NTP; StartDriver BL0942 9600; PowerSave 1; SetupEnergyStats 1 60 60 ",
+      "image": "https://obrazki.elektroda.pl/5762605900_1712466903.png",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20928892#20928892"
+    },
+    {
       "vendor": "Tuya",
       "bDetailed": "0",
       "name": "Tuya ATORCH AT4P(WP/BW) Smartlife Energy monitor (BK7231N) (CB3S) (CH573F) (BL0924)",
