@@ -274,6 +274,30 @@
     "wiki": "https://www.elektroda.com/rtvforum/topic3981200.html"
   },
   {
+    "vendor": "Prime",
+    "bDetailed": "1",
+    "name": "Prime WiFi Smart Outdoor Outlets + Remote control from Costco",
+    "model": "CCRCOWF2PK",
+    "chip": "BK7231N",
+    "board": "CB2S",
+    "flags": "1024",
+    "keywords": [
+      "external",
+      "outside",
+      "Plug",
+      "socket",
+      "One Button"
+    ],
+    "pins": {
+      "6": "Btn;1",
+      "7": "LED_n;1",
+      "8": "Rel;1"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/7382316300_1712211576.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4046718.html"
+  },
+  {
     "vendor": "Ai-Thinker",
     "bDetailed": "0",
     "name": "Dev Board",
@@ -3337,6 +3361,27 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3941677.html"
     },
     {
+  "vendor": "Currysmarter",
+  "bDetailed": "0",
+  "name": "WiFi Roller Shutter Switch 6Gen",
+  "model": "W01",
+  "chip": "BK7231N",
+  "board": "CBU",
+  "flags": "1024",
+  "keywords": [
+    "gen6",
+    "curtain",
+    "TUYAMCU",
+    "MCU",
+    "EU-CL-01/02-2 10-00130-10 2023-3-3",
+    "CMS79FT738"
+  ],
+  "pins": {},
+  "command": "",
+  "image": "https://obrazki.elektroda.pl/9077436000_1712324125.jpg",
+  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21033819#21033819"
+    },
+    {
       "vendor": "Tuya",
       "bDetailed": "0",
       "name": "Backlit LCD Temperature & Humidity & Calendar, 3x AAA Batteries",
@@ -3372,6 +3417,54 @@
       ],
       "image": "https://obrazki.elektroda.pl/7210299000_1671563024.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3943037.html"
+    },
+    {
+      "vendor": "GoSund",
+      "bDetailed": "0",
+      "name": "GoSund 10A Power Monitoring Plug (EU)",
+      "model": "EP2",
+      "chip": "BK7231N",
+      "board": "CUCO-Z6-N",
+      "flags": "0",
+      "keywords": [
+        "socket",
+        "outlet",
+        "SHENZHEN CUCO SMART TECHNOLOGY CO"
+      ],
+      "pins": {
+        "6": "Rel;1",
+        "7": "Btn;1",
+        "8": "AlwaysHigh;2",
+        "9": "AlwaysHigh;1"
+      },
+      "command": "backlog startDriver NTP; StartDriver BL0942 9600; PowerSave 1; SetupEnergyStats 1 60 60 ",
+      "image": "https://obrazki.elektroda.pl/5762605900_1712466903.png",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20928892#20928892"
+    },
+    {
+      "vendor": "MAXCIO",
+      "bDetailed": "0",
+      "name": "Smart Plug WiFi 16A (IT)",
+      "model": "RMC068",
+      "chip": "W600",
+      "board": "TW-02",
+      "flags": "1024",
+      "keywords": [
+        "Italiana",
+        "Italian",
+        "socket"
+      ],
+      "pins": {
+        "3": "Btn;0",
+        "6": "LED_n;0",
+        "11": "BL0937CF1;0",
+        "13": "Rel;0",
+        "14": "BL0937SEL;0",
+        "16": "BL0937CF;0"
+      },
+      "command": "backlog startDriver BL0937; PowerSave 1",
+      "image": "https://obrazki.elektroda.pl/6952783500_1711443319.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4044488.html"
     },
     {
       "vendor": "Tuya",
