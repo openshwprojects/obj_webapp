@@ -3467,6 +3467,33 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic4044488.html"
     },
     {
+      "vendor": "Lenovo",
+      "bDetailed": "0",
+      "name": "Lenovo RGBCT E26 A19 Bulb 806lm",
+      "model": "SE-242DC",
+      "chip": "BK7231N",
+      "board": "CB8P",
+      "flags": "1280",
+      "keywords": [
+        "2ANDL-CB8P",
+        "screw",
+        "lamp",
+        "2700-6500K",
+        "110v-120v",
+        "ZG38C03715"
+      ],
+      "pins": {
+        "7": "PWM;5",
+        "8": "PWM_n;4",
+        "9": "PWM;1",
+        "24": "PWM;3",
+        "26": "PWM;2"
+      },
+      "command": "",
+      "image": "https://tuya-cloudcutter.github.io/images/thumbs/lenovo-se-242dc-rgbct-bulb-v1.2.21.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4046802.html"
+    },
+    {
       "vendor": "Tuya",
       "bDetailed": "0",
       "name": "Tuya ATORCH AT4P(WP/BW) Smartlife Energy monitor (BK7231N) (CB3S) (CH573F) (BL0924)",
