@@ -980,6 +980,7 @@
         "TuyaMCU",
         "BL0942"
       ],
+      "command": "startDriver BL0942",
       "image": "https://obrazki.elektroda.pl/5761098200_1672711832.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3946128.html"
     },
@@ -3650,7 +3651,7 @@
         "26": "Btn;0",
         "28": "LED;0"
       },
-      "command": "",
+      "command": "startDriver BL0942",
       "keywords": [
         "BL0942",
         "DIN rail",
@@ -7610,6 +7611,7 @@
         "non-contact metering"
       ],
       "pins": {},
+      "command": "startDriver BL0942SPI",
       "image": "https://obrazki.elektroda.pl/6383495600_1671622052.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3945667.html",
       "product": ""
