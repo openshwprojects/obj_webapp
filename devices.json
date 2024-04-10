@@ -7960,24 +7960,23 @@
 	  "model": "WIFI-114",
 	  "chip": "BL602",
 	  "board": "",
-	  "flags": "1024",
+    "flags": "16778240",
 	  "keywords": [
 		"LF686",
-		"RGBW",
 		"LED",
 		"controller",
 		"magic home",
 		"LF686C20"
 	  ],
 	  "pins": {
-		"3": "PWM;1",
-		"4": "PWM;0",
-		"20": "PWM;4",
-		"21": "PWM;2"
+      "3": "PWM;0",
+      "4": "PWM;1",
+      "20": "PWM;4",
+      "21": "PWM;2"
 	  },
 	  "command": "backlog PowerSave 1",
 	  "image": "https://obrazki.elektroda.pl/8097152600_1703918586.jpg",
-	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20882598"
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4024917.html"
 	},
 	{
 	  "vendor": "Tuya",
