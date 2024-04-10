@@ -7956,16 +7956,15 @@
 	{
 	  "vendor": "Magic Home",
 	  "bDetailed": "0",
-	  "name": "Magic Home RGBW LED Controller",
+	  "name": "Magic Home 12V-24V 5-Pin RGBW LED Controller",
 	  "model": "WIFI-114",
 	  "chip": "BL602",
-	  "board": "",
+	  "board": "on PCB",
     "flags": "16778240",
 	  "keywords": [
 		"LF686",
 		"LED",
 		"controller",
-		"magic home",
 		"LF686C20"
 	  ],
 	  "pins": {
@@ -7977,6 +7976,29 @@
 	  "command": "backlog PowerSave 1",
 	  "image": "https://obrazki.elektroda.pl/8097152600_1703918586.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4024917.html"
+	},
+  {
+	  "vendor": "Magic Home",
+	  "bDetailed": "0",
+	  "name": "Magic Home 12V-24V GRB 4-Pin LED Controller",
+	  "model": "WIFI-113",
+	  "chip": "BL602",
+	  "board": "on PCB",
+    "flags": "1024",
+	  "keywords": [
+		"LF686",
+		"LED",
+		"controller",
+		"LF686C20"
+	  ],
+	  "pins": {
+      "3": "PWM;1",
+      "4": "PWM;0",
+      "21": "PWM;2"
+	  },
+	  "command": "backlog PowerSave 1",
+	  "image": "https://obrazki.elektroda.pl/4846908000_1712784503.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21040727#21040727"
 	},
 	{
 	  "vendor": "Tuya",
