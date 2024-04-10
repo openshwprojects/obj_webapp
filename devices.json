@@ -471,9 +471,7 @@
         "laser",
         "motor",
         "LED",
-        "RGB",
-        "",
-        ""
+        "RGB"
       ],
       "image": "https://obrazki.elektroda.pl/9234524600_1670165373.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3939064.html",
@@ -731,8 +729,6 @@
       "board": "SM-028_V1.3",
       "pins": {},
       "keywords": [
-        "",
-        ""
       ],
       "image": "https://obrazki.elektroda.pl/2624166500_1657830253_thumb.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3906289.html"
@@ -756,8 +752,6 @@
         "22": "Btn;9"
       },
       "keywords": [
-        "",
-        ""
       ],
       "image": "https://user-images.githubusercontent.com/14217781/209668729-d62d290f-33c7-4bda-9696-7a16734e841a.jpg",
       "wiki": "",
@@ -875,10 +869,7 @@
       "keywords": [
         "water",
         "valve",
-        "LED",
-        "",
-        "",
-        ""
+        "LED"
       ],
       "image": "https://obrazki.elektroda.pl/2641112500_1672335614.webp",
       "wiki": "https://www.elektroda.com/rtvforum/topic3945101.html",
@@ -894,10 +885,7 @@
       "keywords": [
         "TuyaMCU",
         "dimmer",
-        "",
-        "",
-        "",
-		"Nuvoton M031LC2AE"
+		    "Nuvoton M031LC2AE"
       ],
       "image": "https://obrazki.elektroda.pl/5416648300_1687136924.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3984791.html"
@@ -915,7 +903,7 @@
         "23243-TYWE3S",
         "2AFNL-TYWE3S",
         "DS03_MAINBOARD_xingtang_V1.4 2019/11/29",
-		"Nuvoton M031LC2AE"
+		    "Nuvoton M031LC2AE"
       ],
       "image": "https://obrazki.elektroda.pl/3627590700_1675311164.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3954253.html"
@@ -1076,8 +1064,7 @@
       "keywords": [
         "Water Pump",
         "5V",
-        "USB",
-        ""
+        "USB"
       ],
       "image": "https://obrazki.elektroda.pl/3357885600_1687268115.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3984948.html"
@@ -1215,8 +1202,7 @@
         "switch",
         "4 pack",
         "Amazon",
-        "Kuled",
-        ""
+        "Kuled"
       ],
       "image": "https://obrazki.elektroda.pl/4515301600_1672190165.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3944647.html",
@@ -1258,9 +1244,7 @@
         "26": "PWM;4"
       },
       "keywords": [
-        "RGBCW",
-        "",
-        ""
+        "RGBCW"
       ],
       "image": "https://obrazki.elektroda.pl/4887763500_1673085589.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20372474#20372474",
@@ -1280,9 +1264,7 @@
         "26": "PWM;3"
       },
       "keywords": [
-        "RGBCW",
-        "",
-        ""
+        "RGBCW"
       ],
       "image": "https://obrazki.elektroda.pl/3838032600_1673085131.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3947278.html",
@@ -1318,9 +1300,7 @@
       "keywords": [
         "RGB",
         "4.9W",
-        "380LUMEN",
-        "",
-        ""
+        "380LUMEN"
       ],
       "image": "https://obrazki.elektroda.pl/8233780500_1669559812.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3937272.html",
@@ -2820,8 +2800,7 @@
       "command": "",
       "keywords": [
         "Action",
-        "3007257",
-        ""
+        "3007257"
       ],
       "image": "https://obrazki.elektroda.pl/5659192700_1670838739.jpg",
       "wiki": "https://www.elektroda.pl/rtvforum/topic3941004.html"
@@ -3116,8 +3095,7 @@
       "command": "",
       "keywords": [
         "5412810303106",
-        "WIFILS50CRGBW",
-        ""
+        "WIFILS50CRGBW"
       ],
       "image": "https://obrazki.elektroda.pl/1597601100_1675601815.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3955128.html",
@@ -3140,8 +3118,7 @@
       "command": "",
       "keywords": [
         "5412810303106",
-        "WIFILS50CRGBW",
-        ""
+        "WIFILS50CRGBW"
       ],
       "image": "https://obrazki.elektroda.pl/1597601100_1675601815.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3955128.html",
@@ -3250,8 +3227,7 @@
       "command": "",
       "keywords": [
         "Allegro",
-        "plafon",
-        ""
+        "plafon"
       ],
       "image": "https://obrazki.elektroda.pl/6473861200_1671863061.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3943775.html"
@@ -3269,8 +3245,7 @@
       "command": "",
       "keywords": [
         "SpectrumSmart",
-        "SLI031033CCT",
-        ""
+        "SLI031033CCT"
       ],
       "image": "https://obrazki.elektroda.pl/5190882900_1671862774.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3943773.html",
@@ -3291,9 +3266,7 @@
       },
       "command": "",
       "keywords": [
-        "Action",
-        "",
-        ""
+        "Action"
       ],
       "image": "https://obrazki.elektroda.pl/1031604500_1670798586.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3940938.html"
@@ -3307,9 +3280,7 @@
       "pins": {},
       "command": "",
       "keywords": [
-        "",
-        "",
-        ""
+        "TuyaMCU"
       ],
       "image": "https://obrazki.elektroda.pl/5381746700_1670470614.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3939979.html"
@@ -3330,9 +3301,7 @@
       },
       "command": "",
       "keywords": [
-        "BL0937",
-        "",
-        ""
+        "BL0937"
       ],
       "image": "https://obrazki.elektroda.pl/9675892200_1671577072.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3943090.html"
@@ -3353,8 +3322,6 @@
       },
       "command": "",
       "keywords": [
-        "",
-        "",
         ""
       ],
       "image": "https://obrazki.elektroda.pl/4489923600_1671076661.png",
@@ -3411,9 +3378,9 @@
       "pins": {},
       "command": "",
       "keywords": [
-        "",
-        "",
-        ""
+        "bedroom",
+        "living room",
+        "lustre"
       ],
       "image": "https://obrazki.elektroda.pl/7210299000_1671563024.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3943037.html"
@@ -3562,9 +3529,7 @@
       },
       "command": "",
       "keywords": [
-        "",
-        "BL0397",
-        ""
+        "BL0397"
       ],
       "image": "https://obrazki.elektroda.pl/7419993500_1671534985.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3942936.html"
@@ -3586,8 +3551,7 @@
       "command": "",
       "keywords": [
         "AC100-240V",
-        "BL0397",
-        ""
+        "BL0397"
       ],
       "image": "https://obrazki.elektroda.pl/8068990500_1678309130.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3963164.html"
@@ -3601,9 +3565,7 @@
       "pins": {},
       "command": "",
       "keywords": [
-        "",
-        "IR",
-        ""
+        "Infra-Red"
       ],
       "image": "https://obrazki.elektroda.pl/2129193900_1670533906.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3940178.html"
@@ -4055,7 +4017,7 @@
     {
       "vendor": "Kanlux",
       "bDetailed": "1",
-      "name": "Kanlux S A60 LED lamp 11.5W E27 RGBCW [CB3L / BK7231N] ",
+      "name": "Kanlux S A60 LED lamp 11.5W E27 RGBCW",
       "model": "",
       "chip": "BK7231N",
       "board": "CB3L",
@@ -4135,8 +4097,8 @@
       "board": "WBR3",
       "pins": {},
       "keywords": [
-        "",
-        ""
+        "cooking",
+        "kitchen"
       ],
       "image": "https://obrazki.elektroda.pl/3243472200_1641952749.jpg",
       "wiki": "https://www.elektroda.pl/rtvforum/topic3862336.html"
@@ -5218,7 +5180,7 @@
       "board": "CB2S",
       "pins": {
       },
-      "keywords": ["TuyaMCU", "USB", ""],
+      "keywords": ["TuyaMCU", "USB"],
       "command": "backlog startDriver tuyaMCU",
       "image": "https://obrazki.elektroda.pl/4590097600_1678111618.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3962386.html"
@@ -7301,9 +7263,8 @@
       "board": "",
       "pins": {},
       "keywords": [
-        "",
-        "",
-        ""
+        "plug",
+        "espressif"
       ],
       "image": "https://obrazki.elektroda.pl/9378975700_1685889594.jpg",
       "wiki": "https://www.elektroda.pl/rtvforum/topic4008392.html",
@@ -7343,9 +7304,8 @@
       "board": "",
       "pins": {},
       "keywords": [
-        "",
-        "",
-        ""
+        "espressif",
+        "plug"
       ],
       "image": "https://obrazki.elektroda.pl/7111451800_1652420546.jpg",
       "wiki": "https://www.elektroda.pl/rtvforum/topic3893014.html",
@@ -7478,9 +7438,7 @@
       "chip": "BK7231N",
       "board": "CB3S",
       "keywords": [
-        "2CH",
-        "",
-        ""
+        "2CH"
       ],
       "pins": {
         "6": "LED_n;1",
@@ -8778,9 +8736,9 @@
 	  "board": "WB3S",
 	  "flags": "5120",
 	  "keywords": [
-		"amazon",
-		"B08T75TY8K",
-		"LFXBB"
+		  "amazon",
+		  "B08T75TY8K",
+		  "LFXBB"
 	  ],
 	  "pins": {
 		"6": "PWM;1",
@@ -8835,9 +8793,7 @@
       "chip": "ESP8266",
       "board": "",
       "keywords": [
-        "",
-        "",
-        ""
+        "espressif"
       ],
       "pins": {},
       "image": "https://obrazki.elektroda.pl/2910926800_1518905721.jpg",
@@ -8867,9 +8823,6 @@
       "chip": "BK7231T",
       "board": "WB3S",
       "keywords": [
-        "",
-        "",
-        ""
       ],
       "pins": {
         "6": "LED_n;1",
@@ -8889,9 +8842,6 @@
       "chip": "BK7231T",
       "board": "WB2S",
       "keywords": [
-        "",
-        "",
-        ""
       ],
       "pins": {
         "6": "Btn;1",
@@ -8910,9 +8860,7 @@
       "chip": "BK7231T",
       "board": "WB2S",
       "keywords": [
-        "teknikkdeler",
-        "",
-        ""
+        "teknikkdeler"
       ],
       "pins": {
         "6": "Btn;1;2",
@@ -8932,9 +8880,6 @@
       "chip": "BK7231N",
       "board": "on board",
       "keywords": [
-        "",
-        "",
-        ""
       ],
       "pins": {},
       "image": "https://obrazki.elektroda.pl/4406067200_1669709109.jpg",
@@ -8948,9 +8893,6 @@
       "chip": "BK7231T",
       "board": "WB2S",
       "keywords": [
-        "",
-        "",
-        ""
       ],
       "pins": {
         "7": "LED_n;0",
@@ -8969,8 +8911,7 @@
       "board": "WB2S",
       "keywords": [
         "RGBCW",
-        "LED",
-        ""
+        "LED"
       ],
       "pins": {
         "6": "PWM;3",
@@ -9038,9 +8979,6 @@
       "chip": "BK7231T",
       "board": "WB8P",
       "keywords": [
-        "",
-        "",
-        ""
       ],
       "pins": {
         "7": "PWM;4",
