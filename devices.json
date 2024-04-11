@@ -10674,7 +10674,7 @@
         "rgb",
         "star",
         "nebula",
-        "projector",
+        "projection",
         "laser",
         "motor"
       ],
@@ -10703,7 +10703,8 @@
       "keywords": [
         "nebula",
         "RGBW",
-        "star"
+        "star",
+        "projection"
       ],
       "pins": {
         "6": "PWM;0",
