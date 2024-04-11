@@ -10692,6 +10692,32 @@
       "image": "https://obrazki.elektroda.pl/2917649700_1702586359.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20863828#20863828"
     },
+    {
+      "vendor": "BlissLights",
+      "bDetailed": "0",
+      "name": "Sky Lite Evolve Galaxy Multicolour LED Laser Projector",
+      "model": "SKY-EVOLVE-B-RCWB",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "flags": "2757771",
+      "keywords": [
+        "nebula",
+        "RGBW",
+        "star"
+      ],
+      "pins": {
+        "6": "PWM;0",
+        "7": "PWM;6",
+        "8": "PWM;7",
+        "9": "PWM;4",
+        "14": "Btn;5",
+        "24": "PWM;2",
+        "26": "PWM;1"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/4505923100_1686938327.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3984240.html"
+    },
 	{
 	  "vendor": "Calex",
 	  "bDetailed": "0",
