@@ -10704,7 +10704,8 @@
         "nebula",
         "RGBW",
         "star",
-        "projection"
+        "projection",
+        "QS-337CL_Main"
       ],
       "pins": {
         "6": "PWM;0",
