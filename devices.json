@@ -3808,7 +3808,7 @@
     "name": "E14/SES RGBCCT 4.8W 450LM RGB+2700-6500K Bulb",
     "model": "S19261",
     "chip": "BK7231N",
-    "board": "CBLC5",
+    "board": "CB2L",
     "flags": "1024",
     "keywords": [
       "poundland",
