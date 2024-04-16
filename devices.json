@@ -3783,6 +3783,30 @@
 		"product": "https://templates.blakadder.com/lerlink_X801A.html"
 	},
   {
+    "vendor": "OBI",
+    "bDetailed": "0",
+    "name": "Wifi-Stecker Schuko Weiß / 16A Smart Wi-Fi Plug (EU)",
+    "model": "5274899",
+    "chip": "BK7231N",
+    "board": "WB2S",
+    "flags": "1024",
+    "keywords": [
+      "210308",
+      "indoor",
+      "energysaver",
+      "3600w",
+      "socket"
+    ],
+    "pins": {
+      "6": "WifiLED_n;0",
+      "24": "Rel;1",
+      "26": "Btn;1"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/3077574400_1712312582.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4049067.html"
+  },
+  {
     "vendor": "Eveready",
     "bDetailed": "0",
     "name": "GU10 RGBCCT 4.8W 345LM RGB+2700-6500K Bulb",
