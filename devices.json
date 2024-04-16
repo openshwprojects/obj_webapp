@@ -3787,7 +3787,7 @@
     "bDetailed": "0",
     "name": "Wifi-Stecker Schuko Weiß / 16A Smart Wi-Fi Plug (EU)",
     "model": "5274899",
-    "chip": "BK7231N",
+    "chip": "BK7231T",
     "board": "WB2S",
     "flags": "1024",
     "keywords": [
