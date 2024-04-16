@@ -361,6 +361,10 @@
                         prefix = 'OpenW600_';
                         postfix = '_gz.img';
                         break;
+                    case 'LN882H': //OpenLN882H_1.17.546_OTA.bin
+                        prefix = 'OpenLN882H_';
+                        postfix = '.bin';
+                        break;                        
                 }
 
                 let options = [];
