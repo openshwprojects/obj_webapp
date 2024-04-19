@@ -363,7 +363,7 @@
                         break;
                     case 'LN882H': //OpenLN882H_1.17.546_OTA.bin
                         prefix = 'OpenLN882H_';
-                        postfix = '.bin';
+                        postfix = '_ota.bin';
                         break;                        
                 }
 
