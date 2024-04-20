@@ -2013,11 +2013,11 @@
 	{
 	  "vendor": "Ledvance",
 	  "bDetailed": "0",
-	  "name": "SmartPlus Classic A100 14W Multicolor",
+	  "name": "SmartPlus Classic A100 14W Multicolor (RGBW, four PWMs)",
 	  "model": "A100",
 	  "chip": "BK7231T",
 	  "board": "WB8P",
-	  "flags": "1024",
+	  "flags": "16778240",
 	  "keywords": [
 		"E27"
 	  ],
@@ -2026,7 +2026,6 @@
 		"8": "PWM;1",
 		"9": "PWM;2",
 		"24": "PWM;4",
-		"26": "PWM;3"
 	  },
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/7726775800_1704666944.jpg",
