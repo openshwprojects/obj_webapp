@@ -2310,6 +2310,31 @@
       "image": "https://obrazki.elektroda.pl/9074911700_1658371428_thumb.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3907478.html"
     },
+	{
+	  "vendor": "QNCX",
+	  "bDetailed": "0",
+	  "name": "Generic Smart Plug with Energy Measurement (T34)",
+	  "model": "LSPA9 clone",
+	  "chip": "BK7231N",
+	  "board": "T34",
+	  "flags": "1024",
+	  "keywords": [
+		"power metering",
+		"smart plug",
+		"bl0937"
+	  ],
+	  "pins": {
+		"6": "BL0937CF;0",
+		"7": "BL0937CF1;0",
+		"8": "BL0937SEL;0",
+		"24": "Rel;0",
+		"26": "Btn;0",
+		"28": "WifiLED;0"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/4477082300_1710363453.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21044837"
+	},
     {
       "vendor": "LSC",
       "bDetailed": "0",
