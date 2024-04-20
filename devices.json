@@ -980,6 +980,7 @@
         "TuyaMCU",
         "BL0942"
       ],
+      "command": "startDriver BL0942",
       "image": "https://obrazki.elektroda.pl/5761098200_1672711832.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3946128.html"
     },
@@ -3675,7 +3676,7 @@
         "26": "Btn;0",
         "28": "LED;0"
       },
-      "command": "",
+      "command": "startDriver BL0942",
       "keywords": [
         "BL0942",
         "DIN rail",
@@ -3807,6 +3808,30 @@
 		"product": "https://templates.blakadder.com/lerlink_X801A.html"
 	},
   {
+    "vendor": "OBI",
+    "bDetailed": "0",
+    "name": "Wifi-Stecker Schuko Weiß / 16A Smart Wi-Fi Plug (EU)",
+    "model": "5274899",
+    "chip": "BK7231T",
+    "board": "WB2S",
+    "flags": "1024",
+    "keywords": [
+      "210308",
+      "indoor",
+      "energysaver",
+      "3600w",
+      "socket"
+    ],
+    "pins": {
+      "6": "WifiLED_n;0",
+      "24": "Rel;1",
+      "26": "Btn;1"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/3077574400_1712312582.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4049067.html"
+  },
+  {
     "vendor": "Eveready",
     "bDetailed": "0",
     "name": "GU10 RGBCCT 4.8W 345LM RGB+2700-6500K Bulb",
@@ -3832,7 +3857,7 @@
     "name": "E14/SES RGBCCT 4.8W 450LM RGB+2700-6500K Bulb",
     "model": "S19261",
     "chip": "BK7231N",
-    "board": "CBLC5",
+    "board": "CB2L",
     "flags": "1024",
     "keywords": [
       "poundland",
@@ -7635,6 +7660,7 @@
         "non-contact metering"
       ],
       "pins": {},
+      "command": "startDriver BL0942SPI",
       "image": "https://obrazki.elektroda.pl/6383495600_1671622052.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3945667.html",
       "product": ""
@@ -7979,28 +8005,49 @@
 	{
 	  "vendor": "Magic Home",
 	  "bDetailed": "0",
-	  "name": "Magic Home RGBW LED Controller",
+	  "name": "Magic Home 12V-24V 5-Pin RGBW LED Controller",
 	  "model": "WIFI-114",
 	  "chip": "BL602",
-	  "board": "",
-	  "flags": "1024",
+	  "board": "on PCB",
+    "flags": "16778240",
 	  "keywords": [
 		"LF686",
-		"RGBW",
 		"LED",
 		"controller",
-		"magic home",
 		"LF686C20"
 	  ],
 	  "pins": {
-		"3": "PWM;1",
-		"4": "PWM;0",
-		"20": "PWM;4",
-		"21": "PWM;2"
+      "3": "PWM;0",
+      "4": "PWM;1",
+      "20": "PWM;4",
+      "21": "PWM;2"
 	  },
 	  "command": "backlog PowerSave 1",
 	  "image": "https://obrazki.elektroda.pl/8097152600_1703918586.jpg",
-	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20882598"
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4024917.html"
+	},
+  {
+	  "vendor": "Magic Home",
+	  "bDetailed": "0",
+	  "name": "Magic Home 12V-24V GRB 4-Pin LED Controller",
+	  "model": "WIFI-113",
+	  "chip": "BL602",
+	  "board": "on PCB",
+    "flags": "1024",
+	  "keywords": [
+		"LF686",
+		"LED",
+		"controller",
+		"LF686C20"
+	  ],
+	  "pins": {
+      "3": "PWM;1",
+      "4": "PWM;0",
+      "21": "PWM;2"
+	  },
+	  "command": "backlog PowerSave 1",
+	  "image": "https://obrazki.elektroda.pl/4846908000_1712784503.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21040727#21040727"
 	},
 	{
 	  "vendor": "Tuya",
@@ -10676,7 +10723,7 @@
         "rgb",
         "star",
         "nebula",
-        "projector",
+        "projection",
         "laser",
         "motor"
       ],
@@ -10693,6 +10740,34 @@
       "command": "",
       "image": "https://obrazki.elektroda.pl/2917649700_1702586359.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20863828#20863828"
+    },
+    {
+      "vendor": "BlissLights",
+      "bDetailed": "0",
+      "name": "Sky Lite Evolve Galaxy Multicolour LED Laser Projector",
+      "model": "SKY-EVOLVE-B-RCWB",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "flags": "2757771",
+      "keywords": [
+        "nebula",
+        "RGBW",
+        "star",
+        "projection",
+        "QS-337CL_Main"
+      ],
+      "pins": {
+        "6": "PWM;0",
+        "7": "PWM;6",
+        "8": "PWM;7",
+        "9": "PWM;4",
+        "14": "Btn;5",
+        "24": "PWM;2",
+        "26": "PWM;1"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/4505923100_1686938327.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3984240.html"
     },
 	{
 	  "vendor": "Calex",
