@@ -5334,18 +5334,18 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3954947.html"
     },
 	{
-		"vendor": "Tuya",
+		"vendor": "Bingoelec",
 		"bDetailed": "0",
-		"name": "Bingoelec DIY Series Smart WiFi Wall Touch Switch Base",
+		"name": "DIY Series Smart WiFi Wall Touch Switch Base",
 		"model": "TW2-0001A",
 		"chip": "BK7231N",
-		"board": "TW2-0001A",
+		"board": "T34",
 		"flags": "1024",
 		"keywords": [
-			"Bingoelec",
 			"DAJIMEI",
-			"T34",
-			"TW2-0001A"
+			"TW-LH-4XB",
+      "TW2-0039A",
+      "TW-WIFI-4"
 		],
 		"pins": {
 			"17": "Rel;0",
