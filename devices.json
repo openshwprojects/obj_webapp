@@ -4896,6 +4896,23 @@
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "1",
+	  "name": "Power Strip 4x socket and 4x USB",
+	  "model": "Woox R4027",
+	  "chip": "ESP8266",
+	  "board": "TYWE2S",
+	  "keywords": [
+		"Allegro",
+		"Woox Home"
+		],
+	  "pins": {
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/6734761600_1697200344.jpg",
+	  "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?p=20964495#20964495"
+	},
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "1",
 	  "name": "Ceiling Lamp 30cm 15W 1200lm 100W",
 	  "model": "Woox 5111",
 	  "chip": "BK7231T",
