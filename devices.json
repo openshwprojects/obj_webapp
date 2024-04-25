@@ -275,7 +275,7 @@
   },
   {
     "vendor": "Prime",
-    "bDetailed": "1",
+    "bDetailed": "0",
     "name": "Prime WiFi Smart Outdoor Outlets + Remote control from Costco",
     "model": "CCRCOWF2PK",
     "chip": "BK7231N",
@@ -4902,7 +4902,10 @@
 	  "board": "TYWE2S",
 	  "keywords": [
 		"Allegro",
-		"Woox Home"
+		"Woox Home",
+		"OB2225RCP",
+		"ZLD-44EU(FR)-W-YT V:1.5",
+		"OB2365AP"
 		],
 	  "pins": {
 	  },
