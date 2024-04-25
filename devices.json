@@ -4987,10 +4987,10 @@
 	  "wiki": "https://www.elektroda.pl/rtvforum/topic3860846.html"
 	},
 	{
-	  "vendor": "Tuya",
+	  "vendor": "WOOX",
 	  "bDetailed": "1",
 	  "name": "Ceiling Lamp 30cm 15W 1200lm 100W",
-	  "model": "Woox 5111",
+	  "model": "5111",
 	  "chip": "BK7231T",
 	  "board": "WB3S",
 	  "keywords": [
@@ -5975,9 +5975,9 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3966369.html"
 	},
 	{
-	  "vendor": "Woox",
+	  "vendor": "WOOX",
 	  "bDetailed": "0",
-	  "name": "WOOX R6113 Smart Plug 2961171",
+	  "name": "Smart Plug 2961171",
 	  "model": "R6113",
 	  "chip": "BK7231N",
 	  "board": "CB2S",
@@ -5999,6 +5999,35 @@
 	  "image": "https://obrazki.elektroda.pl/8714341200_1679386306_thumb.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3966148.html"
 	},
+  {
+    "vendor": "WOOX",
+    "bDetailed": "0",
+    "name": "SMART WIFI MULTI POWER SOCKET",
+    "model": "R6132",
+    "chip": "BK7231T",
+    "board": "WB3S",
+    "flags": "33588288",
+    "keywords": [
+      "triple",
+      "extension",
+      "usb",
+      "lead"
+    ],
+    "pins": {
+      "1": "BL0937SEL;0",
+      "6": "Rel;2",
+      "8": "Rel;3",
+      "9": "Rel;4",
+      "10": "LED_n;0",
+      "11": "Btn_Tgl_All;0",
+      "14": "Rel;1",
+      "24": "BL0937CF1;0",
+      "26": "BL0937CF;0"
+    },
+    "command": "backlog scheduleHADiscovery 10;",
+    "image": "https://obrazki.elektroda.pl/6626949900_1713901023.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4050517.html"
+  },
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
