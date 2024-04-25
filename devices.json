@@ -3486,20 +3486,113 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic4046802.html"
     },
     {
-      "vendor": "Tuya",
+      "vendor": "ATORCH",
       "bDetailed": "0",
-      "name": "Tuya ATORCH AT4P(WP/BW) Smartlife Energy monitor (BK7231N) (CB3S) (CH573F) (BL0924)",
+      "name": "Tuya Smartlife Energy monitor (CH573F) (BL0924)",
+      "model": "AT4P(WP/BW)",
       "chip": "BK7231N",
       "board": "CB3S",
       "pins": {},
       "command": "",
       "keywords": [
         "TuyaMCU",
-        "BL0924",
         "LCD"
       ],
       "image": "https://obrazki.elektroda.pl/6768510300_1671107680.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3941692.html"
+    },
+    {
+      "vendor": "Energizer",
+      "bDetailed": "0",
+      "name": "16A 220-240v Smart Wifi Plug Socket (EU)",
+      "model": "B17423",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "flags": "1024",
+      "keywords": [
+        "Dirk van den Broek",
+        "TUYA",
+        "3500W",
+      "Netherlands"
+      ],
+      "pins": {
+        "7": "LED_n;0",
+      "24": "Rel;0",
+      "26": "Btn;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/8582858200_1712900136.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4018524.html"
+    },
+    {
+      "vendor": "Energizer",
+      "bDetailed": "0",
+      "name": "E27 806lm 9W/60W Smart LED Multicolor Bulb",
+      "model": "",
+      "chip": "BK7231N",
+      "board": "CBLC9",
+      "flags": "1024",
+      "keywords": [
+        "Dirk van den Broek",
+        "TUYA",
+        "lamp",
+      "Netherlands",
+      "220-240v"
+      ],
+      "pins": {
+           "6": "BP5758D_DAT;0",
+           "9": "BP5758D_CLK;0"
+      },
+      "command": "backlog startdriver bp5758D; BP5758D_Map 2 0 1 3 4",
+      "image": "https://obrazki.elektroda.pl/6889734200_1712901346.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4018524.html"
+    },
+    {
+      "vendor": "Energizer",
+      "bDetailed": "0",
+      "name": "E14 400lm 5.5W/40W Smart LED Multicolor Bulb",
+      "model": "",
+      "chip": "",
+      "board": "",
+      "flags": "1024",
+      "keywords": [
+        "Dirk van den Broek",
+        "TUYA",
+        "lamp",
+      "Netherlands",
+      "220-240v",
+      "candle"
+      ],
+      "pins": {
+           "6": "BP5758D_DAT;0",
+           "9": "BP5758D_CLK;0"
+      },
+      "command": "backlog startdriver bp5758D; BP5758D_Map 2 0 1 3 4",
+      "image": "https://obrazki.elektroda.pl/1438777300_1701430261.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4018524.html"
+    },
+    {
+      "vendor": "Energizer",
+      "bDetailed": "0",
+      "name": "GU10 400lm 5.5W/40W Smart LED Multicolor Bulb",
+      "model": "",
+      "chip": "",
+      "board": "",
+      "flags": "1024",
+      "keywords": [
+        "Dirk van den Broek",
+        "TUYA",
+        "lamp",
+      "Netherlands",
+      "220-240v"
+      ],
+      "pins": {
+           "6": "BP5758D_DAT;0",
+           "9": "BP5758D_CLK;0"
+      },
+      "command": "backlog startdriver bp5758D; BP5758D_Map 2 0 1 3 4",
+      "image": "https://obrazki.elektroda.pl/3147665500_1701430603.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4018524.html"
     },
     {
       "vendor": "SZKOSTON",
@@ -4894,7 +4987,7 @@
 	  "wiki": "https://www.elektroda.pl/rtvforum/topic3860846.html"
 	},
 	{
-	  "vendor": "Tuya",
+	  "vendor": "WOOX",
 	  "bDetailed": "1",
 	  "name": "Power Strip 4x socket and 4x USB",
 	  "model": "Woox R4027",
@@ -4917,7 +5010,7 @@
 	  "vendor": "Tuya",
 	  "bDetailed": "1",
 	  "name": "Ceiling Lamp 30cm 15W 1200lm 100W",
-	  "model": "Woox 5111",
+	  "model": "5111",
 	  "chip": "BK7231T",
 	  "board": "WB3S",
 	  "keywords": [
@@ -5352,6 +5445,31 @@
       ],
       "image": "https://obrazki.elektroda.pl/3465786200_1675538229.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3954947.html"
+    },
+    {
+      "vendor": "BN-Link",
+      "bDetailed": "0",
+      "name": "15A 125V Power Monitoring Plug (US)",
+      "model": "BNC-60/U133TJ",
+      "chip": "BK7231T",
+      "board": "WB2S",
+      "flags": "33555456",
+      "keywords": [
+        "socket",
+        "BL0937"
+      ],
+      "pins": {
+        "6": "Rel_n;1",
+        "7": "BL0937CF;4",
+        "8": "BL0937CF1;0",
+        "10": "Btn;2",
+        "11": "Rel_n;3",
+        "24": "BL0937SEL;0",
+        "26": "Rel;2"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/3467407800_1710139400.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4041788.html"
     },
 	{
 		"vendor": "Bingoelec",
@@ -5877,9 +5995,9 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3966369.html"
 	},
 	{
-	  "vendor": "Woox",
+	  "vendor": "WOOX",
 	  "bDetailed": "0",
-	  "name": "WOOX R6113 Smart Plug 2961171",
+	  "name": "Smart Plug 2961171",
 	  "model": "R6113",
 	  "chip": "BK7231N",
 	  "board": "CB2S",
@@ -5901,6 +6019,35 @@
 	  "image": "https://obrazki.elektroda.pl/8714341200_1679386306_thumb.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3966148.html"
 	},
+  {
+    "vendor": "WOOX",
+    "bDetailed": "0",
+    "name": "SMART WIFI MULTI POWER SOCKET",
+    "model": "R6132",
+    "chip": "BK7231T",
+    "board": "WB3S",
+    "flags": "33588288",
+    "keywords": [
+      "triple",
+      "extension",
+      "usb",
+      "lead"
+    ],
+    "pins": {
+      "1": "BL0937SEL;0",
+      "6": "Rel;2",
+      "8": "Rel;3",
+      "9": "Rel;4",
+      "10": "LED_n;0",
+      "11": "Btn_Tgl_All;0",
+      "14": "Rel;1",
+      "24": "BL0937CF1;0",
+      "26": "BL0937CF;0"
+    },
+    "command": "backlog scheduleHADiscovery 10;",
+    "image": "https://obrazki.elektroda.pl/6626949900_1713901023.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4050517.html"
+  },
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
@@ -9840,7 +9987,7 @@
     {
       "vendor": "LVWIT",
       "bDetailed": "1",
-      "name": "LVWIT B22 Bayonet WiFi LED Bulb,1521Lm,Tuya Smart Bulb B22 ,12W",
+      "name": "LVWIT B22 Bayonet WiFi LED Bulb, 1521Lm,Tuya Smart Bulb B22, 12W",
       "model": "A70-30 WIR-DIM+CCT+RGB",
       "chip": "BK7231N",
       "board": "",
