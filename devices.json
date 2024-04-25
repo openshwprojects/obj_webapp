@@ -5354,18 +5354,18 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3954947.html"
     },
 	{
-		"vendor": "Tuya",
+		"vendor": "Bingoelec",
 		"bDetailed": "0",
-		"name": "Bingoelec DIY Series Smart WiFi Wall Touch Switch Base",
+		"name": "DIY Series Smart WiFi Wall Touch Switch Base",
 		"model": "TW2-0001A",
 		"chip": "BK7231N",
-		"board": "TW2-0001A",
+		"board": "T34",
 		"flags": "1024",
 		"keywords": [
-			"Bingoelec",
 			"DAJIMEI",
-			"T34",
-			"TW2-0001A"
+			"TW-LH-4XB",
+      "TW2-0039A",
+      "TW-WIFI-4"
 		],
 		"pins": {
 			"17": "Rel;0",
@@ -11071,6 +11071,32 @@
   "command": "",
   "image": "https://obrazki.elektroda.pl/3777891700_1706130396.jpg",
   "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20927159"
-}
+},
+	{
+	  "vendor": "Milfra",
+	  "bDetailed": "0",
+	  "name": "Milfra TB-23 Wifi Smart Switch",
+	  "model": "TB-23",
+	  "chip": "BK7231N",
+	  "board": "N/A",
+	  "flags": "1088",
+	  "keywords": [
+		"wall socket",
+		"BK7231N",
+		"3 gang",
+        "milfra",
+        "TB-23"
+	  ],
+	  "pins": {
+		"14": "Btn;1",
+		"15": "Btn;3",
+		"16": "Btn;2",
+		"22": "Rel;1",
+		"24": "Rel;2",
+		"26": "Rel;3"
+	  },
+	  "image": "https://obrazki.elektroda.pl/9156598000_1713616453.webp",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21053778"
+	}
   ]
 }
