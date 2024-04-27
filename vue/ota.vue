@@ -63,6 +63,7 @@
         chipset:'unknown',
         invalidOTASelected: false,
         otaFileExtension:".rbl,.img",
+        bOTAstarted: false,
 
         currentversion: '',
         releases: [],
@@ -289,6 +290,11 @@
         },
 
         startota(cb){
+            if(this.bOTAstarted) {
+                alert("It seems that OTA is already started");
+                return;
+            }
+            this.bOTAstarted = true;
             this.status += '<br/>starting OTA...';
             console.log('start ota ');
             let url = window.device+'/api/ota';
@@ -302,9 +308,12 @@
                         console.log('received '+text);
                         this.otatext += ' finished:'+text;
                         this.status += '<br/>rebooting...';
+                        this.bOTAstarted = false;
                         this.reboot(cb);
                     })
                     .catch(err => console.error(err)); // Never forget the final catch!
+            } else {
+                this.bOTAstarted = false;
             }
         },
         restore(cb){
