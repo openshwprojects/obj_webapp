@@ -8008,6 +8008,29 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3933313.html"
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Milfra MFA05F Motion Sensor Light Switch",
+      "model": "MFA05F",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "flags": "1024",
+      "keywords": [
+        "Milfra",
+        "MFA05F",
+        "Switch",
+        "Motion Sensor",
+        "BK7231N",
+        "CBU",
+        "MCU",
+        "tuyamcu"
+      ],
+      "pins": {},
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/9024105700_1714244652.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21063870#21063870"
+    },
+    {
       "vendor": "Generic",
       "bDetailed": "0",
       "name": "TW-03/W600 3 Gang Smart Switch ",
