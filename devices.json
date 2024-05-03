@@ -66,6 +66,38 @@
 	  "image": "https://obrazki.elektroda.pl/9568515100_1707749274.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4020634.html"
 	},
+  {
+    "vendor": "Tuya",
+    "bDetailed": "0",
+    "name": "Water Heater Boiler Touch Switch 20A 4400W",
+    "model": "EZS-WBA1H20C-AA_V1.4",
+    "chip": "BK7231N",
+    "board": "On PCB",
+    "flags": "1024",
+    "keywords": [
+      "temperature",
+      "heating",
+      "110-240v"
+    ],
+    "pins": {
+      "6": "LED;1",
+      "7": "AlwaysLow;0",
+      "9": "WifiLED_n;0",
+      "14": "LED;2",
+      "15": "LED;3",
+      "16": "LED;4",
+      "17": "LED;5",
+      "20": "LED;6",
+      "22": "LED;7",
+      "23": "LED;8",
+      "24": "Rel;39",
+      "26": "Rel;37",
+      "28": "dInput;35"
+    },
+    "command": "backlog startDriver BL0942;",
+    "image": "https://obrazki.elektroda.pl/4281823900_1708276579.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4036888.html"
+  },
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
