@@ -77,7 +77,8 @@
     "keywords": [
       "temperature",
       "heating",
-      "110-240v"
+      "110-240v",
+      "timer"
     ],
     "pins": {
       "6": "LED;1",
