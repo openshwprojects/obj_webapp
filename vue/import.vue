@@ -6,7 +6,8 @@
       <div class="item"  style="width: 300px;">
         <h3>1. Enter template here</h3>
         <p>Here you can enter an  <a href="https://openbekeniot.github.io/webapp/devicesList.html">OBK template</a>/JSON text from Cloudcutter. <a href="https://github.com/tuya-cloudcutter/tuya-cloudcutter.github.io/tree/master/devices"> Here </a> is a list of cloudcutter devices. Just open one and copy-paste config below.</p>
-        <textarea id="importTemplate" placeholder="Paste cloudcutter json here" style="vertical-align: top; width: 280px; height:500px" @input="handleImportTemplateChange" v-model="importTemplateText"></textarea>
+        <textarea id="importTemplate" 
+        placeholder="Paste (or drag and drop) OBK template, Tuya JSON or cloudcutter json here" style="vertical-align: top; width: 280px; height:500px" @input="handleImportTemplateChange" v-model="importTemplateText"></textarea>
        <br/>
                <br>
        Some examples for developer testing:        <br>
@@ -172,6 +173,24 @@
         
     },
       
+      handleDragOver(event) {
+        event.preventDefault();
+      },
+      handleDrop(event) {
+        event.preventDefault();
+
+        const files = event.dataTransfer.files;
+
+        if (files.length > 0) {
+          const reader = new FileReader();
+
+          reader.onload = (e) => {
+            this.importTemplateText = e.target.result;
+          };
+
+          reader.readAsText(files[0]);
+        }
+      },
 
     },
     mounted (){
@@ -187,6 +206,9 @@
         );
         plugin.async = true;
         document.head.appendChild(plugin);
+      let importTemplateTextarea = document.getElementById("importTemplate");
+      importTemplateTextarea.addEventListener('dragover', this.handleDragOver);
+      importTemplateTextarea.addEventListener('drop', this.handleDrop);
     },
     destroyed(){
       clearInterval(this.interval);
