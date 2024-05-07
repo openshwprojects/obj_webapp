@@ -66,6 +66,39 @@
 	  "image": "https://obrazki.elektroda.pl/9568515100_1707749274.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4020634.html"
 	},
+  {
+    "vendor": "Tuya",
+    "bDetailed": "0",
+    "name": "Water Heater Boiler Touch Switch 20A 4400W",
+    "model": "EZS-WBA1H20C-AA_V1.4",
+    "chip": "BK7231N",
+    "board": "On PCB",
+    "flags": "1024",
+    "keywords": [
+      "temperature",
+      "heating",
+      "110-240v",
+      "timer"
+    ],
+    "pins": {
+      "6": "LED;1",
+      "7": "AlwaysLow;0",
+      "9": "WifiLED_n;0",
+      "14": "LED;2",
+      "15": "LED;3",
+      "16": "LED;4",
+      "17": "LED;5",
+      "20": "LED;6",
+      "22": "LED;7",
+      "23": "LED;8",
+      "24": "Rel;39",
+      "26": "Rel;37",
+      "28": "dInput;35"
+    },
+    "command": "backlog startDriver BL0942;",
+    "image": "https://obrazki.elektroda.pl/4281823900_1708276579.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4036888.html"
+  },
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
@@ -8006,6 +8039,29 @@
       "pins": {},
       "image": "https://obrazki.elektroda.pl/6598669200_1668208780.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3933313.html"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Milfra MFA05F Motion Sensor Light Switch",
+      "model": "MFA05F",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "flags": "1024",
+      "keywords": [
+        "Milfra",
+        "MFA05F",
+        "Switch",
+        "Motion Sensor",
+        "BK7231N",
+        "CBU",
+        "MCU",
+        "tuyamcu"
+      ],
+      "pins": {},
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/9024105700_1714244652.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21063870#21063870"
     },
     {
       "vendor": "Generic",
