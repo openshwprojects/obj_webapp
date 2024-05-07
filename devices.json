@@ -67,6 +67,25 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4020634.html"
 	},
   {
+    "vendor": "Treatlife",
+    "bDetailed": "0",
+    "name": "Single Pole Dimmer Switch 10A 110V 400W",
+    "model": "DS01C",
+    "chip": "BK7231N",
+    "board": "WB3S",
+    "flags": "1024",
+    "keywords": [
+      "button",
+      "canada",
+      "TuyaMCU"
+    ],
+    "pins": {
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/5985347300_1715119401.png",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4052613.html"
+  },
+  {
     "vendor": "Tuya",
     "bDetailed": "0",
     "name": "Water Heater Boiler Touch Switch 20A 4400W",
@@ -78,7 +97,8 @@
       "temperature",
       "heating",
       "110-240v",
-      "timer"
+      "timer",
+      "BL0942SPI"
     ],
     "pins": {
       "6": "LED;1",
@@ -95,7 +115,7 @@
       "26": "Rel;37",
       "28": "dInput;35"
     },
-    "command": "backlog startDriver BL0942;",
+    "command": "backlog startdriver bl0942spi 9600;",
     "image": "https://obrazki.elektroda.pl/4281823900_1708276579.jpg",
     "wiki": "https://www.elektroda.com/rtvforum/topic4036888.html"
   },
