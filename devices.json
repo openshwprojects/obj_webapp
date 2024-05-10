@@ -1082,6 +1082,32 @@
     },
     {
       "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Water Leak Flood Sensor Alarm",
+      "model": "DY-SQ400B",
+      "chip": "BK7231N",
+      "board": "CB3S",
+      "flags": "1032",
+      "keywords": [
+        "CR123A",
+        "battery",
+        "detector",
+        "buzzer"
+      ],
+      "pins": {
+      "7": "PWM;0",
+      "8": "DoorSnsrWSleep_nPup;0",
+      "14": "BAT_Relay;1",
+      "23": "BAT_ADC;1",
+      "24": "Btn;1",
+      "26": "LED;0"
+      },
+      "command": "DSEdge 0",
+      "image": "https://obrazki.elektroda.pl/6240569600_1714757661.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4052199.html"
+    },
+    {
+      "vendor": "Tuya",
       "bDetailed": "1",
       "name": "SmartSwitch T102_V1.1 / RTL8710BN",
       "chip": "RTL8710BN",
