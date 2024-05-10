@@ -1057,6 +1057,30 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3804553.html"
     },
     {
+      "vendor": "BSEED",
+      "bDetailed": "0",
+      "name": "EU 110V-250V 16A Smart Socket Wall Outlet Single",
+      "model": "TW2-0057A",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "flags": "1024",
+      "keywords": [
+        "TW-CZ-ZB",
+        "plug",
+        "5~3000W",
+        "GL86EUSKIM1W"
+      ],
+      "pins": {
+        "6": "WifiLED;0",
+        "7": "Rel;0",
+        "8": "LED;0",
+        "26": "Btn;1"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/6606057500_1715263618.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4053248.html"
+    },
+    {
       "vendor": "Tuya",
       "bDetailed": "1",
       "name": "SmartSwitch T102_V1.1 / RTL8710BN",
