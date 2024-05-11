@@ -380,7 +380,7 @@
                 let url = window.device+'/api/cmnd';
                 let cmd = "";
                 
-                cmd = "backlog resetSVM; ";
+                cmd = "backlog resetSVM;";
                     
                 fetch(url, { 
                         body: cmd,
