@@ -1031,7 +1031,10 @@
       "pins": {},
       "keywords": [
         "TuyaMCU",
-        "BL0942"
+        "BL0942",
+        "20221109",
+        "PJ-CS01",
+        "STC 381-TSSOP20 8G1K17"
       ],
       "command": "startDriver BL0942",
       "image": "https://obrazki.elektroda.pl/8174653400_1714393142.jpg",
