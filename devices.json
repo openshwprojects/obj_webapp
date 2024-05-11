@@ -1034,6 +1034,21 @@
         "BL0942"
       ],
       "command": "startDriver BL0942",
+      "image": "https://obrazki.elektroda.pl/8174653400_1714393142.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4053493.html"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "1",
+      "name": "PJ-MGW1103 - CT-clamp Energy Meter",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "pins": {},
+      "keywords": [
+        "TuyaMCU",
+        "BL0942"
+      ],
+      "command": "startDriver BL0942",
       "image": "https://obrazki.elektroda.pl/5761098200_1672711832.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3946128.html"
     },
