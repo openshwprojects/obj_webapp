@@ -1114,12 +1114,12 @@
         "buzzer"
       ],
       "pins": {
-      "7": "PWM;0",
+      "7": "PWM;5",
       "8": "DoorSnsrWSleep_nPup;0",
       "14": "BAT_Relay;1",
       "23": "BAT_ADC;1",
       "24": "Btn;1",
-      "26": "LED;0"
+      "26": "LED;5"
       },
       "command": "DSEdge 0",
       "image": "https://obrazki.elektroda.pl/6240569600_1714757661.jpg",
