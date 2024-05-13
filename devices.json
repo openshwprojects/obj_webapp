@@ -1022,6 +1022,32 @@
       "image": "https://obrazki.elektroda.pl/9320043800_1654589943_thumb.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3898502.html"
     },
+	{
+	  "vendor": "Avatto",
+	  "bDetailed": "1",
+	  "name": "Power Metering Socket N-WOT10-EU-W BL0937",
+	  "model": "N-WOT10-EU-W",
+	  "chip": "BK7231N",
+	  "board": "CB2S",
+	  "flags": "1024",
+	  "keywords": [
+		"wall socket",
+		"Allegro",
+		"BL0937"
+	  ],
+	  "pins": {
+		"6": "Btn;0",
+		"7": "Rel;0",
+		"8": "BL0937SEL;0",
+		"10": "WifiLED_n;0",
+		"23": "LED_n;0",
+		"24": "BL0937CF;0",
+		"26": "BL0937CF1;0"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/2468293400_1711288188.jpg",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic4054004.html"
+	},
     {
       "vendor": "Tuya",
       "bDetailed": "1",
