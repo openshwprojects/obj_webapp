@@ -6042,6 +6042,35 @@
 	  "image": "https://obrazki.elektroda.pl/8626268000_1696928281.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4007263.html"
 	},
+  {
+    "vendor": "Tuya",
+    "bDetailed": "0",
+    "name": "Mini DIY 10A (2x5A) AC90-250V Dual Switch",
+    "model": "SW02-02",
+    "chip": "BK7231N",
+    "board": "On PCB",
+    "flags": "1024",
+    "keywords": [
+      "breaker",
+      "double",
+      "twin",
+      "lamp",
+      "light",
+      "TP02_N",
+      "2023.5.6-VER:A"
+    ],
+    "pins": {
+      "6": "WifiLED_n;0",
+      "7": "Rel;1",
+      "8": "Rel;0",
+      "10": "Btn_Tgl_All;0",
+      "24": "TglChanOnTgl;0",
+      "26": "TglChanOnTgl;1"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/5899760200_1715807294.png",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4054480.html"
+  },
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
