@@ -8821,6 +8821,25 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3995777.html"
     },
     {
+      "vendor": "Moes",
+      "bDetailed": "0",
+      "name": "Electric Curtain, Shutter, Roller, Blinds Switch",
+      "model": "WS-EUR-CW",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "flags": "1024",
+      "keywords": [
+        "tuyamcu",
+        "mcu",
+        "moeshouse"
+      ],
+      "pins": {
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/2880724600_1715840793.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4054441.html"
+    },
+    {
       "vendor": "LSC",
       "bDetailed": "0",
       "name": "Smart Led Light Strip RGBCW 3000342 alternate pinout IR recv and button",
