@@ -8866,6 +8866,33 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic4054441.html"
     },
     {
+      "vendor": "DETA",
+      "bDetailed": "0",
+      "name": "10W 940LM RGB+CCT SMART LED DOWNLIGHT",
+      "model": "DET902HA",
+      "chip": "BK7231T",
+      "board": "TWB2L",
+      "flags": "5120",
+      "keywords": [
+        "bunnings",
+        "australia",
+        "new zealand",
+        "RGB + CCT (3000K - 5700K)",
+        "recessed",
+        "ceiling"
+      ],
+      "pins": {
+        "6": "PWM;3",
+        "7": "PWM;5",
+        "8": "PWM;4",
+        "24": "PWM;2",
+        "26": "PWM;1"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/6773179300_1715976983.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21086257"
+    },
+    {
       "vendor": "LSC",
       "bDetailed": "0",
       "name": "Smart Led Light Strip RGBCW 3000342 alternate pinout IR recv and button",
