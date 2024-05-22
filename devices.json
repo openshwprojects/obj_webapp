@@ -330,7 +330,7 @@
     "vendor": "Tuya",
     "bDetailed": "0",
     "name": "Smart Life Bidirectional 0.1-150A Photovoltaic Solar Transformer Clamp",
-    "model": "",
+    "model": "PJ2101A",
     "chip": "BK7231N",
     "board": "CB2S",
     "flags": "1024",
