@@ -327,6 +327,24 @@
     "wiki": "https://www.elektroda.com/rtvforum/topic3981200.html"
   },
   {
+    "vendor": "Tuya",
+    "bDetailed": "0",
+    "name": "Smart Life Bidirectional 0.1-150A Photovoltaic Solar Transformer Clamp",
+    "model": "",
+    "chip": "BK7231N",
+    "board": "CB2S",
+    "flags": "1024",
+    "keywords": [
+      "power monitor",
+      "110-240v",
+      "meter"
+    ],
+    "pins": {},
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/3524244300_1716049687.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4054977.html"
+  },
+  {
     "vendor": "Prime",
     "bDetailed": "0",
     "name": "Prime WiFi Smart Outdoor Outlets + Remote control from Costco",
