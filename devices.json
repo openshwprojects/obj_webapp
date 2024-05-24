@@ -1184,7 +1184,7 @@
       "8": "DoorSnsrWSleep_nPup;0",
       "14": "BAT_Relay;1",
       "23": "BAT_ADC;1",
-      "24": "Btn;1",
+      "24": "Btn_ScriptOnly;1",
       "26": "LED;5"
       },
       "command": "DSEdge 0",
