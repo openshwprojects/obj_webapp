@@ -91,7 +91,7 @@
     "name": "Water Heater Boiler Touch Switch 20A 4400W",
     "model": "EZS-WBA1H20C-AA_V1.4",
     "chip": "BK7231N",
-    "board": "On PCB",
+    "board": "on PCB",
     "flags": "1024",
     "keywords": [
       "temperature",
@@ -1168,11 +1168,11 @@
     {
       "vendor": "Tuya",
       "bDetailed": "0",
-      "name": "Water Leak Flood Sensor Alarm",
+      "name": "Floor-Sitting Water Leak Flood Sensor Alarm",
       "model": "DY-SQ400B",
       "chip": "BK7231N",
       "board": "CB3S",
-      "flags": "1032",
+      "flags": "8",
       "keywords": [
         "CR123A",
         "battery",
@@ -1183,8 +1183,8 @@
       "7": "PWM;5",
       "8": "DoorSnsrWSleep_nPup;0",
       "14": "BAT_Relay;1",
-      "23": "BAT_ADC;1",
-      "24": "Btn;1",
+      "23": "BAT_ADC;2",
+      "24": "Btn_ScriptOnly;1",
       "26": "LED;5"
       },
       "command": "DSEdge 0",
@@ -1967,7 +1967,7 @@
       "bDetailed": "1",
       "name": "Magic Home WIFI RGB CTT controller",
       "chip": "BL602",
-      "board": "on pcb",
+      "board": "on PCB",
       "pins": {
         "3": "PWM;2",
         "4": "PWM;0",
@@ -2528,7 +2528,7 @@
       "bDetailed": "0",
       "name": "Smart Connect E27 RGBCW 9.4W 806lumen F 2578539",
       "chip": "BK7231T",
-      "board": "on pcb",
+      "board": "on PCB",
       "pins": {
         "26": "BP5758D_DAT;0",
         "24": "BP5758D_CLK;0"
@@ -2906,7 +2906,7 @@
       "bDetailed": "0",
       "name": "WiFi Smart Switch KR2302 20220515",
       "chip": "BL602",
-      "board": "",
+      "board": "on PCB",
 	  "pins": {
 		"2": "TglChanOnTgl;0",
 		"3": "Rel;0",
@@ -2966,7 +2966,7 @@
       "bDetailed": "1",
       "name": "B05-BL-A60 RGBCW E27 Bulb",
       "chip": "BL602",
-      "board": "",
+      "board": "SM-030 V1.0",
       "pins": {
         "2": "BP5758D_CLK;0",
         "21": "BP5758D_DAT;0"
@@ -4153,6 +4153,30 @@
     "image": "https://obrazki.elektroda.pl/2072813000_1709672386.jpg",
     "wiki": "https://www.elektroda.com/rtvforum/topic4040714.html"
   },
+  {
+    "vendor": "Moes",
+    "bDetailed": "0",
+    "name": "14w 1521lm RGBCW E27 Bulb 2700K-6500K",
+    "model": "",
+    "chip": "BK7231N",
+    "board": "on PCB",
+    "flags": "5120",
+    "keywords": [
+      "edison",
+      "screw",
+      "dimmable",
+      "AC90 ~ 250V",
+      "moeshouse",
+      "lamp"
+    ],
+    "pins": {
+      "24": "BP5758D_CLK;0",
+      "26": "BP5758D_DAT;0"
+    },
+    "command": "backlog BP5758D_Current 5 29",
+    "image": "https://obrazki.elektroda.pl/8734784500_1716641672.png",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4056278.html"
+  },
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
@@ -5001,7 +5025,7 @@
       "name": "Avatar ASL04 5v LED strip with IR (TV backlight)",
       "model": "ASL04",
       "chip": "BK7231T",
-      "board": "",
+      "board": "WB8",
       "pins": {
         "6": "PWM;1",
         "7": "Btn_NextDimmer;1",
@@ -5267,7 +5291,7 @@
 	  "name": "ONENUO Tuya Micro Smart USB Adapter Switch",
 	  "model": "ZHQ01",
 	  "chip": "BK7231N",
-	  "board": "",
+	  "board": "on PCB",
 	  "flags": "0",
 	  "keywords": [
 		"onenuo",
@@ -5569,7 +5593,7 @@
       "name": "Airam Smart A60 827-865 RGB 806lm E27 OP",
       "chip": "BK7231N",
       "bDetailed": "0",
-      "board": "",
+      "board": "on PCB",
       "pins": {
         "6": "PWM;2",
         "7": "PWM;1",
@@ -5617,7 +5641,7 @@
       "name": "AVATTO 4/5/6-Gang Wi-Fi Touch Switch",
       "chip": "BK7231N",
       "bDetailed": "0",
-      "board": "on pcb",
+      "board": "on PCB",
       "pins": {
         "6": "Btn;1",
         "7": "Rel;1",
@@ -6026,7 +6050,7 @@
 	  "name": "Door Sensor",
 	  "model": "DW2",
 	  "chip": "OPL1000",
-	  "board": "",
+	  "board": "on PCB",
 	  "keywords": [
 		"2APN5DW2-WIFI",
 		"DW2-Wi-Fi",
@@ -6114,7 +6138,7 @@
     "name": "Mini DIY 10A (2x5A) AC90-250V Dual Switch",
     "model": "SW02-02",
     "chip": "BK7231N",
-    "board": "On PCB",
+    "board": "on PCB",
     "flags": "1024",
     "keywords": [
       "breaker",
@@ -7036,7 +7060,7 @@
       "name": "Zemismart Light Switch (Neutral Optional) KS-811-3",
       "model": "KS-811-3",
       "chip": "BK7231N",
-      "board": "",
+      "board": "on PCB",
       "pins": {
         "14": "Rel;3",
         "16": "Rel;2",
@@ -7649,7 +7673,7 @@
 	  "name": "B02-BL-A60 CW CCT",
 	  "model": "B02-BL-A60",
 	  "chip": "BL602",
-	  "board": "",
+	  "board": "SM-030 V1.0",
 	  "flags": "1024",
 	  "keywords": [
 		"CW",
@@ -7693,7 +7717,7 @@
       "name": "smart socket BW-SHP10 (no metering)",
       "model": "BW-SHP10",
       "chip": "ESP8266",
-      "board": "",
+      "board": "on PCB",
       "pins": {},
       "keywords": [
         "plug",
@@ -7734,7 +7758,7 @@
       "name": "smart socket BW-SHP6 (with metering)",
       "model": "BW-SHP6",
       "chip": "ESP8266",
-      "board": "",
+      "board": "on PCB",
       "pins": {},
       "keywords": [
         "espressif",
@@ -9315,7 +9339,7 @@
       "name": "Sonoff Basic",
       "model": "",
       "chip": "ESP8266",
-      "board": "",
+      "board": "on PCB",
       "keywords": [
         "espressif"
       ],
@@ -9329,7 +9353,7 @@
       "name": "Shelly 1",
       "model": "",
       "chip": "ESP8266",
-      "board": "",
+      "board": "on PCB",
       "keywords": [
         "",
         "",
@@ -9743,7 +9767,7 @@
       "bDetailed": "0",
       "name": "Neo Power Plug 16A (old ESP version)",
       "chip": "ESP8266",
-      "board": "",
+      "board": "on PCB",
       "pins": {},
       "keywords": [
         "BL0937",
@@ -10005,7 +10029,7 @@
 	  "name": "LED Smart white and color ambiance E27 9.4W 806lm",
 	  "chip": "BK7231N",
 	  "model": "2578539",
-	  "board": "on pcb",
+	  "board": "on PCB",
 	  "flags": "0",
 	  "keywords": [
 		"RGBCW",
@@ -10456,7 +10480,7 @@
 		"name": "Sunset Lamp (I004055) RGB LED lamp controller",
 		"model": "I004055",
 		"chip": "BK7231N",
-		"board": "",
+		"board": "on PCB",
 		"flags": "0",
 		"keywords": [
 		  "LED"
@@ -11384,6 +11408,29 @@
     "image": "https://obrazki.elektroda.pl/7623210600_1704647495.jpg",
     "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20896810"
   },
+  {
+  "vendor": "Tuya",
+  "bDetailed": "0",
+  "name": "ONENUO Water Leak Sensor Flood Leakage Detector with Sound Alarm",
+  "model": "898DT",
+  "chip": "BK7231N",
+  "board": "CBU",
+  "flags": "0",
+  "keywords": [
+    "buzzer"
+  ],
+  "pins": {
+    "6": "PWM;6",
+    "14": "Btn;2",
+    "15": "WifiLED;0",
+    "20": "BAT_Relay;4",
+    "22": "dInput;1",
+    "23": "BAT_ADC;5"
+  },
+  "command": "",
+  "image": "https://obrazki.elektroda.pl/1039201300_1716148730.jpg",
+  "wiki": "https://www.elektroda.com/rtvforum/topic4055031.html"
+},
   {
 	  "vendor": "Ewelink",
 	  "bDetailed": "0",
