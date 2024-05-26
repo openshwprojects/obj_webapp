@@ -2906,7 +2906,7 @@
       "bDetailed": "0",
       "name": "WiFi Smart Switch KR2302 20220515",
       "chip": "BL602",
-      "board": "",
+      "board": "On PCB",
 	  "pins": {
 		"2": "TglChanOnTgl;0",
 		"3": "Rel;0",
@@ -2966,7 +2966,7 @@
       "bDetailed": "1",
       "name": "B05-BL-A60 RGBCW E27 Bulb",
       "chip": "BL602",
-      "board": "",
+      "board": "SM-030 V1.0",
       "pins": {
         "2": "BP5758D_CLK;0",
         "21": "BP5758D_DAT;0"
@@ -5025,7 +5025,7 @@
       "name": "Avatar ASL04 5v LED strip with IR (TV backlight)",
       "model": "ASL04",
       "chip": "BK7231T",
-      "board": "",
+      "board": "WB8",
       "pins": {
         "6": "PWM;1",
         "7": "Btn_NextDimmer;1",
@@ -5291,7 +5291,7 @@
 	  "name": "ONENUO Tuya Micro Smart USB Adapter Switch",
 	  "model": "ZHQ01",
 	  "chip": "BK7231N",
-	  "board": "",
+	  "board": "On PCB",
 	  "flags": "0",
 	  "keywords": [
 		"onenuo",
@@ -5593,7 +5593,7 @@
       "name": "Airam Smart A60 827-865 RGB 806lm E27 OP",
       "chip": "BK7231N",
       "bDetailed": "0",
-      "board": "",
+      "board": "On PCB",
       "pins": {
         "6": "PWM;2",
         "7": "PWM;1",
@@ -6050,7 +6050,7 @@
 	  "name": "Door Sensor",
 	  "model": "DW2",
 	  "chip": "OPL1000",
-	  "board": "",
+	  "board": "On PCB",
 	  "keywords": [
 		"2APN5DW2-WIFI",
 		"DW2-Wi-Fi",
@@ -7060,7 +7060,7 @@
       "name": "Zemismart Light Switch (Neutral Optional) KS-811-3",
       "model": "KS-811-3",
       "chip": "BK7231N",
-      "board": "",
+      "board": "On PCB",
       "pins": {
         "14": "Rel;3",
         "16": "Rel;2",
@@ -7673,7 +7673,7 @@
 	  "name": "B02-BL-A60 CW CCT",
 	  "model": "B02-BL-A60",
 	  "chip": "BL602",
-	  "board": "",
+	  "board": "SM-030 V1.0",
 	  "flags": "1024",
 	  "keywords": [
 		"CW",
@@ -7717,7 +7717,7 @@
       "name": "smart socket BW-SHP10 (no metering)",
       "model": "BW-SHP10",
       "chip": "ESP8266",
-      "board": "",
+      "board": "On PCB",
       "pins": {},
       "keywords": [
         "plug",
@@ -7758,7 +7758,7 @@
       "name": "smart socket BW-SHP6 (with metering)",
       "model": "BW-SHP6",
       "chip": "ESP8266",
-      "board": "",
+      "board": "On PCB",
       "pins": {},
       "keywords": [
         "espressif",
@@ -9339,7 +9339,7 @@
       "name": "Sonoff Basic",
       "model": "",
       "chip": "ESP8266",
-      "board": "",
+      "board": "On PCB",
       "keywords": [
         "espressif"
       ],
@@ -9353,7 +9353,7 @@
       "name": "Shelly 1",
       "model": "",
       "chip": "ESP8266",
-      "board": "",
+      "board": "On PCB",
       "keywords": [
         "",
         "",
@@ -9767,7 +9767,7 @@
       "bDetailed": "0",
       "name": "Neo Power Plug 16A (old ESP version)",
       "chip": "ESP8266",
-      "board": "",
+      "board": "On PCB",
       "pins": {},
       "keywords": [
         "BL0937",
@@ -10480,7 +10480,7 @@
 		"name": "Sunset Lamp (I004055) RGB LED lamp controller",
 		"model": "I004055",
 		"chip": "BK7231N",
-		"board": "",
+		"board": "On PCB",
 		"flags": "0",
 		"keywords": [
 		  "LED"
