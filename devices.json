@@ -9778,6 +9778,32 @@
       "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?t=3941251&highlight="
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Door/Window Contact Sensor with Audible Alarm - 2x AAA",
+      "model": "AW301",
+      "chip": "BK7231N",
+      "board": "CB3S",
+      "flags": "1032",
+      "keywords": [
+        "buzzer",
+        "piezo",
+        "battery",
+        "alert"
+      ],
+      "pins": {
+        "6": "DoorSnsrWSleep_nPup;0",
+        "7": "WifiLED_n;4",
+        "9": "PWM;5",
+        "21": "BAT_Relay;2",
+        "23": "BAT_ADC;3",
+        "26": "Btn_ScriptOnly;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/https://obrazki.elektroda.pl/1665844500_1716753774.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4056261.html"
+    },
+    {
       "vendor": "Setti+",
       "bDetailed": "0",
       "name": "Setti+ SP301 Power Plug With Power Monitoring BL0942",
