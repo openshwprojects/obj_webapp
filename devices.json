@@ -11393,7 +11393,6 @@
   "board": "TCBU",
   "flags": "0",
   "keywords": [
-    "detector",
     "buzzer"
   ],
   "pins": {
