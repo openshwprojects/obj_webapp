@@ -4153,6 +4153,30 @@
     "image": "https://obrazki.elektroda.pl/2072813000_1709672386.jpg",
     "wiki": "https://www.elektroda.com/rtvforum/topic4040714.html"
   },
+  {
+    "vendor": "Moes",
+    "bDetailed": "0",
+    "name": "14w 1521lm RGBCW E27 Bulb 2700K-6500K",
+    "model": "",
+    "chip": "BK7231N",
+    "board": "On PCB",
+    "flags": "5120",
+    "keywords": [
+      "edison",
+      "screw",
+      "dimmable",
+      "AC90 ~ 250V",
+      "moeshouse",
+      "lamp"
+    ],
+    "pins": {
+      "24": "BP5758D_CLK;0",
+      "26": "BP5758D_DAT;0"
+    },
+    "command": "backlog BP5758D_Current 5 29",
+    "image": "https://obrazki.elektroda.pl/8734784500_1716641672.png",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4056278.html"
+  },
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
