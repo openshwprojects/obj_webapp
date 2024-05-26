@@ -1168,11 +1168,11 @@
     {
       "vendor": "Tuya",
       "bDetailed": "0",
-      "name": "Water Leak Flood Sensor Alarm",
+      "name": "Floor sitting Water Leak Flood Sensor Alarm",
       "model": "DY-SQ400B",
       "chip": "BK7231N",
       "board": "CB3S",
-      "flags": "1032",
+      "flags": "8",
       "keywords": [
         "CR123A",
         "battery",
@@ -1183,7 +1183,7 @@
       "7": "PWM;5",
       "8": "DoorSnsrWSleep_nPup;0",
       "14": "BAT_Relay;1",
-      "23": "BAT_ADC;1",
+      "23": "BAT_ADC;2",
       "24": "Btn_ScriptOnly;1",
       "26": "LED;5"
       },
@@ -11384,6 +11384,30 @@
     "image": "https://obrazki.elektroda.pl/7623210600_1704647495.jpg",
     "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20896810"
   },
+  {
+  "vendor": "Tuya",
+  "bDetailed": "0",
+  "name": "ONENUO Water Leak Sensor Flood Leakage Detector with Sound Alarm",
+  "model": "898DT",
+  "chip": "BK7231N",
+  "board": "TCBU",
+  "flags": "0",
+  "keywords": [
+    "detector",
+    "buzzer"
+  ],
+  "pins": {
+    "6": "PWM;6",
+    "14": "Btn;2",
+    "15": "WifiLED;0",
+    "20": "BAT_Relay;4",
+    "22": "dInput;1",
+    "23": "BAT_ADC;5"
+  },
+  "command": "",
+  "image": "https://obrazki.elektroda.pl/1039201300_1716148730.jpg",
+  "wiki": "https://www.elektroda.com/rtvforum/topic4055031.html"
+},
   {
 	  "vendor": "Ewelink",
 	  "bDetailed": "0",
