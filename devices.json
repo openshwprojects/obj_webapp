@@ -11390,7 +11390,7 @@
   "name": "ONENUO Water Leak Sensor Flood Leakage Detector with Sound Alarm",
   "model": "898DT",
   "chip": "BK7231N",
-  "board": "TCBU",
+  "board": "CBU",
   "flags": "0",
   "keywords": [
     "buzzer"
