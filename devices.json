@@ -5589,6 +5589,29 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3917316.html"
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Generic Flood Water Leak Detector - 2x AAA",
+      "model": "TY-SJ-01",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "flags": "1024",
+      "keywords": [
+        "sensor",
+        "battery"
+      ],
+      "pins": {
+        "16": "dInput_NoPullUp_n;5",
+        "17": "BAT_Relay;3",
+        "20": "Btn;1",
+        "23": "BAT_ADC;2",
+        "26": "WifiLED_n;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/4137950800_1716798239.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4056568.html"
+    },
+    {
       "vendor": "Airam",
       "name": "Airam Smart A60 827-865 RGB 806lm E27 OP",
       "chip": "BK7231N",
