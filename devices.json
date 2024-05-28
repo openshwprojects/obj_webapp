@@ -5589,6 +5589,52 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3917316.html"
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Generic Flood Water Leak Detector - 2x AAA",
+      "model": "TY-SJ-01",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "flags": "1024",
+      "keywords": [
+        "sensor",
+        "battery"
+      ],
+      "pins": {
+        "16": "dInput_NoPullUp_n;5",
+        "17": "BAT_Relay;3",
+        "20": "Btn;1",
+        "23": "BAT_ADC;2",
+        "26": "WifiLED_n;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/4137950800_1716798239.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4056568.html"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Smart Life Flood Water Leak Detector - 2x AAA",
+      "model": "SW100",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "flags": "1024",
+      "keywords": [
+            "sensor",
+            "battery"
+      ],
+      "pins": {
+        "16": "dInput_NoPullUp_n;1",
+        "17": "BAT_Relay;2",
+        "20": "Btn;0",
+        "23": "BAT_ADC;3",
+        "26": "WifiLED_n;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/4534061700_1716804887.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4056603.html"
+    },
+    {
       "vendor": "Airam",
       "name": "Airam Smart A60 827-865 RGB 806lm E27 OP",
       "chip": "BK7231N",
@@ -9776,6 +9822,32 @@
       ],
       "image": "https://obrazki.elektroda.pl/9638821000_1670917831.jpg",
       "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?t=3941251&highlight="
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Door/Window Contact Sensor with Audible Alarm - 2x AAA",
+      "model": "AW301",
+      "chip": "BK7231N",
+      "board": "CB3S",
+      "flags": "1032",
+      "keywords": [
+        "buzzer",
+        "piezo",
+        "battery",
+        "alert"
+      ],
+      "pins": {
+        "6": "DoorSnsrWSleep_nPup;0",
+        "7": "WifiLED_n;4",
+        "9": "PWM;5",
+        "21": "BAT_Relay;2",
+        "23": "BAT_ADC;3",
+        "26": "Btn_ScriptOnly;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/https://obrazki.elektroda.pl/1665844500_1716753774.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4056261.html"
     },
     {
       "vendor": "Setti+",
