@@ -8061,6 +8061,37 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic4019974.html"
     },
     {
+      "vendor": "Gosund",
+      "bDetailed": "0",
+      "name": "GHome Power Monitoring Dual Smart Plug 3500W (EU)",
+      "model": "SP211",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "flags": "2098180",
+      "keywords": [
+        "double",
+        "socket",
+        "splitter",
+        "outlet"
+      ],
+      "pins": {
+        "6": "LED_n;1",
+        "7": "Btn;2",
+        "8": "BL0937CF;0",
+        "9": "BL0937CF1;0",
+        "10": "BL0937SEL;0",
+        "11": "WifiLED_n;0",
+        "13": "BL0937CF1;0",
+        "14": "Rel;1",
+        "22": "Rel;2",
+        "24": "LED_n;2",
+        "26": "Btn;1"
+      },
+      "command": "backlog startDriver BL0937; BL0937_VCPPrecision 2 2 2 2; BL0937_VCPPublishThreshold 0.5 0.3 0.3",
+      "image": "https://obrazki.elektroda.pl/8860551500_1716902366.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4056754.html"
+    },
+    {
       "vendor": "Antela",
       "bDetailed": "0",
       "name": "Antela - smart bulb E27 RGB BAW534 9W",
