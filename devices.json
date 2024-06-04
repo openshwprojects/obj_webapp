@@ -4055,6 +4055,33 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic4056861.html"
     },
     {
+      "vendor": "Alpina",
+      "bDetailed": "0",
+      "name": "Tuya Smart Plug 10A 240V Item No. 26545 (EU)",
+      "model": "SPL-W-TY-PM-EU-RY 10A",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "flags": "1024",
+      "keywords": [
+        "A.I.&E",
+        "BL0937",
+        "socket",
+        "871125226545"
+      ],
+      "pins": {
+        "6": "LED;0",
+        "7": "Btn;0",
+        "8": "Rel;0",
+        "10": "WifiLED_n;0",
+        "11": "BL0937SEL;1",
+        "24": "BL0937CF;0",
+        "26": "BL0937CF1;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/8288349700_1717520536.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4058043.html"
+    },
+    {
       "vendor": "Aubess",
       "bDetailed": "0",
       "name": "Aubess 2gang Mini Smart Switch BK7231N/CB2S (aka FL_M99_V3?)",
