@@ -4030,6 +4030,31 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic4057523.html"
     },
     {
+      "vendor": "Outsmart",
+      "bDetailed": "0",
+      "name": "Tuya WS2811 3-Pin 12-24v RGBIC SPI LED Controller",
+      "model": "RGBIC LED 2",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "flags": "1024",
+      "keywords": [
+        "MOSI",
+        "WS2812B",
+        "pixelanim",
+        "addressable",
+        "12v output",
+        "SM16703P",
+        "microphone",
+        "strip lights"
+      ],
+      "pins": {
+        "6": "Btn_Tgl_All;0"
+      },
+      "command": "backlog PowerSave 1",
+      "image": "https://obrazki.elektroda.pl/YOUR_IMAGE.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4056861.html"
+    },
+    {
       "vendor": "Aubess",
       "bDetailed": "0",
       "name": "Aubess 2gang Mini Smart Switch BK7231N/CB2S (aka FL_M99_V3?)",
