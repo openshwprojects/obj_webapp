@@ -3980,30 +3980,80 @@
       "image": "https://obrazki.elektroda.pl/8487529500_1667287453.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3930515.html"
     },
-	{
-	  "vendor": "Tuya",
-	  "bDetailed": "0",
-	  "name": "BSeed SmartLife Switch",
-	  "model": "2Gang1way",
-	  "chip": "BK7231N",
-	  "board": "CBU",
-	  "flags": "0",
-	  "keywords": [
-		"2 gang",
-		"dual switch",
-		"2g"
-	  ],
-	  "pins": {
-		"6": "Btn;2",
-		"7": "Rel;2",
-		"8": "Rel;1",
-		"24": "Btn;1",
-		"28": "WifiLED_n;0"
-	  },
-	  "command": "",
-	  "image": "https://obrazki.elektroda.pl/3149630700_1708087372.jpg",
-	  "wiki": "https://www.elektroda.com/rtvforum/topic4036411.html"
-	},
+    {
+      "vendor": "BSEED",
+      "bDetailed": "0",
+      "name": "2-Gang SmartLife Switch",
+      "model": "2Gang1way",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "flags": "0",
+      "keywords": [
+      "2 gang",
+      "dual switch",
+      "2g"
+      ],
+      "pins": {
+      "6": "Btn;2",
+      "7": "Rel;2",
+      "8": "Rel;1",
+      "24": "Btn;1",
+      "28": "WifiLED_n;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/3149630700_1708087372.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4036411.html"
+    },
+    {
+      "vendor": "BSEED",
+      "bDetailed": "0",
+      "name": "3-Gang SmartLife Switch",
+      "model": "3Gang",
+      "chip": "BK7231N",
+      "board": "T34",
+      "flags": "0",
+      "keywords": [
+      "triple",
+      "3G"
+      ],
+      "pins": {
+      "14": "Btn;2",
+      "15": "Rel;3",
+      "16": "Btn;3",
+      "17": "Rel;2",
+      "20": "WifiLED_n;0",
+      "26": "Rel;1",
+      "28": "Btn;1"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/2544621900_1717279781.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4057523.html"
+    },
+    {
+      "vendor": "Outsmart",
+      "bDetailed": "0",
+      "name": "Tuya WS2811 3-Pin 12-24v RGBIC SPI LED Controller",
+      "model": "RGBIC LED 2",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "flags": "1024",
+      "keywords": [
+        "MOSI",
+        "WS2812B",
+        "pixelanim",
+        "addressable",
+        "12v output",
+        "SM16703P",
+        "microphone",
+        "strip lights"
+      ],
+      "pins": {
+        "6": "Btn_Tgl_All;0"
+      },
+      "command": "backlog PowerSave 1",
+      "image": "https://obrazki.elektroda.pl/1936322900_1717485718.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4056861.html"
+    },
     {
       "vendor": "Aubess",
       "bDetailed": "0",
