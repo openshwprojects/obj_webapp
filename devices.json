@@ -7520,6 +7520,24 @@
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/5876657200_1688391246.png",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3987582.html"
+	},  
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "Single switch module ver 20231005",
+	  "model": "SB451",
+	  "chip": "BK7231N",
+	  "board": "CB2S",
+	  "keywords": ["Allegro", "BP2525","DS-1311WN"],
+	  "pins": {
+	    "7": "WifiLED_n;0",
+	    "8": "Rel;1",
+	    "11": "Btn_Tgl_All;0",
+	    "26": "TglChanOnTgl;1"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/4371617200_1712320814.jpg",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic4057978.html"
 	},
 	{
 	  "vendor": "Tuya",
