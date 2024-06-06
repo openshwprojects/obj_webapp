@@ -8129,7 +8129,7 @@
     {
       "vendor": "Tuya",
       "bDetailed": "0",
-      "name": "Generic Wi-Fi TH08 Temperature & Humidity Sensor [CHT8310]",
+      "name": "Generic Wi-Fi TH01? Temperature & Humidity Sensor [CHT8310]",
       "model": "TH08",
       "chip": "BK7231N",
       "board": "CBU",
@@ -8139,13 +8139,13 @@
       "environment",
       "AAA",
       "hygrometer",
-      "th01?",
+      "th08 label",
       "blue pcb",
       "sensylink"
       ],
      "pins": {
         "8": "BAT_Relay;3",
-        "14": "Btn;4",
+        "14": "DoorSnsrWSleep;4",
         "16": "WifiLED_n;0",
         "20": "CHT8305_SCK;0",
         "22": "CHT8305_SDA;0;1",
