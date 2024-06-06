@@ -8156,6 +8156,32 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic4019974.html"
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Temperature & Humidity Sensor - 2x AAA Batteries",
+      "model": "TH01",
+      "chip": "BK7231N",
+      "board": "on PCB",
+      "flags": "1024",
+      "keywords": [
+        "battery",
+        "deepsleep",
+        "SHT30",
+        "hygrometer"
+      ],
+      "pins": {
+        "7": "SHT3X_SCK;0",
+        "8": "SHT3X_SDA;3",
+        "17": "BAT_Relay;2",
+        "20": "DoorSnsrWSleep;0",
+        "23": "BAT_ADC;1",
+        "26": "WifiLED_n;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/6829157400_1717695529.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4058406.html"
+    },
+    {
       "vendor": "Gosund",
       "bDetailed": "0",
       "name": "GHome Power Monitoring Dual Smart Plug 3500W (EU)",
