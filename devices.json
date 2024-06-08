@@ -6301,6 +6301,31 @@
 	  "image": "https://obrazki.elektroda.pl/6492722600_1691256384.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20682390#20682390"
 	},
+	  {
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": " US Plug with Power Monitoring",
+	  "model": "SMR-MG-CZ102W-WIF-15A-POW-US 77006510",
+	  "chip": "BK7231N",
+	  "board": "CB2S",
+	  "flags": "1024",
+	  "keywords": [
+	    "Smatrul",
+	    "USB",
+	    "5V"
+	  ],
+	  "pins": {
+	    "6": "BL0937CF;0",
+	    "7": "BL0937CF1;0",
+	    "8": "Rel;1",
+	    "23": "WifiLED_n;0",
+	    "24": "Btn;1",
+	    "26": "BL0937SEL;0"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/4982770700_1717694755_thumb.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4058389.html"
+	},
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
