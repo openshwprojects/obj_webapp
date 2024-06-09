@@ -4058,7 +4058,7 @@
       "vendor": "Outsmart",
       "bDetailed": "0",
       "name": "Tuya WS2811 3-Pin 12-24v RGBIC SPI LED Controller w/IR",
-      "model": "RGBIC LED 2",
+      "model": "",
       "chip": "BK7231N",
       "board": "CBU",
       "flags": "1024",
