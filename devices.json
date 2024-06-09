@@ -4055,6 +4055,36 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic4056861.html"
     },
     {
+      "vendor": "Outsmart",
+      "bDetailed": "0",
+      "name": "Tuya WS2811 3-Pin 12-24v RGBIC SPI LED Controller w/IR",
+      "model": "RGBIC LED 2",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "flags": "1024",
+      "keywords": [
+        "MOSI",
+        "WS2812B",
+        "pixelanim",
+        "addressable",
+        "12v output",
+        "SM16703P",
+        "microphone",
+        "strip lights",
+        "buttons",
+        "infra-red"
+      ],
+      "pins": {
+        "6": "Btn;0",
+        "7": "Btn_ScriptOnly;1",
+        "8": "Btn_ScriptOnly;2",
+        "20": "IRRecv;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/9462602700_1717443680.png",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21106272#21106272"
+    },
+    {
       "vendor": "Alpina",
       "bDetailed": "0",
       "name": "Tuya Smart Plug 10A 240V Item No. 26545 (EU)",
