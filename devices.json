@@ -1166,6 +1166,27 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic4053248.html"
     },
     {
+      "vendor": "BSEED",
+      "bDetailed": "0",
+      "name": "Single Gang 1G Wall Switch",
+      "model": "",
+      "chip": "BK7231N",
+      "board": "T34",
+      "flags": "1024",
+      "keywords": [
+        "curtain",
+        "dimmer"
+      ],
+      "pins": {
+        "17": "Rel;1",
+        "20": "WifiLED_n;0",
+        "28": "Btn;1"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/2755814900_1717273264.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4057517.html"
+    },
+    {
       "vendor": "Tuya",
       "bDetailed": "0",
       "name": "Floor-Sitting Water Leak Flood Sensor Alarm",
