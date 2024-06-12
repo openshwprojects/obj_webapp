@@ -6637,13 +6637,41 @@
 	  "image": "https://obrazki.elektroda.pl/2634256800_1702281280.png",
 	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20855531#20855531"
 	},
+  {
+    "vendor": "XiaoMei",
+    "bDetailed": "0",
+    "name": "Smart Futterautomat für Aquarium | Automatic Fish Feeder",
+    "model": "WP8621",
+    "chip": "BL2028N",
+    "board": "WIFI001_V20",
+    "flags": "-2147483648",
+    "keywords": [
+      "BK7231N",
+      "BK7231M",
+      "xiaomi?",
+      "belon"
+    ],
+    "pins": {
+      "0": "LED;5",
+      "1": "WifiLED;4",
+      "4": "WifiLED_n;0",
+      "7": "dInput;1",
+      "9": "dInput;3",
+      "15": "Rel;2",
+      "22": "dInput_n;7",
+      "23": "LED;6"
+    },
+    "command": "backlog SetPinRole 0 LED; SetPinChannel 5 0; SetPinRole 1 WifiLED; SetPinChannel 5 0;setChannel 3 0; addRepeatingEvent 20 3 setChannel 6 1;",
+    "image": "https://obrazki.elektroda.pl/8671024600_1718170279.png",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4056533.html"
+  },
 	{
 	  "vendor": "Energizer",
 	  "bDetailed": "0",
 	  "name": "Smart Led Flexi Strip",
 	  "model": "",
 	  "chip": "BK7231T",
-	  "board": "WB3S",
+	  "board": "on PCB",
 	  "keywords": ["B&M Bargains","4 channels","RGBW"],
 	  "pins": {
 		"6": "PWM;3",
