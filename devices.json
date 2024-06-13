@@ -6642,7 +6642,7 @@
   {
     "vendor": "BSEED/Bingoelec",
     "bDetailed": "0",
-    "name": "Single Gang 1G Switch",
+    "name": "Single Gang 1G Switch 100-240V AC 3-300W 120x72mm",
     "model": "W601",
     "chip": "BK7231N",
     "board": "T34",
@@ -6651,7 +6651,9 @@
       "dimmer",
       "light",
       "rectangle",
-      "Tangwo Electric Technology Co"
+      "Tangwo Electric Technology Co",
+      "Danquan",
+      "WIFI120"
     ],
     "pins": {
       "8": "WifiLED_n;0",
