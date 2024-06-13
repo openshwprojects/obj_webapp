@@ -1153,7 +1153,8 @@
         "TW-CZ-ZB",
         "plug",
         "5~3000W",
-        "GL86EUSKIM1W"
+        "GL86EUSKIM1W",
+        "Tangwo Electric Technology Co"
       ],
       "pins": {
         "6": "WifiLED;0",
@@ -1175,7 +1176,8 @@
       "flags": "1024",
       "keywords": [
         "curtain",
-        "dimmer"
+        "dimmer",
+        "Tangwo Electric Technology Co"
       ],
       "pins": {
         "17": "Rel;1",
@@ -4012,7 +4014,8 @@
       "keywords": [
       "2 gang",
       "dual switch",
-      "2g"
+      "2g",
+      "Tangwo Electric Technology Co"
       ],
       "pins": {
       "6": "Btn;2",
@@ -4035,7 +4038,8 @@
       "flags": "0",
       "keywords": [
       "triple",
-      "3G"
+      "3G",
+      "Tangwo Electric Technology Co"
       ],
       "pins": {
       "14": "Btn;2",
@@ -6635,6 +6639,30 @@
 	  "image": "https://obrazki.elektroda.pl/1725709300_1702327785.png",
 	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20853216#20853216"
 	},
+  {
+    "vendor": "BSEED/Bingoelec",
+    "bDetailed": "0",
+    "name": "Single Gang 1G Switch",
+    "model": "W601",
+    "chip": "BK7231N",
+    "board": "T34",
+    "flags": "1024",
+    "keywords": [
+      "dimmer",
+      "light",
+      "rectangle",
+      "Tangwo Electric Technology Co"
+    ],
+    "pins": {
+      "8": "WifiLED_n;0",
+      "10": "Btn_Tgl_All;0",
+      "23": "TglChanOnTgl;1",
+      "26": "Rel;1"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/6286653900_1718226022.png",
+    "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21117203#21117203"
+  },
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
