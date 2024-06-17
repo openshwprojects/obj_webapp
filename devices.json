@@ -1191,6 +1191,27 @@
     {
       "vendor": "Tuya",
       "bDetailed": "0",
+      "name": "DIY Smart Mini Switch 100-240V",
+      "model": "",
+      "chip": "BK7231N",
+      "board": "T34",
+      "flags": "1024",
+      "keywords": [
+        "breaker"
+      ],
+      "pins": {
+        "6": "LED_n;0",
+        "14": "TglChanOnTgl;0",
+        "15": "Rel;0",
+        "24": "TglChanOnTgl;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/5168873200_1714224899.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4051203.html"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
       "name": "Floor-Sitting Water Leak Flood Sensor Alarm",
       "model": "DY-SQ400B",
       "chip": "BK7231N",
