@@ -526,7 +526,7 @@
       "vendor": "Genio",
       "bDetailed": "1",
       "name": "Genio Galaxy Smart Lamp RGB - BK7231T - Teardown + Guide ",
-      "model": "",
+      "model": "NX-SK20",
       "chip": "BK7231T",
       "board": "WB3S",
       "pins": {
@@ -542,7 +542,8 @@
         "laser",
         "motor",
         "LED",
-        "RGB"
+        "RGB",
+        "Smart Star Projector"
       ],
       "image": "https://obrazki.elektroda.pl/9234524600_1670165373.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3939064.html",
@@ -1187,6 +1188,27 @@
       "command": "",
       "image": "https://obrazki.elektroda.pl/2755814900_1717273264.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic4057517.html"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "DIY Smart Mini Switch 100-240V",
+      "model": "",
+      "chip": "BK7231N",
+      "board": "T34",
+      "flags": "1024",
+      "keywords": [
+        "breaker"
+      ],
+      "pins": {
+        "6": "LED_n;0",
+        "14": "TglChanOnTgl;0",
+        "15": "Rel;0",
+        "24": "TglChanOnTgl;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/5168873200_1714224899.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4051203.html"
     },
     {
       "vendor": "Tuya",
