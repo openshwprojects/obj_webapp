@@ -6936,6 +6936,24 @@
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20266899#20266899"
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Smart Home PIR Motion Sensor - USB 5V - 2x AA - TuyaMCU",
+      "model": "P06",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "pins": {
+      },
+      "keywords": [
+        "battery",
+        "P06CBU-V1.3",
+        "BS612"
+      ],
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/9461066500_1718862541.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4060216.html"
+    },
+    {
       "vendor": "Aubess",
       "bDetailed": "1",
       "name": "Aubess Mini Smart Switch 16A, A5C-30E1-02",
