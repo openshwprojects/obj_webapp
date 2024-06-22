@@ -1026,6 +1026,24 @@
 	  "image": "https://obrazki.elektroda.pl/9728642600_1709977645.png",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4041370.html"
 	},
+	{
+	  "vendor": "LYTLM",
+	  "bDetailed": "1",
+	  "name": "SM15155 lamp RGBCW ip65",
+	  "model": "",
+	  "chip": "BK7231N",
+	  "board": "FL_M129_V3",
+	  "keywords": [],
+	  "pins": {
+		"7": "Rel;1",
+		"8": "dInput;1",
+		"24": "WifiLED_n;0",
+		"26": "Btn;1"
+	  },
+	  "command": "backlog startDriver SM15155E; LED_Map 0 1 3 2 4",
+	  "image": "https://obrazki.elektroda.pl/3630055800_1718465381_bigthumb.jpg",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic4060227.html"
+	},
     {
       "vendor": "MoesHouse",
       "bDetailed": "1",
