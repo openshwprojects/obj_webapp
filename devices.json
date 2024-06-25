@@ -6956,33 +6956,6 @@
     {
       "vendor": "Tuya",
       "bDetailed": "0",
-      "name": "WI-FI Curtain Module",
-      "model": "ZH-Z17",
-      "chip": "BK7231N",
-      "board": "CB2S",
-      "flags": "1024",
-      "pins": {
-        "6": "WifiLED;0",
-        "7": "Rel;2",
-        "8": "Btn;11",
-        "23": "Rel;1",
-        "24": "Btn;1",
-        "26": "Btn;2"
-      },
-      "keywords": [
-        "CB2S",
-        "Shutter",
-        "yellow",
-        "roller",
-        "blinds"
-      ],
-      "command": "PowerSave 1",
-      "image": "https://obrazki.elektroda.pl/7826432900_1718979671.jpg",
-      "wiki": "https://www.elektroda.com/rtvforum/topic4061116.html"
-    },
-    {
-      "vendor": "Tuya",
-      "bDetailed": "0",
       "name": "Smart Home PIR Motion Sensor - USB 5V - 2x AA - TuyaMCU",
       "model": "P06",
       "chip": "BK7231N",
