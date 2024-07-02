@@ -5926,6 +5926,32 @@
 		"wiki": "https://www.elektroda.com/rtvforum/topic3974861.html"
 	},
 	{
+	  "vendor": "HuiJu",
+	  "bDetailed": "0",
+	  "name": "huiju",
+	  "model": "X1S",
+	  "chip": "BK7231N",
+	  "board": "X1S BL v1.6",
+	  "flags": "1024",
+	  "keywords": [
+		"",
+		"",
+		""
+	  ],
+	  "pins": {
+		"6": "BL0937CF;1",
+		"7": "BL0937CF1;2",
+		"8": "Rel;1",
+		"10": "WifiLED_n;1",
+		"11": "LED_n;1",
+		"24": "Btn;1",
+		"26": "BL0937SEL;5"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/6158913500_1719154715_thumb.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3979012.html"
+	},
+	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
 	  "name": "Generic smart plug ",
