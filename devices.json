@@ -5926,6 +5926,50 @@
 		"wiki": "https://www.elektroda.com/rtvforum/topic3974861.html"
 	},
 	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "Syska 12-Watt BP5758D Wi-Fi LED Bulb",
+	  "model": "B-22",
+	  "chip": "BK7231N",
+	  "board": "CB2L",
+	  "flags": "134616320",
+	  "keywords": [
+		"BP5758D",
+		"bulb",
+		"light"
+	  ],
+	  "pins": {
+		"7": "BP5758D_DAT;0",
+		"8": "BP5758D_CLK;0"
+	  },
+	  "command": "BP5758D_Map 4 3 1 0 2",
+	  "image": "https://obrazki.elektroda.pl/6199312700_1694324268.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21130461#21130461l"
+	},
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "Syska 12-Watt PWM Wi-Fi LED Bulb",
+	  "model": "B-22",
+	  "chip": "BK7231N",
+	  "board": "CB2L",
+	  "flags": "256",
+	  "keywords": [
+		"alternate CW mode",
+		"bulb",
+		"light"
+	  ],
+	  "pins": {
+		"6": "PWM;3",
+		"7": "PWM;5",
+		"8": "PWM_n;4",
+		"24": "PWM;2",
+		"26": "PWM;1"
+	  },
+	  "image": "https://obrazki.elektroda.pl/6199312700_1694324268.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21130461#21130461l"
+	},
+	{
 	  "vendor": "HuiJu",
 	  "bDetailed": "0",
 	  "name": "huiju BK7231M X1S BL v1.6",
