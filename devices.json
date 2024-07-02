@@ -5925,6 +5925,30 @@
 		"image": "https://obrazki.elektroda.pl/8186154900_1682756167.jpg",
 		"wiki": "https://www.elektroda.com/rtvforum/topic3974861.html"
 	},
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "Generic smart plug ",
+	  "model": "RMC001",
+	  "chip": "BK7231T",
+	  "board": "WB2S",
+	  "flags": "1024",
+	  "keywords": [
+		"Smart plug",
+		"WB2S"
+	  ],
+	  "pins": {
+		"6": "WifiLED_n;0",
+		"7": "BL0937CF;0",
+		"8": "BL0937CF1;0",
+		"10": "Btn;1",
+		"24": "BL0937SEL;0",
+		"26": "Rel;1"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/6770753400_1719571790_thumb.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21135558#21135558"
+	},
     {
       "vendor": "Bunnings",
       "name": "[BK7231T] Deta Grid Connect Smart Double Gang Touch Light Switch (6912HA)",
