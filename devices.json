@@ -5928,10 +5928,10 @@
 	{
 	  "vendor": "HuiJu",
 	  "bDetailed": "0",
-	  "name": "huiju",
+	  "name": "huiju BK7231M X1S BL v1.6",
 	  "model": "X1S",
 	  "chip": "BK7231N",
-	  "board": "X1S BL v1.6",
+	  "board": "CB2S",
 	  "flags": "1024",
 	  "keywords": [
 		"",
