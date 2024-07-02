@@ -5949,6 +5949,30 @@
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
+	  "name": "Tuya Smart Life Garage Door Motor Receiver 4CH Switch Controller WiFi Switch ",
+	  "model": "TYWD 4CH-RF",
+	  "chip": "BK7231N",
+	  "board": "CB3S",
+	  "keywords": ["4 relays", "module","aliexpress"],
+	  "pins": {
+		"6": "Rel;2",
+		"7": "Btn_Tgl_All;0",
+		"8": "Btn;1",
+		"9": "Btn;2",
+		"10": "Btn;3",
+		"11": "Btn;4",
+		"14": "Rel;4",
+		"22": "WifiLED_n;0",
+		"24": "Rel;1",
+		"26": "Rel;3"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/5543185400_1702550647.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4021221.html"
+	},
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
 	  "name": "Syska 12-Watt PWM Wi-Fi LED Bulb",
 	  "model": "B-22",
 	  "chip": "BK7231N",
