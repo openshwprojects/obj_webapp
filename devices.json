@@ -244,6 +244,31 @@
 	  "image": "https://obrazki.elektroda.pl/7728453700_1709671235.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4040700.html"
 	},
+  {
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "Combustible Gas Alarm",
+	  "model": "DY-RQ400A",
+	  "chip": "BK7231T",
+	  "board": "WB2S",
+	  "flags": "1024",
+	  "keywords": [
+		"sensor",
+		"methane",
+		"marsh",
+    "isobutane",
+    "tuyamcu",
+    "runjet",
+    "winsen",
+    "RJM8L151F6P6",
+    "mp-4",
+    "ch4"
+	  ],
+	  "pins": {},
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/5293117100_1719995971.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4062465.html"
+	},
 	{
 	  "vendor": "Geeni",
 	  "bDetailed": "0",
