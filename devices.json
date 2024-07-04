@@ -67,6 +67,33 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4020634.html"
 	},
   {
+    "vendor": "eWelink",
+    "bDetailed": "0",
+    "name": "Sonoff 16A Brazil Smart Plug Outlet - Power Monitoring",
+    "model": "PG05V2-BR16A-TAS",
+    "chip": "BL602",
+    "board": "SM-028_V1.3",
+    "flags": "1024",
+    "keywords": [
+      "south america",
+      "230v",
+      "ITEAD",
+      "BL0937",
+      "bouffalo"
+    ],
+    "pins": {
+      "2": "Rel;0",
+      "3": "BL0937CF1;0",
+      "14": "BL0937CF;0",
+      "17": "Btn;0",
+      "20": "LED_n;0",
+      "21": "BL0937SEL;0"
+    },
+    "command": "backlog PowerSave 1",
+    "image": "https://obrazki.elektroda.pl/3861189900_1720126604.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4063490.html"
+  },
+  {
     "vendor": "Treatlife",
     "bDetailed": "0",
     "name": "Single Pole Dimmer Switch 10A 110V 400W",
