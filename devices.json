@@ -6046,6 +6046,30 @@
 	  "image": "https://obrazki.elektroda.pl/5543185400_1702550647.png",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4021221.html"
 	},
+  {
+    "vendor": "Tuya",
+    "bDetailed": "0",
+    "name": "Smart Life PIR Motion Sensor",
+    "model": "P06",
+    "chip": "XR809",
+    "board": "XR3",
+    "flags": "1024",
+    "keywords": [
+      "movement",
+      "USB",
+      "5v"
+    ],
+    "pins": {
+      "0": "dInput_NoPullUp;1",
+      "2": "WifiLED;0",
+      "4": "BAT_Relay;3",
+      "5": "Btn;0",
+      "12": "BAT_ADC;2"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/6131860500_1720274424.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4063735.html"
+  },
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
