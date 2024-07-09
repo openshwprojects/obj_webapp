@@ -67,6 +67,33 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4020634.html"
 	},
   {
+    "vendor": "eWelink",
+    "bDetailed": "0",
+    "name": "Sonoff 16A Brazil Smart Plug Outlet - Power Monitoring",
+    "model": "PG05V2-BR16A-TAS",
+    "chip": "BL602",
+    "board": "SM-028_V1.3",
+    "flags": "1024",
+    "keywords": [
+      "south america",
+      "230v",
+      "ITEAD",
+      "BL0937",
+      "bouffalo"
+    ],
+    "pins": {
+      "2": "Rel;0",
+      "3": "BL0937CF1;0",
+      "14": "BL0937CF;0",
+      "17": "Btn;0",
+      "20": "LED_n;0",
+      "21": "BL0937SEL;0"
+    },
+    "command": "backlog PowerSave 1",
+    "image": "https://obrazki.elektroda.pl/3861189900_1720126604.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4063490.html"
+  },
+  {
     "vendor": "Treatlife",
     "bDetailed": "0",
     "name": "Single Pole Dimmer Switch 10A 110V 400W",
@@ -244,6 +271,30 @@
 	  "image": "https://obrazki.elektroda.pl/7728453700_1709671235.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4040700.html"
 	},
+  {
+    "vendor": "LEDVANCE",
+    "bDetailed": "0",
+    "name": "SmartPlus Classic A60 Tunable White Bulb E27 9W 806lm",
+    "model": "AC33909",
+    "chip": "BK7231T",
+    "board": "WB8P",
+    "flags": "267264",
+    "keywords": [
+      "2700-6500k",
+      "cool",
+      "warm",
+      "cold",
+      "smart+",
+      "230v"
+    ],
+    "pins": {
+      "8": "PWM;1",
+      "9": "PWM;2"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/8815034100_1720110630.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4063439.html"
+  },
   {
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
@@ -5995,6 +6046,30 @@
 	  "image": "https://obrazki.elektroda.pl/5543185400_1702550647.png",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4021221.html"
 	},
+  {
+    "vendor": "Tuya",
+    "bDetailed": "0",
+    "name": "Smart Life PIR Motion Sensor",
+    "model": "P06",
+    "chip": "XR809",
+    "board": "XR3",
+    "flags": "1024",
+    "keywords": [
+      "movement",
+      "USB",
+      "5v"
+    ],
+    "pins": {
+      "0": "dInput_NoPullUp;1",
+      "2": "WifiLED;0",
+      "4": "BAT_Relay;3",
+      "5": "Btn;0",
+      "12": "BAT_ADC;2"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/6131860500_1720274424.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4063735.html"
+  },
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
