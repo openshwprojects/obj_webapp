@@ -6324,6 +6324,31 @@
 	  "image": "https://obrazki.elektroda.pl/9580055500_1699282664.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4012905.html"
 	},
+	{
+  "vendor": "Camelion",
+  "bDetailed": "0",
+  "name": "Power Metering Smart Socket",
+  "model": "Smart plug",
+  "chip": "BK7231N",
+  "board": "CB2S",
+  "flags": "0",
+  "keywords": [
+    "BL0937",
+    "TODO",
+    "TODO"
+  ],
+  "pins": {
+    "6": "BL0937SEL;0",
+    "7": "BL0937CF1;0",
+    "8": "BL0937CF;0",
+    "10": "Btn;1",
+    "24": "Rel;1",
+    "26": "WifiLED_n;0"
+  },
+  "command": "",
+  "image": "https://obrazki.elektroda.pl/9633000200_1720880092.jpg",
+  "wiki": "https://www.elektroda.com/rtvforum/topic4064964.html"
+},  
     {
       "vendor": "Feit",
       "name": "Feit Electric Wi-Fi Smart Outdoor Plug SKU: BPPLUG/WIFI/WP/2 (N version)",
