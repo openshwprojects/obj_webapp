@@ -8613,6 +8613,27 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic4019974.html"
     },
     {
+      "vendor": "Cozylife",
+      "bDetailed": "0",
+      "name": "1CH 10A 400W Neutral/No Neutral Switch",
+      "model": "DS-1321AL",
+      "chip": "BL602",
+      "board": "DT-BL02",
+      "flags": "1024",
+      "keywords": [
+        "breaker",
+        "XT-BL02"
+      ],
+      "pins": {
+        "14": "Btn;1",
+        "20": "Rel;1",
+        "21": "WifiLED;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/3860674300_1721160916.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4065570.html"
+    },
+    {
       "vendor": "Tuya",
       "bDetailed": "0",
       "name": "Temperature & Humidity Sensor - 2x AAA Batteries",
