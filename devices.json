@@ -8636,6 +8636,27 @@
     {
       "vendor": "Tuya",
       "bDetailed": "0",
+      "name": "G9 6W 220-240V LED Dimmable CCT Bulb",
+      "model": "G9-WIFI",
+      "chip": "BK7231N",
+      "board": "CBLC5",
+      "flags": "0",
+      "keywords": [
+        "cold white",
+        "warm white",
+        "2700-6500k"
+      ],
+      "pins": {
+        "24": "PWM;4",
+        "26": "PWM;3"
+      },
+      "command": "backlog powersave 1; pwmfrequency 1000",
+      "image": "https://obrazki.elektroda.pl/3000815900_1721664446.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4066624.html"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
       "name": "Single-Gang 1CH 10A Touch Switch",
       "model": "WB01",
       "chip": "BK7231N",
