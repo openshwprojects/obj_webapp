@@ -8644,7 +8644,9 @@
       "keywords": [
         "cold white",
         "warm white",
-        "2700-6500k"
+        "2700-6500k",
+        "lamp",
+        "light"
       ],
       "pins": {
         "24": "PWM;4",
