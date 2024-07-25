@@ -146,6 +146,33 @@
     "image": "https://obrazki.elektroda.pl/4281823900_1708276579.jpg",
     "wiki": "https://www.elektroda.com/rtvforum/topic4036888.html"
   },
+  {
+    "vendor": "BASILUS",
+    "bDetailed": "0",
+    "name": "Casa Conectada 16A Smart Plug with Energy Meter",
+    "model": "BA-TOM16A",
+    "chip": "BK7231N",
+    "board": "CB2S",
+    "flags": "1024",
+    "keywords": [
+      "BBL0937",
+      "BRAZIL",
+      "100-240V",
+      "60HZ"
+    ],
+    "pins": {
+      "6": "BL0937CF1;0",
+      "7": "BL0937CF;0",
+      "8": "WifiLED;0",
+      "10": "Btn;1",
+      "23": "LED_n;1",
+      "24": "BL0937SEL;0",
+      "26": "Rel;1"
+    },
+    "command": "backlog startDriver NTP; startDriver BL0937; SetupEnergyStats 1 60 60;",
+    "image": "https://obrazki.elektroda.pl/9107000700_1721875468.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4067079.html"
+  },
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
