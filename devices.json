@@ -147,6 +147,32 @@
     "wiki": "https://www.elektroda.com/rtvforum/topic4036888.html"
   },
   {
+    "vendor": "Tuya",
+    "bDetailed": "0",
+    "name": "AirBox Air Quality Temperature & Humidity Sensor",
+    "model": "AirBox01",
+    "chip": "BK7231N",
+    "board": "CB3S",
+    "flags": "1024",
+    "keywords": [
+      "environment",
+      "hygrometer",
+      "tuyamcu",
+      "Carbon dioxide",
+      "USB-C",
+      "RSH-AirBox01-TYPE-C-V2.0",
+      "formaldehyde",
+      "voc",
+      "alarm",
+      "CH20"
+    ],
+    "pins": {
+    },
+    "command": "backlog startdriver tuyamcu",
+    "image": "https://obrazki.elektroda.pl/4567856100_1722071113.png",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4067480.html"
+  },
+  {
     "vendor": "BASILUS",
     "bDetailed": "0",
     "name": "Casa Conectada 16A Smart Plug with Energy Meter",
