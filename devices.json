@@ -4389,6 +4389,26 @@
       "wiki": "https://www.elektroda.pl/rtvforum/topic3964754.html",
       "product": "https://allegro.pl/oferta/plafon-led-36w-4052lm-rgb-cct-wifi-tuya-smart-life-13125642453"
     },
+{
+  "vendor": "Akai Energy Smart",
+  "bDetailed": "0",
+  "name": "Enchufe WiFi energy metering plug",
+  "model": "1430",
+  "chip": "BK7231N",
+  "board": "CB2S",
+  "keywords": [],
+  "pins": {
+    "6": "Btn;1",
+    "7": "WifiLED_n;0",
+    "8": "Rel;1",
+    "10": "BL0937SEL;0",
+    "24": "BL0937CF;0",
+    "26": "BL0937CF1;0"
+  },
+  "command": "",
+  "image": "https://obrazki.elektroda.pl/3851045700_1722037868.jpg",
+  "wiki": "https://www.elektroda.com/rtvforum/topic4067449.html"
+},
 	{
 		"vendor": "Tuya",
 		"bDetailed": "0",
