@@ -8105,6 +8105,23 @@
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
+	  "name": "Smart Power Metering Socket With Backlight",
+	  "model": "SL-PS11",
+	  "chip": "BK7231N",
+	  "board": "CB2S",
+	  "keywords": ["Allegro"],
+	  "pins": {
+	    "6": "PWM;4",
+	    "7": "BL0937CF;0",
+	    "8": "BL0937CF1;0",
+	    "10": "WifiLED_n;0",
+	    "11": "Btn;1",
+	    "23": "Rel;1",
+	    "24": "BL0937SEL;0"
+	  },  
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
 	  "name": "Single switch module ver 20231005",
 	  "model": "SB451",
 	  "chip": "BK7231N",
