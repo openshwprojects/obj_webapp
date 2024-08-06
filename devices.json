@@ -3999,6 +3999,31 @@
     {
       "vendor": "Tuya",
       "bDetailed": "0",
+      "name": "Generic Window / Door Sensor",
+      "model": "",
+      "chip": "BK7231N",
+      "board": "CB3S",
+      "flags": 0,
+      "keywords": [
+        "gate",
+        "magnet",
+        "open",
+        "closed"
+      ],
+      "pins": {
+        "14": "BAT_Relay;3",
+        "20": "Btn;0",
+        "22": "dInput_NoPullUp;2",
+        "23": "BAT_ADC;1",
+        "26": "WifiLED_n;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/2600961700_1722971183.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic_YOUR_TOPIC.html"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
       "name": "Tuya ATORCH S1-B/W/T/H Smart Socket Energy Monitor (BK7231N) (CB3S) (CH573F) (BL0942)",
       "chip": "BK7231N",
       "board": "CB3S",
