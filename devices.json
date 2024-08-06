@@ -4008,7 +4008,8 @@
         "gate",
         "magnet",
         "open",
-        "closed"
+        "closed",
+        "WG-089-TR1"
       ],
       "pins": {
         "14": "BAT_Relay;3",
