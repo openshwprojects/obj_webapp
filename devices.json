@@ -4000,7 +4000,7 @@
       "vendor": "Tuya",
       "bDetailed": "0",
       "name": "Generic Window / Door Sensor",
-      "model": "",
+      "model": "WF-WIFI-D2",
       "chip": "BK7231N",
       "board": "CB3S",
       "flags": 0,
