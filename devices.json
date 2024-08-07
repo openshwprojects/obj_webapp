@@ -4025,6 +4025,31 @@
     {
       "vendor": "Tuya",
       "bDetailed": "0",
+      "name": "Earykong Water Leak Flood Sensor",
+      "model": "MC38",
+      "chip": "BK7231N",
+      "board": "CB3S",
+      "flags": "0",
+      "keywords": [
+        "detector",
+        "moisture",
+        "battery",
+        "MC38-CB3S"
+      ],
+      "pins": {
+        "8": "dInput_NoPullUp;2",
+        "14": "BAT_Relay;3",
+        "23": "BAT_ADC;1",
+        "24": "Btn;0",
+        "26": "WifiLED;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/5523115200_1723037299.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21183262#21183262"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
       "name": "Tuya ATORCH S1-B/W/T/H Smart Socket Energy Monitor (BK7231N) (CB3S) (CH573F) (BL0942)",
       "chip": "BK7231N",
       "board": "CB3S",
