@@ -181,7 +181,7 @@
     "board": "CB2S",
     "flags": "1024",
     "keywords": [
-      "BBL0937",
+      "BL0937",
       "BRAZIL",
       "100-240V",
       "60HZ"
@@ -3868,7 +3868,7 @@
     {
       "vendor": "ATORCH",
       "bDetailed": "0",
-      "name": "Tuya Smartlife Energy monitor (CH573F) (BL0924)",
+      "name": "Tuya Smartlife Energy monitor (CH573F) (BL0942)",
       "model": "AT4P(WP/BW)",
       "chip": "BK7231N",
       "board": "CB3S",
@@ -3995,6 +3995,57 @@
       "command": "",
       "image": "https://obrazki.elektroda.pl/7057404500_1705011297.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20904497"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Generic Window / Door Sensor",
+      "model": "WF-WIFI-D2",
+      "chip": "BK7231N",
+      "board": "CB3S",
+      "flags": 0,
+      "keywords": [
+        "gate",
+        "magnet",
+        "open",
+        "closed",
+        "WG-089-TR1"
+      ],
+      "pins": {
+        "14": "BAT_Relay;3",
+        "20": "Btn;0",
+        "22": "dInput_NoPullUp;2",
+        "23": "BAT_ADC;1",
+        "26": "WifiLED_n;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/4723452800_1722973695.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4069327.html"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Earykong Water Leak Flood Sensor",
+      "model": "MC38",
+      "chip": "BK7231N",
+      "board": "CB3S",
+      "flags": "0",
+      "keywords": [
+        "detector",
+        "moisture",
+        "battery",
+        "MC38-CB3S"
+      ],
+      "pins": {
+        "8": "dInput_NoPullUp;2",
+        "14": "BAT_Relay;3",
+        "23": "BAT_ADC;1",
+        "24": "Btn;0",
+        "26": "WifiLED;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/5523115200_1723037299.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21183262#21183262"
     },
     {
       "vendor": "Tuya",
