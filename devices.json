@@ -181,7 +181,7 @@
     "board": "CB2S",
     "flags": "1024",
     "keywords": [
-      "BBL0937",
+      "BL0937",
       "BRAZIL",
       "100-240V",
       "60HZ"
@@ -3868,7 +3868,7 @@
     {
       "vendor": "ATORCH",
       "bDetailed": "0",
-      "name": "Tuya Smartlife Energy monitor (CH573F) (BL0924)",
+      "name": "Tuya Smartlife Energy monitor (CH573F) (BL0942)",
       "model": "AT4P(WP/BW)",
       "chip": "BK7231N",
       "board": "CB3S",
