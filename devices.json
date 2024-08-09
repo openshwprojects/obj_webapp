@@ -10038,6 +10038,28 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3958420.html",
       "product": ""
     },
+	{
+	  "vendor": "Mirabella",
+	  "bDetailed": "0",
+	  "name": " enio Wi-Fi LED 5 metre Strip Light",
+	  "model": "1002796",
+	  "chip": "BK7231N",
+	  "board": "on board",
+	  "flags": "16778240",
+	  "keywords": [
+		"LED strip"
+	  ],
+	  "pins": {
+		"6": "PWM;0",
+		"7": "PWM;1",
+		"8": "PWM;2",
+		"20": "PWM;4",
+		"24": "Btn_SmartLED;0"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/7726775800_1704666944.jpg",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4062621.html"
+	},	  
     {
       "vendor": "Tuya",
       "bDetailed": "1",
