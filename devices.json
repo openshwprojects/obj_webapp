@@ -6634,6 +6634,25 @@
 	  "image": "https://obrazki.elektroda.pl/9529283700_1708433294.png",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4036451.html"
 	},
+  {
+    "vendor": "Tuya",
+    "bDetailed": "0",
+    "name": "Battery-Powered Door/Window Sensor with TuyaMCU",
+    "model": "D06",
+    "chip": "BK7231N",
+    "board": "CB3S",
+    "flags": "0",
+    "keywords": [
+      "magnet",
+      "contact",
+      "battery",
+      "AAA"
+    ],
+    "pins": {},
+    "command": "backlog startDriver tuyaMCU; startDriver tmSensor; linkTuyaMCUOutputToChannel 1 val 1; linkTuyaMCUOutputToChannel 3 val 3; ",
+    "image": "https://obrazki.elektroda.pl/9682163600_1705112816.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4028222.html"
+  },
 	{
 	  "vendor": "MOES",
 	  "bDetailed": "0",
