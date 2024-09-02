@@ -4209,6 +4209,28 @@
 	  "image": "https://obrazki.elektroda.pl/4535041600_1678464108_thumb.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3963570.html"
 	},
+	{
+  "vendor": "realme",
+  "bDetailed": "0",
+  "name": "smartswitch",
+  "model": "",
+  "chip": "BK7231T",
+  "board": "WB2S",
+  "flags": "1024",
+  "keywords": [
+    "TODO",
+    "TODO",
+    "TODO"
+  ],
+  "pins": {
+    "6": "Btn;0",
+    "7": "LED;0",
+    "24": "Rel;0"
+  },
+  "command": "",
+  "image": "https://obrazki.elektroda.pl/5700635600_1725081846.jpg",
+  "wiki": "https://www.elektroda.com/rtvforum/topic4073310.html"
+},  
     {
       "vendor": "Tuya",
       "bDetailed": "1",
