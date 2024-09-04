@@ -3364,6 +3364,37 @@
       "image": "https://obrazki.elektroda.pl/5883352900_1678713488.png",
       "wiki": ""
     },
+	
+{
+  "vendor": "AVATTO",
+  "name": "AVATTO Tuya Brazil 4x4 WiFi Wall Switch",
+  "model": "6 Gang",
+  "chip": "BK7231N",
+  "flags": "1028",
+  "keywords": [
+    "avatto",
+    "6gang",
+    "cbu"
+  ],
+  "pins": {
+    "6": "Rel;3",
+    "7": "Rel;2",
+    "8": "Rel;1",
+    "9": "Btn;6",
+    "10": "Btn;5",
+    "11": "Btn;4",
+    "14": "Btn;1",
+    "16": "Btn;2",
+    "17": "WifiLED;10",
+    "20": "Rel_n;0",
+    "23": "Btn;3",
+    "24": "Rel;5",
+    "26": "Rel;4",
+    "28": "Rel;6"
+  },
+  "image": "https://obrazki.elektroda.pl/3446798000_1683029505.jpg",
+  "wiki": "https://www.elektroda.com/rtvforum/topic3975448.html"
+},  
     {
       "vendor": "Calex",
       "bDetailed": "0",
