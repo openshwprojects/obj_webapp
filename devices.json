@@ -6597,15 +6597,16 @@
 	{
   "vendor": "Camelion",
   "bDetailed": "0",
-  "name": "Power Metering Smart Socket",
-  "model": "Smart plug",
+  "name": "16A Power Metering Smart Socket",
+  "model": "BNS/SH-1/16A/WIFI",
   "chip": "BK7231N",
   "board": "CB2S",
   "flags": "0",
   "keywords": [
     "BL0937",
-    "TODO",
-    "TODO"
+    "4000w",
+    "plug",
+    "MK822401C"
   ],
   "pins": {
     "6": "BL0937SEL;0",
@@ -6619,6 +6620,34 @@
   "image": "https://obrazki.elektroda.pl/9633000200_1720880092.jpg",
   "wiki": "https://www.elektroda.com/rtvforum/topic4064964.html"
 },  
+{
+  "vendor": "Melery",
+  "bDetailed": "0",
+  "name": "Power Strip 3x AC 3x USB",
+  "model": "PS008",
+  "chip": "BK7231N",
+  "board": "CB2S",
+  "flags": "1024",
+  "keywords": [
+    "PowerStrip",
+    "extension",
+    "USB-C"
+  ],
+  "pins": {
+    "6": "Rel;5",
+    "7": "Rel;4",
+    "8": "Rel;1",
+    "10": "Rel;10",
+    "11": "Btn;0",
+    "19": "LED;0",
+    "23": "Rel;3",
+    "24": "Rel;2",
+    "26": "Rel;0"
+  },
+  "command": "",
+  "image": "https://obrazki.elektroda.pl/4623543200_1725695445.webp",
+  "wiki": "https://www.elektroda.com/rtvforum/topic4074445.html"
+},
     {
       "vendor": "Feit",
       "name": "Feit Electric Wi-Fi Smart Outdoor Plug SKU: BPPLUG/WIFI/WP/2 (N version)",
