@@ -22,6 +22,28 @@
       "image": "https://obrazki.elektroda.pl/5120493600_1650616045.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3895572.html#20033093"
     },
+	{
+  "vendor": "Moes",
+  "bDetailed": "0",
+  "name": "Tuya Matter RGBCW 9W E27 Bulb",
+  "model": "MWB-RCW",
+  "chip": "BK7231N",
+  "board": "CBLC5",
+  "flags": "1024",
+  "keywords": [
+    "LAMP",
+    "ES",
+    "light",
+	"240812-1002DF"
+  ],
+  "pins": {
+    "24": "BP5758D_DAT;0",
+    "26": "BP5758D_CLK;0"
+  },
+  "command": "",
+  "image": "https://obrazki.elektroda.pl/YOUR_IMAGE.jpg",
+  "wiki": "https://www.elektroda.com/rtvforum/topic_YOUR_TOPIC.html"
+},
     {
       "vendor": "GIRIER",
       "bDetailed": "0",
