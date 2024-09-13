@@ -40,9 +40,9 @@
     "24": "BP5758D_DAT;0",
     "26": "BP5758D_CLK;0"
   },
-  "command": "",
-  "image": "https://obrazki.elektroda.pl/YOUR_IMAGE.jpg",
-  "wiki": "https://www.elektroda.com/rtvforum/topic_YOUR_TOPIC.html"
+  "command": "LED_Map 0 1 2 3 4",
+  "image": "https://obrazki.elektroda.pl/3524969400_1725644975.jpg",
+  "wiki": "https://www.elektroda.com/rtvforum/topic4074263.html"
 },
     {
       "vendor": "GIRIER",
@@ -1403,6 +1403,30 @@
       "command": "",
       "image": "https://obrazki.elektroda.pl/5168873200_1714224899.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic4051203.html"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Guudgo Flood Water Leak Sensor",
+      "model": "DP-WW001", 
+      "chip": "BK7231N",
+      "board": "CBU",
+      "flags": "1024",
+      "keywords": [
+        "water",
+        "leak",
+        "flood"
+      ],
+      "pins": {
+        "16": "dInput_NoPullUp_n;1",
+        "17": "BAT_Relay;4",
+        "20": "Btn;2",
+        "23": "BAT_ADC;5",
+        "26": "WifiLED;3"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/5092701600_1726239515.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4075530.html"
     },
     {
       "vendor": "Tuya",
