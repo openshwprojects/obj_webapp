@@ -321,6 +321,29 @@
 	  "image": "https://obrazki.elektroda.pl/9378954200_1710675549.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4043082.html"
 	},
+  {
+    "vendor": "Generic",
+    "bDetailed": "0",
+    "name": "90-250v Wi-Fi Smart Plug With Power Monitoring (EU) (Red PCB)",
+    "model": "RMC021",
+    "chip": "BL602",
+    "board": "SM-028_V1.3",
+    "flags": "1024",
+    "keywords": [
+      "Bouffalo"
+    ],
+    "pins": {
+      "2": "Rel;0",
+      "3": "BL0937CF1;0",
+      "14": "BL0937CF;0",
+      "20": "LED_n;0",
+      "21": "BL0937SEL;0",
+      "22": "Btn;0"
+    },
+    "command": "backlog",
+    "image": "https://obrazki.elektroda.pl/9547341300_1726165924.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4075409.html"
+  },
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
