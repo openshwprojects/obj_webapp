@@ -322,6 +322,28 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4043082.html"
 	},
   {
+    "vendor": "CozyLife",
+    "bDetailed": "0",
+    "name": "10A AC90-250V DIY Breaker Switch",
+    "model": "BSD16",
+    "chip": "ESP32C2",
+    "board": "ESP-C2-02",
+    "flags": "1024",
+    "keywords": [
+      "espressif",
+      "DOIT",
+      "esp8684"
+    ],
+    "pins": {
+      "4": "Rel;1",
+      "5": "Btn;1",
+      "7": "WifiLED;0"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/6122625700_1726236586.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4075524.html"
+  },
+  {
     "vendor": "Generic",
     "bDetailed": "0",
     "name": "90-250v Wi-Fi Smart Plug With Power Monitoring (EU) (Red PCB)",
