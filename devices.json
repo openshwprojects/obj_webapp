@@ -1405,6 +1405,27 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic4051203.html"
     },
     {
+      "vendor": "Enbrighten",
+      "bDetailed": "0",
+      "name": "Enbrighten Smart LED Wi-Fi String Lights 69281 v1",
+      "model": "69281",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "flags": "0",
+      "keywords": [
+        "RGB",
+        "LED String",
+        "SM16703P",
+        "SPI"
+      ],
+      "pins": {
+        "20": "Btn_SmartLED;0"
+      },
+      "command": "backlog startDriver SM16703P; SM16703P_Init 60; startDriver PixelAnim",
+      "image": "https://obrazki.elektroda.pl/5988475600_1726356778.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4075705.html"
+    },
+    {
       "vendor": "Tuya",
       "bDetailed": "0",
       "name": "Guudgo Flood Water Leak Sensor",
