@@ -7467,6 +7467,27 @@
 	  "image": "https://obrazki.elektroda.pl/2148762200_1701974385.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4019931.html"
 	},
+  {
+	  "vendor": "Lepro",
+	  "bDetailed": "0",
+	  "name": "SMART WIFI LED GU10 4.5W RGBCT 240V Bulb",
+	  "model": "9200293",
+	  "chip": "BK7231N",
+	  "board": "WBLC9",
+	  "keywords": [
+    "DIMMABLE",
+    "lamp",
+    "light",
+    "RGBW"
+		],
+	  "pins": {
+		"24": "BP1658CJ_DAT;0",
+		"26": "BP1658CJ_CLK;0"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/6781849600_1726586649.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4076186.html"
+	},
 	{
 	  "vendor": "Elhome",
 	  "bDetailed": "1",
