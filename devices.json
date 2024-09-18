@@ -40,9 +40,9 @@
     "24": "BP5758D_DAT;0",
     "26": "BP5758D_CLK;0"
   },
-  "command": "",
-  "image": "https://obrazki.elektroda.pl/YOUR_IMAGE.jpg",
-  "wiki": "https://www.elektroda.com/rtvforum/topic_YOUR_TOPIC.html"
+  "command": "LED_Map 0 1 2 3 4",
+  "image": "https://obrazki.elektroda.pl/3524969400_1725644975.jpg",
+  "wiki": "https://www.elektroda.com/rtvforum/topic4074263.html"
 },
     {
       "vendor": "GIRIER",
@@ -321,6 +321,51 @@
 	  "image": "https://obrazki.elektroda.pl/9378954200_1710675549.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4043082.html"
 	},
+  {
+    "vendor": "CozyLife",
+    "bDetailed": "0",
+    "name": "10A AC90-250V DIY Breaker Switch",
+    "model": "BSD16",
+    "chip": "ESP32C2",
+    "board": "ESP-C2-02",
+    "flags": "1024",
+    "keywords": [
+      "espressif",
+      "DOIT",
+      "esp8684"
+    ],
+    "pins": {
+      "4": "Rel;1",
+      "5": "Btn;1",
+      "7": "WifiLED;0"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/6122625700_1726236586.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4075524.html"
+  },
+  {
+    "vendor": "Generic",
+    "bDetailed": "0",
+    "name": "90-250v Wi-Fi Smart Plug With Power Monitoring (EU) (Red PCB)",
+    "model": "RMC021",
+    "chip": "BL602",
+    "board": "SM-028_V1.3",
+    "flags": "1024",
+    "keywords": [
+      "Bouffalo"
+    ],
+    "pins": {
+      "2": "Rel;0",
+      "3": "BL0937CF1;0",
+      "14": "BL0937CF;0",
+      "20": "LED_n;0",
+      "21": "BL0937SEL;0",
+      "22": "Btn;0"
+    },
+    "command": "backlog",
+    "image": "https://obrazki.elektroda.pl/9547341300_1726165924.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4075409.html"
+  },
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
@@ -1403,6 +1448,51 @@
       "command": "",
       "image": "https://obrazki.elektroda.pl/5168873200_1714224899.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic4051203.html"
+    },
+    {
+      "vendor": "Enbrighten",
+      "bDetailed": "0",
+      "name": "Enbrighten Smart LED Wi-Fi String Lights 69281 v1",
+      "model": "69281",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "flags": "0",
+      "keywords": [
+        "RGB",
+        "LED String",
+        "SM16703P",
+        "SPI"
+      ],
+      "pins": {
+        "20": "Btn_SmartLED;0"
+      },
+      "command": "backlog startDriver SM16703P; SM16703P_Init 60; startDriver PixelAnim",
+      "image": "https://obrazki.elektroda.pl/5988475600_1726356778.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4075705.html"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Guudgo Flood Water Leak Sensor",
+      "model": "DP-WW001", 
+      "chip": "BK7231N",
+      "board": "CBU",
+      "flags": "1024",
+      "keywords": [
+        "water",
+        "leak",
+        "flood"
+      ],
+      "pins": {
+        "16": "dInput_NoPullUp_n;1",
+        "17": "BAT_Relay;4",
+        "20": "Btn;2",
+        "23": "BAT_ADC;5",
+        "26": "WifiLED;3"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/5092701600_1726239515.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4075530.html"
     },
     {
       "vendor": "Tuya",
@@ -7376,6 +7466,27 @@
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/2148762200_1701974385.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4019931.html"
+	},
+  {
+	  "vendor": "Lepro",
+	  "bDetailed": "0",
+	  "name": "SMART WIFI LED GU10 4.5W RGBCT 240V Bulb",
+	  "model": "9200293",
+	  "chip": "BK7231N",
+	  "board": "WBLC9",
+	  "keywords": [
+    "DIMMABLE",
+    "lamp",
+    "light",
+    "RGBW"
+		],
+	  "pins": {
+		"24": "BP1658CJ_DAT;0",
+		"26": "BP1658CJ_CLK;0"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/6781849600_1726586649.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4076186.html"
 	},
 	{
 	  "vendor": "Elhome",
