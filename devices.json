@@ -8456,6 +8456,26 @@
 	  "image": "https://obrazki.elektroda.pl/7014154300_1721153160.png",
 	  "wiki": "https://www.elektroda.pl/rtvforum/topic4069082.html"
 	},
+  {
+    "vendor": "Tuya",
+    "bDetailed": "0",
+    "name": "2CH*5A 12-36VDC WiFi & RF CV Controller",
+    "model": "WT1",
+    "chip": "BK7231T",
+    "board": "WB3S",
+    "flags": "1024",
+    "keywords": [
+      "LED",
+      "CCT",
+      "Controller",
+      "TUYAMCU",
+      "sc95f8615p"
+    ],
+    "pins": {},
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/8843433600_1702660408.png",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4021621.html"
+  },
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
