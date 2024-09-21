@@ -12716,32 +12716,55 @@
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/1070781500_1703816693.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20880891"
-	},  
-{
-  "vendor": "UME",
-  "bDetailed": "0",
-  "name": "UME Tuya Smart LED Outdoor Security Floodlight CW 2700K-6500K",
-  "model": "N/A",
-  "chip": "BK7231T",
-  "board": "WB3S",
-  "flags": "1024",
-  "keywords": [
-    "pir",
-    "motion",
-    "ACTIVATED",
-    "3000LM",
-    "dimmable"
-  ],
-  "pins": {
-    "6": "dInput_NoPullUp;3",
-    "8": "Rel;1",
-    "9": "Rel;2",
-    "23": "ADC;5"
+	},
+  {
+    "vendor": "Tuya",
+    "bDetailed": "0",
+    "name": "RGB LED Controller",
+    "model": "iH001",
+    "chip": "BK7231N",
+    "board": "CB3S",
+    "flags": "0",
+    "keywords": [
+      "USB",
+      "NoIR",
+      "RGB"
+    ],
+    "pins": {
+      "8": "PWM;0",
+      "9": "Btn_NextColor;0",
+      "24": "PWM;1",
+      "26": "PWM;2"
+    },
+    "command": "backlog PowerSave 1",
+    "image": "https://obrazki.elektroda.pl/8253390200_1726911490.png",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4076841.html"
   },
-  "command": "",
-  "image": "https://obrazki.elektroda.pl/2082550400_1696896808.jpg",
-  "wiki": "https://www.elektroda.com/rtvforum/topic4007225.html"
-},
+  {
+    "vendor": "UME",
+    "bDetailed": "0",
+    "name": "UME Tuya Smart LED Outdoor Security Floodlight CW 2700K-6500K",
+    "model": "N/A",
+    "chip": "BK7231T",
+    "board": "WB3S",
+    "flags": "1024",
+    "keywords": [
+      "pir",
+      "motion",
+      "ACTIVATED",
+      "3000LM",
+      "dimmable"
+    ],
+    "pins": {
+      "6": "dInput_NoPullUp;3",
+      "8": "Rel;1",
+      "9": "Rel;2",
+      "23": "ADC;5"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/2082550400_1696896808.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4007225.html"
+  },
   {
     "vendor": "Elivco",
     "bDetailed": "0",
