@@ -69,6 +69,31 @@
       "image": "https://obrazki.elektroda.pl/6206467900_1724503854.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic4072130.html"
       },
+      {
+        "vendor": "SmartLife",
+        "bDetailed": "0",
+        "name": "Tuya 90-250V 20A Smart Plug with Power Monitoring (EU)",
+        "model": "MT1000",
+        "chip": "LN882H",
+        "board": "WL2S",
+        "flags": "1024",
+        "keywords": [
+          "power",
+          "socket",
+          "4400W"
+        ],
+        "pins": {
+          "3": "Btn;0",
+          "7": "BL0937CF1;0",
+          "10": "Rel_n;1",
+          "11": "Rel;0",
+          "12": "BL0937CF;0",
+          "19": "BL0937SEL;0"
+        },
+        "command": "",
+        "image": "https://obrazki.elektroda.pl/4629077600_1727076613.jpg",
+        "wiki": "https://www.elektroda.com/rtvforum/topic4077140.html"
+      },
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
