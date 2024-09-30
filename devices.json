@@ -2147,6 +2147,29 @@
 	  "image": "https://obrazki.elektroda.pl/1434237000_1696851243.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20764156"
 	},
+  {
+  "vendor": "Tuya",
+  "bDetailed": "0",
+  "name": "16A 3500W AC100-240V Wall Socket (No power measurement)",
+  "model": "SWP86-01OG",
+  "chip": "W600",
+  "board": "TW-02",
+  "flags": "1024",
+  "keywords": [
+    "plug",
+    "outlet",
+    "recessed"
+  ],
+  "pins": {
+    "6": "Btn_Tgl_All;1",
+    "11": "WifiLED;0",
+    "14": "Rel;1",
+    "16": "LED_n;1"
+  },
+  "command": "",
+  "image": "https://obrazki.elektroda.pl/7104971800_1727639585.jpg",
+  "wiki": "https://www.elektroda.com/rtvforum/topic4078334.html"
+  },
     {
       "vendor": "Aigostar",
       "bDetailed": "1",
