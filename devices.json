@@ -11957,7 +11957,8 @@
     "board": "ESPC2-02",
     "flags": "1024",
     "keywords": [
-      "breaker"
+      "breaker",
+      "DS-1311WN"
     ],
     "pins": {
       "4": "TglChanOnTgl;1",
