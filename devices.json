@@ -11948,6 +11948,27 @@
 	  "image": "https://obrazki.elektroda.pl/8445150600_1684235807.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3994030.html"
 	},
+  {
+    "vendor": "Aiyato",
+    "bDetailed": "0",
+    "name": "DOIT/Cozylife 16A AC100-240V Mini Switch",
+    "model": "BRK-HW1KN1",
+    "chip": "ESP32C2",
+    "board": "ESPC2-02",
+    "flags": "1024",
+    "keywords": [
+      "breaker"
+    ],
+    "pins": {
+      "4": "TglChanOnTgl;1",
+      "7": "Rel;1",
+      "10": "LED_n;1",
+      "20": "Btn_Tgl_All;1"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/9906173100_1727155659.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4077326.html"
+  },
     {
       "vendor": "Connect",
       "bDetailed": "1",
