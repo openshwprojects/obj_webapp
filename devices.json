@@ -5063,6 +5063,29 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic4031757.html",
       "product": ""
     },
+{
+  "vendor": "Tuya",
+  "bDetailed": "0",
+  "name": "Mini Smart Switch",
+  "model": "SmartSwitch",
+  "chip": "T34_2135K9WY2_Unmarked",
+  "board": "on PCB",
+  "flags": "0",
+  "keywords": [
+    "switch",
+    "relay",
+    "T34 2135K9WY2 Unmarked"
+  ],
+  "pins": {
+    "6": "LED_n;0;0",
+       "14": "TglChanOnTgl;0;0",
+    "15": "Rel;0;0",
+    "24": "Btn;0;0"
+  },
+  "command": "",
+  "image": "https://obrazki.elektroda.pl/2067320100_1728252633.jpg",
+  "wiki": "https://www.elektroda.com/rtvforum/topic4079733.html"
+},  
     {
       "vendor": "Tuya",
       "bDetailed": "0",
