@@ -6691,7 +6691,7 @@
     "name": "Smart Power Strip - 3x USB-A, 3x Outlet",
     "model": "WP9",
     "chip": "BK7231N",
-    "board": "Z2-N-v1.1",
+    "board": "Z2-N-V1.1",
     "flags": "1024",
     "keywords": [
       "cuco",
