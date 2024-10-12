@@ -6686,6 +6686,34 @@
     "wiki": "https://www.elektroda.com/rtvforum/topic4042856.html"
   },
   {
+    "vendor": "GHome",
+    "bDetailed": "0",
+    "name": "Smart Power Strip - 3x USB-A, 3x Outlet",
+    "model": "WP9",
+    "chip": "BK7231N",
+    "board": "Z2-N-V1.1",
+    "flags": "1024",
+    "keywords": [
+      "cuco",
+      "tuya",
+      "extension",
+      "lead",
+      "sockets",
+      "plugs"
+    ],
+    "pins": {
+      "7": "WifiLED_n;0",
+      "9": "Rel_n;1",
+      "14": "Rel;2",
+      "16": "Rel;3",
+      "24": "Btn_Tgl_All;39",
+      "26": "Rel;4"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/3469589400_1728587388.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4080465.html"
+  },
+  {
     "vendor": "Etersky",
     "bDetailed": "0",
     "name": "Wifi Roller Curtain Shutter Switch",
