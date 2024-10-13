@@ -22,6 +22,31 @@
       "image": "https://obrazki.elektroda.pl/5120493600_1650616045.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3895572.html#20033093"
     },
+    {
+      "vendor": "Cozylife",
+      "bDetailed": "0",
+      "name": "Aiyatto Homekit 9W RGBWW Dimmable 2700-6500K E27 Bulb",
+      "model": "",
+      "chip": "ESP32C2",
+      "board": "ESPC2-05",
+      "flags": "1024",
+      "keywords": [
+        "DOIT",
+        "Espressif",
+        "lamp",
+        "A60"
+      ],
+      "pins": {
+        "3": "PWM;1",
+        "4": "PWM;2",
+        "5": "PWM;3",
+        "6": "PWM;4",
+        "7": "PWM;5"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/1590559700_1728852869.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4081005.html"
+    },
 	{
   "vendor": "Moes",
   "bDetailed": "0",
