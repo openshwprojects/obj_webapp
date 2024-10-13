@@ -7122,7 +7122,31 @@
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/8626268000_1696928281.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4007263.html"
-	},
+	},  
+{
+  "vendor": "KMC",
+  "bDetailed": "0",
+  "name": "KMC Smart Tap Mini 30407",
+  "model": "KMC 30407",
+  "chip": "BK7231N",
+  "board": "CB2S",
+  "flags": "1024",
+  "keywords": [
+    "KMC",
+    "Tuya",
+    "Tuya Cloudcutter"
+  ],
+  "pins": {
+    "6": "Rel;3",
+    "10": "Btn_Tgl_All;0",
+    "11": "WifiLED_n;0",
+    "24": "Rel;2",
+    "26": "Rel;1"
+  },
+  "command": "",
+  "image": "https://obrazki.elektroda.pl/7550998200_1728848914.png",
+  "wiki": "https://www.elektroda.com/rtvforum/topic4079916.html"
+},
   {
     "vendor": "Tuya",
     "bDetailed": "0",
