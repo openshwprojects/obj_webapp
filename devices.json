@@ -119,6 +119,29 @@
         "image": "https://obrazki.elektroda.pl/4629077600_1727076613.jpg",
         "wiki": "https://www.elektroda.com/rtvforum/topic4077140.html"
       },
+    {
+      "vendor": "LEDVANCE",
+      "bDetailed": "0",
+      "name": "Tuya Wifi SMART Orbis Eye LED Ceiling Light Tunable White 49cm 32W",
+      "model": "GBE30C0800F2D7A-WIFI-E70",
+      "chip": "BK7231T",
+      "board": "WB2L",
+      "flags": "1073748996",
+      "keywords": [
+        "OSRAM",
+        "EYARN",
+        "EYE RD 490 TW WT",
+        "6BE10CXXXXF207-41F1-170",
+        "CCT"
+      ],
+      "pins": {
+        "7": "PWM;1",
+        "8": "PWM;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/8259142800_1729680624.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4082772.html"
+    },
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
