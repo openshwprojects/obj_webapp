@@ -7062,6 +7062,34 @@
 	  "image": "https://obrazki.elektroda.pl/2336827900_1679450277.png",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3966365.html"
 	},
+  {
+    "vendor": "Tuya",
+    "bDetailed": "0",
+    "name": "AC85-250V 3000W/16A Smart Switch with Temperature Probe",
+    "model": "TYTE-D1",
+    "chip": "BK7231N",
+    "board": "CB3S",
+    "flags": "1024",
+    "keywords": [
+      "DS18B20",
+      "DS1820B",
+      "sensylink",
+      "relay",
+      "breaker"
+    ],
+    "pins": {
+      "6": "BL0937CF1;0",
+      "7": "Btn;1",
+      "8": "Rel;1",
+      "9": "BL0937SEL;0",
+      "14": "WifiLED_n;0",
+      "24": "BL0937CF;0",
+      "26": "DS1820_IO;2"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/7726943300_1719578783.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4062365.html"
+  },
 	{
 	  "vendor": "Aubess",
 	  "bDetailed": "0",
