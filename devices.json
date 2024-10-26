@@ -7049,19 +7049,47 @@
 	  "model": "MS-103",
 	  "chip": "BK7231T",
 	  "board": "WB3S",
-	  "keywords": ["MS-103", "CHT8305", "DS18D20"],
+	  "keywords": ["MS-103", "CHT8305", "DS18B20"],
 	"pins": {
-		"1": "Btn;0",
-		"6": "Rel;1",
-		"7": "1-Wire;0",
-		"8": "LED_n;1",
-		"9": "LED_n;0",
-		"10": "WifiLED_n;0",
-		"24": "Rel;0"
+  "1": "Btn;0",
+  "6": "Rel;1",
+  "7": "DS1820_IO;2",
+  "8": "LED_n;1",
+  "9": "LED_n;0",
+  "10": "WifiLED_n;0",
+  "24": "Rel;0"
 	},
 	  "image": "https://obrazki.elektroda.pl/2336827900_1679450277.png",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3966365.html"
 	},
+  {
+    "vendor": "Tuya",
+    "bDetailed": "0",
+    "name": "AC85-250V 3000W/16A Smart Switch with Temperature Probe",
+    "model": "TYTE-D1",
+    "chip": "BK7231N",
+    "board": "CB3S",
+    "flags": "1024",
+    "keywords": [
+      "DS18B20",
+      "DS1820B",
+      "sensylink",
+      "relay",
+      "breaker"
+    ],
+    "pins": {
+      "6": "BL0937CF1;0",
+      "7": "Btn;1",
+      "8": "Rel;1",
+      "9": "BL0937SEL;0",
+      "14": "WifiLED_n;0",
+      "24": "BL0937CF;0",
+      "26": "DS1820_IO;2"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/7726943300_1719578783.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4062365.html"
+  },
 	{
 	  "vendor": "Aubess",
 	  "bDetailed": "0",
