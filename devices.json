@@ -5519,6 +5519,31 @@
 	  "image": "https://obrazki.elektroda.pl/1870116000_1680582505.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3969582.html"
 	},
+	{
+  "vendor": "LSC",
+  "bDetailed": "0",
+  "name": "LSC Smart Power Strip 3202888 Action 3680W",
+  "model": "3202888",
+  "chip": "BK7231N",
+  "board": "CB3S",
+  "flags": "1024",
+  "keywords": [
+    "power strip",
+    "relay",
+    "switch"
+  ],
+  "pins": {
+    "6": "Rel;1",
+    "7": "Rel;2",
+    "8": "Rel;3",
+    "10": "Btn_Tgl_All;0",
+    "14": "Rel;4",
+    "23": "WifiLED_n;0"
+  },
+  "command": "",
+  "image": "https://obrazki.elektroda.pl/7592643100_1730060366.jpg",
+  "wiki": "https://www.elektroda.com/rtvforum/topic4083568.html"
+},  
     {
       "vendor": "Nedis",
       "bDetailed": "0",
