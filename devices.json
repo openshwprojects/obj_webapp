@@ -22,6 +22,7 @@
       "image": "https://obrazki.elektroda.pl/5120493600_1650616045.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3895572.html#20033093"
     },
+	  
     {
       "vendor": "Cozylife",
       "bDetailed": "0",
@@ -9228,6 +9229,30 @@
       "image": "https://obrazki.elektroda.pl/1114790300_1686685394.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3983684.html"
     },
+	{
+  "vendor": "LSC",
+  "bDetailed": "0",
+  "name": "Smart Power Strip Action 3680W",
+  "model": "3202887",
+  "chip": "BK7231N",
+  "board": "CB3S",
+  "flags": "0",
+  "keywords": [
+    "power strip",
+    "relay",
+    "switch"
+  ],
+  "pins": {
+    "6": "Rel;2",
+    "7": "Rel;3",
+    "8": "Rel;4",
+    "10": "Btn_Tgl_All;0",
+    "14": "Rel;1",
+    "23": "WifiLED_n;0"
+  },
+  "image": "https://obrazki.elektroda.pl/8471866500_1728724279.jpg",
+  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21264621#21264621"
+},  
     {
       "vendor": "Tuya",
       "bDetailed": "0",
