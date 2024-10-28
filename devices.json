@@ -2874,7 +2874,11 @@
         "ln882hki",
         "dimmable",
         "warm white",
-        "cool white"
+        "cool white",
+        "SY-QP9W-5L LN V2",
+        "BP5758D",
+        "SD205P-RGB-CCT",
+        "CK245SH"
       ],
       "pins": {
         "5": "BP5758D_DAT;0",
