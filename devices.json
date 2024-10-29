@@ -2865,6 +2865,32 @@
     {
       "vendor": "Tuya",
       "bDetailed": "0",
+      "name": "220v 9W GU10 RGB+CW+WW Bulb",
+      "model": "W505Z2",
+      "chip": "LN882H",
+      "board": "",
+      "flags": "1024",
+      "keywords": [
+        "lamp",
+        "ln882hki",
+        "dimmable",
+        "warm white",
+        "cool white",
+        "SD205LC",
+        "SD205LP",
+        "BP5758D"
+      ],
+      "pins": {
+        "0": "BP5758D_CLK;0",
+        "1": "BP5758D_DAT;0"
+      },
+      "command": "BP5758D_Map 2 1 0 3 4",
+      "image": "https://obrazki.elektroda.pl/2199639400_1730221259.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4054847.html"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
       "name": "220v 9W E27 ES RGB+CCT Bulb (2800K-6500K)",
       "model": "W509Z2",
       "chip": "LN882H",
