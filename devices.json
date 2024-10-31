@@ -4077,6 +4077,34 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3941677.html"
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "4AC EU + 4USB 16A Wi-Fi Smart Power Strip",
+      "model": "XS-A26",
+      "chip": "BK7231N",
+      "board": "YX-B3S1-VER00",
+      "flags": "1024",
+      "keywords": [
+        "4 Gang",
+        "AC100-240V 50/60Hz",
+        "USB-A",
+        "3450W",
+        "LM2"
+      ],
+      "pins": {
+        "7": "Rel;1",
+        "8": "Rel;2",
+        "9": "Rel;4",
+        "14": "Rel;3",
+        "23": "WifiLED_n;0",
+        "24": "Rel;5",
+        "26": "Btn_Tgl_All;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/9705431600_1686945840.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3984262.html"
+    },
+    {
   "vendor": "Currysmarter",
   "bDetailed": "0",
   "name": "WiFi Roller Shutter Switch 6Gen",
