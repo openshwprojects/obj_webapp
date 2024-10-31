@@ -3417,6 +3417,32 @@
 	  "image": "https://obrazki.elektroda.pl/6887933500_1693450644.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3999381.html"
 	},
+  {
+    "vendor": "Tuya",
+    "bDetailed": "0",
+    "name": "3CH Wi-Fi USB Switch Module 5V-12V",
+    "model": "",
+    "chip": "BK7231N",
+    "board": "CBU",
+    "flags": "1024",
+    "keywords": [
+      "triple",
+      "USB-A"
+    ],
+    "pins": {
+      "6": "WifiLED_n;0",
+      "7": "Rel;1",
+      "8": "Btn_Tgl_All;0",
+      "14": "Btn;1",
+      "16": "Btn;2",
+      "20": "Btn;3",
+      "24": "Rel;3",
+      "26": "Rel;2"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/3037550900_1730403348.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21284444#21284444"
+  },
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
