@@ -7681,6 +7681,28 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20855531#20855531"
 	},
   {
+    "vendor": "AVATTO",
+    "bDetailed": "0",
+    "name": "Tuya US Wifi Wall Switch 1 Gang",
+    "model": "US-TS02",
+    "chip": "BK7231N",
+    "board": "CB3S",
+    "flags": "1088",
+    "keywords": [
+      "1CH",
+      "GLASS"
+    ],
+    "pins": {
+      "7": "Btn;1",
+      "9": "LED;1",
+      "23": "WifiLED;0",
+      "26": "Rel;1"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/1127982900_1686713659.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic3983714.html"
+  },
+  {
     "vendor": "XiaoMei",
     "bDetailed": "0",
     "name": "Smart Futterautomat für Aquarium | Automatic Fish Feeder",
