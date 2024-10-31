@@ -3421,7 +3421,7 @@
     "vendor": "Tuya",
     "bDetailed": "0",
     "name": "3CH Wi-Fi USB Switch Module 5V-12V",
-    "model": "",
+    "model": "ZH-Z38",
     "chip": "BK7231N",
     "board": "CBU",
     "flags": "1024",
