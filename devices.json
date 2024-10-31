@@ -2911,7 +2911,7 @@
         "5": "BP5758D_DAT;0",
         "6": "BP5758D_CLK;0"
       },
-      "command": "",
+      "command": "BP5758D_Map 2 1 0 3 4",
       "image": "https://obrazki.elektroda.pl/2541222400_1730125117.png",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21264807#21264807"
     },
