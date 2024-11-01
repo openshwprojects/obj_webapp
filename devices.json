@@ -2911,7 +2911,7 @@
         "5": "BP5758D_DAT;0",
         "6": "BP5758D_CLK;0"
       },
-      "command": "",
+      "command": "BP5758D_Map 2 1 0 3 4",
       "image": "https://obrazki.elektroda.pl/2541222400_1730125117.png",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21264807#21264807"
     },
@@ -3417,6 +3417,32 @@
 	  "image": "https://obrazki.elektroda.pl/6887933500_1693450644.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3999381.html"
 	},
+  {
+    "vendor": "Tuya",
+    "bDetailed": "0",
+    "name": "3CH Wi-Fi USB Switch Module 5V-12V",
+    "model": "ZH-Z38",
+    "chip": "BK7231N",
+    "board": "CBU",
+    "flags": "1024",
+    "keywords": [
+      "triple",
+      "USB-A"
+    ],
+    "pins": {
+      "6": "WifiLED_n;0",
+      "7": "Rel;1",
+      "8": "Btn_Tgl_All;0",
+      "14": "Btn;1",
+      "16": "Btn;2",
+      "20": "Btn;3",
+      "24": "Rel;3",
+      "26": "Rel;2"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/3037550900_1730403348.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21284444#21284444"
+  },
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
@@ -4051,25 +4077,53 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3941677.html"
     },
     {
-  "vendor": "Currysmarter",
-  "bDetailed": "0",
-  "name": "WiFi Roller Shutter Switch 6Gen",
-  "model": "W01",
-  "chip": "BK7231N",
-  "board": "CBU",
-  "flags": "1024",
-  "keywords": [
-    "gen6",
-    "curtain",
-    "TUYAMCU",
-    "MCU",
-    "EU-CL-01/02-2 10-00130-10 2023-3-3",
-    "CMS79FT738"
-  ],
-  "pins": {},
-  "command": "",
-  "image": "https://obrazki.elektroda.pl/9077436000_1712324125.jpg",
-  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21033819#21033819"
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "4AC EU + 4USB 16A Wi-Fi Smart Power Strip",
+      "model": "XS-A26",
+      "chip": "BK7231N",
+      "board": "YX-B3S1-VER00",
+      "flags": "1024",
+      "keywords": [
+        "4 Gang",
+        "AC100-240V 50/60Hz",
+        "USB-A",
+        "3450W",
+        "LM2"
+      ],
+      "pins": {
+        "7": "Rel;1",
+        "8": "Rel;2",
+        "9": "Rel;4",
+        "14": "Rel;3",
+        "23": "WifiLED_n;0",
+        "24": "Rel;5",
+        "26": "Btn_Tgl_All;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/9705431600_1686945840.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3984262.html"
+    },
+    {
+      "vendor": "Currysmarter",
+      "bDetailed": "0",
+      "name": "WiFi Roller Shutter Switch 6Gen",
+      "model": "W01",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "flags": "1024",
+      "keywords": [
+        "gen6",
+        "curtain",
+        "TUYAMCU",
+        "MCU",
+        "EU-CL-01/02-2 10-00130-10 2023-3-3",
+        "CMS79FT738"
+      ],
+      "pins": {},
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/9077436000_1712324125.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21033819#21033819"
     },
     {
       "vendor": "Tuya",
@@ -4387,12 +4441,12 @@
       "chip": "BK7231N",
       "board": "CB2S",
       "pins": {
-		"6": "BL0937CF1;0",
-		"7": "BL0937CF;0",
-		"8": "WifiLED;0",
-		"10": "Btn;0",
-		"24": "BL0937SEL;0",
-		"26": "Rel;0"
+        "6": "BL0937CF1;0",
+        "7": "BL0937CF;0",
+        "8": "WifiLED;0",
+        "10": "Btn;0",
+        "24": "BL0937SEL;0",
+        "26": "Rel;0"
       },
       "command": "",
       "keywords": [
@@ -4408,12 +4462,12 @@
       "chip": "BK7231N",
       "board": "CB2S",
       "pins": {
-		"6": "BL0937CF1;0",
-		"7": "BL0937CF;0",
-		"8": "WifiLED;0",
-		"10": "Btn;0",
-		"24": "BL0937SEL;0",
-		"26": "Rel;0"
+        "6": "BL0937CF1;0",
+        "7": "BL0937CF;0",
+        "8": "WifiLED;0",
+        "10": "Btn;0",
+        "24": "BL0937SEL;0",
+        "26": "Rel;0"
       },
       "command": "",
       "keywords": [
@@ -4430,12 +4484,12 @@
       "chip": "BK7231M",
       "board": "CB2S",
       "pins": {
-		"6": "BL0937CF1;0",
-		"7": "BL0937CF;0",
-		"8": "WifiLED;0",
-		"10": "Btn;0",
-		"24": "BL0937SEL;0",
-		"26": "Rel;0"
+        "6": "BL0937CF1;0",
+        "7": "BL0937CF;0",
+        "8": "WifiLED;0",
+        "10": "Btn;0",
+        "24": "BL0937SEL;0",
+        "26": "Rel;0"
       },
       "command": "",
       "keywords": [
@@ -4489,15 +4543,15 @@
 		"4 Gang"
 	  ],
 	  "pins": {
-		"6": "Rel_n;2",
-		"7": "Btn_Tgl_All;0",
-		"8": "Rel_n;1",
-		"10": "Rel_n;6",
-		"14": "Rel;5",
-		"21": "WifiLED;0",
-		"23": "Rel_n;1",
-		"24": "Rel_n;3",
-		"26": "Rel_n;4"
+      "6": "Rel_n;2",
+      "7": "Btn_Tgl_All;0",
+      "8": "Rel_n;1",
+      "10": "Rel_n;6",
+      "14": "Rel;5",
+      "21": "WifiLED;0",
+      "23": "Rel_n;1",
+      "24": "Rel_n;3",
+      "26": "Rel_n;4"
 	  },
 	  "image": "https://obrazki.elektroda.pl/4535041600_1678464108_thumb.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3963570.html"
@@ -4510,11 +4564,7 @@
   "chip": "BK7231T",
   "board": "WB2S",
   "flags": "1024",
-  "keywords": [
-    "TODO",
-    "TODO",
-    "TODO"
-  ],
+  "keywords": [],
   "pins": {
     "6": "Btn;0",
     "7": "LED;0",
@@ -6121,7 +6171,7 @@
 	  "name": "iQtech SmartLife",
 	  "model": "WS024",
 	  "chip": "BK7231T",
-	  "board": "TODO",
+	  "board": "",
 	  "flags": "524320",
 	  "keywords": [
 	  ],
@@ -7680,6 +7730,28 @@
 	  "image": "https://obrazki.elektroda.pl/2634256800_1702281280.png",
 	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20855531#20855531"
 	},
+  {
+    "vendor": "AVATTO",
+    "bDetailed": "0",
+    "name": "Tuya US Wifi Wall Switch 1 Gang",
+    "model": "US-TS02",
+    "chip": "BK7231N",
+    "board": "CB3S",
+    "flags": "1088",
+    "keywords": [
+      "1CH",
+      "GLASS"
+    ],
+    "pins": {
+      "7": "Btn;1",
+      "9": "LED;1",
+      "23": "WifiLED;0",
+      "26": "Rel;1"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/1127982900_1686713659.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic3983714.html"
+  },
   {
     "vendor": "XiaoMei",
     "bDetailed": "0",
