@@ -9320,6 +9320,25 @@
       "product": ""
     },
     {
+      "vendor": "Avatto",
+      "bDetailed": "1",
+      "name": "2 gang Zigbee smart switch",
+      "model": "ZGB-WS",
+      "chip": "",
+      "board": "ZT3L",
+      "keywords": [
+        "Allegro",
+        "2gang",
+        "QY32F-H",
+        "zigbee",
+        "Europe board v1.2",
+		"OB25133JP"
+      ],
+      "image": "https://obrazki.elektroda.pl/3201324000_1723293053.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic4080414.html",
+      "product": ""
+    },
+    {
       "vendor": "Mycket ",
       "bDetailed": "1",
       "name": "Mycket Smart Socket PE-01E IP44",
