@@ -7576,6 +7576,26 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4016557.html"
 	},
 	{
+	  "vendor": "Sonoff",
+	  "bDetailed": "1",
+	  "name": "WS-04H1 - Sonoff POW R2 clone - smart Energy Meter",
+	  "model": "WS-04H1",
+	  "chip": "ESP8266",
+	  "board": "on PCB",
+	  "flags": "0",
+	  "keywords": [
+		"allegro",
+		"CSC7102C",
+		"CSE7759B",
+		"power metering"
+	  ],
+	  "pins": {
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/2749718700_1729802026.png",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic4083051.html"
+	},
+	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
 	  "name": "Smart 4 Gang Switch: WiFi not Zigbee",
