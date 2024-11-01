@@ -10166,6 +10166,21 @@
 	  "image": "https://obrazki.elektroda.pl/4195778700_1703706599.jpg",
 	  "wiki": "https://www.elektroda.pl/rtvforum/topic4024417.html"
 	},
+	{
+	  "vendor": "Zamel",
+	  "bDetailed": "0",
+	  "name": "2-channel 2-gang relay module",
+	  "model": "ROW-02",
+	  "chip": "ESP8266",
+	  "board": "ESP-WROOM-02",
+	  "keywords": ["Allegro", "EA1721A"],
+	  "pins": {
+
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/7163625000_1722525164_thumb.jpg",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic4077865.html"
+	},
 		{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
