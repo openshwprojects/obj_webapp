@@ -9339,6 +9339,31 @@
       "product": ""
     },
     {
+      "vendor": "Spreest",
+      "bDetailed": "1",
+      "name": "Video Doorbell with Battery-Powered Camera",
+      "model": "T9-BB",
+      "chip": "V837S",
+      "board": "on PCB",
+      "keywords": [
+        "Allegro",
+        "Aiwit",
+        "Camera",
+        "Battery-powered",
+        "18650 2600mAh 3.7V",
+		"doorbell",
+		"Alwinner V837S",
+		"X806 XRadio",
+		"AXP2101",
+		"XMC 25QH128CH10",
+		"MIX2062",
+		"alarm"
+      ],
+      "image": "https://obrazki.elektroda.pl/2865292700_1725295058.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic4078968.html",
+      "product": ""
+    },
+    {
       "vendor": "Mycket ",
       "bDetailed": "1",
       "name": "Mycket Smart Socket PE-01E IP44",
