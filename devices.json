@@ -8346,6 +8346,24 @@
     {
       "vendor": "Sonoff",
       "bDetailed": "1",
+      "name": "Mini Smart Switch",
+      "model": "ZBMini",
+      "chip": "EFR32MG21",
+      "board": "on PCB",
+      "pins": {},
+      "keywords": [
+        "10A",
+        "relay",
+        "zigbee"
+      ],
+      "image": "https://obrazki.elektroda.pl/1879200700_1718889348.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic4081611.html",
+      "product": ""
+    },
+	
+    {
+      "vendor": "Sonoff",
+      "bDetailed": "1",
       "name": "SONOFF BASICZBR3 ZB DIY Smart Switch Controlled Via SmartThing ",
       "model": "BASICZBR3",
       "chip": "CC2530",
