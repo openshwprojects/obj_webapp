@@ -9364,6 +9364,27 @@
       "product": ""
     },
     {
+      "vendor": "Prosto",
+      "bDetailed": "1",
+      "name": "RGB with IR LED strip controller",
+      "model": "LTK5050/30RGB-WF/5",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "keywords": [
+        "switch",
+        "relay",
+        "AP8506"
+      ],
+	  "pins": {
+		"6": "PWM;3",
+		"7": "PWM;2",
+		"8": "PWM;1",
+		"26": "IRRecv;0"
+	  },
+      "image": "https://obrazki.elektroda.pl/4943269700_1725736901.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3895572.html"
+    },
+    {
       "vendor": "Mycket ",
       "bDetailed": "1",
       "name": "Mycket Smart Socket PE-01E IP44",
