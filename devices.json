@@ -13306,6 +13306,31 @@
     "image": "https://obrazki.elektroda.pl/5953470600_1706549252.jpg",
     "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20935260"
   },
+  {
+    "vendor": "Tuya",
+    "bDetailed": "0",
+    "name": "20A AC100-250V UK Smart Plug Socket w/Power Metering",
+    "model": "BSD29",
+    "chip": "LN882H",
+    "board": "WL2S",
+    "flags": "1024",
+    "keywords": [
+      "BL0937",
+      "BSD29-V4.2022"
+    ],
+    "pins": {
+      "0": "LED;0",
+      "3": "Btn;0",
+      "7": "BL0937CF1;0",
+      "10": "LED_n;0",
+      "11": "Rel;0",
+      "12": "BL0937CF;0",
+      "19": "BL0937SEL;0"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/7156539100_1730757425.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4085019.html"
+  },
 {
   "vendor": "Tuya / Smart Life",
   "bDetailed": "0",
