@@ -3035,13 +3035,14 @@
 	  "flags": "-2080373664",
 	  "keywords": [
 		"Feed",
-		"Fish"
+    "DS18B20"
 	  ],
 	  "pins": {
-		"2": "Btn_n;1",
-		"3": "Btn;2",
-		"4": "WifiLED_n;0",
-		"5": "PWM;3"
+      "2": "Btn_n;1",
+      "3": "Btn;2",
+      "4": "WifiLED_n;0",
+      "5": "PWM;3",
+      "17": "DS1820_IO;4"
 	  },
 	  "command": "waitFor WiFiState 4;waitFor MQTTState 1",
 	  "image": "https://obrazki.elektroda.pl/1292380900_1702478023.jpg",
