@@ -3141,6 +3141,26 @@
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20262145#20262145"
     },
     {
+      "vendor": "3Stone",
+      "bDetailed": "0",
+      "name": "100W Equivalent LED RGB+CCT Bulb 2700K-6500K A21 10W E26",
+      "model": "EBE-BAW528",
+      "chip": "BK7231T",
+      "board": "WB2L",
+      "flags": "8524800",
+      "keywords": [
+        "ASINB07HR8GT12",
+        "1050LM"
+      ],
+      "pins": {
+        "7": "BP5758D_DAT;0",
+        "8": "BP5758D_CLK;0"
+      },
+      "command": "backlog powersave 1;BP5758D_Map 2 1 0 4 3;BP5758D_Current 40 40",
+      "image": "https://obrazki.elektroda.pl/3836038300_1697827785.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4009275.html"
+    },
+    {
       "vendor": "Generic",
       "bDetailed": "0",
       "name": "4CH 4Relay CB3S Module 7-28V",
