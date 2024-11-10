@@ -4441,9 +4441,10 @@
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21183262#21183262"
     },
     {
-      "vendor": "Tuya",
+      "vendor": "ATORCH",
       "bDetailed": "0",
-      "name": "Tuya ATORCH S1-B/W/T/H Smart Socket Energy Monitor (BK7231N) (CB3S) (CH573F) (BL0942)",
+      "name": "Tuya Smart Socket Energy Monitor (CH573F) (BL0942)",
+      "model": "S1-B/W/T/H",
       "chip": "BK7231N",
       "board": "CB3S",
       "pins": {},
@@ -4454,6 +4455,24 @@
       ],
       "image": "https://obrazki.elektroda.pl/7012209800_1695398060.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic4003739.html"
+    },
+    {
+      "vendor": "ATORCH",
+      "bDetailed": "0",
+      "name": "Tuya Din Rail Smart Electricity Meter - AC50-320V (CH573F) (BL0942)",
+      "model": "GR2P-WS",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "pins": {},
+      "command": "",
+      "keywords": [
+        "TuyaMCU",
+        "LCD",
+        "GMT154-01",
+        "ammeter"
+      ],
+      "image": "https://obrazki.elektroda.pl/1491247100_1720031568.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4063292.html"
     },
     {
       "vendor": "Sumart",
@@ -4828,7 +4847,7 @@
         "26": "Btn;0"
       },
       "keywords": [
-        "CBS2s aka FL_M99_V3",
+        "FL_M99_V3",
         "2 gang",
         "relay",
         "Aliexpress"
