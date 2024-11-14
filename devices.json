@@ -10029,6 +10029,26 @@
       "image": "https://obrazki.elektroda.pl/8023860200_1696476384.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic4006216.html"
     },
+{
+  "vendor": "Tuya",
+  "bDetailed": "1",
+  "name": "Shutters rollers controller module",
+  "model": "SB478/QS-WIFI-ECC02",
+  "chip": "BK7231N",
+  "board": "CB3S",
+  "keywords": ["Allegro","shutters","KP15051SP","AMS1117-3.3V"],
+  "pins": {
+    "6": "Rel;3",
+    "7": "Btn;3",
+    "8": "Btn;1",
+    "9": "WifiLED_n;0",
+    "24": "Rel;1",
+    "26": "Btn_Tgl_All;0"
+  },
+  "command": "",
+  "image": "https://obrazki.elektroda.pl/4025787800_1712480145.jpg",
+  "wiki": "https://www.elektroda.pl/rtvforum/topic4076328.html"
+}, 
     {
       "vendor": "Maxcio",
       "bDetailed": "0",
