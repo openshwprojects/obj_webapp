@@ -12376,6 +12376,32 @@
     "image": "https://obrazki.elektroda.pl/4899113600_1688077752.jpg",
     "wiki": "https://www.elektroda.com/rtvforum/topic3986664.html"
   },
+  {
+    "vendor": "Filohome",
+    "bDetailed": "0",
+    "name": "Double Smart Switch 2Gang",
+    "model": "FL-M2",
+    "chip": "BK7231N",
+    "board": "CB3S",
+    "flags": "1024",
+    "keywords": [
+      "light",
+      "recessed",
+      "dual"
+    ],
+    "pins": {
+      "6": "WifiLED_n;0",
+      "7": "LED;1",
+      "9": "Rel;2",
+      "10": "LED;2",
+      "14": "Rel;1",
+      "24": "Btn;2",
+      "26": "Btn;1"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/7215113000_1687979526.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic3986458.html"
+  },
 	{
 	  "vendor": "Filohome",
 	  "bDetailed": "0",
