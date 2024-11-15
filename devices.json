@@ -5297,6 +5297,35 @@
       "product": "https://evolution.by/product/evolution-sl-02"
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Motion Senor Smart Night Light - EU",
+      "model": "TM-YD001W-WIF-EU",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "flags": "1024",
+      "keywords": [
+        "night light",
+        "pir",
+        "100-240V AC",
+        "YG-TM01_REV1.3"
+      ],
+      "pins": {
+        "6": "PWM;3",
+        "7": "PWM;5",
+        "8": "PWM;4",
+        "9": "PWM;13",
+        "14": "dInput;10",
+        "20": "dInput_n;11",
+        "23": "ADC;12",
+        "24": "PWM;2",
+        "26": "PWM;1"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/7257331500_1685826455.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3981888.html"
+    },
+    {
       "vendor": "Arlec",
       "bDetailed": "0",
       "name": "RGB+CCT LED Downlight",
