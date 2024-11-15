@@ -9415,14 +9415,33 @@
         "relay",
         "AP8506"
       ],
-	  "pins": {
-		"6": "PWM;3",
-		"7": "PWM;2",
-		"8": "PWM;1",
-		"26": "IRRecv;0"
+      "pins": {
+        "6": "PWM;3",
+        "7": "PWM;2",
+        "8": "PWM;1",
+        "26": "IRRecv;0"
 	  },
       "image": "https://obrazki.elektroda.pl/4943269700_1725736901.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3895572.html"
+    },
+    {
+      "vendor": "Prosto",
+      "bDetailed": "0",
+      "name": "16A 3680W EU Smart Plug w/out Power Metering",
+      "model": "WFU-18",
+      "chip": "BK7231T",
+      "board": "WB2S",
+      "keywords": [
+        "socket"
+      ],
+      "pins": {
+        "6": "Btn;0",
+        "7": "WifiLED_n;0",
+        "8": "LED_n;0",
+        "24": "Rel;0"
+	  },
+      "image": "https://obrazki.elektroda.pl/4943269700_1725736901.jpg",
+      "wiki": "https://obrazki.elektroda.pl/7430691400_1681897959.jpg"
     },
     {
       "vendor": "Mycket ",
