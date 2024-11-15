@@ -12353,6 +12353,29 @@
 	  "image": "https://obrazki.elektroda.pl/6722285900_1683369451.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3976320.html"
 	},
+  {
+    "vendor": "Filohome",
+    "bDetailed": "0",
+    "name": "Single Smart Switch 1Gang",
+    "model": "FL-M1",
+    "chip": "BK7231N",
+    "board": "CB3S",
+    "flags": "1024",
+    "keywords": [
+      "FT-803-VA1.0",
+      "light",
+      "recessed"
+    ],
+    "pins": {
+      "6": "WifiLED_n;0",
+      "9": "Rel;1",
+      "10": "LED;1",
+      "24": "Btn;1"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/4899113600_1688077752.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic3986664.html"
+  },
 	{
 	  "vendor": "Filohome",
 	  "bDetailed": "0",
