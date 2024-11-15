@@ -5297,6 +5297,35 @@
       "product": "https://evolution.by/product/evolution-sl-02"
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Motion Senor Smart Night Light - EU",
+      "model": "TM-YD001W-WIF-EU",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "flags": "1024",
+      "keywords": [
+        "night light",
+        "pir",
+        "100-240V AC",
+        "YG-TM01_REV1.3"
+      ],
+      "pins": {
+        "6": "PWM;3",
+        "7": "PWM;5",
+        "8": "PWM;4",
+        "9": "PWM;13",
+        "14": "dInput;10",
+        "20": "dInput_n;11",
+        "23": "ADC;12",
+        "24": "PWM;2",
+        "26": "PWM;1"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/7257331500_1685826455.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3981888.html"
+    },
+    {
       "vendor": "Arlec",
       "bDetailed": "0",
       "name": "RGB+CCT LED Downlight",
@@ -9415,14 +9444,33 @@
         "relay",
         "AP8506"
       ],
-	  "pins": {
-		"6": "PWM;3",
-		"7": "PWM;2",
-		"8": "PWM;1",
-		"26": "IRRecv;0"
+      "pins": {
+        "6": "PWM;3",
+        "7": "PWM;2",
+        "8": "PWM;1",
+        "26": "IRRecv;0"
 	  },
       "image": "https://obrazki.elektroda.pl/4943269700_1725736901.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3895572.html"
+    },
+    {
+      "vendor": "Prosto",
+      "bDetailed": "0",
+      "name": "16A 3680W EU Smart Plug w/out Power Metering",
+      "model": "WFU-18",
+      "chip": "BK7231T",
+      "board": "WB2S",
+      "keywords": [
+        "socket"
+      ],
+      "pins": {
+        "6": "Btn;0",
+        "7": "WifiLED_n;0",
+        "8": "LED_n;0",
+        "24": "Rel;0"
+	  },
+      "image": "https://obrazki.elektroda.pl/4943269700_1725736901.jpg",
+      "wiki": "https://obrazki.elektroda.pl/7430691400_1681897959.jpg"
     },
     {
       "vendor": "Mycket ",
@@ -12334,6 +12382,55 @@
 	  "image": "https://obrazki.elektroda.pl/6722285900_1683369451.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3976320.html"
 	},
+  {
+    "vendor": "Filohome",
+    "bDetailed": "0",
+    "name": "Single Smart Switch 1Gang",
+    "model": "FL-M1",
+    "chip": "BK7231N",
+    "board": "CB3S",
+    "flags": "1024",
+    "keywords": [
+      "FT-803-VA1.0",
+      "light",
+      "recessed"
+    ],
+    "pins": {
+      "6": "WifiLED_n;0",
+      "9": "Rel;1",
+      "10": "LED;1",
+      "24": "Btn;1"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/4899113600_1688077752.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic3986664.html"
+  },
+  {
+    "vendor": "Filohome",
+    "bDetailed": "0",
+    "name": "Double Smart Switch 2Gang",
+    "model": "FL-M2",
+    "chip": "BK7231N",
+    "board": "CB3S",
+    "flags": "1024",
+    "keywords": [
+      "light",
+      "recessed",
+      "dual"
+    ],
+    "pins": {
+      "6": "WifiLED_n;0",
+      "7": "LED;1",
+      "9": "Rel;2",
+      "10": "LED;2",
+      "14": "Rel;1",
+      "24": "Btn;2",
+      "26": "Btn;1"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/7215113000_1687979526.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic3986458.html"
+  },
 	{
 	  "vendor": "Filohome",
 	  "bDetailed": "0",
