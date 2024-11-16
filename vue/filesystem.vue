@@ -902,6 +902,9 @@
 
         console.log('mounted filesystem');
         this.getinfo();
+        setTimeout(() => {
+           this.read();
+         }, 250); // 250 ms
     }
   }
 //@ sourceURL=/vue/filesystem.vue
