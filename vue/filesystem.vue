@@ -900,7 +900,7 @@
         // construct tarball class
         this.tar = this.tarball();
 
-        console.log('mounted ota');
+        console.log('mounted filesystem');
         this.getinfo();
     }
   }
