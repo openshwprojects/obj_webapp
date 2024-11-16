@@ -1089,15 +1089,25 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3889041.html#19999397"
     },
     {
-      "vendor": "",
+      "vendor": "eWelink",
       "bDetailed": "0",
-      "name": "IoT Lamp Holder",
+      "name": "E27 AC90-250V Smart Lamp Holder",
+      "model": "",
       "chip": "BL602",
       "board": "SM-028_V1.3",
-      "pins": {},
+      "flags": "1024",
       "keywords": [
+        "IOT",
+        "ES",
+        "bulb"
       ],
-      "image": "https://obrazki.elektroda.pl/2624166500_1657830253_thumb.jpg",
+      "pins": {
+        "14": "Btn;1",
+        "20": "Rel;1",
+        "22": "WifiLED;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/1837005700_1731755426.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3906289.html"
     },
     {
