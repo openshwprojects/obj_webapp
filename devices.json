@@ -1089,6 +1089,46 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3889041.html#19999397"
     },
     {
+      "vendor": "Feit",
+      "bDetailed": "1",
+      "name": "Feit BPA800/RGBW/2 Bulb Article No. 1528975",
+      "chip": "BK7231T",
+      "board": "WB2L",
+      "keywords": [
+        "Costco",
+        "RGBW"
+      ],
+      "pins": {
+        "6": "PWM;1",
+        "7": "PWM;4",
+        "8": "PWM;5",
+        "24": "PWM;3",
+        "26": "PWM;2"
+      },
+      "image": "https://obrazki.elektroda.pl/9274879600_1700769145.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4016922.html"
+    },
+    {
+      "vendor": "Feit",
+      "bDetailed": "1",
+      "name": "Feit BPA800/RGBW/2 Bulb Article No. 1528975",
+      "chip": "BK7231N",
+      "board": "CB2L",
+      "keywords": [
+        "Costco",
+        "RGBW"
+      ],
+      "pins": {
+        "6": "PWM;3",
+        "7": "PWM;5",
+        "8": "PWM;4",
+        "24": "PWM;2",
+        "26": "PWM;1"
+      },
+      "image": "https://obrazki.elektroda.pl/9274879600_1700769145.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4016922.html"
+    },
+    {
       "vendor": "eWelink",
       "bDetailed": "0",
       "name": "E27 AC90-250V Smart Lamp Holder",
