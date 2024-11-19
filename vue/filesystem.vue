@@ -140,7 +140,7 @@
                     file.filepath = file.name;
                     allFiles.push(file);
                 });
-                this.uploadfiles(allFiles);
+                this.uploadfiles(allFiles, this.read);
             }
         };
         fileInput.click();
