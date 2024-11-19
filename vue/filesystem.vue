@@ -13,6 +13,7 @@
             <button @click="restore(null, $event)">Restore fsblock</button>
             <button @click="read(null, $event)">List Filesystem</button>
             <button @click="create(null, $event)">Create File</button>
+            <button @click="upload(null, $event)">Upload file</button>
             <button @click="resetSVM(null, $event)">Reset scripts</button>
             <br/>
             <button @click="getTar(null, $event)">Download FS Backup in Tar Archive</button>
@@ -126,6 +127,24 @@
             }
         },
 
+    upload(event) {
+        const fileInput = document.createElement('input');
+        fileInput.type = 'file';
+        fileInput.multiple = true; 
+        fileInput.onchange = () => {
+            const files = Array.from(fileInput.files);
+            console.log(files);
+            if (files.length > 0) {
+                let allFiles = [];
+                files.forEach(file => {
+                    file.filepath = file.name;
+                    allFiles.push(file);
+                });
+                this.uploadfiles(allFiles);
+            }
+        };
+        fileInput.click();
+    },
 
 
         uploadfiles(files, cb) {
