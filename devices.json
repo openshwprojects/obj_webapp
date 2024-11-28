@@ -2460,6 +2460,29 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3951447.html"
     },
     {
+      "vendor": "Gliztech",
+      "bDetailed": "0",
+      "name": "W-WW Cob Led Strip (3000K to 6500K)",
+      "model": "SSDNWFB1R4",
+      "chip": "BL602",
+      "board": "on PCB",
+      "flags": "8520704",
+      "keywords": [
+        "ZJ-BWCD-CCT-VC-IR",
+        "Zengge",
+        "SURP LIFE",
+        "MagicHome",
+        "LF686C20"
+      ],
+      "pins": {
+        "17": "PWM;3",
+        "20": "PWM;4"
+      },
+      "command": "backlog PowerSave 1",
+      "image": "https://obrazki.elektroda.pl/2003752800_1732441844.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4088897.html"
+    },
+    {
       "vendor": "Globo",
       "bDetailed": "0",
       "name": "[CB3S] Globo Connor 41386-30sh ceiling light 30W with IR remote",
