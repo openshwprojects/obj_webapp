@@ -1492,7 +1492,7 @@
       "name": "Mini Smart Switch With Power Monitor - 16A",
       "model": "WBP-1G",
       "chip": "BK7231N",
-      "board": "TODO",
+      "board": "on PCB",
       "flags": "1024",
       "keywords": [
         "BREAKER",
@@ -1857,7 +1857,7 @@
       "bDetailed": "0",
       "name": "KS-602S 120V Intertek Kuled K36 Switch",
       "chip": "BK7231N",
-      "board": "on board",
+      "board": "on PCB",
       "pins": {
         "17": "Rel;1",
         "24": "LED;1",
@@ -1957,7 +1957,7 @@
       "bDetailed": "0",
       "name": "LSC Smart GU10-RGBCW",
       "chip": "BK7231T",
-      "board": "on board",
+      "board": "on PCB",
       "pins": {
         "24": "SM2135_DAT;1",
         "26": "SM2135_CLK;2"
@@ -2824,7 +2824,7 @@
       "bDetailed": "1",
       "name": "QTouch Dimmer QBP.DIM.WIFI",
       "chip": "ESP8285",
-      "board": "on board",
+      "board": "on PCB",
       "pins": {},
       "keywords": [
         "PC817",
@@ -2845,7 +2845,7 @@
       "bDetailed": "1",
       "name": "QTouch No-Neutral WiFi/RF433 Wall Switch QWP.W1.WIFI-TOUCH",
       "chip": "ESP8285",
-      "board": "on board",
+      "board": "on PCB",
       "pins": {},
       "keywords": [
         "QWP.W1.WIFI-TOUCH",
@@ -2887,7 +2887,7 @@
       "bDetailed": "1",
       "name": "eWeLink/Coolkit PS-16-M",
       "chip": "ESP8285",
-      "board": "on board",
+      "board": "on PCB",
       "pins": {},
       "keywords": [
         "PN8366",
@@ -4777,7 +4777,7 @@
 	  "name": "Microcenter Smart outdoor plug",
 	  "model": "",
 	  "chip": "BK7231T",
-	  "board": "on board",
+	  "board": "on PCB",
 	  "flags": "1024",
 	  "keywords": [
 	    "2 relays",
@@ -6456,7 +6456,7 @@
       "name": "AP-SMT-Breaker02-1CH EZB-WBZS1H16N-A - 16A Mini Smart Switch 1 Channel",
       "model": "EZB-WBZS1H16N-A",
       "chip": "BK7231N",
-      "board": "on board",
+      "board": "on PCB",
       "pins": {
         "15": "Rel;1",
         "14": "TglChanOnTgl;1",
@@ -10284,7 +10284,7 @@
       "bDetailed": "0",
       "name": "BL602 relay module ZN366360_01",
       "chip": "BL602",
-      "board": "on board",
+      "board": "on PCB",
       "pins": {},
       "image": "https://obrazki.elektroda.pl/9793757900_1666010303_thumb.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3927070.html"
@@ -11042,7 +11042,7 @@
 	  "name": " enio Wi-Fi LED 5 metre Strip Light",
 	  "model": "1002796",
 	  "chip": "BK7231N",
-	  "board": "on board",
+	  "board": "on PCB",
 	  "flags": "16778240",
 	  "keywords": [
 		"LED strip"
@@ -11336,7 +11336,7 @@
       "name": "Tuya Motion Sensor",
       "model": "",
       "chip": "BK7231N",
-      "board": "on board",
+      "board": "on PCB",
       "keywords": [
       ],
       "pins": {},
@@ -11915,7 +11915,7 @@
 	  "name": "LSC Smart Mood Light",
 	  "model": "3204432",
 	  "chip": "BK7231N",
-	  "board": "on board",
+	  "board": "on PCB",
 	  "flags": "1024",
 	  "keywords": [
 		"Action",
