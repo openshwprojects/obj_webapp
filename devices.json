@@ -1488,6 +1488,29 @@
     },
     {
       "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Mini Smart Switch With Power Monitor - 16A",
+      "model": "WBP-1G",
+      "chip": "BK7231N",
+      "board": "TODO",
+      "flags": "1024",
+      "keywords": [
+        "BREAKER",
+        "diy",
+        "relay"
+      ],
+      "pins": {
+        "6": "TglChanOnTgl;1",
+        "7": "Rel;1",
+        "23": "Btn_Tgl_All;0",
+        "26": "WifiLED_n;0"
+      },
+      "command": "startDriver BL0942",
+      "image": "https://obrazki.elektroda.pl/3926411400_1732906949.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21325656#21325656"
+    },
+    {
+      "vendor": "Tuya",
       "bDetailed": "1",
       "name": "SmartSwitch WL-SW01_16 SW01 16A",
       "chip": "BK7231T",
