@@ -1488,6 +1488,29 @@
     },
     {
       "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Mini Smart Switch With Power Monitor - 16A",
+      "model": "WBP-1G",
+      "chip": "BK7231N",
+      "board": "on PCB",
+      "flags": "1024",
+      "keywords": [
+        "BREAKER",
+        "diy",
+        "relay"
+      ],
+      "pins": {
+        "6": "TglChanOnTgl;1",
+        "7": "Rel;1",
+        "23": "Btn_Tgl_All;0",
+        "26": "WifiLED_n;0"
+      },
+      "command": "startDriver BL0942",
+      "image": "https://obrazki.elektroda.pl/3926411400_1732906949.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21325656#21325656"
+    },
+    {
+      "vendor": "Tuya",
       "bDetailed": "1",
       "name": "SmartSwitch WL-SW01_16 SW01 16A",
       "chip": "BK7231T",
@@ -1834,7 +1857,7 @@
       "bDetailed": "0",
       "name": "KS-602S 120V Intertek Kuled K36 Switch",
       "chip": "BK7231N",
-      "board": "on board",
+      "board": "on PCB",
       "pins": {
         "17": "Rel;1",
         "24": "LED;1",
@@ -1934,7 +1957,7 @@
       "bDetailed": "0",
       "name": "LSC Smart GU10-RGBCW",
       "chip": "BK7231T",
-      "board": "on board",
+      "board": "on PCB",
       "pins": {
         "24": "SM2135_DAT;1",
         "26": "SM2135_CLK;2"
@@ -2460,6 +2483,29 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3951447.html"
     },
     {
+      "vendor": "Gliztech",
+      "bDetailed": "0",
+      "name": "W-WW Cob Led Strip (3000K to 6500K)",
+      "model": "SSDNWFB1R4",
+      "chip": "BL602",
+      "board": "on PCB",
+      "flags": "8520704",
+      "keywords": [
+        "ZJ-BWCD-CCT-VC-IR",
+        "Zengge",
+        "SURP LIFE",
+        "MagicHome",
+        "LF686C20"
+      ],
+      "pins": {
+        "17": "PWM;3",
+        "20": "PWM;4"
+      },
+      "command": "backlog PowerSave 1",
+      "image": "https://obrazki.elektroda.pl/2003752800_1732441844.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4088897.html"
+    },
+    {
       "vendor": "Globo",
       "bDetailed": "0",
       "name": "[CB3S] Globo Connor 41386-30sh ceiling light 30W with IR remote",
@@ -2778,7 +2824,7 @@
       "bDetailed": "1",
       "name": "QTouch Dimmer QBP.DIM.WIFI",
       "chip": "ESP8285",
-      "board": "on board",
+      "board": "on PCB",
       "pins": {},
       "keywords": [
         "PC817",
@@ -2799,7 +2845,7 @@
       "bDetailed": "1",
       "name": "QTouch No-Neutral WiFi/RF433 Wall Switch QWP.W1.WIFI-TOUCH",
       "chip": "ESP8285",
-      "board": "on board",
+      "board": "on PCB",
       "pins": {},
       "keywords": [
         "QWP.W1.WIFI-TOUCH",
@@ -2841,7 +2887,7 @@
       "bDetailed": "1",
       "name": "eWeLink/Coolkit PS-16-M",
       "chip": "ESP8285",
-      "board": "on board",
+      "board": "on PCB",
       "pins": {},
       "keywords": [
         "PN8366",
@@ -4731,7 +4777,7 @@
 	  "name": "Microcenter Smart outdoor plug",
 	  "model": "",
 	  "chip": "BK7231T",
-	  "board": "on board",
+	  "board": "on PCB",
 	  "flags": "1024",
 	  "keywords": [
 	    "2 relays",
@@ -6410,7 +6456,7 @@
       "name": "AP-SMT-Breaker02-1CH EZB-WBZS1H16N-A - 16A Mini Smart Switch 1 Channel",
       "model": "EZB-WBZS1H16N-A",
       "chip": "BK7231N",
-      "board": "on board",
+      "board": "on PCB",
       "pins": {
         "15": "Rel;1",
         "14": "TglChanOnTgl;1",
@@ -10238,7 +10284,7 @@
       "bDetailed": "0",
       "name": "BL602 relay module ZN366360_01",
       "chip": "BL602",
-      "board": "on board",
+      "board": "on PCB",
       "pins": {},
       "image": "https://obrazki.elektroda.pl/9793757900_1666010303_thumb.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3927070.html"
@@ -10996,7 +11042,7 @@
 	  "name": " enio Wi-Fi LED 5 metre Strip Light",
 	  "model": "1002796",
 	  "chip": "BK7231N",
-	  "board": "on board",
+	  "board": "on PCB",
 	  "flags": "16778240",
 	  "keywords": [
 		"LED strip"
@@ -11290,7 +11336,7 @@
       "name": "Tuya Motion Sensor",
       "model": "",
       "chip": "BK7231N",
-      "board": "on board",
+      "board": "on PCB",
       "keywords": [
       ],
       "pins": {},
@@ -11869,7 +11915,7 @@
 	  "name": "LSC Smart Mood Light",
 	  "model": "3204432",
 	  "chip": "BK7231N",
-	  "board": "on board",
+	  "board": "on PCB",
 	  "flags": "1024",
 	  "keywords": [
 		"Action",
