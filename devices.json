@@ -6280,6 +6280,28 @@
 	  "image": "https://obrazki.elektroda.pl/3213249200_1705155801.png",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4028310.html"
 	},
+  {
+    "vendor": "Anslut",
+    "bDetailed": "0",
+    "name": "IP44 16A Smartplug with smart meter",
+    "model": "52153X36",
+    "chip": "BK7231N",
+    "board": "C2BS",
+    "flags": "134217728",
+    "keywords": [
+      "BLO942",
+      "TUYA",
+      "JULA"
+    ],
+    "pins": {
+      "6": "Btn;1",
+      "24": "Rel;1",
+      "26": "LED_n;1"
+    },
+    "command": "backlog startDriver NTP; startDriver BL0942;",
+    "image": "https://obrazki.elektroda.pl/1758523200_1733261393.png",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4091029.html"
+  },
 	{
 	  "vendor": "Anslut",
 	  "bDetailed": "0",
