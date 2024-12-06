@@ -96,6 +96,31 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic4072130.html"
       },
       {
+        "vendor": "ISPTEC",
+        "bDetailed": "0",
+        "name": "Tuya Smart Socket EU16/20A Wifi Smart Plug With Power Monitoring",
+        "model": "EU20A",
+        "chip": "LN882H",
+        "board": "on PCB",
+        "flags": "1024",
+        "keywords": [
+          "LN882HKI",
+          "BL0937",
+          "socket"
+        ],
+        "pins": {
+          "6": "LED_n;0",
+          "7": "Btn;0",
+          "19": "Rel;0",
+          "20": "BL0937CF;0",
+          "21": "BL0937CF1;0",
+          "22": "BL0937SEL;0"
+        },
+        "command": "",
+        "image": "https://obrazki.elektroda.pl/6028125300_1733387430.png",
+        "wiki": "https://www.elektroda.com/rtvforum/topic4091325.html"
+      },
+      {
         "vendor": "SmartLife",
         "bDetailed": "0",
         "name": "Tuya 90-250V 20A Smart Plug with Power Monitoring (EU)",
