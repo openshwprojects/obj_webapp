@@ -2183,7 +2183,7 @@
 	{
 	  "vendor": "Action",
 	  "bDetailed": "0",
-	  "name": "LCS Smart Connect Ceiling Light v2",
+	  "name": "LSC Smart Connect Ceiling Light v2",
 	  "model": "3007213.2",
 	  "chip": "BK7231N",
 	  "board": "CB2S",
@@ -3753,9 +3753,9 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3988602.html"
 	},
     {
-      "vendor": "LSC",
+      "vendor": "Action",
       "bDetailed": "1",
-      "name": "[BK7231T] Action LCS Smart Plug (without Energy Meter) 2578685 [WARNING BAD CB2S LABEL?]",
+      "name": "LSC Smart Plug (without Energy Meter) 2578685 [WARNING BAD CB2S LABEL?]",
       "chip": "BK7231T",
       "board": "CB2S",
       "pins": {
@@ -3897,9 +3897,9 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4002300.html"
 	},
     {
-      "vendor": "LSC",
+      "vendor": "Action",
       "bDetailed": "0",
-      "name": "[BK7231T] Action LCS Smart Plug (without Energy Meter) 2578685 (WB2S version)",
+      "name": "LSC Smart Plug (without Energy Meter) 2578685 (WB2S version)",
       "chip": "BK7231T",
       "board": "WB2S",
       "pins": {
@@ -3910,7 +3910,6 @@
       },
       "command": "",
       "keywords": [
-        "Action",
         "2578685",
         "970761 v1.0",
         "this one is a WB2S version"
@@ -4143,7 +4142,7 @@
       "flag": 4352
     },
     {
-      "vendor": "LSC",
+      "vendor": "Action",
       "bDetailed": "0",
       "name": "LSC Outdoor Spotlight WB2S",
       "chip": "BK7231T",
@@ -7871,7 +7870,7 @@
 	{
 	  "vendor": "Action",
 	  "bDetailed": "0",
-	  "name": "Teardown Action LCS Smart Plug (with Energy Meter)",
+	  "name": "LSC Smart Plug (with Energy Meter)",
 	  "model": "3202087",
 	  "chip": "BK7231N",
 	  "board": "CB2S",
@@ -13343,7 +13342,40 @@
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/9759474100_1703514958.jpg",
 	  "wiki": "https://www.elektroda.pl/rtvforum/topic4026051.html"
-	},
+	}, 
+  {
+    "vendor": "Action",
+    "bDetailed": "0",
+    "name": "LSC Smart Digital LED Strip RGB WW CW 2x5m 2.4GHz",
+    "model": "3008407",
+    "chip": "BK7231N",
+    "board": "on PCB",
+    "flags": "16",
+    "keywords": [
+      "SM16703P",
+      "MOSI",
+      "pixelanim",
+      "addressable",
+      "microphone",
+      "strip lights",
+      "buttons",
+      "infra-red",
+      "RGBIC",
+      "K225P14"
+    ],
+    "pins": {
+      "6": "Btn_Tgl_All;0",
+      "7": "Btn_SmartLED;0",
+      "9": "PWM;5",
+      "16": "SM16703P_DIN;0",
+      "23": "ADC;0",
+      "24": "PWM;4",
+      "26": "IRRecv;0"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/8926668700_1733097091.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4090568.html"
+  },
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
