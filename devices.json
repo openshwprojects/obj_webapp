@@ -6310,7 +6310,7 @@
     "name": "IP44 16A Smartplug with smart meter",
     "model": "52153X36",
     "chip": "BK7231N",
-    "board": "C2BS",
+    "board": "CB2S",
     "flags": "134217728",
     "keywords": [
       "BLO942",
