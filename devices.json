@@ -6326,6 +6326,7 @@
     "image": "https://obrazki.elektroda.pl/1758523200_1733261393.png",
     "wiki": "https://www.elektroda.com/rtvforum/topic4091029.html"
   },
+  
 	{
 	  "vendor": "Anslut",
 	  "bDetailed": "0",
@@ -6352,6 +6353,31 @@
 	  "image": "https://obrazki.elektroda.pl/1010758700_1705153499.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4028315.html"
 	},
+  {
+    "vendor": "SURFOU",
+    "bDetailed": "0",
+    "name": "Amazon Type E Smart WiFi Smart Socket 16A",
+    "model": "BSD33-F",
+    "chip": "LN882H",
+    "board": "WL2S",
+    "flags": "1024",
+    "keywords": [
+      "plug",
+      "tuya",
+      "BSD34-202110"
+    ],
+    "pins": {
+      "3": "Btn;0",
+      "7": "BL0937CF1;0",
+      "10": "WifiLED_n;1",
+      "11": "Rel;0",
+      "12": "BL0937CF;0",
+      "19": "BL0937SEL;0"
+    },
+    "command": "",
+    "image": "https://static.elektroda.pl/attach/71yUF8q0SBL__SX522__9911857.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4091943.html"
+  },  
 	{
 	  "vendor": "Onenuo",
 	  "bDetailed": "0",
@@ -13623,7 +13649,7 @@
       "power monitor",
       "BL0937",
       "LN882HKI",
-    "socket"
+      "socket"
     ],
     "pins": {
       "0": "LED;0",
