@@ -96,6 +96,31 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic4072130.html"
       },
       {
+        "vendor": "ISPTEC",
+        "bDetailed": "0",
+        "name": "Tuya Smart Socket EU16/20A Wifi Smart Plug With Power Monitoring",
+        "model": "EU20A",
+        "chip": "LN882H",
+        "board": "on PCB",
+        "flags": "1024",
+        "keywords": [
+          "LN882HKI",
+          "BL0937",
+          "socket"
+        ],
+        "pins": {
+          "6": "LED_n;0",
+          "7": "Btn;0",
+          "19": "Rel;0",
+          "20": "BL0937CF;0",
+          "21": "BL0937CF1;0",
+          "22": "BL0937SEL;0"
+        },
+        "command": "",
+        "image": "https://obrazki.elektroda.pl/6028125300_1733387430.png",
+        "wiki": "https://www.elektroda.com/rtvforum/topic4091325.html"
+      },
+      {
         "vendor": "SmartLife",
         "bDetailed": "0",
         "name": "Tuya 90-250V 20A Smart Plug with Power Monitoring (EU)",
@@ -2158,7 +2183,7 @@
 	{
 	  "vendor": "Action",
 	  "bDetailed": "0",
-	  "name": "LCS Smart Connect Ceiling Light v2",
+	  "name": "LSC Smart Connect Ceiling Light v2",
 	  "model": "3007213.2",
 	  "chip": "BK7231N",
 	  "board": "CB2S",
@@ -3728,9 +3753,9 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3988602.html"
 	},
     {
-      "vendor": "LSC",
+      "vendor": "Action",
       "bDetailed": "1",
-      "name": "[BK7231T] Action LCS Smart Plug (without Energy Meter) 2578685 [WARNING BAD CB2S LABEL?]",
+      "name": "LSC Smart Plug (without Energy Meter) 2578685 [WARNING BAD CB2S LABEL?]",
       "chip": "BK7231T",
       "board": "CB2S",
       "pins": {
@@ -3872,9 +3897,9 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4002300.html"
 	},
     {
-      "vendor": "LSC",
+      "vendor": "Action",
       "bDetailed": "0",
-      "name": "[BK7231T] Action LCS Smart Plug (without Energy Meter) 2578685 (WB2S version)",
+      "name": "LSC Smart Plug (without Energy Meter) 2578685 (WB2S version)",
       "chip": "BK7231T",
       "board": "WB2S",
       "pins": {
@@ -3885,7 +3910,6 @@
       },
       "command": "",
       "keywords": [
-        "Action",
         "2578685",
         "970761 v1.0",
         "this one is a WB2S version"
@@ -4118,7 +4142,7 @@
       "flag": 4352
     },
     {
-      "vendor": "LSC",
+      "vendor": "Action",
       "bDetailed": "0",
       "name": "LSC Outdoor Spotlight WB2S",
       "chip": "BK7231T",
@@ -6280,6 +6304,29 @@
 	  "image": "https://obrazki.elektroda.pl/3213249200_1705155801.png",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4028310.html"
 	},
+  {
+    "vendor": "Anslut",
+    "bDetailed": "0",
+    "name": "IP44 16A Smartplug with smart meter",
+    "model": "52153X36",
+    "chip": "BK7231N",
+    "board": "CB2S",
+    "flags": "134217728",
+    "keywords": [
+      "BLO942",
+      "TUYA",
+      "JULA"
+    ],
+    "pins": {
+      "6": "Btn;1",
+      "24": "Rel;1",
+      "26": "LED_n;1"
+    },
+    "command": "backlog startDriver NTP; startDriver BL0942;",
+    "image": "https://obrazki.elektroda.pl/1758523200_1733261393.png",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4091029.html"
+  },
+  
 	{
 	  "vendor": "Anslut",
 	  "bDetailed": "0",
@@ -6306,6 +6353,31 @@
 	  "image": "https://obrazki.elektroda.pl/1010758700_1705153499.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4028315.html"
 	},
+  {
+    "vendor": "SURFOU",
+    "bDetailed": "0",
+    "name": "Amazon Type E Smart WiFi Smart Socket 16A",
+    "model": "BSD33-F",
+    "chip": "LN882H",
+    "board": "WL2S",
+    "flags": "1024",
+    "keywords": [
+      "plug",
+      "tuya",
+      "BSD34-202110"
+    ],
+    "pins": {
+      "3": "Btn;0",
+      "7": "BL0937CF1;0",
+      "10": "WifiLED_n;1",
+      "11": "Rel;0",
+      "12": "BL0937CF;0",
+      "19": "BL0937SEL;0"
+    },
+    "command": "",
+    "image": "https://static.elektroda.pl/attach/71yUF8q0SBL__SX522__9911857.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4091943.html"
+  },  
 	{
 	  "vendor": "Onenuo",
 	  "bDetailed": "0",
@@ -7824,7 +7896,7 @@
 	{
 	  "vendor": "Action",
 	  "bDetailed": "0",
-	  "name": "Teardown Action LCS Smart Plug (with Energy Meter)",
+	  "name": "LSC Smart Plug (with Energy Meter)",
 	  "model": "3202087",
 	  "chip": "BK7231N",
 	  "board": "CB2S",
@@ -13296,7 +13368,40 @@
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/9759474100_1703514958.jpg",
 	  "wiki": "https://www.elektroda.pl/rtvforum/topic4026051.html"
-	},
+	}, 
+  {
+    "vendor": "Action",
+    "bDetailed": "0",
+    "name": "LSC Smart Digital LED Strip RGB WW CW 2x5m 2.4GHz",
+    "model": "3008407",
+    "chip": "BK7231N",
+    "board": "on PCB",
+    "flags": "16",
+    "keywords": [
+      "SM16703P",
+      "MOSI",
+      "pixelanim",
+      "addressable",
+      "microphone",
+      "strip lights",
+      "buttons",
+      "infra-red",
+      "RGBIC",
+      "K225P14"
+    ],
+    "pins": {
+      "6": "Btn_Tgl_All;0",
+      "7": "Btn_SmartLED;0",
+      "9": "PWM;5",
+      "16": "SM16703P_DIN;0",
+      "23": "ADC;0",
+      "24": "PWM;4",
+      "26": "IRRecv;0"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/1946337700_1733555575.png",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4090568.html"
+  },
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
@@ -13544,7 +13649,7 @@
       "power monitor",
       "BL0937",
       "LN882HKI",
-    "socket"
+      "socket"
     ],
     "pins": {
       "0": "LED;0",
