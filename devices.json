@@ -22,7 +22,6 @@
       "image": "https://obrazki.elektroda.pl/5120493600_1650616045.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3895572.html#20033093"
     },
-	  
     {
       "vendor": "Cozylife",
       "bDetailed": "0",
@@ -48,28 +47,28 @@
       "image": "https://obrazki.elektroda.pl/1590559700_1728852869.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic4081005.html"
     },
-	{
-  "vendor": "Moes",
-  "bDetailed": "0",
-  "name": "Tuya Matter RGBCW 9W E27 Bulb",
-  "model": "MWB-RCW",
-  "chip": "BK7231N",
-  "board": "CBLC5",
-  "flags": "1024",
-  "keywords": [
-    "LAMP",
-    "ES",
-    "light",
-	"240812-1002DF"
-  ],
-  "pins": {
-    "24": "BP5758D_DAT;0",
-    "26": "BP5758D_CLK;0"
+    {
+    "vendor": "Moes",
+    "bDetailed": "0",
+    "name": "Tuya Matter RGBCW 9W E27 Bulb",
+    "model": "MWB-RCW",
+    "chip": "BK7231N",
+    "board": "CBLC5",
+    "flags": "1024",
+    "keywords": [
+      "LAMP",
+      "ES",
+      "light",
+      "240812-1002DF"
+    ],
+    "pins": {
+      "24": "BP5758D_DAT;0",
+      "26": "BP5758D_CLK;0"
+    },
+    "command": "LED_Map 0 1 2 3 4",
+    "image": "https://obrazki.elektroda.pl/3524969400_1725644975.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4074263.html"
   },
-  "command": "LED_Map 0 1 2 3 4",
-  "image": "https://obrazki.elektroda.pl/3524969400_1725644975.jpg",
-  "wiki": "https://www.elektroda.com/rtvforum/topic4074263.html"
-},
     {
       "vendor": "GIRIER",
       "bDetailed": "0",
@@ -624,6 +623,27 @@
 	  "image": "https://obrazki.elektroda.pl/9582970800_1680176127.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3986611.html"
 	},
+  {
+    "vendor": "Moes",
+    "bDetailed": "0",
+    "name": "5W RGB+CCT E12 Candelabra Bulb",
+    "model": "FHZTDCM18136101",
+    "chip": "BK7231N",
+    "board": "on PCB",
+    "flags": "5120",
+    "keywords": [
+     "29.5X29.2SEJ21064",
+     "120v",
+     "lamp"
+    ],
+    "pins": {
+     "24": "BP5758D_DAT;0",
+     "26": "BP5758D_CLK;0"
+    },
+    "command": "BP5758D_Map 1 0 2 3 4",
+    "image": "https://obrazki.elektroda.pl/9559934300_1734119387.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4093154.html"
+  },
   {
     "vendor": "Poundland UK",
     "bDetailed": "0",
@@ -5014,26 +5034,26 @@
       "wiki": "https://www.elektroda.pl/rtvforum/topic3964754.html",
       "product": "https://allegro.pl/oferta/plafon-led-36w-4052lm-rgb-cct-wifi-tuya-smart-life-13125642453"
     },
-{
-  "vendor": "Akai Energy Smart",
-  "bDetailed": "0",
-  "name": "Enchufe WiFi energy metering plug",
-  "model": "1430",
-  "chip": "BK7231N",
-  "board": "CB2S",
-  "keywords": [],
-  "pins": {
-    "6": "Btn;1",
-    "7": "WifiLED_n;0",
-    "8": "Rel;1",
-    "10": "BL0937SEL;0",
-    "24": "BL0937CF;0",
-    "26": "BL0937CF1;0"
-  },
-  "command": "",
-  "image": "https://obrazki.elektroda.pl/3851045700_1722037868.jpg",
-  "wiki": "https://www.elektroda.com/rtvforum/topic4067449.html"
-},
+    {
+      "vendor": "Akai Energy Smart",
+      "bDetailed": "0",
+      "name": "Enchufe WiFi energy metering plug",
+      "model": "1430",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "keywords": [],
+      "pins": {
+        "6": "Btn;1",
+        "7": "WifiLED_n;0",
+        "8": "Rel;1",
+        "10": "BL0937SEL;0",
+        "24": "BL0937CF;0",
+        "26": "BL0937CF1;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/3851045700_1722037868.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4067449.html"
+    },
 	{
 		"vendor": "Tuya",
 		"bDetailed": "0",
@@ -5375,29 +5395,29 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic4031757.html",
       "product": ""
     },
-{
-  "vendor": "Tuya",
-  "bDetailed": "0",
-  "name": "Mini Smart Switch",
-  "model": "SmartSwitch",
-  "chip": "T34_2135K9WY2_Unmarked",
-  "board": "on PCB",
-  "flags": "0",
-  "keywords": [
-    "switch",
-    "relay",
-    "T34 2135K9WY2 Unmarked"
-  ],
-  "pins": {
-    "6": "LED_n;0;0",
-       "14": "TglChanOnTgl;0;0",
-    "15": "Rel;0;0",
-    "24": "Btn;0;0"
-  },
-  "command": "",
-  "image": "https://obrazki.elektroda.pl/2067320100_1728252633.jpg",
-  "wiki": "https://www.elektroda.com/rtvforum/topic4079733.html"
-},  
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Mini Smart Switch",
+      "model": "SmartSwitch",
+      "chip": "T34_2135K9WY2_Unmarked",
+      "board": "on PCB",
+      "flags": "0",
+      "keywords": [
+        "switch",
+        "relay",
+        "T34 2135K9WY2 Unmarked"
+      ],
+      "pins": {
+        "6": "LED_n;0;0",
+        "14": "TglChanOnTgl;0;0",
+        "15": "Rel;0;0",
+        "24": "Btn;0;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/2067320100_1728252633.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4079733.html"
+    },  
     {
       "vendor": "Tuya",
       "bDetailed": "0",
@@ -10245,26 +10265,26 @@
       "image": "https://obrazki.elektroda.pl/8023860200_1696476384.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic4006216.html"
     },
-{
-  "vendor": "Tuya",
-  "bDetailed": "1",
-  "name": "Shutters rollers controller module",
-  "model": "SB478/QS-WIFI-ECC02",
-  "chip": "BK7231N",
-  "board": "CB3S",
-  "keywords": ["Allegro","shutters","KP15051SP","AMS1117-3.3V"],
-  "pins": {
-    "6": "Rel;3",
-    "7": "Btn;3",
-    "8": "Btn;1",
-    "9": "WifiLED_n;0",
-    "24": "Rel;1",
-    "26": "Btn_Tgl_All;0"
-  },
-  "command": "",
-  "image": "https://obrazki.elektroda.pl/4025787800_1712480145.jpg",
-  "wiki": "https://www.elektroda.pl/rtvforum/topic4076328.html"
-}, 
+    {
+      "vendor": "Tuya",
+      "bDetailed": "1",
+      "name": "Shutters rollers controller module",
+      "model": "SB478/QS-WIFI-ECC02",
+      "chip": "BK7231N",
+      "board": "CB3S",
+      "keywords": ["Allegro","shutters","KP15051SP","AMS1117-3.3V"],
+      "pins": {
+        "6": "Rel;3",
+        "7": "Btn;3",
+        "8": "Btn;1",
+        "9": "WifiLED_n;0",
+        "24": "Rel;1",
+        "26": "Btn_Tgl_All;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/4025787800_1712480145.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic4076328.html"
+    }, 
     {
       "vendor": "Maxcio",
       "bDetailed": "0",
@@ -11607,7 +11627,6 @@
       "image": "https://obrazki.elektroda.pl/7069327900_1669279820.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20300613#20300613"
     },
-
     {
       "vendor": "ELEGRP",
       "bDetailed": "0",
@@ -11706,26 +11725,26 @@
       "image": "https://obrazki.elektroda.pl/1530383600_1670474695.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3939980.html"
     },
-{
-  "vendor": "Merkury",
-  "bDetailed": "0",
-  "name": "Merkury 1050lm 11W RGBW WiFi LED Bulb",
-  "model": "MI-BW210-999WW",
-  "chip": "BK7231T",
-  "board": "WB2L",
-  "flags": "16778240",
-  "keywords": [
-    "BP5758D",
-    "EBE-BAW419C"
-  ],
-  "pins": {
-    "7": "BP5758D_DAT;0",
-    "8": "BP5758D_CLK;0"
-  },
-  "command": "backlog startDriver BP5758D; BP5758D_Map 2 1 0 4 3; BP5758D_Current 29 65",
-  "image": "https://obrazki.elektroda.pl/8308439600_1685054084.jpg",
-  "wiki": "https://www.elektroda.com/rtvforum/topic3980300.html"
-},
+    {
+      "vendor": "Merkury",
+      "bDetailed": "0",
+      "name": "Merkury 1050lm 11W RGBW WiFi LED Bulb",
+      "model": "MI-BW210-999WW",
+      "chip": "BK7231T",
+      "board": "WB2L",
+      "flags": "16778240",
+      "keywords": [
+        "BP5758D",
+        "EBE-BAW419C"
+      ],
+      "pins": {
+        "7": "BP5758D_DAT;0",
+        "8": "BP5758D_CLK;0"
+      },
+      "command": "backlog startDriver BP5758D; BP5758D_Map 2 1 0 4 3; BP5758D_Current 29 65",
+      "image": "https://obrazki.elektroda.pl/8308439600_1685054084.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3980300.html"
+    },
     {
       "vendor": "Merkury",
       "bDetailed": "0",
