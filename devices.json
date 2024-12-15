@@ -4815,6 +4815,25 @@
       "image": "https://obrazki.elektroda.pl/8487529500_1667287453.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3930515.html"
     },
+    {
+      "vendor": "TP-Link",
+      "bDetailed": "0",
+      "name": "Tapo 10A Smart Plug Socket - UK ",
+      "model": "P100",
+      "chip": "RTL8720CF",
+      "board": "on PCB",
+      "flags": "1024",
+      "keywords": [
+        "realtek"],
+      "pins": {
+        "8": "Rel;1",
+        "10": "LED_n;1",
+        "17": "Btn;1"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/4758714100_1734277864.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4093507.html"
+    },
 	{
 	  "vendor": "AQIA",
 	  "bDetailed": "0",
