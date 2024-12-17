@@ -9733,7 +9733,7 @@
       "name": "WiFi Intelligent Curtain Switch Module",
       "model": "QS-WiFi-CP03",
       "chip": "BK7231N",
-      "board": "Roleta_6",
+      "board": "",
       "flags": "1156",
       "keywords": [
       ],
