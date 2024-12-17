@@ -9730,6 +9730,27 @@
     {
       "vendor": "Tuya",
       "bDetailed": "0",
+      "name": "WiFi Intelligent Curtain Switch Module",
+      "model": "QS-WiFi-CP03",
+      "chip": "BK7231N",
+      "board": "Roleta_6",
+      "flags": "1156",
+      "keywords": [
+      ],
+      "pins": {
+        "6": "Btn;1",
+        "8": "Btn;2",
+        "9": "Rel;1",
+        "23": "Btn;0",
+        "24": "Rel;2"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/5109864500_1734381589.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21351411#21351411"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
       "name": "Smart Plug 16A ЕU AU UK + 2.1A Dual Independent USB (Config Type 1)",
       "model": "LSPA2",
       "chip": "BK7231N",
