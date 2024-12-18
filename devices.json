@@ -12091,6 +12091,27 @@
 	  "image": "https://static.elektroda.pl/attach/lsc_smart_plug_1266846.png",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4038087.html"
 	},
+  {
+	  "vendor": "Yieri",
+	  "bDetailed": "0",
+	  "name": "Tuya Smart PH ORP TDS EC Salt s. G TEMP CF Water Quality Meter",
+	  "model": "PH-218",
+	  "chip": "BK7231N",
+	  "board": "CB3S",
+	  "flags": "1024",
+	  "keywords": [
+      "aquarium",
+      "logger",
+      "meter",
+      "TuyaMCU",
+      "GLGAX-055230"
+	  ],
+	  "pins": {
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/3416841300_1697641496.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4008803.html"
+	},
 	{
 	  "vendor": "LSC",
 	  "bDetailed": "0",
