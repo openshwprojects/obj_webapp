@@ -12102,15 +12102,36 @@
 	  "keywords": [
       "aquarium",
       "logger",
-      "meter",
       "TuyaMCU",
-      "GLGAX-055230"
+      "GLGAX-055230",
+      "tester"
 	  ],
 	  "pins": {
 	  },
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/3416841300_1697641496.png",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4008803.html"
+	},
+  {
+	  "vendor": "Yieri",
+	  "bDetailed": "0",
+	  "name": "Yinmik Tuya 7-in-1 Online Water Quality Meter",
+	  "model": "WIFI-3188",
+	  "chip": "BK7231N",
+	  "board": "CBU",
+	  "flags": "1024",
+	  "keywords": [
+      "aquarium",
+      "logger",
+      "TuyaMCU",
+      "itoolbro",
+      "tester"
+	  ],
+	  "pins": {
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/7737448200_1734381638.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4093783.html"
 	},
 	{
 	  "vendor": "LSC",
