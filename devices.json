@@ -12107,9 +12107,7 @@
     ],
     "pins": {
       "24": "BP5758D_DAT;0",
-      "26": "BP5758D_CLK;0",
-      "10": "BUTTON;0", 
-      "6": "LED;0"
+      "26": "BP5758D_CLK;0"
     },
     "command": "startDriver BP5758D",
     "image": "https://obrazki.elektroda.pl/6585239000_1734297139.jpg",
