@@ -4815,6 +4815,25 @@
       "image": "https://obrazki.elektroda.pl/8487529500_1667287453.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3930515.html"
     },
+    {
+      "vendor": "TP-Link",
+      "bDetailed": "0",
+      "name": "Tapo 10A Smart Plug Socket - UK ",
+      "model": "P100",
+      "chip": "RTL8720CF",
+      "board": "on PCB",
+      "flags": "1024",
+      "keywords": [
+        "realtek"],
+      "pins": {
+        "8": "Rel;1",
+        "10": "LED_n;1",
+        "17": "Btn;1"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/4758714100_1734277864.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4093507.html"
+    },
 	{
 	  "vendor": "AQIA",
 	  "bDetailed": "0",
@@ -9711,6 +9730,28 @@
     {
       "vendor": "Tuya",
       "bDetailed": "0",
+      "name": "WiFi Intelligent Curtain Switch Module",
+      "model": "QS-WiFi-CP03",
+      "chip": "BK7231N",
+      "board": "",
+      "flags": "1156",
+      "keywords": [
+        "fJkw/9.22"
+      ],
+      "pins": {
+        "6": "Btn;1",
+        "8": "Btn;2",
+        "9": "Rel;1",
+        "23": "Btn;0",
+        "24": "Rel;2"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/5109864500_1734381589.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21351411#21351411"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
       "name": "Smart Plug 16A ЕU AU UK + 2.1A Dual Independent USB (Config Type 1)",
       "model": "LSPA2",
       "chip": "BK7231N",
@@ -12049,6 +12090,48 @@
 	  "command": "",
 	  "image": "https://static.elektroda.pl/attach/lsc_smart_plug_1266846.png",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4038087.html"
+	},
+  {
+	  "vendor": "Yieri",
+	  "bDetailed": "0",
+	  "name": "Tuya Smart PH ORP TDS EC Salt s. G TEMP CF Water Quality Meter",
+	  "model": "PH-218",
+	  "chip": "BK7231N",
+	  "board": "CB3S",
+	  "flags": "1024",
+	  "keywords": [
+      "aquarium",
+      "logger",
+      "TuyaMCU",
+      "GLGAX-055230",
+      "tester"
+	  ],
+	  "pins": {
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/3416841300_1697641496.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4008803.html"
+	},
+  {
+	  "vendor": "Yieri",
+	  "bDetailed": "0",
+	  "name": "Yinmik Tuya 7-in-1 Online Water Quality Meter",
+	  "model": "WIFI-3188",
+	  "chip": "BK7231N",
+	  "board": "CBU",
+	  "flags": "1024",
+	  "keywords": [
+      "aquarium",
+      "logger",
+      "TuyaMCU",
+      "itoolbro",
+      "tester"
+	  ],
+	  "pins": {
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/7737448200_1734381638.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4093783.html"
 	},
 	{
 	  "vendor": "LSC",
