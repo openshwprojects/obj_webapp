@@ -13549,6 +13549,30 @@
 	  "image": "https://obrazki.elektroda.pl/5275845800_1704325195_thumb.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20890516"
 	},
+  {
+    "vendor": "Action",
+    "bDetailed": "0",
+    "name": "LSC Smart connect LED Lamp A60 RGB-CCT 806LM 8W 2700-6500K E27",
+    "model": "970719.1",
+    "chip": "BK7231T",
+    "board": "WBLC9",
+    "flags": "1024",
+    "keywords": [
+      "LIGHT",
+      "bulb",
+      "A60P1-WR-8W-T1"
+    ],
+    "pins": {
+      "7": "PWM;5",
+      "8": "PWM;1",
+      "9": "PWM;2",
+      "24": "PWM;3",
+      "26": "PWM;4"
+    },
+    "command": "backlog powersave 1; pwmfrequency 1000",
+    "image": "https://obrazki.elektroda.pl/3888664700_1734559289.png",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4094053.html"
+  },
 	{
 	  "vendor": "KingArt",
 	  "bDetailed": "0",
