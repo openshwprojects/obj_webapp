@@ -12095,14 +12095,15 @@
     "vendor": "Home Awesome",
     "bDetailed": "0",
     "name": "14W 120V RGB+CCT 1400LM E26 Bulb",
-    "model": "EBE-BAW577-F ",
+    "model": "EBE-BAW577-F",
     "chip": "BK7231N",
     "board": "CBLC5",
     "flags": "5120",
     "keywords": [
       "2AJ3WEBEBAW541",
       "lamp",
-      "BP5758D"
+      "BP5758D",
+      "light"
     ],
     "pins": {
       "24": "BP5758D_DAT;0",
