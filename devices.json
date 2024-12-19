@@ -12092,7 +12092,29 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4038087.html"
 	},
   {
-	  "vendor": "Yieri",
+    "vendor": "Home Awesome",
+    "bDetailed": "0",
+    "name": "14W 120V RGB+CCT 1400LM E26 Bulb",
+    "model": "EBE-BAW577-F",
+    "chip": "BK7231N",
+    "board": "CBLC5",
+    "flags": "5120",
+    "keywords": [
+      "2AJ3WEBEBAW541",
+      "lamp",
+      "BP5758D",
+      "light"
+    ],
+    "pins": {
+      "24": "BP5758D_DAT;0",
+      "26": "BP5758D_CLK;0"
+    },
+    "command": "backlog startdriver bp5758D; BP5758D_Map 2 0 1 3 4",
+    "image": "https://obrazki.elektroda.pl/6585239000_1734297139.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4093574.html"
+  },  
+  {
+	  "vendor": "Yieryi",
 	  "bDetailed": "0",
 	  "name": "Tuya Smart PH ORP TDS EC Salt s. G TEMP CF Water Quality Meter",
 	  "model": "PH-218",
@@ -12113,7 +12135,7 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4008803.html"
 	},
   {
-	  "vendor": "Yieri",
+	  "vendor": "Yieryi",
 	  "bDetailed": "0",
 	  "name": "Yinmik Tuya 7-in-1 Online Water Quality Meter",
 	  "model": "WIFI-3188",
@@ -13527,6 +13549,30 @@
 	  "image": "https://obrazki.elektroda.pl/5275845800_1704325195_thumb.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20890516"
 	},
+  {
+    "vendor": "Action",
+    "bDetailed": "0",
+    "name": "LSC Smart connect LED Lamp A60 RGB-CCT 806LM 8W 2700-6500K E27",
+    "model": "970719.1",
+    "chip": "BK7231T",
+    "board": "WBLC9",
+    "flags": "1024",
+    "keywords": [
+      "LIGHT",
+      "bulb",
+      "A60P1-WR-8W-T1"
+    ],
+    "pins": {
+      "7": "PWM;5",
+      "8": "PWM;1",
+      "9": "PWM;2",
+      "24": "PWM;3",
+      "26": "PWM;4"
+    },
+    "command": "backlog powersave 1; pwmfrequency 1000",
+    "image": "https://obrazki.elektroda.pl/3888664700_1734559289.png",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4094053.html"
+  },
 	{
 	  "vendor": "KingArt",
 	  "bDetailed": "0",
