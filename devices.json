@@ -6692,6 +6692,27 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3962386.html"
     },
     {
+      "vendor": "Action",
+      "bDetailed": "0",
+      "name": "LSC Smart Connect 1500lm 22W Ceiling Lamp",
+      "model": "3206306",
+      "chip": "BK7231N",
+      "board": "on PCB",
+      "flags": "267264",
+      "keywords": [
+        "Deckenlampe",
+        "light"
+      ],
+      "pins": {
+        "16": "SM16703P_DIN;47",
+        "24": "PWM;5",
+        "26": "PWM;4"
+      },
+      "command": "startDriver SM16703P; SM16703P_Init 120; startDriver PixelAnim;",
+      "image": "https://obrazki.elektroda.pl/2568990700_1735106079.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4095226.html"
+    },
+    {
       "vendor": "Tuya",
       "name": "Water Leak Detector CB3S (BK7231N) without tuyaMCU",
       "chip": "BK7231N",
