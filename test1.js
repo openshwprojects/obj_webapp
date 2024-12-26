@@ -1,5 +1,23 @@
 
-function createBeforeMain() {
+
+var g_selectedPin;
+const pins = [];
+var ctx;
+var canvas;
+var image;
+
+function selectPinByName(name)
+{
+    g_selectedPin = pins.find(pin => pin.name === name) || null;
+}
+function handleMouseEnter(event) {
+  console.log(event.target.textContent.trim());
+  const firstToken = event.target.textContent.trim().split(' ')[0];
+  selectPinByName(firstToken);
+  drawPins();
+}
+
+function createBeforeMainInternal() {
     const newDiv = document.createElement("div");
     newDiv.style.float = "left";
     newDiv.style.position = "sticky";
@@ -11,21 +29,15 @@ function createBeforeMain() {
         mainDiv.parentNode.insertBefore(newDiv, mainDiv);
     }
 
+	document.querySelectorAll('.hdiv .disp-inline').forEach(span => {
+	  span.addEventListener('mouseenter', handleMouseEnter);
+	});
     createCanvasInElement("pinsDiv"); 
 }
-function createCanvasInElement(id) {
-    const canvas = document.createElement("canvas");
-    canvas.id = "pinCanvas";
-    canvas.width = 600;
-    canvas.height = 600;
-    document.getElementById(id).appendChild(canvas);
 
-    const ctx = canvas.getContext("2d");
-
-    const image = new Image();
-    image.src = "https://i.imgur.com/l3osEzH.png";
-
-    const pins = [];
+function createBeforeMain() {
+    window.addEventListener('load', createBeforeMainInternal);
+}
 
     function createPins() {
         const leftStartX = 50;
@@ -38,7 +50,7 @@ function createCanvasInElement(id) {
         const rightPinCount = 15;
 
         const leftPinNames = [
-            "ADC0", "GND", "VUSB", "GPIO10", "GPIO9", "MOSI", "CS", "MISO", "SCLK",
+            "P23", "GND", "P20", "P21", "P22", "P23", "P22", "MISO", "SCLK",
             "GND", "3.3V", "EN", "RST", "GND", "Vin"
         ];
         const rightPinNames = [
@@ -118,10 +130,14 @@ function createCanvasInElement(id) {
                 mouseY <= pin.y - 15 + pin.height;
 
             if (isMouseOver) {
+				selectPinByName(pin.name);
+            }
+			if(g_selectedPin == pin)
+			{
                 ctx.strokeStyle = "red";
                 ctx.lineWidth = 3;
                 ctx.strokeRect(pin.x - 8, pin.y - 18, pin.width + 6, pin.height + 6);
-            }
+			}
             var handleX;
             if (pin.angle == 0) {
                 handleX = pin.x + pin.width;
@@ -138,6 +154,19 @@ function createCanvasInElement(id) {
             ctx.fillText(pin.name, pin.x, pin.y);
         });
     }
+function createCanvasInElement(id) {
+    canvas = document.createElement("canvas");
+    canvas.id = "pinCanvas";
+    canvas.width = 600;
+    canvas.height = 600;
+    document.getElementById(id).appendChild(canvas);
+
+    ctx = canvas.getContext("2d");
+
+    image = new Image();
+    image.src = "https://i.imgur.com/l3osEzH.png";
+
+
 
     image.onload = () => {
         createPins();
