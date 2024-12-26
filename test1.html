@@ -11,16 +11,17 @@
         const ctx = canvas.getContext("2d");
 
         const image = new Image();
-        image.src = "https://i.imgur.com/ItvwijZ.png";
+        //image.src = "https://i.imgur.com/ItvwijZ.png";
+        image.src = "https://i.imgur.com/P6tvro5.png";
 
         const pins = [];
 
         function createPins() {
-            const leftStartX = 35;
-            const rightStartX = 630;
+            //const leftStartX = 35;
+           // const rightStartX = 630;
 			
-            //const leftStartX = 105;
-            //const rightStartX = 560;
+            const leftStartX = 105;
+            const rightStartX = 560;
 			
             const leftStartY = 115;
             const leftStepY = 25.5;
@@ -63,7 +64,7 @@
 				"GND",
 				"3.3V"
 			];
-			function createPin(name, x, y, width, height) {
+			function createPin(name, x, y, width, height, angle) {
 				// hack
 				if(name == "GND") {
 					name = "GND#000000#FFFFFF";
@@ -78,7 +79,8 @@
 					width,
 					height,
 					backgroundColor,
-					fontColor
+					fontColor,
+					angle
 				});
 			}
 
@@ -92,15 +94,37 @@
             for (let i = 0; i < leftPinCount; i++) {
                 const x = leftStartX;
                 const y = leftStartY + i * leftStepY;
-                createPin(leftPinNames[i], x, y, 70, 20);
+                createPin(leftPinNames[i], x, y, 70, 20, 0);
             }
 
             for (let i = 0; i < rightPinCount; i++) {
                 const x = rightStartX;
                 const y = rightStartY + i * rightStepY;
-                createPin(rightPinNames[i], x, y, 70, 20);
+                createPin(rightPinNames[i], x, y, 70, 20, 180);
             }
         }
+		function drawHandle(x, y, angle, len)
+		{
+			var len = 50;
+			var tgX = x + len * Math.cos(angle * Math.PI / 180);
+			var tgY = y + len * Math.sin(angle * Math.PI / 180);
+			// line
+            ctx.beginPath();
+            ctx.moveTo(x, y);
+            ctx.lineTo(tgX, tgY);
+            ctx.strokeStyle = "gray"; 
+            ctx.lineWidth = 3; 
+            ctx.stroke(); 
+            ctx.closePath();
+			
+			// circ
+            ctx.beginPath();
+            ctx.arc(tgX, tgY, 10, 0, 2 * Math.PI); 
+            ctx.fillStyle = "blue";
+            ctx.fill(); 
+            ctx.closePath();
+
+		}
 
         function drawPins(mouseX = null, mouseY = null) {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -119,6 +143,13 @@
                     ctx.lineWidth = 3;
                     ctx.strokeRect(pin.x - 8, pin.y - 18, pin.width + 6, pin.height + 6);
                 }
+				var handleX;
+				if(pin.angle == 0) {
+					handleX = pin.x+pin.width;
+				} else {
+					handleX = pin.x - 8;
+				}
+				drawHandle(handleX, pin.y-7, pin.angle);
 
                 ctx.fillStyle = pin.backgroundColor;
                 ctx.fillRect(pin.x - 5, pin.y - 15, pin.width, pin.height);
