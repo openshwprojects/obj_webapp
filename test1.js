@@ -16,7 +16,36 @@ function handleMouseEnter(event) {
   selectPinByName(firstToken);
   drawPins();
 }
+function onBoardChange(event) {
+   console.log(`Selected board: ${event.target.value}`);
+}
+function createDropdownInElement(id) {
+    const dropdown = document.createElement("select");
+    dropdown.id = "boardDropdown";
+    dropdown.style.marginBottom = "10px";
 
+    const label = document.createElement("label");
+    label.htmlFor = "boardDropdown";
+    label.textContent = "Select board: ";
+    label.style.display = "block";
+    label.style.marginBottom = "5px";
+
+    const sampleBoards = ["Board A", "Board B", "Board C"];
+    sampleBoards.forEach(board => {
+        const option = document.createElement("option");
+        option.value = board;
+        option.textContent = board;
+        dropdown.appendChild(option);
+    });
+
+    dropdown.addEventListener("change", (event) => {
+		onBoardChange(event);
+    });
+
+    const container = document.getElementById(id);
+    container.insertBefore(label, container.firstChild);
+    container.insertBefore(dropdown, label.nextSibling);
+}
 function createBeforeMainInternal() {
     const newDiv = document.createElement("div");
     newDiv.style.float = "left";
@@ -40,6 +69,9 @@ function createBeforeMain() {
 }
 
     function createPins() {
+		
+		// board info start
+		const boardName = "NodeMCU-CB3S";
         const leftStartX = 50;
         const rightStartX = 474;
         const leftStartY = 122;
@@ -50,13 +82,14 @@ function createBeforeMain() {
         const rightPinCount = 15;
 
         const leftPinNames = [
-            "P23", "GND", "P20", "P21", "P22", "P23", "P22", "MISO", "SCLK",
-            "GND", "3.3V", "EN", "RST", "GND", "Vin"
+            "P23", "GND", "VUSB", "P20", "P21", "P22", "P23", "P22", "P23", 
+            "GND", "3.3V", "EN", "CEN", "GND", "Vin"
         ];
         const rightPinNames = [
-            "GPIO16", "GPIO5", "GPIO4", "GPIO0", "GPIO2", "3.3V", "GND", "GPIO14", "GPIO12",
-            "GPIO13", "GPIO15", "GPIO3", "GPIO1", "GND", "3.3V"
+            "P14", "P7", "P8", "P1", "P0", "3.3V", "GND", "P26", "P24",
+            "P6", "P9", "P10", "P11", "GND", "3.3V"
         ];
+		// board info end
 
         function createPin(name, x, y, width, height, angle) {
             if(name == "GND") {
@@ -132,7 +165,7 @@ function createBeforeMain() {
             if (isMouseOver) {
 				selectPinByName(pin.name);
             }
-			if(g_selectedPin == pin)
+			if(g_selectedPin && g_selectedPin.name == pin.name)
 			{
                 ctx.strokeStyle = "red";
                 ctx.lineWidth = 3;
@@ -179,4 +212,5 @@ function createCanvasInElement(id) {
         const mouseY = event.clientY - rect.top;
         drawPins(mouseX, mouseY);
     });
+    createDropdownInElement(id);
 }
