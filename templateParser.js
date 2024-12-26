@@ -300,7 +300,7 @@ function processJSON_OpenBekenTemplateStyle(tmpl) {
       }
       if(tmpl.command != undefined) {
         if(tmpl.command.length > 0) {
-            scr += "StartupCommand "+tmpl.command+"\n";
+            scr += "StartupCommand \""+tmpl.command+"\"\n";
             desc += "- StartupCommand is set to " + tmpl.command +"\n";
         }
       }
