@@ -5,7 +5,25 @@ let boards = [];
 
  boards = [
     {
+        name: "CBU",
+		chip: "BK7231N",
+        image: "https://i.imgur.com/UpzQer7.png",
+        leftPins: ["P23", "GND", "VUSB", "P20", "P21", "P22", "P23"],
+        rightPins: ["P14", "P7", "P8", "P1", "P0", "3.3V", "GND"],
+        botPins: ["P14", "P7", "P8", "P1", "P0", "3.3V", "GND"],
+        botStartX: 50,
+        botStartY: 376,
+        botStepX: 25.5,
+        leftStartX: 50,
+        leftStartY: 176,
+        leftStepY: 25.5,
+        rightStartX: 474,
+        rightStartY: 176,
+        rightStepY: 25.4
+    },
+    {
         name: "NodeMCU-CB3S",
+		chip: "BK7231N",
         image: "https://i.imgur.com/l3osEzH.png",
         leftPins: ["P23", "GND", "VUSB", "P20", "P21", "P22", "P23", "P22", "P23", "GND", "3.3V", "EN", "CEN", "GND", "Vin"],
         rightPins: ["P14", "P7", "P8", "P1", "P0", "3.3V", "GND", "P26", "P24", "P6", "P9", "P10", "P11", "GND", "3.3V"],
@@ -13,13 +31,12 @@ let boards = [];
         rightStartX: 474,
         leftStartY: 122,
         leftStepY: 25.5,
-        leftPinCount: 15,
         rightStartY: 107,
-        rightStepY: 25.4,
-        rightPinCount: 15
+        rightStepY: 25.4
     },
     {
-        name: "Board B",
+        name: "NodeMCU-WB3S",
+		chip: "BK7231T",
         image: "https://i.imgur.com/anotherBoardImage.png",
         leftPins: ["P23", "GND", "VUSB", "P20", "P21", "P22", "P23", "P22", "P23", "GND", "3.3V", "EN", "CEN", "GND", "Vin"],
         rightPins: ["P14", "P7", "P8", "P1", "P0", "3.3V", "GND", "P26", "P24", "P6", "P9", "P10", "P11", "GND", "3.3V"],
@@ -27,10 +44,8 @@ let boards = [];
         rightStartX: 474,
         leftStartY: 122,
         leftStepY: 25.5,
-        leftPinCount: 15,
         rightStartY: 107,
-        rightStepY: 25.4,
-        rightPinCount: 15
+        rightStepY: 25.4
     }
 ];
 
@@ -64,7 +79,7 @@ function setBoard(board) {
     if (currentBoard) {
         pins.length = 0; // Clear existing pins
 		image = new Image();
-		image.src = "https://i.imgur.com/l3osEzH.png";
+		image.src = currentBoard.image;
 
 		image.onload = () => {
 			if (boards.length > 0) {
@@ -124,16 +139,21 @@ function createPins(board) {
         return { name, backgroundColor, fontColor };
     }
 
-    for (let i = 0; i < board.leftPinCount; i++) {
+    for (let i = 0; i < board.leftPins.length; i++) {
         const x = board.leftStartX;
         const y = board.leftStartY + i * board.leftStepY;
         createPin(board.leftPins[i], x, y, 70, 20, 0);
     }
 
-    for (let i = 0; i < board.rightPinCount; i++) {
+    for (let i = 0; i < board.rightPins.length; i++) {
         const x = board.rightStartX;
         const y = board.rightStartY + i * board.rightStepY;
         createPin(board.rightPins[i], x, y, 70, 20, 180);
+    }
+    for (let i = 0; i < board.botPins.length; i++) {
+        const x = board.botStartX + i * board.botStepX;
+        const y = board.botStartY;
+        createPin(board.botPins[i], x, y, 70, 20, 270);
     }
 }
 
