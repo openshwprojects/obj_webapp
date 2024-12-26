@@ -5,14 +5,14 @@
 </head>
 <body>
 	<h1> Hover mouse over pin to higlight</h1>
-    <canvas id="pinCanvas" width="800" height="600"></canvas>
+    <canvas id="pinCanvas" width="600" height="600"></canvas>
     <script>
         const canvas = document.getElementById("pinCanvas");
         const ctx = canvas.getContext("2d");
 
         const image = new Image();
         //image.src = "https://i.imgur.com/ItvwijZ.png";
-        image.src = "https://i.imgur.com/P6tvro5.png";
+        image.src = "https://i.imgur.com/l3osEzH.png";
 
         const pins = [];
 
@@ -20,15 +20,15 @@
             //const leftStartX = 35;
            // const rightStartX = 630;
 			
-            const leftStartX = 105;
-            const rightStartX = 560;
+            const leftStartX = 50;
+            const rightStartX = 474;
 			
-            const leftStartY = 115;
+            const leftStartY = 122;
             const leftStepY = 25.5;
             const leftPinCount = 15;
 
-            const rightStartY = 100;
-            const rightStepY = 25.5;
+            const rightStartY = 107;
+            const rightStepY = 25.4;
             const rightPinCount = 15;
 			const leftPinNames = [
 				"ADC0",
