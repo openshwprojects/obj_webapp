@@ -4,13 +4,14 @@ function createBeforeMain() {
     newDiv.style.float = "left";
     newDiv.style.position = "sticky";
     newDiv.style.top = "0";
+    newDiv.id = "pinsDiv";
     
     const mainDiv = document.getElementById("main");
     if (mainDiv) {
         mainDiv.parentNode.insertBefore(newDiv, mainDiv);
     }
 
-    createCanvasInElement(newDiv); 
+    createCanvasInElement("pinsDiv"); 
 }
 function createCanvasInElement(id) {
     const canvas = document.createElement("canvas");
