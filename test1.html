@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pin Labels</title>
+</head>
+<body>
+	<h1> Hover mouse over pin to higlight</h1>
+    <canvas id="pinCanvas" width="800" height="600"></canvas>
+    <script>
+        const canvas = document.getElementById("pinCanvas");
+        const ctx = canvas.getContext("2d");
+
+        const image = new Image();
+        image.src = "https://i.imgur.com/ItvwijZ.png";
+
+        const pins = [];
+
+        function createPins() {
+            const leftStartX = 35;
+            const rightStartX = 630;
+			
+            //const leftStartX = 105;
+            //const rightStartX = 560;
+			
+            const leftStartY = 115;
+            const leftStepY = 25.5;
+            const leftPinCount = 15;
+
+            const rightStartY = 100;
+            const rightStepY = 25.5;
+            const rightPinCount = 15;
+			const leftPinNames = [
+				"ADC0",
+				"GND",
+				"VUSB",
+				"GPIO10",
+				"GPIO9",
+				"MOSI",
+				"CS",
+				"MISO",
+				"SCLK",
+				"GND",
+				"3.3V",
+				"EN",
+				"RST",
+				"GND",
+				"Vin"
+			];
+			const rightPinNames = [
+				"GPIO16",
+				"GPIO5",
+				"GPIO4",
+				"GPIO0",
+				"GPIO2",
+                "3.3V",
+				"GND",
+				"GPIO14",
+				"GPIO12",
+				"GPIO13",
+				"GPIO15",
+				"GPIO3",
+				"GPIO1",
+				"GND",
+				"3.3V"
+			];
+			function createPin(name, x, y, width, height) {
+				// hack
+				if(name == "GND") {
+					name = "GND#000000#FFFFFF";
+				} else if(name == "3.3V") {
+					name = "3.3V#FF0000#000000";
+				}
+				const { name: pinName, backgroundColor, fontColor } = parsePinName(name);
+				pins.push({
+					name: pinName,
+					x,
+					y,
+					width,
+					height,
+					backgroundColor,
+					fontColor
+				});
+			}
+
+			function parsePinName(pinName) {
+				const parts = pinName.split('#');
+				const name = parts[0];    
+				const backgroundColor = parts[1] ? '#' + parts[1] : 'gray';
+				const fontColor = parts[2] ? '#' + parts[2] : 'black';
+				return { name, backgroundColor, fontColor };
+			}
+            for (let i = 0; i < leftPinCount; i++) {
+                const x = leftStartX;
+                const y = leftStartY + i * leftStepY;
+                createPin(leftPinNames[i], x, y, 70, 20);
+            }
+
+            for (let i = 0; i < rightPinCount; i++) {
+                const x = rightStartX;
+                const y = rightStartY + i * rightStepY;
+                createPin(rightPinNames[i], x, y, 70, 20);
+            }
+        }
+
+        function drawPins(mouseX = null, mouseY = null) {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
+
+            pins.forEach(pin => {
+                const isMouseOver =
+                    mouseX !== null &&
+                    mouseX >= pin.x - 5 &&
+                    mouseX <= pin.x - 5 + pin.width &&
+                    mouseY >= pin.y - 15 &&
+                    mouseY <= pin.y - 15 + pin.height;
+
+                if (isMouseOver) {
+                    ctx.strokeStyle = "red";
+                    ctx.lineWidth = 3;
+                    ctx.strokeRect(pin.x - 8, pin.y - 18, pin.width + 6, pin.height + 6);
+                }
+
+                ctx.fillStyle = pin.backgroundColor;
+                ctx.fillRect(pin.x - 5, pin.y - 15, pin.width, pin.height);
+
+				ctx.font = "16px Arial"; 
+                ctx.fillStyle = pin.fontColor;
+                ctx.fillText(pin.name, pin.x, pin.y);
+            });
+        }
+
+        image.onload = () => {
+            createPins();
+            drawPins();
+        };
+
+        canvas.addEventListener("mousemove", (event) => {
+            const rect = canvas.getBoundingClientRect();
+            const mouseX = event.clientX - rect.left;
+            const mouseY = event.clientY - rect.top;
+            drawPins(mouseX, mouseY);
+        });
+    </script>
+</body>
+</html>
