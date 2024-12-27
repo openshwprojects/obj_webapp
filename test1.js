@@ -78,13 +78,12 @@ function setBoard(board) {
 	currentBoard = board;
     if (currentBoard) {
         pins.length = 0; // Clear existing pins
+		createPins(currentBoard);
 		image = new Image();
 		image.src = currentBoard.image;
 
 		image.onload = () => {
 			if (boards.length > 0) {
-				currentBoard = boards[0];
-				createPins(currentBoard);
 				drawPins();
 			}
 		};
@@ -150,11 +149,13 @@ function createPins(board) {
         const y = board.rightStartY + i * board.rightStepY;
         createPin(board.rightPins[i], x, y, 70, 20, 180);
     }
-    for (let i = 0; i < board.botPins.length; i++) {
-        const x = board.botStartX + i * board.botStepX;
-        const y = board.botStartY;
-        createPin(board.botPins[i], x, y, 70, 20, 270);
-    }
+	if(board.botPins) { 
+		for (let i = 0; i < board.botPins.length; i++) {
+			const x = board.botStartX + i * board.botStepX;
+			const y = board.botStartY;
+			createPin(board.botPins[i], x, y, 70, 20, 270);
+		}
+	}
 }
 
 function drawPins(mouseX = null, mouseY = null) {
@@ -162,7 +163,22 @@ function drawPins(mouseX = null, mouseY = null) {
     ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
 
     pins.forEach(pin => {
+						let degrees = pin.angle;
+				
+    ctx.save(); 
+	if(degrees == 270) 
+	{
+    const centerX = pin.x + pin.width / 2;
+    const centerY = pin.y + pin.height / 2;
+
+    ctx.translate(centerX, centerY);
+    ctx.rotate((degrees * Math.PI) / 180);
+    ctx.translate(-centerX, -centerY);
+	
 		
+	}
+	
+	
             if(pin.name == "GND") {
                 pin.fontColor = "#FFFFFF";
                 pin.backgroundColor = "#000000";
@@ -185,15 +201,23 @@ function drawPins(mouseX = null, mouseY = null) {
             ctx.strokeRect(pin.x - 8, pin.y - 18, pin.width + 6, pin.height + 6);
         }
 
-        const handleX = pin.angle === 0 ? pin.x + pin.width : pin.x - 8;
-        drawHandle(handleX, pin.y - 7, pin.angle);
-
+        var handleX;
+		if(pin.angle == 0) {
+			handleX = pin.x + pin.width;
+		} else if(pin.angle == 270){
+			handleX = pin.x + 22;
+		} else {
+			handleX = pin.x - 8;
+		}
         ctx.fillStyle = pin.backgroundColor;
         ctx.fillRect(pin.x - 5, pin.y - 15, pin.width, pin.height);
 
         ctx.font = "16px Arial";
         ctx.fillStyle = pin.fontColor;
         ctx.fillText(pin.name, pin.x, pin.y);
+				
+    ctx.restore();
+        drawHandle(handleX, pin.y - 7, pin.angle);
     });
 }
 
