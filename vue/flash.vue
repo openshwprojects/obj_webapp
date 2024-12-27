@@ -45,8 +45,8 @@
                 <td></td>
             </tr>
             <tr>
-                <td>  <button @click="readTuyaConfig(null, $event)">Read Tuya GPIO Config from 0x1EE000</button></td>
-                <td> <button @click="downloadTuyaConfig(null, $event)">Download Tuya GPIO Config from 0x1EE000</button></td>
+                <td>  <button @click="readTuyaConfig(null, $event)">Read Tuya GPIO Config</button></td>
+                <td> <button @click="downloadTuyaConfig(null, $event)">Download Tuya GPIO Config</button></td>
                 <td></td>
                 <td></td>
             </tr>
@@ -371,13 +371,6 @@
 	        })
 	        .catch(err => console.error(err)); 
 	},  
-        downloadTuyaConfig() {
-            this.fullDumpFlashStart = 2023424;
-            this.fullDumpFlashSize = 73728;
-            this.fullDumpStyle = "TuyaConfig";
-            // it ends at 2097152 - at 2MB
-            this.doFlashDumpInternal();
-        },
         downloadFullDump() {
             if(0){
                 alert("Not functional yet");
@@ -438,6 +431,15 @@
                 })
                 .catch(err => console.error(err)); // Never forget the final catch!
         },
+        getTuyaConfigAddress(){
+            if(this.chipset === "BK7231T") {
+				return 0x1EE000;
+		}
+            if(this.chipset === "BK7231N") {
+				return 0x1EE000;
+		}
+		return 0x1D8000;
+        },
         readTuyaConfig(cb){
             this.status += '<br/>reading tuya config...';
             let url = window.device+'/api/flash/1EE000-1000';
@@ -452,6 +454,13 @@
                     if(cb) cb();
                 })
                 .catch(err => console.error(err)); // Never forget the final catch!
+        },
+        downloadTuyaConfig() {
+            this.fullDumpFlashStart = 0x1EE000;
+            this.fullDumpFlashSize = 73728;
+            this.fullDumpStyle = "TuyaConfig";
+            // it ends at 2097152 - at 2MB
+            this.doFlashDumpInternal();
         },
         config(cb){
             this.status += '<br/>reading config...';
