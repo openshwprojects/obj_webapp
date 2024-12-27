@@ -50,6 +50,12 @@
                 <td></td>
                 <td></td>
             </tr>
+            <tr>
+                <td>  <button @click="readCustom(null, $event)">Read Custom (prompts for ofs/len)</button></td>
+                <td> <button @click="downloadCustom(null, $event)">Download Custom (prompts for ofs/len)</button></td>
+                <td></td>
+                <td></td>
+            </tr>
             </table>
                 <div>
                     <h4> Current job status</h4>
@@ -315,6 +321,56 @@
                         }
                     }); // Never forget the final catch!
         },
+	 readCustom(cb) {
+	    let offset = prompt("Enter the offset (in hex):", "0x0");
+	    let length = prompt("Enter the length (in bytes):", "256");
+	    offset = parseInt(offset, 16);
+	    length = parseInt(length);
+	
+	    if (isNaN(offset) || isNaN(length)) {
+	        this.status += '<br/>Invalid offset or length entered.';
+	        return;
+	    }
+	
+	    this.status += `<br/>reading custom data from offset ${offset.toString(16)} with length ${length}...`;
+	    let url = window.device + `/api/flash/${offset.toString(16)}-${length.toString(16)}`;
+	    console.log('Will use URL ' + url);
+	
+	    fetch(url)
+	        .then(response => response.arrayBuffer())
+	        .then(buffer => {
+	            this.configdata = buffer;
+	            console.log('received ' + buffer.byteLength);
+	            this.status += '..got custom data...';
+	            this.dump(buffer);
+	            if (cb) cb();
+	        })
+	        .catch(err => console.error(err)); // Never forget the final catch!
+	},
+	
+	downloadCustom(cb) {
+	    let offset = prompt("Enter the offset (in hex):", "0x0");
+	    let length = prompt("Enter the length (in bytes):", "256");
+	    offset = parseInt(offset, 16);
+	    length = parseInt(length);
+	
+	    if (isNaN(offset) || isNaN(length)) {
+	        this.status += '<br/>Invalid offset or length entered.';
+	        return;
+	    }
+	
+	    this.status += `<br/>downloading custom data from offset ${offset.toString(16)} with length ${length}...`;
+	    let url = window.device + `/api/flash/${offset.toString(16)}-${length.toString(16)}`;
+	    console.log('Will use URL ' + url);
+	
+	    fetch(url)
+	        .then(response => response.arrayBuffer())
+	        .then(buffer => {
+	            this.downloadArrayBuffer(buffer, `custom_${offset.toString(16)}-${length}.bin`);
+	            if (cb) cb();
+	        })
+	        .catch(err => console.error(err)); 
+	},  
         downloadTuyaConfig() {
             this.fullDumpFlashStart = 2023424;
             this.fullDumpFlashSize = 73728;
