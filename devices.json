@@ -1392,6 +1392,24 @@
       "image": "https://obrazki.elektroda.pl/5815138200_1710277150.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic4003295.html"
     },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "MOES 2.5D Glass Touch Curtain Switch",
+      "model": "WRS-EUC-3D",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "flags": "525440",
+      "keywords": [
+        "tuyamcu",
+        "rollers",
+        "shutters"
+      ],
+      "pins": {},
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/2709776300_1734430897.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4093838.html"
+    },
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
