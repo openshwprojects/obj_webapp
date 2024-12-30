@@ -54,11 +54,6 @@ let boards = [];
 
 let currentBoard;
 
-async function loadBoards() {
-   // const response = await fetch('http://192.168.0.213:8080/boards.json');
-    //boards = await response.json();
-}
-
 function selectPinByName(name) {
     g_selectedPin = pins.find(pin => pin.name === name) || null;
 }
@@ -160,7 +155,9 @@ function createPins(board) {
 
 function drawPins(mouseX = null, mouseY = null) {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
+	if(image!=null){
+		ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
+	}
 
     pins.forEach(pin => {
 						let degrees = pin.angle;
@@ -258,6 +255,7 @@ function createCanvasInElement(id) {
     });
 
     createDropdownInElement(id);
+	setBoard(boards[0]);
 }
 
 async function createBeforeMainInternal() {
@@ -270,8 +268,6 @@ async function createBeforeMainInternal() {
     const mainDiv = document.getElementById("main");
     if (mainDiv) mainDiv.parentNode.insertBefore(newDiv, mainDiv);
 
-    await loadBoards();
-	setBoard(boards[0]);
 	document.querySelectorAll('.hdiv .disp-inline').forEach(span => {
 	  span.addEventListener('mouseenter', handleMouseEnter);
 	});
@@ -282,4 +278,4 @@ function createBeforeMain() {
     window.addEventListener('load', createBeforeMainInternal);
 }
 
-createBeforeMain();
+//createBeforeMain();
