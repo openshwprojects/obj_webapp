@@ -5,6 +5,21 @@ let boards = [];
 
  boards = [
     {
+        name: "WemosD1-CB3S",
+		chip: "BK7231N",
+        image: "https://i.imgur.com/SCdHefw.png",
+        leftPins: ["P23", "GND", "VUSB", "P20", "P21", "P22",
+		"", "P23", "P22", "P23", "GND", "3.3V", "EN", "CEN", "GND", "Vin"],
+        rightPins: ["P14", "P7", "P8", "P1", "P0", "3.3V", "GND", "P26",
+		"", "P24", "P6", "P9", "P10", "P11", "GND", "3.3V"],
+        leftStartX: 384,
+        rightStartX: 150,
+        leftStartY: 59,
+        leftStepY: 20,
+        rightStartY: 67,
+        rightStepY: 20
+    },
+	{
         name: "CBU",
 		chip: "BK7231N",
         image: "https://i.imgur.com/UpzQer7.png",
@@ -160,6 +175,10 @@ function drawPins(mouseX = null, mouseY = null) {
 	}
 
     pins.forEach(pin => {
+		if(pin.name == "")
+		{
+			return;
+		}
 						let degrees = pin.angle;
 				
     ctx.save(); 
