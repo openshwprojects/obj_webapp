@@ -1592,6 +1592,29 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3804553.html"
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Deta Grid Connect Smart Inline Switch",
+      "model": "6000HA",
+      "chip": "BK7231T",
+      "board": "WB2S",
+      "flags": "1024",
+      "keywords": [
+        "Inline",
+        "Relay",
+        "10A",
+        "Switch"
+      ],
+      "pins": {
+        "6": "WifiLED_n;1",
+        "11": "Btn;1",
+        "26": "Rel;1"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/7546057000_1735547432.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4096296.html"
+    },
+    {
       "vendor": "BSEED",
       "bDetailed": "0",
       "name": "EU 110V-250V 16A Smart Socket Wall Outlet Single",
