@@ -5,6 +5,21 @@ let boards = [];
 
  boards = [
     {
+        name: "WemosD1-CB3S",
+		chip: "BK7231N",
+        image: "https://i.imgur.com/SCdHefw.png",
+        leftPins: ["P23", "GND", "VUSB", "P20", "P21", "P22",
+		"", "P23", "P22", "P23", "GND", "3.3V", "EN", "CEN", "GND", "Vin"],
+        rightPins: ["P14", "P7", "P8", "P1", "P0", "3.3V", "GND", "P26",
+		"", "P24", "P6", "P9", "P10", "P11", "GND", "3.3V"],
+        leftStartX: 384,
+        rightStartX: 150,
+        leftStartY: 59,
+        leftStepY: 20,
+        rightStartY: 67,
+        rightStepY: 20
+    },
+	{
         name: "CBU",
 		chip: "BK7231N",
         image: "https://i.imgur.com/UpzQer7.png",
@@ -37,7 +52,7 @@ let boards = [];
     {
         name: "NodeMCU-WB3S",
 		chip: "BK7231T",
-        image: "https://i.imgur.com/anotherBoardImage.png",
+        image: "https://i.imgur.com/l3osEzH.png",
         leftPins: ["P23", "GND", "VUSB", "P20", "P21", "P22", "P23", "P22", "P23", "GND", "3.3V", "EN", "CEN", "GND", "Vin"],
         rightPins: ["P14", "P7", "P8", "P1", "P0", "3.3V", "GND", "P26", "P24", "P6", "P9", "P10", "P11", "GND", "3.3V"],
         leftStartX: 50,
@@ -53,11 +68,6 @@ let boards = [];
 
 
 let currentBoard;
-
-async function loadBoards() {
-   // const response = await fetch('http://192.168.0.213:8080/boards.json');
-    //boards = await response.json();
-}
 
 function selectPinByName(name) {
     g_selectedPin = pins.find(pin => pin.name === name) || null;
@@ -160,9 +170,15 @@ function createPins(board) {
 
 function drawPins(mouseX = null, mouseY = null) {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
+	if(image!=null){
+		ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
+	}
 
     pins.forEach(pin => {
+		if(pin.name == "")
+		{
+			return;
+		}
 						let degrees = pin.angle;
 				
     ctx.save(); 
@@ -258,6 +274,7 @@ function createCanvasInElement(id) {
     });
 
     createDropdownInElement(id);
+	setBoard(boards[0]);
 }
 
 async function createBeforeMainInternal() {
@@ -270,8 +287,6 @@ async function createBeforeMainInternal() {
     const mainDiv = document.getElementById("main");
     if (mainDiv) mainDiv.parentNode.insertBefore(newDiv, mainDiv);
 
-    await loadBoards();
-	setBoard(boards[0]);
 	document.querySelectorAll('.hdiv .disp-inline').forEach(span => {
 	  span.addEventListener('mouseenter', handleMouseEnter);
 	});
@@ -282,4 +297,4 @@ function createBeforeMain() {
     window.addEventListener('load', createBeforeMainInternal);
 }
 
-createBeforeMain();
+//createBeforeMain();
