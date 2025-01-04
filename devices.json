@@ -4796,6 +4796,29 @@
       "image": "https://obrazki.elektroda.pl/9642873200_1673890666.jpg",
       "wiki": "https://www.elektroda.pl/rtvforum/topic3949851.html"
     },
+	{
+		"vendor": "Aqia",
+		"bDetailed": "0",
+		"name": "15A 120V US Smart Plug",
+		"model": "F3202-US",
+		"chip": "BK7231T",
+		"board": "WB2S",
+		"flags": "1024",
+		"keywords": [
+			"23243-WB2S",
+			"2ANDL-WB2S",
+			"outlet",
+			"socket"
+		],
+		"pins": {
+			"11": "LED;1",
+			"24": "Rel;1",
+			"26": "Btn;1"
+		},
+		"command": "",
+		"image": "https://obrazki.elektroda.pl/7190336400_1735988292.png",
+		"wiki": "https://www.elektroda.com/rtvforum/topic4096664.html"
+		},
     {
       "vendor": "EARU",
       "bDetailed": "0",
