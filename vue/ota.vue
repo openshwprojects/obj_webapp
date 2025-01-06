@@ -373,7 +373,11 @@
                     case 'LN882H': //OpenLN882H_1.17.546_OTA.bin
                         prefix = 'OpenLN882H_';
                         postfix = '_OTA.bin';
-                        break;                        
+                        break;      
+                    case 'RTL87X0C': 
+                        prefix = 'OpenRTL87X0C_';
+                        postfix = '_ota.img';
+                        break;      
                 }
 
                 let options = [];
