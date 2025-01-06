@@ -379,7 +379,7 @@
                         postfix = '_ota.img';
                         break;      
 		    default:
-			prefix = 'Open' + this.chipset;
+			prefix = 'Open' + this.chipset + '_';
                         postfix = '.img';
 			break;
                 }
