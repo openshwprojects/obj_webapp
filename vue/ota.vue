@@ -376,7 +376,7 @@
                         break;      
                     case 'RTL87X0C': 
                         prefix = 'OpenRTL87X0C_';
-                        postfix = '_OTA.img';
+                        postfix = '_ota.img';
                         break;      
                 }
 
