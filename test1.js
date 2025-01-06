@@ -54,7 +54,7 @@ let boards = [];
 		chip: "BK7231T",
         image: "https://i.imgur.com/l3osEzH.png",
         leftPins: ["P23", "GND", "VUSB", "P20", "P21", "P22", "P23", "P22", "P23", "GND", "3.3V", "EN", "CEN", "GND", "Vin"],
-        rightPins: ["P14", "P7", "P8", "P1", "P0", "3.3V", "GND", "P26", "P24", "P6", "P9", "P10", "P11", "GND", "3.3V"],
+        rightPins: ["P14", "P8", "P9", "P1", "P0", "3.3V", "GND", "P26", "P24", "P6", "P7", "P10", "P11", "GND", "3.3V"],
         leftStartX: 50,
         rightStartX: 474,
         leftStartY: 122,
