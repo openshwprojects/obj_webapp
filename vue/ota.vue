@@ -384,6 +384,8 @@
 			break;
                 }
 
+           	 console.log('OTA prefix=' + prefix);
+           	 console.log('OTA postfix=' + postfix);
                 let options = [];
                 if (prefix){
                     for (let i = 0; i < data.length; i++){
