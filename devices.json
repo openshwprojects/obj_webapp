@@ -7040,6 +7040,29 @@
     "wiki": "https://www.elektroda.com/rtvforum/topic4063735.html"
   },
 	{
+	"vendor": "Ewelink",
+	"bDetailed": "0",
+	"name": "Mini WiFi Smart Switch",
+	"model": "16A",
+	"chip": "BL602",
+	"board": "",
+	"flags": "1024",
+	"keywords": [
+	"Ewelink",
+	"Smart Switch",
+	"BL602"
+	],
+	"pins": {
+	"2": "TglChanOnTgl;1",
+	"3": "Rel_n;1",
+	"20": "LED_n;1",
+	"22": "Btn_n;1"
+	},
+	"command": "",
+	"image": "https://obrazki.elektroda.pl/1141907700_1736083148.jpg",
+	"wiki": "https://www.elektroda.pl/rtvforum/topic4097606.html"
+	},  
+	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
 	  "name": "Syska 12-Watt PWM Wi-Fi LED Bulb",
