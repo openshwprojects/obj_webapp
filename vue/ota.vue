@@ -378,6 +378,10 @@
                         prefix = 'OpenRTL87X0C_';
                         postfix = '_ota.img';
                         break;      
+		    default:
+			prefix = 'Open' + this.chipset;
+                        postfix = '.img';
+			break;
                 }
 
                 let options = [];
