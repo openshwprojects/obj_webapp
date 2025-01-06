@@ -7042,15 +7042,15 @@
 	{
 	"vendor": "Ewelink",
 	"bDetailed": "0",
-	"name": "Mini WiFi Smart Switch",
-	"model": "16A",
+	"name": "Mini WiFi Smart Switch 16A",
+	"model": "KR2302",
 	"chip": "BL602",
 	"board": "",
 	"flags": "1024",
 	"keywords": [
 	"Ewelink",
 	"Smart Switch",
-	"BL602"
+	"BL602","KR2302"
 	],
 	"pins": {
 	"2": "TglChanOnTgl;1",
