@@ -4842,6 +4842,40 @@
 		"image": "https://obrazki.elektroda.pl/7190336400_1735988292.png",
 		"wiki": "https://www.elektroda.com/rtvforum/topic4096664.html"
 		},
+		{
+		"vendor": "Eightree",
+		"bDetailed": "0",
+		"name": "Tuya 3AC 100-240V EU Power Strip with Power Meter",
+		"model": "ET43",
+		"chip": "BK7231N",
+		"board": "CBU",
+		"flags": "1024",
+		"keywords": [
+			"B0C6X3YWTZ",
+			"BL0937",
+			"plug",
+			"socket",
+			"extension",
+			"lead",
+			"cord"
+		],
+		"pins": {
+			"6": "Btn;2",
+			"7": "Rel;2",
+			"8": "Btn;1",
+			"9": "WifiLED_n;0",
+			"14": "BL0937CF;0",
+			"16": "BL0937CF1;0",
+			"17": "Btn_Tgl_All;0",
+			"20": "BL0937SEL;0",
+			"22": "Rel;1",
+			"24": "Btn;3",
+			"26": "Rel;3"
+		},
+		"command": "",
+		"image": "https://obrazki.elektroda.pl/3211126700_1736111773.jpg",
+		"wiki": "https://www.elektroda.com/rtvforum/topic4097716.html"
+	},
 	{
 	"vendor": "Tuya",
 	"bDetailed": "0",
