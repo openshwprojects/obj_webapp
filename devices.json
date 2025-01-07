@@ -4842,31 +4842,31 @@
 		"image": "https://obrazki.elektroda.pl/7190336400_1735988292.png",
 		"wiki": "https://www.elektroda.com/rtvforum/topic4096664.html"
 		},
-		{
-		"vendor": "Tuya",
-		"bDetailed": "0",
-		"name": "Generic 20A EU Smart Plug with Power Meter",
-		"model": "Smart Plug+",
-		"chip": "RTL8710B",
-		"board": "T102_V1.1",
-		"flags": "1024",
-		"keywords": [
-			"realtek",
-			"socket",
-			"BL0937",
-			"RTL8710BX"
-		],
-		"pins": {
-			"0": "BL0937CF;0",
-			"1": "LED_n;1",
-			"8": "BL0937CF1;0",
-			"9": "BL0937SEL;0",
-			"10": "Rel;1",
-			"11": "Btn;1"
-		},
-		"command": "",
-		"image": "https://obrazki.elektroda.pl/3021377000_1706818166.jpg",
-		"wiki": "https://www.elektroda.com/rtvforum/topic4032920.html"
+	{
+	"vendor": "Tuya",
+	"bDetailed": "0",
+	"name": "Generic 20A EU Smart Plug with Power Meter",
+	"model": "Smart Plug+",
+	"chip": "RTL8710B",
+	"board": "T102_V1.1",
+	"flags": "1024",
+	"keywords": [
+		"realtek",
+		"socket",
+		"BL0937",
+		"RTL8710BX"
+	],
+	"pins": {
+		"0": "BL0937CF;0",
+		"1": "LED_n;1",
+		"8": "BL0937CF1;0",
+		"9": "BL0937SEL;0",
+		"10": "Rel;1",
+		"11": "Btn;1"
+	},
+	"command": "",
+	"image": "https://obrazki.elektroda.pl/3021377000_1706818166.jpg",
+	"wiki": "https://www.elektroda.com/rtvforum/topic4032920.html"
 	},
     {
       "vendor": "EARU",
