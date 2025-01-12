@@ -6489,7 +6489,28 @@
     "image": "https://obrazki.elektroda.pl/1758523200_1733261393.png",
     "wiki": "https://www.elektroda.com/rtvforum/topic4091029.html"
   },
-  
+  {
+  "vendor": "Tuya",
+  "bDetailed": "0",
+  "name": "GIRIER 16A 1CH Wi-Fi Switch Module-ES with Power Monitoring",
+  "model": "",
+  "chip": "BK7231N",
+  "board": "CBU",
+  "flags": "1028",
+  "keywords": [
+    "BL0942",
+	"ZH-Z12"
+  ],
+  "pins": {
+    "9": "WifiLED;1",
+    "20": "Rel;1",
+    "24": "Btn;1",
+    "26": "TglChanOnTgl;1"
+  },
+  "command": "startDriver BL0942",
+  "image": "https://obrazki.elektroda.pl/2595954900_1736682036.jpg",
+  "wiki": "https://www.elektroda.com/rtvforum/topic4099102.html"
+},
 	{
 	  "vendor": "Anslut",
 	  "bDetailed": "0",
