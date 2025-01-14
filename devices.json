@@ -7750,6 +7750,28 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20772013"
 	},
 	{
+		"vendor": "Tuya",
+		"bDetailed": "0",
+		"name": "Tuya Smart Plug (EU) Aoyan",
+		"model": "Tuya Smart Plug (EU)",
+		"chip": "T34/BK7231N",
+		"board": "PCB",
+		"flags": "33555460",
+		"keywords": [
+			"T34",
+			"Tuya",
+			"Smart Plug"
+		],
+		"pins": {
+			"14": "Rel;1",
+			"24": "WifiLED_n;0",
+			"26": "Btn;1"
+		},
+		"command": "startDriver BL0942",
+		"image": "https://obrazki.elektroda.pl/5395573900_1736628723.jpg",
+		"wiki": "https://www.elektroda.com/rtvforum/topic4099021.html"
+	},
+	{
 	  "vendor": "Tuya",
 	  "bDetailed": "1",
 	  "name": "Generic WiFi Temperature and Humidity sensor hygrometer TuyaMCU",
