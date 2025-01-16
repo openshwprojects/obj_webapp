@@ -14079,6 +14079,32 @@
     "image": "https://obrazki.elektroda.pl/7156539100_1730757425.jpg",
     "wiki": "https://www.elektroda.com/rtvforum/topic4085019.html"
   },
+  {
+  "vendor": "Gosund",
+  "bDetailed": "0",
+  "name": "2500W 10A Smart Plug (EU) Tuya",
+  "model": "EP2",
+  "chip": "RTL87X0C",
+  "board": "CUCO-ZO-R-V1.2",
+  "flags": "1024",
+  "keywords": [
+    "SP1 AI V1.1",
+    "socket",
+    "cuco"
+  ],
+  "pins": {
+    "3": "Rel;1",
+    "4": "BL0937SEL;0",
+    "11": "WifiLED_n;0",
+    "13": "Btn;1",
+    "14": "LED_n;1",
+    "17": "BL0937CF;0",
+    "18": "BL0937CF1;0"
+  },
+  "command": "",
+  "image": "https://obrazki.elektroda.pl/5679187800_1737011917.png",
+  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21393106#21393106"
+},
 {
   "vendor": "Tuya / Smart Life",
   "bDetailed": "0",
