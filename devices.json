@@ -14083,7 +14083,7 @@
   "vendor": "Gosund",
   "bDetailed": "0",
   "name": "2500W 10A Smart Plug (EU) Tuya",
-  "model": "EP2",
+  "model": "SP1",
   "chip": "RTL87X0C",
   "board": "CUCO-ZO-R-V1.2",
   "flags": "1024",
@@ -14102,7 +14102,7 @@
     "18": "BL0937CF1;0"
   },
   "command": "",
-  "image": "https://obrazki.elektroda.pl/5679187800_1737011917.png",
+  "image": "https://obrazki.elektroda.pl/4533349700_1737023927.jpg",
   "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21393106#21393106"
 },
 {
