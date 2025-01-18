@@ -1756,10 +1756,14 @@
     {
       "vendor": "Tuya",
       "bDetailed": "1",
-      "name": "Generic DIY SmartSwitch (INCOMPLETE TEMPLATE)",
+      "name": "Generic DIY SmartSwitch",
       "chip": "RTL8710B",
       "board": "T102_V1.1",
-      "pins": {},
+      "pins": {
+       "0": "LED;1",
+       "5": "Btn;1",
+       "14": "Rel;1"
+	  },
       "keywords": [
         "switch",
         "relay",
