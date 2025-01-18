@@ -1756,8 +1756,8 @@
     {
       "vendor": "Tuya",
       "bDetailed": "1",
-      "name": "SmartSwitch T102_V1.1 / RTL8710BN",
-      "chip": "RTL8710BN",
+      "name": "Generic DIY SmartSwitch (INCOMPLETE TEMPLATE)",
+      "chip": "RTL8710B",
       "board": "T102_V1.1",
       "pins": {},
       "keywords": [
@@ -1768,7 +1768,10 @@
         "AMS1117",
         "Y3F-SS-105DM",
         "25Q16BVSIG",
-        "WR2"
+        "WR2",
+		"INNO---IOT",
+		"TDQ-V1.0",
+		"XY 2019.12.26."
       ],
       "image": "https://obrazki.elektroda.pl/8082201300_1624998129_thumb.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3815120.html"
@@ -10999,10 +11002,14 @@
     {
       "vendor": "Meross",
       "bDetailed": "1",
-      "name": "Meross Wi-Fi Smart Plug & energy monitor",
-      "model": "",
-      "chip": "RTL8710CF",
+      "name": "Meross 10A Smart Plug & Energy Monitor (AU) (INCOMPLETE TEMPLATE)",
+      "model": "MSS310",
+      "chip": "RTL87X0C",
       "board": "",
+	  "keywords": [
+		"RTL8710CF",
+		"socket"
+	  ],	  
       "pins": {},
       "image": "https://obrazki.elektroda.pl/8840216200_1668409633.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3933842.html"
