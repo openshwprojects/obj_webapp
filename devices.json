@@ -189,6 +189,32 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4041210.html"
 	},
 	{
+      "vendor": "LoraTap",
+      "bDetailed": "0",
+      "name": "Tuya EU Smart Plug with Power Metering",
+      "model": "SP800WJ-EU",
+      "chip": "BK7231T",
+      "board": "WB2S",
+      "flags": "1024",
+      "keywords": [
+    	"BL0942",
+    	"SP800WJ-EU-KP3210",
+    	"(板厚1.2mm)",
+    	"欧标计量插座电源板PCB",
+    	"SP800WJ-EU-KEY",
+    	"socket",
+    	"欧标计量插座按键板PCB"
+  ],
+  "pins": {
+    "6": "WifiLED_n;0",
+    "7": "Btn;1",
+    "26": "Rel;1"
+  },
+  "command": "startdriver ntp\r\nstartdriver bl0942",
+  "image": "https://obrazki.elektroda.pl/6596646800_1737790921.jpg",
+  "wiki": "https://www.elektroda.com/rtvforum/topic4101872.html"
+},
+	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
 	  "name": "Smart Socket 20A",
