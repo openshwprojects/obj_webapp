@@ -5991,7 +5991,7 @@
 	  "name": "Laser RGB CW+WW Downlight",
 	  "model": "LSH-240RGB10W",
 	  "chip": "BK7231N",
-	  "board": "onboard",
+	  "board": "on PCB",
 	  "flags": "1024",
 	  "keywords": [
 		"Downlight","eBay","Australia","CSH-240RGB10W"
@@ -8786,7 +8786,7 @@
       "bDetailed": "1",
       "name": "Feit Smart Wifi Dimmer - DIM/WIFI(2) SYW-DIMSMART",
       "chip": "BK7231T",
-      "board": "onboard",
+      "board": "on PCB",
       "pins": {},
       "keywords": ["TuyaMCU", "dimmer"],
       "image": "https://obrazki.elektroda.pl/4281122600_1673715123.jpg",
@@ -10493,7 +10493,7 @@
       "bDetailed": "0",
       "name": "LSC 200 LED Multicolored Smart Lights ",
       "chip": "BK7231N",
-      "board": "onboard",
+      "board": "on PCB",
       "keywords": [
         "led",
         "GP-SWXXXDCXXXX(EU)-1C,IP20 SERIES,GP-SWXXXDCXXXX-IP44(EU)-1C,IP44 SERIES",
@@ -11180,7 +11180,7 @@
       "name": "Smart Led Light Strip RGBCW 3000342",
       "model": "970752 v1.0",
       "chip": "BK7231T",
-      "board": "onboard",
+      "board": "on PCB",
       "pins": {
         "7": "PWM;1",
         "8": "PWM;2",
@@ -11256,7 +11256,7 @@
       "name": "Smart Led Light Strip RGBCW 3000342 alternate pinout IR recv and button",
       "model": "970752 ??",
       "chip": "BK7231T",
-      "board": "onboard",
+      "board": "on PCB",
       "pins": {
 		"6": "PWM;1",
 		"7": "PWM;2",
@@ -13059,7 +13059,7 @@
       "name": "Outdoor 2-Outlet Smart Plug",
       "model": "50151",
       "chip": "BK7231T",
-      "board": "Onboard",
+      "board": "on PCB",
       "flags": "1024",
       "keywords": [
           "smart plug",
