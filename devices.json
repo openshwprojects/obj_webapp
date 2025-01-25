@@ -218,7 +218,7 @@
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
 	  "name": "Smart Socket 20A",
-	  "model": "BL602/BL0937",
+	  "model": "",
 	  "chip": "BL602",
 	  "board": "SM-028_V1.3",
 	  "flags": "69731332",
