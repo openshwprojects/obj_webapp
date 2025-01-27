@@ -189,10 +189,36 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4041210.html"
 	},
 	{
+      "vendor": "LoraTap",
+      "bDetailed": "0",
+      "name": "Tuya EU Smart Plug with Power Metering",
+      "model": "SP800WJ-EU",
+      "chip": "BK7231T",
+      "board": "WB2S",
+      "flags": "1024",
+      "keywords": [
+    	"BL0942",
+    	"SP800WJ-EU-KP3210",
+    	"(板厚1.2mm)",
+    	"欧标计量插座电源板PCB",
+    	"SP800WJ-EU-KEY",
+    	"socket",
+    	"欧标计量插座按键板PCB"
+  ],
+  "pins": {
+    "6": "LED_n;1",
+    "7": "Btn;1",
+    "26": "Rel;1"
+  },
+  "command": "startdriver ntp\r\nstartdriver bl0942",
+  "image": "https://obrazki.elektroda.pl/6596646800_1737790921.jpg",
+  "wiki": "https://www.elektroda.com/rtvforum/topic4101872.html"
+},
+	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
 	  "name": "Smart Socket 20A",
-	  "model": "BL602/BL0937",
+	  "model": "",
 	  "chip": "BL602",
 	  "board": "SM-028_V1.3",
 	  "flags": "69731332",
@@ -1003,7 +1029,7 @@
       "bDetailed": "0",
       "name": "YSS102 (Junlit) Single Pole Switch - BK7231N version",
       "chip": "BK7231N",
-      "board": "onboard",
+      "board": "on PCB",
       "pins": {
         "6": "Rel;1",
         "9": "Btn;1",
@@ -5965,7 +5991,7 @@
 	  "name": "Laser RGB CW+WW Downlight",
 	  "model": "LSH-240RGB10W",
 	  "chip": "BK7231N",
-	  "board": "onboard",
+	  "board": "on PCB",
 	  "flags": "1024",
 	  "keywords": [
 		"Downlight","eBay","Australia","CSH-240RGB10W"
@@ -6012,7 +6038,7 @@
       "name": "Nedis WIFIP110FWT (BK7231N, BL0942) teardown ",
       "model": "WIFIP110FWT",
       "chip": "BK7231N",
-      "board": "onboard",
+      "board": "on PCB",
       "pins": {
         "6": "WifiLED_n;1",
         "9": "Btn;1",
@@ -7199,6 +7225,31 @@
 	  "image": "https://obrazki.elektroda.pl/6158913500_1719154715_thumb.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3979012.html"
 	},
+	{
+		"vendor": "Tuya",
+		"bDetailed": "0",
+		"name": "Generic EU Smart Plug AC90-250V",
+		"model": "",
+		"chip": "LN882H",
+		"board": "WL2S",
+		"flags": "1024",
+		"keywords": [
+			"socket",
+			"RM-JG003-MAC2HG",
+			"RM-SMART"
+		],
+		"pins": {
+			"3": "Btn;1",
+			"4": "BL0937SEL;0",
+			"5": "Rel;1",
+			"7": "BL0937CF1;0",
+			"8": "BL0937CF;0",
+			"10": "LED;1"
+		},
+		"command": "backlog PowerSave 1; startDriver NTP",
+		"image": "https://obrazki.elektroda.pl/7271789700_1737322544.jpg",
+		"wiki": "https://www.elektroda.com/rtvforum/topic4100731.html"
+		},
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
@@ -8735,7 +8786,7 @@
       "bDetailed": "1",
       "name": "Feit Smart Wifi Dimmer - DIM/WIFI(2) SYW-DIMSMART",
       "chip": "BK7231T",
-      "board": "onboard",
+      "board": "on PCB",
       "pins": {},
       "keywords": ["TuyaMCU", "dimmer"],
       "image": "https://obrazki.elektroda.pl/4281122600_1673715123.jpg",
@@ -10442,7 +10493,7 @@
       "bDetailed": "0",
       "name": "LSC 200 LED Multicolored Smart Lights ",
       "chip": "BK7231N",
-      "board": "onboard",
+      "board": "on PCB",
       "keywords": [
         "led",
         "GP-SWXXXDCXXXX(EU)-1C,IP20 SERIES,GP-SWXXXDCXXXX-IP44(EU)-1C,IP44 SERIES",
@@ -11129,7 +11180,7 @@
       "name": "Smart Led Light Strip RGBCW 3000342",
       "model": "970752 v1.0",
       "chip": "BK7231T",
-      "board": "onboard",
+      "board": "on PCB",
       "pins": {
         "7": "PWM;1",
         "8": "PWM;2",
@@ -11205,7 +11256,7 @@
       "name": "Smart Led Light Strip RGBCW 3000342 alternate pinout IR recv and button",
       "model": "970752 ??",
       "chip": "BK7231T",
-      "board": "onboard",
+      "board": "on PCB",
       "pins": {
 		"6": "PWM;1",
 		"7": "PWM;2",
@@ -13008,7 +13059,7 @@
       "name": "Outdoor 2-Outlet Smart Plug",
       "model": "50151",
       "chip": "BK7231T",
-      "board": "Onboard",
+      "board": "on PCB",
       "flags": "1024",
       "keywords": [
           "smart plug",
