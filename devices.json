@@ -934,6 +934,26 @@
       "image": "https://obrazki.elektroda.pl/3591447000_1647901952.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3881416.html"
     },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "ARLEC 57cm Linkable CCT Bar Light",
+      "model": "UH551HA",
+      "chip": "BK7231N",
+      "board": "CBLC9",
+      "flags": "5376",
+      "keywords": [
+        "strip",
+        "tube"
+      ],
+      "pins": {
+        "7": "PWM;1",
+        "8": "PWM_n;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/2114750800_1737951964.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4102281.html"
+    },
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
