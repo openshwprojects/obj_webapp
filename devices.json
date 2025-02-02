@@ -4693,6 +4693,23 @@
     {
       "vendor": "ATORCH",
       "bDetailed": "0",
+      "name": "Tuya AC85-260V DIN Rail Watt-Hour Energy Meter (CH573F)",
+      "model": "AT2PW",
+      "chip": "BK7231N",
+      "board": "CB3S",
+      "pins": {},
+      "command": "",
+      "keywords": [
+        "TuyaMCU",
+        "LCD",
+        "hidance"
+      ],
+      "image": "https://obrazki.elektroda.pl/3005576300_1672753193.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3946239.html"
+    },
+    {
+      "vendor": "ATORCH",
+      "bDetailed": "0",
       "name": "Tuya Din Rail Smart Electricity Meter - AC50-320V (CH573F) (BL0942)",
       "model": "GR2P-WS",
       "chip": "BK7231N",
