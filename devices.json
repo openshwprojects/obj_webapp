@@ -4693,6 +4693,23 @@
     {
       "vendor": "ATORCH",
       "bDetailed": "0",
+      "name": "Tuya AC85-260V DIN Rail Watt-Hour Energy Meter (CH573F)",
+      "model": "AT2PW",
+      "chip": "BK7231N",
+      "board": "CB3S",
+      "pins": {},
+      "command": "",
+      "keywords": [
+        "TuyaMCU",
+        "LCD",
+        "hidance"
+      ],
+      "image": "https://obrazki.elektroda.pl/3005576300_1672753193.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3946239.html"
+    },
+    {
+      "vendor": "ATORCH",
+      "bDetailed": "0",
       "name": "Tuya Din Rail Smart Electricity Meter - AC50-320V (CH573F) (BL0942)",
       "model": "GR2P-WS",
       "chip": "BK7231N",
@@ -7270,6 +7287,31 @@
 		"image": "https://obrazki.elektroda.pl/7271789700_1737322544.jpg",
 		"wiki": "https://www.elektroda.com/rtvforum/topic4100731.html"
 		},
+    {
+      "vendor": "JSPTECH",
+      "bDetailed": "0",
+      "name": "Tuya 10A AC110-220V Smart Plug (US)",
+      "model": "RMC003",
+      "chip": "LN882H",
+      "board": "on PCB",
+      "flags": "1024",
+      "keywords": [
+        "SOCKET",
+        "outlet",
+        "RM-JG001-MAE2G",
+        "RM-SMART",
+        "CNHZ",
+        "HZ32-1A3S-LH"
+      ],
+      "pins": {
+        "4": "Rel;1",
+        "6": "LED_n;1",
+        "10": "Btn;1"
+      },
+      "command": "backlog PowerSave 1",
+      "image": "https://obrazki.elektroda.pl/6779667500_1738408923.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4103427.html"
+    },
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
