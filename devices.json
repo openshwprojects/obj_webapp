@@ -10740,6 +10740,28 @@
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "1",
+	  "name": "3 phase Tuya Smart 63Amp Wifi Circuit Breaker",
+	  "model": "ZXB3-125/W",
+	  "chip": "BK7231N",
+	  "board": "CBU",
+	  "flags": "0",
+	  "keywords": [
+		"TuyaMCU",
+		"din rail",
+		"WiFi MCB"
+	  ],
+	  "pins": {
+		"7": "AlwaysLow;0",
+		"8": "AlwaysLow;0"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/4441619200_1737711002.jpg",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic4101799.html",
+	  "product":""
+	},
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "1",
 	  "name": "Tuya Generic Water Pump",
 	  "model": "WIFI-V1.11",
 	  "chip": "BK7231N",
