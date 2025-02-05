@@ -9009,6 +9009,24 @@
     {
       "vendor": "Sonoff",
       "bDetailed": "1",
+      "name": "Battery-powered PIR Sensor",
+      "model": "SBZB-03",
+      "chip": "CC2530",
+      "board": "on PCB",
+      "pins": {},
+      "keywords": [
+        "CR2450",
+        "PIR",
+        "40x35x28mm",
+	"ZB-MS01 V1.1 23/8/21"
+      ],
+      "image": "https://obrazki.elektroda.pl/2703800200_1737573099.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4101344.html",
+      "product": ""
+    },
+    {
+      "vendor": "Sonoff",
+      "bDetailed": "1",
       "name": "SONOFF BASICZBR3 ZB DIY Smart Switch Controlled Via SmartThing ",
       "model": "BASICZBR3",
       "chip": "CC2530",
