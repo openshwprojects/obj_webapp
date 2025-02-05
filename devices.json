@@ -9009,6 +9009,25 @@
     {
       "vendor": "Sonoff",
       "bDetailed": "1",
+      "name": "Battery-powered LCD Humidity And Temperature Sensor",
+      "model": "SNZB-02D",
+      "chip": "EFR32MG22",
+      "board": "on PCB",
+      "pins": {},
+      "keywords": [
+        "2APN55NZB-02D",
+        "CR2450",
+        "62.5x59.5mm",
+	"P25Q80H",
+	"BU9792FUV"
+      ],
+      "image": "https://obrazki.elektroda.pl/2526614600_1734349902.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4099721.html",
+      "product": ""
+    },
+    {
+      "vendor": "Sonoff",
+      "bDetailed": "1",
       "name": "Battery-powered PIR Sensor",
       "model": "SBZB-03",
       "chip": "CC2530",
