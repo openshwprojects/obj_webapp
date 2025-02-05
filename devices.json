@@ -6632,6 +6632,24 @@
     "image": "https://static.elektroda.pl/attach/71yUF8q0SBL__SX522__9911857.jpg",
     "wiki": "https://www.elektroda.com/rtvforum/topic4091943.html"
   },  
+{
+  "vendor": "Tuya",
+  "bDetailed": "0",
+  "name": "Blow 1 gang light switch",
+  "model": "72-087",
+  "chip": "BK7231N",
+  "board": "CB3S",
+  "keywords": ["Allegro", "DS101 clone"],
+  "pins": {
+    "6": "Rel;1",
+    "20": "Btn;1",
+    "22": "WifiLED_n;0",
+    "26": "LED;1"
+  },
+  "command": "",
+  "image": "https://obrazki.elektroda.pl/1208794800_1738569869.jpg",
+  "wiki": "https://www.elektroda.pl/rtvforum/topic4103835.html"
+},
 	{
 	  "vendor": "Onenuo",
 	  "bDetailed": "0",
