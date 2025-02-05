@@ -6794,6 +6794,27 @@
       "image": "https://obrazki.elektroda.pl/6601619200_1660013813_thumb.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3911356.html"
     },
+{
+  "vendor": "Tuya",
+  "bDetailed": "1",
+  "name": "TB11/TB12/TB13 Milfra Wall Switch no touch",
+  "model": "TB11/TB12/TB13",
+  "chip": "BK7231N",
+  "board": "CBU",
+  "keywords": ["Allegro","microswitch","clicky"],
+  "pins": {
+    "7": "Btn;1",
+    "8": "Btn;2",
+    "14": "Rel;1",
+    "16": "Rel;2",
+    "20": "Rel;3",
+    "24": "WifiLED_n;0",
+    "28": "Btn;3"
+  },
+  "command": "",
+  "image": "https://obrazki.elektroda.pl/7352655000_1734272684.jpg",
+  "wiki": "https://www.elektroda.pl/rtvforum/topic4098965.html"
+},
     {
       "vendor": "Tuya",
       "bDetailed": "0",
