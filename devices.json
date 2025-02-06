@@ -9527,6 +9527,77 @@
 	  "image": "https://obrazki.elektroda.pl/7014154300_1721153160.png",
 	  "wiki": "https://www.elektroda.pl/rtvforum/topic4069082.html"
 	},
+	  
+{
+  "vendor": "Tuya",
+  "bDetailed": "0",
+  "name": "4 gang no neutral with RF",
+  "model": "",
+  "chip": "BK7231N",
+  "board": "CB3S",
+  "keywords": [],
+  "pins": {
+    "6": "Rel;4",
+    "7": "Btn;3",
+    "8": "Btn;2",
+    "9": "Btn;1",
+    "10": "Btn;4",
+    "11": "WifiLED_n;0",
+    "14": "Rel;3",
+    "24": "Rel;2",
+    "26": "Rel;1"
+  },
+  "command": "",
+  "image": "https://obrazki.elektroda.pl/6848632200_1738845218.png",
+  "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?p=21427301#21427301"
+},
+	
+{
+  "vendor": "Tuya",
+  "bDetailed": "0",
+  "name": "3gang WiFi switch with RF",
+  "model": "TY-86-3W",
+  "chip": "BK7231N",
+  "board": "T34-3",
+  "keywords": ["Wifi W6B"],
+  "pins": {
+    "7": "WifiLED_n;0",
+    "8": "Btn;3",
+    "9": "Rel;1",
+    "14": "Btn;2",
+    "15": "Rel;2",
+    "16": "Btn;1",
+    "17": "Rel;3",
+    "24": "Btn_Tgl_All;0"
+  },
+  "command": "",
+  "image": "https://obrazki.elektroda.pl/7594845700_1738841875.jpg",
+  "wiki": "https://www.elektroda.pl/rtvforum/topic4103835.html"
+},  
+	  
+{
+  "vendor": "Tuya",
+  "bDetailed": "0",
+  "name": "4 gang WiFi switch",
+  "model": "101JL-WHITE-04",
+  "chip": "BK7231N",
+  "board": "CB3S",
+  "keywords": [],
+  "pins": {
+    "6": "Rel;1",
+    "7": "Btn;3",
+    "8": "Rel;2",
+    "9": "Rel;3",
+    "14": "Btn;4",
+    "20": "Btn;2",
+    "22": "WifiLED_n;0",
+    "24": "Btn;1",
+    "26": "Rel;4"
+  },
+  "command": "",
+  "image": "https://obrazki.elektroda.pl/7995427900_1738841494.png",
+  "wiki": "https://www.elektroda.pl/rtvforum/topic4103835.html"
+},
   {
     "vendor": "Tuya",
     "bDetailed": "0",
