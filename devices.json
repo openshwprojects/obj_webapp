@@ -5697,6 +5697,30 @@
       "product": "https://www.bunnings.com.au/arlec-grid-connect-smart-9w-rgb-cct-led-downlight_p0168695"
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Temperature & Humidity Sensor",
+      "model": "PCB_576P1-V1.0",
+      "chip": "BK7231N",
+      "board": "on PCB",
+      "flags": "0",
+      "keywords": [
+        "CHT8310",
+        "battery"
+      ],
+      "pins": {
+        "6": "CHT83XX_SCK;1;0",
+        "9": "CHT83XX_SDA;1;2",
+        "17": "BAT_Relay;5",
+        "20": "dInput;43",
+        "23": "BAT_ADC;40",
+        "26": "WifiLED_n;37"
+      },
+      "command": "backlog PowerSave 1; startDriver battery; startDriver CHT83XX; CHT_calibrate -5 19",
+      "image": "https://obrazki.elektroda.pl/5817279700_1736546451.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4098816.html"
+    },
+    {
       "vendor": "Blitzwolf",
       "bDetailed": "1",
       "name": "BH-AF2 Air Fryer",
@@ -9532,10 +9556,10 @@
   "vendor": "Tuya",
   "bDetailed": "0",
   "name": "4 gang no neutral with RF",
-  "model": "",
+  "model": "M604",
   "chip": "BK7231N",
   "board": "CB3S",
-  "keywords": [],
+  "keywords": ["W604","Shenzhen Aoyan Technology"],
   "pins": {
     "6": "Rel;4",
     "7": "Btn;3",
@@ -9559,7 +9583,7 @@
   "model": "TY-86-3W",
   "chip": "BK7231N",
   "board": "T34-3",
-  "keywords": ["Wifi W6B"],
+  "keywords": ["Wifi W6B","WF480RA"],
   "pins": {
     "7": "WifiLED_n;0",
     "8": "Btn;3",
