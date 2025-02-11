@@ -318,6 +318,38 @@
     "wiki": "https://www.elektroda.com/rtvforum/topic4036888.html"
   },
   {
+    "vendor": "MOES",
+    "bDetailed": "0",
+    "name": "Tuya 4 Gang Smart Switch",
+    "model": "WS-B-US",
+    "chip": "BK7231N",
+    "board": "CBU",
+    "flags": "1024",
+    "keywords": [
+      "US-08DNWZ-03B/04B",
+      "REV 1.0 20220520 NX",
+      "PWDSWQ",
+      "DG05009"
+    ],
+    "pins": {
+      "6": "Rel;3",
+      "7": "Rel;4",
+      "8": "Btn;4",
+      "9": "Btn;2",
+      "14": "LED_n;1",
+      "16": "LED_n;2",
+      "20": "LED_n;3",
+      "22": "LED_n;4",
+      "23": "Btn;1",
+      "24": "Rel;1",
+      "26": "Rel;2",
+      "28": "Btn;3"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/7032438800_1739053466.png",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4105056.html"
+  },
+  {
     "vendor": "Tuya",
     "bDetailed": "0",
     "name": "AirBox Air Quality Temperature & Humidity Sensor",
