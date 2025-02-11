@@ -350,6 +350,24 @@
     "wiki": "https://www.elektroda.com/rtvforum/topic4105056.html"
   },
   {
+    "vendor": "EKVIP",
+    "bDetailed": "0",
+    "name": "Smart Ambient RGB Lamp - Desktop Bar Light - 24V 1A",
+    "model": "ST-LR4311",
+    "chip": "BK7231N",
+    "board": "on PCB",
+    "flags": "1024",
+    "keywords": [
+      "yourlite",
+      "spi",
+      "SM16703P"
+    ],
+    "pins": {},
+    "command": "backlog startDriver SM16703P; SM16703P_Init 30; startDriver PixelAnim",
+    "image": "https://obrazki.elektroda.pl/9883462200_1739111301.png",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4105180.html"
+  },
+  {
     "vendor": "Tuya",
     "bDetailed": "0",
     "name": "AirBox Air Quality Temperature & Humidity Sensor",
