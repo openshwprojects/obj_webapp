@@ -5077,7 +5077,32 @@
       "command": "",
       "image": "https://obrazki.elektroda.pl/4758714100_1734277864.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic4093507.html"
-    },
+    },	  ﻿
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "2 in 1 plug power metering WiFi 16A Beige double plug",
+	  "model": "FL-S181-V1.2",
+	  "chip": "BK7231N",
+	  "board": "CB2S",
+	  "flags": "1024",
+	  "keywords": [
+	    "incorrect CB2S silkscreen",
+	    "dual"
+	  ],
+	  "pins": {
+	    "6": "BL0937CF;0",
+	    "7": "BL0937CF1;0",
+	    "8": "Rel;2",
+	    "11": "Btn;1",
+	    "23": "BL0937SEL;0",
+	    "24": "Rel;1",
+	    "26": "Btn;2"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/5911139000_1739135470.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4105277.html"
+	},
 	{
 	  "vendor": "AQIA",
 	  "bDetailed": "0",
