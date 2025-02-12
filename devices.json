@@ -6730,6 +6730,31 @@
     "command": "",
     "image": "https://static.elektroda.pl/attach/71yUF8q0SBL__SX522__9911857.jpg",
     "wiki": "https://www.elektroda.com/rtvforum/topic4091943.html"
+  },
+  {
+    "vendor": "Farylink",
+    "bDetailed": "0",
+    "name": "16A Tuya Smart Plug with Power Metering (UK)",
+    "model": "",
+    "chip": "LN882H",
+    "board": "FL-M118-V1.1",
+    "flags": "1024",
+    "keywords": [
+      "CB2S",
+      "BL0937",
+      "socket"
+    ],
+    "pins": {
+      "0": "Btn;1",
+      "3": "LED;1",
+      "6": "BL0937CF1;1",
+      "7": "BL0937SEL;0",
+      "11": "Rel;1",
+      "12": "BL0937CF;1"
+    },
+    "command": "powersave 1",
+    "image": "https://obrazki.elektroda.pl/9397668500_1739338997.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4105917.html"
   },  
 {
   "vendor": "Tuya",
