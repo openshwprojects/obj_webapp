@@ -9807,6 +9807,31 @@
 	  "image": "https://obrazki.elektroda.pl/8878189300_1684163043.png",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3978184.html"
 	},
+  {
+    "vendor": "Tuya",
+    "bDetailed": "0",
+    "name": "Shenzhen Neo IR Remote Control - 5V USB-C",
+    "model": "NAS-IR02W6",
+    "chip": "BK7231M",
+    "board": "on PCB",
+    "flags": "1024",
+    "keywords": [
+      "NAS-IR02W6-Pro V3 2022.05.17",
+      "WIFI-IR-WH",
+      "infra-red",
+      "sender",
+      "receiver"
+    ],
+    "pins": {
+      "6": "Btn;1",
+      "7": "IRSend;0",
+      "8": "IRRecv;0",
+      "9": "WifiLED;0"
+    },
+    "command": "",
+    "image": "https://static.elektroda.pl/attach/IMG_2036_1646947.JPG",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4103748.html"
+  },
 	{
 	  "vendor": "Feit",
 	  "bDetailed": "0",
