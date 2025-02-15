@@ -518,7 +518,7 @@
     "wiki": "https://www.elektroda.com/rtvforum/topic4075524.html"
   },
   {
-    "vendor": "Generic",
+    "vendor": "eWeLink",
     "bDetailed": "0",
     "name": "90-250v Wi-Fi Smart Plug With Power Monitoring (EU) (Red PCB)",
     "model": "RMC021",
@@ -530,7 +530,8 @@
       "RM-SMART",
       "RM-TY016-MAJ2HG",
       "CNHZ",
-      "HZ32-1A3S-LH1"
+      "HZ32-1A3S-LH1",
+      "ITEAD"
     ],
     "pins": {
       "2": "Rel;1",
