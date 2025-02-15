@@ -528,7 +528,9 @@
     "keywords": [
       "Bouffalo",
       "RM-SMART",
-      "RM-TY016-MAJ2HG"
+      "RM-TY016-MAJ2HG",
+      "CNHZ",
+      "HZ32-1A3S-LH1"
     ],
     "pins": {
       "2": "Rel;1",
