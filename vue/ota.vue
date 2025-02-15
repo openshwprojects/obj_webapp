@@ -354,6 +354,10 @@
                         prefix = 'OpenBK7231N_';
                         postfix = '.rbl';
                         break;
+                    case 'BK7238':
+                        prefix = 'OpenBK7238_';
+                        postfix = '.rbl';
+                        break;
                     case 'XR809':
                         prefix = 'OpenXR809_';
                         postfix = '.img';
