@@ -141,7 +141,7 @@
 
         /* Check if the chipset uses RBL files */
         chipSetUsesRBL(){
-            return this.chipset === "BK7231T" || this.chipset === "BK7231N";
+            return this.chipset === "BK7231T" || this.chipset === "BK7231N" || this.chipset === "BK7238";
         },
 
         /* Check if the ota fileName matches the chipset */
@@ -352,6 +352,10 @@
                         break;
                     case 'BK7231N':
                         prefix = 'OpenBK7231N_';
+                        postfix = '.rbl';
+                        break;
+                    case 'BK7238':
+                        prefix = 'OpenBK7238_';
                         postfix = '.rbl';
                         break;
                     case 'XR809':
