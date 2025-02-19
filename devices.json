@@ -9813,6 +9813,30 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3978184.html"
 	},
   {
+    "vendor": "MOES",
+    "bDetailed": "0",
+    "name": "15A Tuya Matter Smart Power Plug (US) with Power Metering",
+    "model": "MWP-LO-US15M-EN",
+    "chip": "BK7231N",
+    "board": "on PCB",
+    "flags": "1024",
+    "keywords": [
+      "BL0942",
+      "moeshouse",
+      "USA",
+      "socket",
+      "NAS-WR12W6-metering"
+    ],
+    "pins": {
+      "6": "LED;1",
+      "9": "Btn;1",
+      "26": "Rel;1"
+    },
+    "command": "startdriver ssdp\r\nstartdriver bl0942",
+    "image": "https://obrazki.elektroda.pl/7924900500_1739740495.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4106753.html"
+  },
+  {
     "vendor": "Tuya",
     "bDetailed": "0",
     "name": "Shenzhen Neo IR Remote Control - 5V USB-C",
