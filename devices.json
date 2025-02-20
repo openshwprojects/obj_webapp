@@ -518,7 +518,7 @@
     "wiki": "https://www.elektroda.com/rtvforum/topic4075524.html"
   },
   {
-    "vendor": "Generic",
+    "vendor": "eWeLink",
     "bDetailed": "0",
     "name": "90-250v Wi-Fi Smart Plug With Power Monitoring (EU) (Red PCB)",
     "model": "RMC021",
@@ -526,15 +526,20 @@
     "board": "SM-028_V1.3",
     "flags": "1024",
     "keywords": [
-      "Bouffalo"
+      "Bouffalo",
+      "RM-SMART",
+      "RM-TY016-MAJ2HG",
+      "CNHZ",
+      "HZ32-1A3S-LH1",
+      "ITEAD"
     ],
     "pins": {
-      "2": "Rel;0",
+      "2": "Rel;1",
       "3": "BL0937CF1;0",
       "14": "BL0937CF;0",
-      "20": "LED_n;0",
+      "20": "LED_n;1",
       "21": "BL0937SEL;0",
-      "22": "Btn;0"
+      "22": "Btn;1"
     },
     "command": "backlog",
     "image": "https://obrazki.elektroda.pl/9547341300_1726165924.jpg",
@@ -6730,6 +6735,31 @@
     "command": "",
     "image": "https://static.elektroda.pl/attach/71yUF8q0SBL__SX522__9911857.jpg",
     "wiki": "https://www.elektroda.com/rtvforum/topic4091943.html"
+  },
+  {
+    "vendor": "Farylink",
+    "bDetailed": "0",
+    "name": "16A Tuya Smart Plug with Power Metering (UK)",
+    "model": "",
+    "chip": "LN882H",
+    "board": "FL-M118-V1.1",
+    "flags": "1024",
+    "keywords": [
+      "CB2S",
+      "BL0937",
+      "socket"
+    ],
+    "pins": {
+      "0": "Btn;1",
+      "3": "LED;1",
+      "6": "BL0937CF1;1",
+      "7": "BL0937SEL;0",
+      "11": "Rel;1",
+      "12": "BL0937CF;1"
+    },
+    "command": "powersave 1",
+    "image": "https://obrazki.elektroda.pl/9397668500_1739338997.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4105917.html"
   },  
 {
   "vendor": "Tuya",
@@ -9782,6 +9812,55 @@
 	  "image": "https://obrazki.elektroda.pl/8878189300_1684163043.png",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3978184.html"
 	},
+  {
+    "vendor": "MOES",
+    "bDetailed": "0",
+    "name": "15A Tuya Matter Smart Power Plug (US) with Power Metering",
+    "model": "MWP-LO-US15M-EN",
+    "chip": "BK7231N",
+    "board": "on PCB",
+    "flags": "1024",
+    "keywords": [
+      "BL0942",
+      "moeshouse",
+      "USA",
+      "socket",
+      "NAS-WR12W6-metering"
+    ],
+    "pins": {
+      "6": "LED;1",
+      "9": "Btn;1",
+      "26": "Rel;1"
+    },
+    "command": "startdriver ssdp\r\nstartdriver bl0942",
+    "image": "https://obrazki.elektroda.pl/7924900500_1739740495.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4106753.html"
+  },
+  {
+    "vendor": "Tuya",
+    "bDetailed": "0",
+    "name": "Shenzhen Neo IR Remote Control - 5V USB-C",
+    "model": "NAS-IR02W6",
+    "chip": "BK7231M",
+    "board": "on PCB",
+    "flags": "1024",
+    "keywords": [
+      "NAS-IR02W6-Pro V3 2022.05.17",
+      "WIFI-IR-WH",
+      "infra-red",
+      "sender",
+      "receiver"
+    ],
+    "pins": {
+      "6": "Btn;1",
+      "7": "IRSend;0",
+      "8": "IRRecv;0",
+      "9": "WifiLED;0"
+    },
+    "command": "",
+    "image": "https://static.elektroda.pl/attach/IMG_2036_1646947.JPG",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4103748.html"
+  },
 	{
 	  "vendor": "Feit",
 	  "bDetailed": "0",
@@ -14444,7 +14523,7 @@
     },
     "command": "",
     "image": "https://obrazki.elektroda.pl/5953470600_1706549252.jpg",
-    "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20935260"
+    "wiki": "https://www.elektroda.com/rtvforum/topic4032240.html"
   },
   {
     "vendor": "Tuya",
