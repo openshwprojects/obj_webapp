@@ -212,14 +212,14 @@ function processJSON_UserParamKeyStyle(js,user_param_key) {
     if(value != undefined) {
 		let ch = 1;
         desc += "- Bridge Relay On on P"+value+"\n";
-        scr += "backlog setPinRole "+value+" BridgeFWD"+"; ";
+        scr += "backlog setPinRole "+value+" BridgeFWD"+"; "+"\n";
         tmpl.pins[""+value] = "BridgeFWD;"+ch;
     }
     value = user_param_key.rl_off1_pin;
     if(value != undefined) {
 		let ch = 1;
         desc += "- Bridge Relay Off on P"+value+"\n";
-        scr += "backlog setPinRole "+value+" BridgeREV"+"; ";
+        scr += "backlog setPinRole "+value+" BridgeREV"+"; "+"\n";
         tmpl.pins[""+value] = "BridgeREV;"+ch;
     }
     // LED
