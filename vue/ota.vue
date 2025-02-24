@@ -141,7 +141,7 @@
 
         /* Check if the chipset uses RBL files */
         chipSetUsesRBL(){
-            return this.chipset === "BK7231T" || this.chipset === "BK7231N";
+            return this.chipset === "BK7231T" || this.chipset === "BK7231N" || this.chipset === "BK7238";
         },
 
         /* Check if the ota fileName matches the chipset */
@@ -354,6 +354,10 @@
                         prefix = 'OpenBK7231N_';
                         postfix = '.rbl';
                         break;
+                    case 'BK7238':
+                        prefix = 'OpenBK7238_';
+                        postfix = '.rbl';
+                        break;
                     case 'XR809':
                         prefix = 'OpenXR809_';
                         postfix = '.img';
@@ -378,8 +382,14 @@
                         prefix = 'OpenRTL87X0C_';
                         postfix = '_ota.img';
                         break;      
+		    default:
+			prefix = 'Open' + this.chipset + '_';
+                        postfix = '.img';
+			break;
                 }
 
+           	 console.log('OTA prefix=' + prefix);
+           	 console.log('OTA postfix=' + postfix);
                 let options = [];
                 if (prefix){
                     for (let i = 0; i < data.length; i++){
