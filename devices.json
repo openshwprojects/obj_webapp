@@ -188,6 +188,33 @@
 	  "image": "https://obrazki.elektroda.pl/6350829200_1709888597.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4041210.html"
 	},
+  {
+    "vendor": "eWeLink",
+    "bDetailed": "0",
+    "name": "4-Channel R3 Pro Smart Switch PCB 85-265V",
+    "model": "EWI-RFBL-4ch",
+    "chip": "BL602",
+    "board": "SDV-002_V1.2",
+    "flags": "134218820",
+    "keywords": [
+      "relay",
+      "garage",
+      "module"
+    ],
+    "pins": {
+      "0": "Rel;4",
+      "1": "Btn;4",
+      "2": "Rel;1",
+      "3": "Rel;3",
+      "14": "Btn;1",
+      "20": "Btn;3",
+      "21": "Btn;2",
+      "22": "Rel;2"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/8289926700_1740328333.png",
+    "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21452814#21452814"
+  },
 	{
       "vendor": "LoraTap",
       "bDetailed": "0",
