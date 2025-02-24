@@ -208,6 +208,20 @@ function processJSON_UserParamKeyStyle(js,user_param_key) {
         scr += "setPinChannel "+value+" "+ch+"\n";
         tmpl.pins[""+value] = "PWM;"+ch;
     }
+    value = user_param_key.rl_on1_pin;
+    if(value != undefined) {
+		let ch = 1;
+        desc += "- Bridge Relay On on P"+value+"\n";
+        scr += "backlog setPinRole "+value+" BridgeFWD"+"; ";
+        tmpl.pins[""+value] = "BridgeFWD;"+ch;
+    }
+    value = user_param_key.rl_off1_pin;
+    if(value != undefined) {
+		let ch = 1;
+        desc += "- Bridge Relay Off on P"+value+"\n";
+        scr += "backlog setPinRole "+value+" BridgeREV"+"; ";
+        tmpl.pins[""+value] = "BridgeREV;"+ch;
+    }
     // LED
     if(user_param_key.iicscl != undefined)
     {
