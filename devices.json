@@ -5677,6 +5677,31 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic4039283.html"
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "16A Generic Smart Plug with Metering (AU)",
+      "model": "WH_AU_ME V01",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "flags": "1024",
+      "keywords": [
+        "qlrelay",
+        "australia",
+        "BL0937"
+      ],
+      "pins": {
+        "6": "BL0937CF1;0",
+        "7": "BL0937CF;0",
+        "8": "WifiLED_n;0",
+        "11": "Btn;1",
+        "24": "BL0937SEL;0",
+        "26": "Rel;1"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/1524511000_1741211755.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic_YOUR_TOPIC.html"
+    },
+    {
       "vendor": "Kanlux",
       "bDetailed": "1",
       "name": "Kanlux S A60 LED lamp 11.5W E27 RGBCW",
