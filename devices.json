@@ -5706,7 +5706,7 @@
       "vendor": "Tuya",
       "bDetailed": "0",
       "name": "BL E27 ES Socket Smart Light Bulb Adapter Lamp",
-      "model": "TYWI-BL-E27",
+      "model": "DT0005",
       "chip": "BK7231N",
       "board": "CB2S",
       "flags": "0",
@@ -5714,7 +5714,8 @@
         "KR2201WB3",
         "Qiachip",
         "GuoKE",
-        "GK2FF-5VDC-S-A"
+        "GK2FF-5VDC-S-A",
+        "TYWI-BL-E27"
       ],
       "pins": {
         "7": "Btn;1",
