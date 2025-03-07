@@ -5703,6 +5703,27 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic4110196.html"
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "BL E27 ES Socket Smart Light Bulb Adapter Lamp",
+      "model": "TYWI-BL-E27",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "flags": "0",
+      "keywords": [
+        "KR2201WB3",
+        "Qiachip"
+      ],
+      "pins": {
+        "7": "Btn;1",
+        "8": "Rel;1",
+        "10": "WifiLED_n;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/4132199800_1741331463.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4110409.html"
+    },
+    {
       "vendor": "Kanlux",
       "bDetailed": "1",
       "name": "Kanlux S A60 LED lamp 11.5W E27 RGBCW",
