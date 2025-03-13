@@ -22,6 +22,34 @@
       "image": "https://obrazki.elektroda.pl/5120493600_1650616045.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3895572.html#20033093"
     },
+	{
+		"vendor": "Zemismart",
+		"bDetailed": "0",
+		"name": "Matter LED Light Bulb RGBCW E27 Dimmable 7W",
+		"model": "ZML2-7W",
+		"chip": "BL2028N",
+		"board": "UAM026",
+		"flags": "1024",
+		"keywords": [
+			"lamp",
+			"UHOME",
+			"UASCENT",
+			"BP2516F",
+			"SL421A ",
+			"SYWB07",
+			"RGBCCT V1.3"
+		],
+		"pins": {
+			"6": "PWM;5",
+			"7": "PWM;4",
+			"8": "PWM;1",
+			"24": "PWM;2",
+			"26": "PWM;3"
+		},
+		"command": "",
+		"image": "https://obrazki.elektroda.pl/9164503800_1741641409.jpg",
+		"wiki": "https://www.elektroda.com/rtvforum/topic4111089.html"
+	},
     {
       "vendor": "Cozylife",
       "bDetailed": "0",
