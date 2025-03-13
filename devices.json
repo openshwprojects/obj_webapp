@@ -7615,6 +7615,28 @@
     "image": "https://obrazki.elektroda.pl/9953066400_1710663548.png",
     "wiki": "https://www.elektroda.com/rtvforum/topic4042856.html"
   },
+{
+  "vendor": "LTC",
+  "bDetailed": "0",
+  "name": "Smart Socket 16A with power monitoring (EU)",
+  "model": "LXU407",
+  "chip": "BK7231N",
+  "board": "on PCB",
+  "flags": "1028",
+  "keywords": [
+    "socket",
+    "BL0942",
+    "BK7231N on PCB"
+  ],
+  "pins": {
+    "6": "LED_n;1",
+    "9": "Btn;1",
+    "26": "Rel;1"
+  },
+  "command": "backlog startDriver BL0942; PowerSave 1;",
+  "image": "https://obrazki.elektroda.pl/7986233400_1741641698_thumb.jpg",
+  "wiki": "https://www.elektroda.pl/rtvforum/topic4111084.html"
+},
   {
     "vendor": "GHome",
     "bDetailed": "0",
