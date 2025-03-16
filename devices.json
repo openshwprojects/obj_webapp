@@ -11934,12 +11934,33 @@
 	  "flags": "1024",
 	  "keywords": [
 		"smart socket",
-		"smart dimmer"
+		"smart dimmer",
+    "tuyamcu"
 	  ],
 	  "pins": {},
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/2112688900_1707364259.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20950756#20950756"
+	},
+  {
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "Treatlife 300W Dual Outlet Plug-In Dimmer (US)",
+	  "model": "DP20",
+	  "chip": "BK7231N",
+	  "board": "CB3S",
+	  "flags": "1024",
+	  "keywords": [
+		"socket",
+		"TuyaMCU",
+    "DP20_RMD_V2.2",
+    "CB04-SBL-B",
+    "RMD-DP200BTF"
+	  ],
+	  "pins": {},
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/5451634600_1741982828.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4111826.html"
 	},
 	{
 	  "vendor": "Xenon",
