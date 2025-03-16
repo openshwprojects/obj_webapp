@@ -11942,6 +11942,29 @@
 	  "image": "https://obrazki.elektroda.pl/2112688900_1707364259.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20950756#20950756"
 	},
+    {
+    "vendor": "Tuya",
+    "bDetailed": "0",
+    "name": "SILVERGEAR Smart Socket with Energy Monitor (EU)",
+    "model": "ArtNo. 3750 Batch No. 23417",
+    "chip": "BK7231N",
+    "board": "CB2S",
+    "flags": "1024",
+    "keywords": [
+      "plug"
+    ],
+    "pins": {
+      "6": "BL0937CF;0",
+      "7": "BL0937CF1;0",
+      "8": "BL0937SEL;0",
+      "10": "WifiLED_n;0",
+      "24": "Rel;1",
+      "26": "Btn;1"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/1107946900_1741354324.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4110485.html"
+  },
   {
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
