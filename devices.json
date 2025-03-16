@@ -11966,6 +11966,26 @@
     "wiki": "https://www.elektroda.com/rtvforum/topic4110485.html"
   },
   {
+    "vendor": "TEGAL",
+    "bDetailed": "0",
+    "name": "Wireless Wi-Fi Remote 16A Smart Power Plug (AU)",
+    "model": "A10 Classic",
+    "chip": "BK7231N",
+    "board": "CB2S",
+    "flags": "1024",
+    "keywords": [
+      "socket"
+    ],
+    "pins": {
+      "8": "WifiLED_n;0",
+      "10": "Btn;1",
+      "26": "Rel;1"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/YOUR_IMAGE.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic_YOUR_TOPIC.html"
+  },
+  {
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
 	  "name": "Treatlife 300W Dual Outlet Plug-In Dimmer (US)",
