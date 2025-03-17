@@ -22,6 +22,34 @@
       "image": "https://obrazki.elektroda.pl/5120493600_1650616045.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3895572.html#20033093"
     },
+	{
+		"vendor": "Zemismart",
+		"bDetailed": "0",
+		"name": "Matter LED Light Bulb RGBCW E27 Dimmable 7W",
+		"model": "ZML2-7W",
+		"chip": "BL2028N",
+		"board": "UAM026",
+		"flags": "1024",
+		"keywords": [
+			"lamp",
+			"UHOME",
+			"UASCENT",
+			"BP2516F",
+			"SL421A ",
+			"SYWB07",
+			"RGBCCT V1.3"
+		],
+		"pins": {
+			"6": "PWM;5",
+			"7": "PWM;4",
+			"8": "PWM;1",
+			"24": "PWM;2",
+			"26": "PWM;3"
+		},
+		"command": "",
+		"image": "https://obrazki.elektroda.pl/9164503800_1741641409.jpg",
+		"wiki": "https://www.elektroda.com/rtvforum/topic4111089.html"
+	},
     {
       "vendor": "Cozylife",
       "bDetailed": "0",
@@ -188,6 +216,33 @@
 	  "image": "https://obrazki.elektroda.pl/6350829200_1709888597.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4041210.html"
 	},
+  {
+    "vendor": "eWeLink",
+    "bDetailed": "0",
+    "name": "4-Channel R3 Pro Smart Switch PCB 85-265V",
+    "model": "EWI-RFBL-4ch",
+    "chip": "BL602",
+    "board": "SDV-002_V1.2",
+    "flags": "134218820",
+    "keywords": [
+      "relay",
+      "garage",
+      "module"
+    ],
+    "pins": {
+      "0": "Rel;4",
+      "1": "Btn;4",
+      "2": "Rel;1",
+      "3": "Rel;3",
+      "14": "Btn;1",
+      "20": "Btn;3",
+      "21": "Btn;2",
+      "22": "Rel;2"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/8289926700_1740328333.png",
+    "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21452814#21452814"
+  },
 	{
       "vendor": "LoraTap",
       "bDetailed": "0",
@@ -5648,6 +5703,56 @@
       "command": "",
       "image": "https://obrazki.elektroda.pl/9633952600_1709134022.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic4039283.html"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "16A Generic Smart Plug with Metering (AU)",
+      "model": "WH_AU_ME V01",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "flags": "1024",
+      "keywords": [
+        "qlrelay",
+        "australia",
+        "BL0937",
+        "JZC-11FH 005-1H1L"
+      ],
+      "pins": {
+        "6": "BL0937CF1;0",
+        "7": "BL0937CF;0",
+        "8": "WifiLED_n;0",
+        "11": "Btn;1",
+        "24": "BL0937SEL;0",
+        "26": "Rel;1"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/1524511000_1741211755.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4110196.html"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "BL E27 ES Socket Smart Light Bulb Adapter Lamp",
+      "model": "DT0005",
+      "chip": "BK7231N",
+      "board": "CB2S",
+      "flags": "0",
+      "keywords": [
+        "KR2201WB3",
+        "Qiachip",
+        "GuoKE",
+        "GK2FF-5VDC-S-A",
+        "TYWI-BL-E27"
+      ],
+      "pins": {
+        "7": "Btn;1",
+        "8": "Rel;1",
+        "10": "WifiLED_n;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/4132199800_1741331463.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4110409.html"
     },
     {
       "vendor": "Kanlux",
@@ -11829,12 +11934,76 @@
 	  "flags": "1024",
 	  "keywords": [
 		"smart socket",
-		"smart dimmer"
+		"smart dimmer",
+    "tuyamcu"
 	  ],
 	  "pins": {},
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/2112688900_1707364259.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20950756#20950756"
+	},
+    {
+    "vendor": "Tuya",
+    "bDetailed": "0",
+    "name": "SILVERGEAR Smart Socket with Energy Monitor (EU)",
+    "model": "ArtNo. 3750 Batch No. 23417",
+    "chip": "BK7231N",
+    "board": "CB2S",
+    "flags": "1024",
+    "keywords": [
+      "plug"
+    ],
+    "pins": {
+      "6": "BL0937CF;0",
+      "7": "BL0937CF1;0",
+      "8": "BL0937SEL;0",
+      "10": "WifiLED_n;0",
+      "24": "Rel;1",
+      "26": "Btn;1"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/1107946900_1741354324.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4110485.html"
+  },
+  {
+    "vendor": "TEGAL",
+    "bDetailed": "0",
+    "name": "Wireless Wi-Fi Remote 16A Smart Power Plug (AU)",
+    "model": "A10 Classic",
+    "chip": "BK7231N",
+    "board": "CB2S",
+    "flags": "1024",
+    "keywords": [
+      "socket"
+    ],
+    "pins": {
+      "8": "WifiLED_n;0",
+      "10": "Btn;1",
+      "26": "Rel;1"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/YOUR_IMAGE.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic_YOUR_TOPIC.html"
+  },
+  {
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "Treatlife 300W Dual Outlet Plug-In Dimmer (US)",
+	  "model": "DP20",
+	  "chip": "BK7231N",
+	  "board": "CB3S",
+	  "flags": "1024",
+	  "keywords": [
+		"socket",
+		"TuyaMCU",
+    "DP20_RMD_V2.2",
+    "CB04-SBL-B",
+    "RMD-DP200BTF"
+	  ],
+	  "pins": {},
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/5451634600_1741982828.png",
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4111826.html"
 	},
 	{
 	  "vendor": "Xenon",
