@@ -11965,6 +11965,34 @@
     "image": "https://obrazki.elektroda.pl/1107946900_1741354324.jpg",
     "wiki": "https://www.elektroda.com/rtvforum/topic4110485.html"
   },
+{
+  "vendor": "Gosund",
+  "bDetailed": "0",
+  "name": "Dual Smart Plug WiFi",
+  "model": "SP211",
+  "chip": "RTL87X0C",
+  "board": "CUCO-ZO-R-V1.2",
+  "flags": "2098180",
+  "keywords": [
+        "socket",
+        "outlet"
+  ],
+  "pins": {
+    "2": "Rel;2",
+    "3": "Rel;1",
+    "4": "Btn;1",
+    "11": "LED_n;2",
+    "12": "Btn;2",
+    "13": "BL0937SEL;0",
+    "14": "LED_n;3",
+    "17": "BL0937CF;0",
+    "18": "BL0937CF1;0",
+    "19": "LED_n;1"
+  },
+  "command": "backlog startDriver BL0937; BL0937_VCPPrecision 2 2 2 2; BL0937_VCPPublishThreshold 0.5 0.3 0.3",
+  "image": "https://obrazki.elektroda.pl/8860551500_1716902366.png",
+  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21484297#21484297"
+},
   {
     "vendor": "TEGAL",
     "bDetailed": "0",
