@@ -10965,6 +10965,31 @@
 	"image": "https://obrazki.elektroda.pl/8078197200_1742321566.jpg",
 	"wiki": "https://www.elektroda.com/rtvforum/topic4112667.html"
 	},
+	{
+		"vendor": "Farylink",
+		"bDetailed": "0",
+		"name": "Tuya Smart Socket 16A 3840W (EU)",
+		"model": "FL-S165-V1.1",
+		"chip": "RTL8710B",
+		"board": "WR2E",
+		"flags": "1024",
+		"keywords": [
+			"realtek",
+			"plug",
+			"LSPA9-ish"
+		],
+		"pins": {
+			"1": "BL0937CF;0",
+			"8": "BL0937CF1;0",
+			"9": "LED_n;1",
+			"10": "BL0937SEL;0",
+			"11": "Btn;1",
+			"12": "Rel;1"
+		},
+		"command": "",
+		"image": "https://obrazki.elektroda.pl/3485852600_1742399636.jpg",
+		"wiki": "https://www.elektroda.com/rtvforum/topic_YOUR_TOPIC.html"
+	},
     {
       "vendor": "Mirabella",
       "bDetailed": "0",
