@@ -10939,6 +10939,32 @@
       "wiki": "",
       "product": "https://www.alibaba.com/product-detail/Factory-OEM-zigbee-smart-switch-eu_1600258056467.html"
     },
+	{
+	"vendor": "Tuya",
+	"bDetailed": "0",
+	"name": "20A Generic Smart Plug (EU)",
+	"model": "",
+	"chip": "ECR6600",
+	"board": "on PCB",
+	"flags": "1024",
+	"keywords": [
+		"JY3FF-SH-DC5V-A(K",
+		"ESWIN",
+		"LSPA9-ish",
+		"JIEYING"
+	],
+	"pins": {
+		"14": "BL0937CF;0",
+		"15": "BL0937SEL;0",
+		"20": "BL0937CF1;0",
+		"22": "WifiLED;0",
+		"24": "Btn;1",
+		"25": "Rel;1"
+	},
+	"command": "",
+	"image": "https://obrazki.elektroda.pl/8078197200_1742321566.jpg",
+	"wiki": "https://www.elektroda.com/rtvforum/topic4112667.html"
+	},
     {
       "vendor": "Mirabella",
       "bDetailed": "0",
