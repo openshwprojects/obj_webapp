@@ -10939,6 +10939,57 @@
       "wiki": "",
       "product": "https://www.alibaba.com/product-detail/Factory-OEM-zigbee-smart-switch-eu_1600258056467.html"
     },
+	{
+	"vendor": "Tuya",
+	"bDetailed": "0",
+	"name": "20A Generic Smart Plug (EU)",
+	"model": "",
+	"chip": "ECR6600",
+	"board": "on PCB",
+	"flags": "1024",
+	"keywords": [
+		"JY3FF-SH-DC5V-A(K",
+		"ESWIN",
+		"LSPA9-ish",
+		"JIEYING"
+	],
+	"pins": {
+		"14": "BL0937CF;0",
+		"15": "BL0937SEL;0",
+		"20": "BL0937CF1;0",
+		"22": "WifiLED;0",
+		"24": "Btn;1",
+		"25": "Rel;1"
+	},
+	"command": "",
+	"image": "https://obrazki.elektroda.pl/8078197200_1742321566.jpg",
+	"wiki": "https://www.elektroda.com/rtvforum/topic4112667.html"
+	},
+	{
+		"vendor": "Farylink",
+		"bDetailed": "0",
+		"name": "Tuya Smart Socket 16A 3840W (EU)",
+		"model": "FL-S165-V1.1",
+		"chip": "RTL8710B",
+		"board": "WR2E",
+		"flags": "1024",
+		"keywords": [
+			"realtek",
+			"plug",
+			"LSPA9-ish"
+		],
+		"pins": {
+			"1": "BL0937CF;0",
+			"8": "BL0937CF1;0",
+			"9": "LED_n;1",
+			"10": "BL0937SEL;0",
+			"11": "Btn;1",
+			"12": "Rel;1"
+		},
+		"command": "",
+		"image": "https://obrazki.elektroda.pl/3485852600_1742399636.jpg",
+		"wiki": "https://www.elektroda.com/rtvforum/topic4112829.html"
+	},
     {
       "vendor": "Mirabella",
       "bDetailed": "0",
