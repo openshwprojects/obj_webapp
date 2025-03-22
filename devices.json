@@ -11986,7 +11986,9 @@
     "keywords": [
       "BL602C20",
       "ITEAD",
-      "FWLED-SN0205PWM-LIGHT-BL602L_v1.1.1"
+      "FWLED-SN0205PWM-LIGHT-BL602L_v1.1.1",
+      "8X2-A60-WIFI-CW-BP-G1",
+      "BP5772"
     ],
     "pins": {
       "20": "PWM;5",
