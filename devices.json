@@ -11975,6 +11975,27 @@
 	  "image": "https://obrazki.elektroda.pl/5025700900_1681333896.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20537029#20537029"
 	},
+  {
+    "vendor": "Sonoff",
+    "bDetailed": "0",
+    "name": "eWeLink 220V-240V E27 CW+WW CCT LED Bulb",
+    "model": "B02-BL-A60",
+    "chip": "BL602",
+    "board": "SM-030",
+    "flags": "1024",
+    "keywords": [
+      "BL602C20",
+      "ITEAD",
+      "FWLED-SN0205PWM-LIGHT-BL602L_v1.1.1"
+    ],
+    "pins": {
+      "20": "PWM;5",
+      "21": "PWM;4"
+    },
+    "command": "powersave 1",
+    "image": "https://obrazki.elektroda.pl/8505623000_1742636879.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4113306.html"
+  },
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
