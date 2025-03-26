@@ -278,7 +278,7 @@
 	  "board": "SM-028_V1.3",
 	  "flags": "69731332",
 	  "keywords": [
-	
+
 	  ],
 	  "pins": {
 		"2": "Rel;1",
@@ -650,6 +650,26 @@
 	  "image": "https://obrazki.elektroda.pl/7728453700_1709671235.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4040700.html"
 	},
+  {
+    "vendor": "LEDVANCE",
+    "bDetailed": "0",
+    "name": "SmartPlus Classic A60 Dimable White Bulb E27 9W 806lm",
+    "model": "AC33908",
+    "chip": "BK7231T",
+    "board": "WB8P",
+    "flags": "267264",
+    "keywords": [
+      "2700-6500k",
+      "warm",
+      "smart+",
+      "230v"
+    ],
+    "pins": {
+      "9": "PWM;1"
+    },
+    "command": "",
+    "image": "https://cdn.idealo.com/folder/Product/201634/2/201634239/s1_produktbild_max/ledvance-smart-classic-wifi-dim-e27-9w-ww-ac33908.jpg"
+  },
   {
     "vendor": "LEDVANCE",
     "bDetailed": "0",
@@ -1863,7 +1883,7 @@
       "vendor": "Tuya",
       "bDetailed": "0",
       "name": "Guudgo Flood Water Leak Sensor",
-      "model": "DP-WW001", 
+      "model": "DP-WW001",
       "chip": "BK7231N",
       "board": "CBU",
       "flags": "1024",
@@ -3281,7 +3301,7 @@
       "chip": "BK7231N",
       "board": "CB3S",
       "pins": {
-        
+
       },
       "keywords": [
         "TuyaMCU",
@@ -3297,7 +3317,7 @@
       "chip": "BK7231N",
       "board": "CBU",
       "pins": {
-        
+
       },
       "keywords": [
         "TuyaMCU",
@@ -3365,7 +3385,7 @@
         "bulb",
         "BP5768",
         "BP5758"
-      ],      
+      ],
 	  "command": "BP5758D_Map 1 0 2 3 4",
       "image": "https://obrazki.elektroda.pl/3565197100_1675017558.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20411879#20411879"
@@ -3400,8 +3420,8 @@
       "chip": "BK7231N",
       "board": "CB2L",
 	  "pins": {
-		  "7": "BP5758D_CLK;1", 
-		  "8": "BP5758D_DAT;0" 
+		  "7": "BP5758D_CLK;1",
+		  "8": "BP5758D_DAT;0"
 	  },
       "keywords": [
         "RGBCW",
@@ -3412,7 +3432,7 @@
         "BP5768",
         "BP5758",
         "A60"
-      ],      
+      ],
 	  "command": "BP5758D_Map 4 3 1 0 2",
       "image": "https://obrazki.elektroda.pl/7825042400_1702546544.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic4021287.html"
@@ -3434,7 +3454,7 @@
         "E26",
         "bulb",
         "Daybetter Smart Light 2.4GHz Only 4 Pack"
-      ],      
+      ],
 	  "command": "BP5758D_Map 2 1 0 3 4",
       "image": "https://obrazki.elektroda.pl/3078154100_1674258160.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20396754#20396754"
@@ -4018,7 +4038,7 @@
       "image": "https://obrazki.elektroda.pl/5883352900_1678713488.png",
       "wiki": ""
     },
-	
+
 {
   "vendor": "AVATTO",
   "name": "AVATTO Tuya Brazil 4x4 WiFi Wall Switch",
@@ -4048,7 +4068,7 @@
   },
   "image": "https://obrazki.elektroda.pl/3446798000_1683029505.jpg",
   "wiki": "https://www.elektroda.com/rtvforum/topic3975448.html"
-},  
+},
     {
       "vendor": "Calex",
       "bDetailed": "0",
@@ -4510,7 +4530,7 @@
       "image": "https://obrazki.elektroda.pl/2989380300_1693991809.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic4000657.html",
       "command": ""
-    }, 
+    },
     {
       "vendor": "Tuya",
       "bDetailed": "0",
@@ -4899,7 +4919,7 @@
       ],
       "image": "https://obrazki.elektroda.pl/9322646800_1719415161.jpg",
       "wiki": "https://www.elektroda.pl/rtvforum/topic4062174.html"
-    },  
+    },
     {
       "vendor": "Tuya",
       "bDetailed": "0",
@@ -4974,7 +4994,7 @@
   "command": "",
   "image": "https://obrazki.elektroda.pl/5700635600_1725081846.jpg",
   "wiki": "https://www.elektroda.com/rtvforum/topic4073310.html"
-},  
+},
     {
       "vendor": "Tuya",
       "bDetailed": "1",
@@ -5186,7 +5206,7 @@
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/9049397300_1721571936.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4066446.html"
-	},	  
+	},
     {
       "vendor": "BSEED",
       "bDetailed": "0",
@@ -5815,7 +5835,7 @@
       "command": "",
       "image": "https://obrazki.elektroda.pl/2067320100_1728252633.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic4079733.html"
-    },  
+    },
     {
       "vendor": "Tuya",
       "bDetailed": "0",
@@ -6216,7 +6236,7 @@
 	  "keywords": [
 		"Amazon",
 		"FCC ID: 2AFNL-TYWE3S",
-		"T40W", 
+		"T40W",
 		"IC ID: 23243-TYWE3S",
 		"Intertek",
 		"4007168"
@@ -6277,7 +6297,7 @@
   "command": "",
   "image": "https://obrazki.elektroda.pl/7592643100_1730060366.jpg",
   "wiki": "https://www.elektroda.com/rtvforum/topic4083568.html"
-},  
+},
     {
       "vendor": "Nedis",
       "bDetailed": "0",
@@ -6679,7 +6699,7 @@
 		"din rail"
 	  ],
 	  "pins": {
-		
+
 	  },
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/2748029700_1641497914.png",
@@ -6865,7 +6885,7 @@
     "command": "powersave 1",
     "image": "https://obrazki.elektroda.pl/9397668500_1739338997.jpg",
     "wiki": "https://www.elektroda.com/rtvforum/topic4105917.html"
-  },  
+  },
 {
   "vendor": "Tuya",
   "bDetailed": "0",
@@ -6969,7 +6989,7 @@
 	  "image": "https://obrazki.elektroda.pl/6767295300_1703067357.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3970659.html"
 	},
-	
+
 	{
 	  "vendor": "Shenzhen Qingning Tongchuang Technology Co.Ltd",
 	  "bDetailed": "0",
@@ -7485,7 +7505,7 @@
 	"command": "",
 	"image": "https://obrazki.elektroda.pl/1141907700_1736083148.jpg",
 	"wiki": "https://www.elektroda.pl/rtvforum/topic4097606.html"
-	},  
+	},
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
@@ -7865,7 +7885,7 @@
   "command": "",
   "image": "https://obrazki.elektroda.pl/9633000200_1720880092.jpg",
   "wiki": "https://www.elektroda.com/rtvforum/topic4064964.html"
-},  
+},
 {
   "vendor": "Melery",
   "bDetailed": "0",
@@ -8229,7 +8249,7 @@
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/8626268000_1696928281.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4007263.html"
-	},  
+	},
 {
   "vendor": "KMC",
   "bDetailed": "0",
@@ -9281,7 +9301,7 @@
       "wiki": "https://www.elektroda.pl/rtvforum/topic4081611.html",
       "product": ""
     },
-	
+
     {
       "vendor": "Sonoff",
       "bDetailed": "1",
@@ -9760,7 +9780,7 @@
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/5876657200_1688391246.png",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3987582.html"
-	},  
+	},
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
@@ -9777,12 +9797,12 @@
 	    "11": "Btn;1",
 	    "23": "Rel;1",
 	    "24": "BL0937SEL;0"
-	  },  
+	  },
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/7014154300_1721153160.png",
 	  "wiki": "https://www.elektroda.pl/rtvforum/topic4069082.html"
 	},
-	  
+
 {
   "vendor": "Tuya",
   "bDetailed": "0",
@@ -9806,7 +9826,7 @@
   "image": "https://obrazki.elektroda.pl/6848632200_1738845218.png",
   "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?p=21427301#21427301"
 },
-	
+
 {
   "vendor": "Tuya",
   "bDetailed": "0",
@@ -9828,8 +9848,8 @@
   "command": "",
   "image": "https://obrazki.elektroda.pl/7594845700_1738841875.jpg",
   "wiki": "https://www.elektroda.pl/rtvforum/topic4103835.html"
-},  
-	  
+},
+
 {
   "vendor": "Tuya",
   "bDetailed": "0",
@@ -10604,7 +10624,7 @@
   },
   "image": "https://obrazki.elektroda.pl/8471866500_1728724279.jpg",
   "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21264621#21264621"
-},  
+},
     {
       "vendor": "Tuya",
       "bDetailed": "0",
@@ -11158,7 +11178,7 @@
       "command": "",
       "image": "https://obrazki.elektroda.pl/4025787800_1712480145.jpg",
       "wiki": "https://www.elektroda.pl/rtvforum/topic4076328.html"
-    }, 
+    },
     {
       "vendor": "Maxcio",
       "bDetailed": "0",
@@ -11650,7 +11670,7 @@
 	  "keywords": [
 		"RTL8710CF",
 		"socket"
-	  ],	  
+	  ],
       "pins": {},
       "image": "https://obrazki.elektroda.pl/8840216200_1668409633.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3933842.html"
@@ -11954,7 +11974,7 @@
       ],
       "image": "https://obrazki.elektroda.pl/2139408300_1665942159_thumb.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3926915.html"
-    }, 
+    },
 	{
 	  "vendor": "Spectrum",
 	  "bDetailed": "0",
@@ -12165,7 +12185,7 @@
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/7726775800_1704666944.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4062621.html"
-	},	  
+	},
     {
       "vendor": "Tuya",
       "bDetailed": "1",
@@ -12978,7 +12998,7 @@
       "image": "https://www.hama.com/bilder/00176/abx/00176584abx.png",
       "wiki": "",
       "product": "https://www.hama.com/00176584/hama-wlan-led-lamp-e27-10w-dimmable-bulb-for-voice-app-control-white"
-    },  
+    },
     {
       "bDetailed": "0",
       "vendor": "Hama",
@@ -12993,7 +13013,7 @@
       "image": "https://obrazki.elektroda.pl/6173202200_1675442151.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20420773#20420773",
       "product": ""
-    },  
+    },
     {
       "vendor": "Techliner",
       "bDetailed": "1",
@@ -13087,7 +13107,7 @@
     "command": "backlog startdriver bp5758D; BP5758D_Map 2 0 1 3 4",
     "image": "https://obrazki.elektroda.pl/6585239000_1734297139.jpg",
     "wiki": "https://www.elektroda.com/rtvforum/topic4093574.html"
-  },  
+  },
   {
 	  "vendor": "Yieryi",
 	  "bDetailed": "0",
@@ -13469,7 +13489,7 @@
       "flag": 134218752,
       "command": "SM2135_Map 2 1 0 4 3",
       "keywords": [
-		"E27",        
+		"E27",
 		"RGBW",
 		"9W",
 		"SM2135"
@@ -14498,7 +14518,7 @@
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/9759474100_1703514958.jpg",
 	  "wiki": "https://www.elektroda.pl/rtvforum/topic4026051.html"
-	}, 
+	},
   {
     "vendor": "Action",
     "bDetailed": "0",
