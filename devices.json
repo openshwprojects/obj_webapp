@@ -993,10 +993,10 @@
       "BL0942"
     ],
     "pins": {
-      "8": "LED_n;0",
-      "23": "Btn;0",
-      "24": "dInput_n;0",
-      "26": "Rel;0"
+      "8": "LED_n;1",
+      "23": "Btn;1",
+      "24": "dInput_n;1",
+      "26": "Rel;1"
     },
     "command": "backlog startdriver bl0942; powersave 1",
     "image": "https://obrazki.elektroda.pl/9545097300_1742293367.jpg",
