@@ -981,7 +981,7 @@
   {
     "vendor": "Aubess",
     "bDetailed": "0",
-    "name": "16A Tuya Mini Power Monitor Switch",
+    "name": "16A Tuya Mini Power Monitor Switch ID:13605",
     "model": "PSW1-24v3-WF",
     "chip": "BK7231N",
     "board": "CB2S",
@@ -990,7 +990,8 @@
       "DIY",
       "relay",
       "Y3F-105DM",
-      "BL0942"
+      "BL0942",
+      "PSW-22v3A"
     ],
     "pins": {
       "8": "LED_n;1",
@@ -999,7 +1000,7 @@
       "26": "Rel;1"
     },
     "command": "backlog startdriver bl0942; powersave 1",
-    "image": "https://obrazki.elektroda.pl/3619711400_1742994950.jpg",
+    "image": "https://obrazki.elektroda.pl/7566384900_1742998903.jpg",
     "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21484937#21484937"
   },
     {
