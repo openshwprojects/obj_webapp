@@ -991,7 +991,7 @@
       "relay",
       "Y3F-105DM",
       "BL0942",
-      "PSW-22v3A"
+      "requires autoexec.bat addEventHandler OnChannelChange 2 ToggleChannel 1"
     ],
     "pins": {
       "8": "LED_n;1",
@@ -1001,6 +1001,30 @@
     },
     "command": "backlog startdriver bl0942; powersave 1",
     "image": "https://obrazki.elektroda.pl/7566384900_1742998903.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21484937#21484937"
+  },
+  {
+    "vendor": "Aubess",
+    "bDetailed": "0",
+    "name": "16A Tuya Mini Power Monitor Switch ID:13605",
+    "model": "PSW-22V3a",
+    "chip": "BK7231N",
+    "board": "CB2S",
+    "flags": "1024",
+    "keywords": [
+      "DIY",
+      "relay",
+      "Y3F-105DM",
+      "BL0942"
+    ],
+    "pins": {
+      "8": "LED_n;1",
+      "23": "Btn;1",
+      "24": "TglChanOnTgl;1",
+      "26": "Rel;1"
+    },
+    "command": "backlog startdriver bl0942; powersave 1",
+    "image": "https://obrazki.elektroda.pl/4109276000_1742998898.jpg",
     "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21484937#21484937"
   },
     {
