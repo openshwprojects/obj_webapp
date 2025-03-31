@@ -11093,6 +11093,29 @@
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20821883"
     },
     {
+      "vendor": "Litemate",
+      "bDetailed": "0",
+      "name": "SmartHome RGBCW WiFi LED Lamp 9W B22 A60 810LM",
+      "model": "LM044",
+      "chip": "BK7231N",
+      "board": "CBLC5",
+      "flags": "1024",
+      "keywords": [
+        "ZCSLLV0692A",
+        "-BP57580-46.4-2B9C83B4C-2202-35-01",
+        "A60IICDB9W9+4S465V01-GC",
+        "A60WBIIC9W40X27V01-GC-BP5758X-2202-55-V2",
+        "bulb"
+      ],
+      "pins": {
+        "6": "BP5758D_CLK;0",
+        "24": "BP5758D_DAT;0"
+      },
+      "command": "backlog startDriver BP5758D; BP5758D_Map 1 0 2 4 3; powersave 1",
+      "image": "https://obrazki.elektroda.pl/9140889800_1743250603.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4114676.html"
+    },
+    {
       "vendor": "Mirabella",
       "bDetailed": "0",
       "name": "Mirabella Genio 9W 750Lumen, 2700K~6500K RGB + CCT Downlight - Part I004544",
