@@ -996,7 +996,7 @@
     "pins": {
       "8": "LED_n;1",
       "23": "Btn;1",
-      "24": "dInput_n;1",
+      "24": "dInput_n;2",
       "26": "Rel;1"
     },
     "command": "backlog startdriver bl0942; powersave 1",
@@ -1014,7 +1014,7 @@
     "keywords": [
       "DIY",
       "relay",
-      "Y3F-105DM",
+      "Y12FT-105DM",
       "BL0942"
     ],
     "pins": {
