@@ -12854,6 +12854,27 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3980300.html"
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Generic Dimmable 5W GU10 LED RGBCW Bulb",
+      "model": "",
+      "chip": "BK7231N",
+      "board": "CBLC5",
+      "flags": "1024",
+      "keywords": [
+        "lamp",
+        "BP5758D",
+        "unmarked"
+      ],
+      "pins": {
+        "24": "BP5758D_CLK;0",
+        "26": "BP5758D_DAT;0"
+      },
+      "command": "backlog powersave 1; BP5758D_Map 2 1 0 3 4; BP5758D_Current 5 14",
+      "image": "https://obrazki.elektroda.pl/4363387100_1744316198.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4116837.html"
+    },
+    {
       "vendor": "Merkury",
       "bDetailed": "0",
       "name": "Merkury WiFi power plug Mi-WW218-199WW 2AJ3WEBECZW03",
