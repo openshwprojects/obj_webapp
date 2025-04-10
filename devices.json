@@ -12857,7 +12857,7 @@
       "vendor": "Tuya",
       "bDetailed": "0",
       "name": "Generic Dimmable 5W GU10 LED RGBCW Bulb",
-      "model": "",
+      "model": "GU10-WIFI",
       "chip": "BK7231N",
       "board": "CBLC5",
       "flags": "1024",
