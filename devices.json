@@ -2780,6 +2780,32 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3976477.html"
     },
     {
+      "vendor": "MTX",
+      "bDetailed": "0",
+      "name": "Merkury Inovations/Tuya Basic RGB LED light strip WiFi 3 meters",
+      "model": "EW003",
+      "chip": "BK7231T",
+      "board": "WB3L",
+      "flags": "1024",
+      "keywords": [
+        "MTX Basic valonauha",
+        "keys8pj5xkq8cmrm",
+        "000002hqnb",
+        "EFE19366"
+
+      ],
+      "pins": {
+        "6": "PWM;5",
+        "7": "PWM;4",
+        "8": "PWM;1",
+        "24": "PWM;2",
+        "26": "PWM;3"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/2391017800_1744826253_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4117787.html"
+    },
+    {
       "vendor": "Magic Home",
       "bDetailed": "1",
       "name": "Magic Home WIFI RGB CTT controller",
