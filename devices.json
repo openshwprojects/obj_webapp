@@ -2782,7 +2782,7 @@
     {
       "vendor": "MTX",
       "bDetailed": "0",
-      "name": "Merkury Inovations/Tuya Basic RGB LED light strip WiFi 3 meters",
+      "name": "Merkury Inovations/Tuya Basic RGB 3M LED Light Strip",
       "model": "EW003",
       "chip": "BK7231T",
       "board": "WB3L",
@@ -2792,7 +2792,6 @@
         "keys8pj5xkq8cmrm",
         "000002hqnb",
         "EFE19366"
-
       ],
       "pins": {
         "6": "PWM;5",
