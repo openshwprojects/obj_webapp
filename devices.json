@@ -2780,6 +2780,24 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3976477.html"
     },
     {
+      "vendor": "NEO Coolcam",
+      "bDetailed": "0",
+      "name": "Smart Mousetrap",
+      "model": "NAS-MA01W",
+      "chip": "BK7231N",
+      "board": "on PCB",
+      "flags": "525312",
+      "keywords": [
+        "rodent",
+        "tuyamcu",
+        "nas-ma01w6-v3"
+      ],
+      "pins": {},
+      "command": "backlog startDriver tuyaMCU; startDriver tmSensor; linkTuyaMCUOutputToChannel 101 val 0; linkTuyaMCUOutputToChannel 102 val 1; linkTuyaMCUOutputToChannel 103 val 2;",
+      "image": "https://obrazki.elektroda.pl/5342012100_1744926121_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4117963.html"
+    },
+    {
       "vendor": "MTX",
       "bDetailed": "0",
       "name": "Merkury Inovations/Tuya Basic RGB 3M LED Light Strip",
