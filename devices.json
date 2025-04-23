@@ -978,6 +978,55 @@
 	  "image": "https://obrazki.elektroda.pl/3366663900_1698638406.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20791576"
 	},
+  {
+    "vendor": "Aubess",
+    "bDetailed": "0",
+    "name": "16A Tuya Mini Power Monitor Switch ID:13605",
+    "model": "PSW1-24v3-WF",
+    "chip": "BK7231N",
+    "board": "CB2S",
+    "flags": "1024",
+    "keywords": [
+      "DIY",
+      "relay",
+      "Y3F-105DM",
+      "BL0942",
+      "requires autoexec.bat addEventHandler OnChannelChange 2 ToggleChannel 1"
+    ],
+    "pins": {
+      "8": "LED_n;1",
+      "23": "Btn;1",
+      "24": "dInput_n;2",
+      "26": "Rel;1"
+    },
+    "command": "backlog startdriver bl0942; powersave 1",
+    "image": "https://obrazki.elektroda.pl/7566384900_1742998903.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21484937#21484937"
+  },
+  {
+    "vendor": "Aubess",
+    "bDetailed": "0",
+    "name": "16A Tuya Mini Power Monitor Switch ID:13605",
+    "model": "PSW-22V3a",
+    "chip": "BK7231N",
+    "board": "CB2S",
+    "flags": "1024",
+    "keywords": [
+      "DIY",
+      "relay",
+      "Y12FT-105DM",
+      "BL0942"
+    ],
+    "pins": {
+      "8": "LED_n;1",
+      "23": "Btn;1",
+      "24": "TglChanOnTgl;1",
+      "26": "Rel;1"
+    },
+    "command": "backlog startdriver bl0942; powersave 1",
+    "image": "https://obrazki.elektroda.pl/4109276000_1742998898.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21484937#21484937"
+  },
     {
       "vendor": "Aoycocr",
       "bDetailed": "1",
@@ -2731,6 +2780,70 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3976477.html"
     },
     {
+      "vendor": "Kasa",
+      "bDetailed": "0",
+      "name": "Smart Single Pole Light Switch by TP-Link (US)",
+      "model": "HS200",
+      "chip": "RTL87X0C",
+      "board": "on PCB",
+      "flags": "1024",
+      "keywords": [      ],
+      "pins": {
+        "4": "LED_n;0",
+        "7": "LED_n;1",
+        "8": "Rel;0",
+        "9": "LED_n;1",
+        "12": "Btn;0",
+        "19": "Btn;1"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/7688993300_1736383309.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4098414.html"
+    },
+    {
+      "vendor": "NEO Coolcam",
+      "bDetailed": "0",
+      "name": "Smart Mousetrap",
+      "model": "NAS-MA01W",
+      "chip": "BK7231N",
+      "board": "on PCB",
+      "flags": "525312",
+      "keywords": [
+        "rodent",
+        "tuyamcu",
+        "nas-ma01w6-v3"
+      ],
+      "pins": {},
+      "command": "backlog startDriver tuyaMCU; startDriver tmSensor; linkTuyaMCUOutputToChannel 101 val 0; linkTuyaMCUOutputToChannel 102 val 1; linkTuyaMCUOutputToChannel 103 val 2;",
+      "image": "https://obrazki.elektroda.pl/5342012100_1744926121_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4117963.html"
+    },
+    {
+      "vendor": "MTX",
+      "bDetailed": "0",
+      "name": "Merkury Inovations/Tuya Basic RGB 3M LED Light Strip",
+      "model": "EW003",
+      "chip": "BK7231T",
+      "board": "WB3L",
+      "flags": "1024",
+      "keywords": [
+        "MTX Basic valonauha",
+        "keys8pj5xkq8cmrm",
+        "000002hqnb",
+        "EFE19366"
+      ],
+      "pins": {
+        "6": "PWM;5",
+        "7": "PWM;4",
+        "8": "PWM;1",
+        "24": "PWM;2",
+        "26": "PWM;3"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/2391017800_1744826253_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4117787.html"
+    },
+    {
       "vendor": "Magic Home",
       "bDetailed": "1",
       "name": "Magic Home WIFI RGB CTT controller",
@@ -3459,6 +3572,33 @@
       "image": "https://obrazki.elektroda.pl/3078154100_1674258160.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20396754#20396754"
     },
+    {
+    "vendor": "Denver",
+    "bDetailed": "0",
+    "name": "Smart Wi-Fi 2in1 plug",
+    "model": "SHP-200MK2",
+    "chip": "BK7231T",
+    "board": "WB2S",
+    "flags": "1024",
+    "keywords": [
+      "Wi-Fi plug",
+      "Powermeter",
+      "WG-05E"
+    ],
+    "pins": {
+      "6": "BL0937SEL;0",
+      "7": "BL0937CF1;0",
+      "8": "BL0937CF;0",
+      "10": "Btn;2",
+      "11": "WifiLED_n;0",
+      "23": "Btn;1",
+      "24": "Rel;2",
+      "26": "Rel;1"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/8126008500_1744475913.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4117118.html"
+  },
     {
       "vendor": "Nous",
       "bDetailed": "1",
@@ -11044,6 +11184,29 @@
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20821883"
     },
     {
+      "vendor": "Litemate",
+      "bDetailed": "0",
+      "name": "SmartHome RGBCW WiFi LED Lamp 9W B22 A60 810LM",
+      "model": "LM044",
+      "chip": "BK7231N",
+      "board": "CBLC5",
+      "flags": "1024",
+      "keywords": [
+        "ZCSLLV0692A",
+        "-BP57580-46.4-2B9C83B4C-2202-35-01",
+        "A60IICDB9W9+4S465V01-GC",
+        "A60WBIIC9W40X27V01-GC-BP5758X-2202-55-V2",
+        "bulb"
+      ],
+      "pins": {
+        "6": "BP5758D_CLK;0",
+        "24": "BP5758D_DAT;0"
+      },
+      "command": "backlog startDriver BP5758D; BP5758D_Map 1 0 2 4 3; powersave 1",
+      "image": "https://obrazki.elektroda.pl/9140889800_1743250603.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4114676.html"
+    },
+    {
       "vendor": "Mirabella",
       "bDetailed": "0",
       "name": "Mirabella Genio 9W 750Lumen, 2700K~6500K RGB + CCT Downlight - Part I004544",
@@ -11995,6 +12158,30 @@
 	  "image": "https://obrazki.elektroda.pl/5025700900_1681333896.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20537029#20537029"
 	},
+  {
+    "vendor": "Sonoff",
+    "bDetailed": "0",
+    "name": "eWeLink 220V-240V E27 CW+WW CCT LED Bulb",
+    "model": "B02-BL-A60",
+    "chip": "BL602",
+    "board": "SM-030",
+    "flags": "1024",
+    "keywords": [
+      "BL602C20",
+      "ITEAD",
+      "FWLED-SN0205PWM-LIGHT-BL602L_v1.1.1",
+      "8X2-A60-WIFI-CW-BP-G1",
+      "BP5772",
+      "TP230-9-A60-WIFI-CW-G2"
+    ],
+    "pins": {
+      "20": "PWM;5",
+      "21": "PWM;4"
+    },
+    "command": "powersave 1",
+    "image": "https://obrazki.elektroda.pl/8505623000_1742636879.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4113306.html"
+  },
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
@@ -12756,6 +12943,27 @@
       "command": "backlog startDriver BP5758D; BP5758D_Map 2 1 0 4 3; BP5758D_Current 29 65",
       "image": "https://obrazki.elektroda.pl/8308439600_1685054084.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3980300.html"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Generic Dimmable 5W GU10 LED RGBCW Bulb",
+      "model": "GU10-WIFI",
+      "chip": "BK7231N",
+      "board": "CBLC5",
+      "flags": "1024",
+      "keywords": [
+        "lamp",
+        "BP5758D",
+        "unmarked"
+      ],
+      "pins": {
+        "24": "BP5758D_CLK;0",
+        "26": "BP5758D_DAT;0"
+      },
+      "command": "backlog powersave 1; BP5758D_Map 2 1 0 3 4; BP5758D_Current 5 14",
+      "image": "https://obrazki.elektroda.pl/4363387100_1744316198.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4116837.html"
     },
     {
       "vendor": "Merkury",
