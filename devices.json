@@ -2780,6 +2780,27 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3976477.html"
     },
     {
+      "vendor": "Kasa",
+      "bDetailed": "0",
+      "name": "Smart Single Pole Light Switch by TP-Link (US)",
+      "model": "HS200",
+      "chip": "RTL87X0C",
+      "board": "on PCB",
+      "flags": "1024",
+      "keywords": [      ],
+      "pins": {
+        "4": "LED_n;0",
+        "7": "LED_n;1",
+        "8": "Rel;0",
+        "9": "LED_n;1",
+        "12": "Btn;0",
+        "19": "Btn;1"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/7688993300_1736383309.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4098414.html"
+    },
+    {
       "vendor": "NEO Coolcam",
       "bDetailed": "0",
       "name": "Smart Mousetrap",
