@@ -10592,10 +10592,24 @@
       "chip": "",
       "board": "",
       "keywords": [
-        ""
+        "AK3918E","AltoBeam 6032l CA45-20"
       ],
       "image": "https://obrazki.elektroda.pl/6310614300_1629750657.jpg",
       "wiki": "https://www.elektroda.pl/rtvforum/topic3826771.html",
+      "product": ""
+    },
+    {
+      "vendor": "",
+      "bDetailed": "1",
+      "name": "ESP32 Camera Development Board",
+      "model": "ESP32-CAM",
+      "chip": "ESP32",
+      "board": "ESP-32S",
+      "keywords": [
+        "PlatformIO"
+      ],
+      "image": "https://obrazki.elektroda.pl/6550958800_1734626996.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4095025.html",
       "product": ""
     },
     {
