@@ -10557,6 +10557,48 @@
       "product": ""
     },
     {
+      "vendor": "Tenda",
+      "bDetailed": "1",
+      "name": "Outdoor TDSEE APP Camera",
+      "model": "CT6-WCA",
+      "chip": "",
+      "board": "",
+      "keywords": [
+        ""
+      ],
+      "image": "https://obrazki.elektroda.pl/6467784000_1730623779.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic4092289.html",
+      "product": ""
+    },
+    {
+      "vendor": "Keview",
+      "bDetailed": "1",
+      "name": "IP HD Camera 4.0MP DC12V 3.6mm H.265",
+      "model": "HS400Z6-P",
+      "chip": "",
+      "board": "",
+      "keywords": [
+        ""
+      ],
+      "image": "https://obrazki.elektroda.pl/2312720100_1726251882.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic4075569.html",
+      "product": ""
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "1",
+      "name": "1080P PTZ Two Way Audio WiFi Wireless Camera People Movement Detection H.265 IR Night Vision Auto Tracking IP66 Waterproof IP Camera - EU Plug",
+      "model": "RPP06",
+      "chip": "",
+      "board": "",
+      "keywords": [
+        ""
+      ],
+      "image": "https://obrazki.elektroda.pl/6310614300_1629750657.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic3826771.html",
+      "product": ""
+    },
+    {
       "vendor": "Spreest",
       "bDetailed": "1",
       "name": "Video Doorbell with Battery-Powered Camera",
