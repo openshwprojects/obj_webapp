@@ -11017,6 +11017,31 @@
       "image": "https://obrazki.elektroda.pl/4585838600_1677699602_thumb.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20464986"
     },
+    {
+      "vendor": "TP-Link",
+      "bDetailed": "0",
+      "name": "Tapo Smart Wi-Fi Socket 16A 100-240V (EU)",
+      "model": "P110",
+      "chip": "RTL87X0C",
+      "board": "on PCB",
+      "flags": "1024",
+      "keywords": [
+        "BL0937",
+        "plug"
+      ],
+      "pins": {
+        "2": "BL0937CF1;0",
+        "3": "BL0937CF;0",
+        "4": "BL0937SEL;0",
+        "12": "Rel;1",
+        "17": "Btn;1",
+        "18": "LED_n;1",
+        "19": "LED;1"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/7369669800_1746339230.png",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21531209#21531209"
+    },
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
