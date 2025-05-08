@@ -7129,7 +7129,27 @@
 	  "image": "https://obrazki.elektroda.pl/6767295300_1703067357.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3970659.html"
 	},
-
+  {
+    "vendor": "TP-Link",
+    "bDetailed": "0",
+    "name": "Kasa Smart Wi-Fi Plug Mini (US)",
+    "model": "HS103V5",
+    "chip": "RTL87X0C",
+    "board": "on PCB",
+    "flags": "1024",
+    "keywords": [
+      "socket"
+    ],
+    "pins": {
+      "12": "Rel;1",
+      "17": "Btn;1",
+      "18": "LED;1",
+      "19": "WifiLED_n;0"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/3920204000_1746651639.png",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4120893.html"
+  },
 	{
 	  "vendor": "Shenzhen Qingning Tongchuang Technology Co.Ltd",
 	  "bDetailed": "0",
