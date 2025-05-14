@@ -7146,7 +7146,7 @@
       "18": "LED;1",
       "19": "WifiLED_n;0"
     },
-    "command": "",
+    "command": "setButtonTimes 50 1 5\r\naddEventHandler OnHold 17 SafeMode",
     "image": "https://obrazki.elektroda.pl/3920204000_1746651639.png",
     "wiki": "https://www.elektroda.com/rtvforum/topic4120893.html"
   },
