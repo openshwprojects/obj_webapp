@@ -2794,7 +2794,7 @@
         "8": "Rel;0",
         "9": "LED_n;1",
         "12": "Btn;0",
-        "19": "Btn;1"
+        "19": "Btn;2"
       },
       "command": "setButtonTimes 50 1 5\r\naddEventHandler OnHold 19 SafeMode",
       "image": "https://obrazki.elektroda.pl/7688993300_1736383309.png",
