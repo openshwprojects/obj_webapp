@@ -5282,7 +5282,7 @@
     {
       "vendor": "TP-Link",
       "bDetailed": "0",
-      "name": "Tapo 10A Smart Plug Socket - UK ",
+      "name": "Tapo 10A Smart Plug Socket (UK)",
       "model": "P100",
       "chip": "RTL8720CF",
       "board": "on PCB",
@@ -7129,7 +7129,27 @@
 	  "image": "https://obrazki.elektroda.pl/6767295300_1703067357.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3970659.html"
 	},
-
+  {
+    "vendor": "TP-Link",
+    "bDetailed": "0",
+    "name": "Kasa Smart Wi-Fi Plug Mini (US)",
+    "model": "HS103V5",
+    "chip": "RTL87X0C",
+    "board": "on PCB",
+    "flags": "1024",
+    "keywords": [
+      "socket"
+    ],
+    "pins": {
+      "12": "Rel;1",
+      "17": "Btn;1",
+      "18": "LED;1",
+      "19": "WifiLED_n;0"
+    },
+    "command": "setButtonTimes 50 1 5\r\naddEventHandler OnHold 17 SafeMode",
+    "image": "https://obrazki.elektroda.pl/3920204000_1746651639.png",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4120893.html"
+  },
 	{
 	  "vendor": "Shenzhen Qingning Tongchuang Technology Co.Ltd",
 	  "bDetailed": "0",
@@ -11016,6 +11036,31 @@
       },
       "image": "https://obrazki.elektroda.pl/4585838600_1677699602_thumb.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20464986"
+    },
+    {
+      "vendor": "TP-Link",
+      "bDetailed": "0",
+      "name": "Tapo Smart Wi-Fi Socket 16A 100-240V (EU)",
+      "model": "P110",
+      "chip": "RTL87X0C",
+      "board": "on PCB",
+      "flags": "1024",
+      "keywords": [
+        "BL0937",
+        "plug"
+      ],
+      "pins": {
+        "2": "BL0937CF1;0",
+        "3": "BL0937CF;0",
+        "4": "BL0937SEL;0",
+        "12": "Rel;1",
+        "17": "Btn;1",
+        "18": "LED_n;1",
+        "19": "LED;1"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/7369669800_1746339230.png",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21531209#21531209"
     },
 	{
 	  "vendor": "Tuya",
