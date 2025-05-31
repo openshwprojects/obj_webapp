@@ -634,7 +634,8 @@
   "board": "Z2-N-V1.1",
   "flags": "1024",
   "keywords": [
-    "2APUZ-SW6"
+    "2APUZ-SW6",
+    "SM01_BK_N"
   ],
   "pins": {
     "6": "Rel_n;2",
