@@ -625,6 +625,30 @@
 	  "image": "https://obrazki.elektroda.pl/4143902500_1709667653.webp",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4040624.html"
 	},
+  {
+  "vendor": "GHome",
+  "bDetailed": "0",
+  "name": "Tuya 3-Way 15A 120V Smart Light Switch",
+  "model": "SW6",
+  "chip": "BK7231N",
+  "board": "Z2-N-V1.1",
+  "flags": "1024",
+  "keywords": [
+    "2APUZ-SW6",
+    "SM01_BK_N"
+  ],
+  "pins": {
+    "6": "Rel_n;2",
+    "14": "LED;3",
+    "22": "Btn;2",
+    "24": "dInput_NoPullUp_n;3",
+    "26": "LED_n;3",
+    "28": "Rel_n;1"
+  },
+  "command": "",
+  "image": "https://obrazki.elektroda.pl/6222220800_1746300349.jpg",
+  "wiki": "https://www.elektroda.com/rtvforum/topic4120237.html"
+  },
 	{
 	  "vendor": "Gerier",
 	  "bDetailed": "0",
