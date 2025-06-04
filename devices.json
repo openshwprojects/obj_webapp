@@ -8825,7 +8825,7 @@
     ],
     "pins": {
       "8": "WifiLED_n;0",
-      "10": "Btn_Tgl_All;0",
+      "10": "Btn;1",
       "23": "TglChanOnTgl;1",
       "26": "Rel;1"
     },
