@@ -75,6 +75,24 @@
       "image": "https://obrazki.elektroda.pl/1590559700_1728852869.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic4081005.html"
     },
+	{
+	  "vendor": "Sonoff",
+	  "bDetailed": "0",
+	  "name": "3gang Matter Switch",
+	  "model": "M5-3C-80W",
+	  "chip": "ESP32-DOWD-R2-V3",
+	  "board": "",
+	  "flags": "",
+	  "keywords": [
+		"LP3667",
+		"3-gang switch"
+	  ],
+	  "pins": {
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/2530964200_1728313661.jpg",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic4125389.html"
+	},
     {
     "vendor": "Moes",
     "bDetailed": "0",
