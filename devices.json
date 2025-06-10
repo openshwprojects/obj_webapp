@@ -75,6 +75,24 @@
       "image": "https://obrazki.elektroda.pl/1590559700_1728852869.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic4081005.html"
     },
+	{
+	  "vendor": "Sonoff",
+	  "bDetailed": "0",
+	  "name": "3gang Matter Switch",
+	  "model": "M5-3C-80W",
+	  "chip": "ESP32-DOWD-R2-V3",
+	  "board": "",
+	  "flags": "",
+	  "keywords": [
+		"LP3667",
+		"3-gang switch"
+	  ],
+	  "pins": {
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/2530964200_1728313661.jpg",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic4125389.html"
+	},
     {
     "vendor": "Moes",
     "bDetailed": "0",
@@ -97,6 +115,25 @@
     "image": "https://obrazki.elektroda.pl/3524969400_1725644975.jpg",
     "wiki": "https://www.elektroda.com/rtvforum/topic4074263.html"
   },
+	
+{
+  "vendor": "Tuya",
+  "bDetailed": "0",
+  "name": "Smart Switch",
+  "model": "ATLO-SW1-TUYA",
+  "chip": "BK7231N",
+  "board": "CB3S",
+  "keywords": ["Allegro","BP2525"],
+  "pins": {
+    "6": "Rel;1",
+    "8": "TglChanOnTgl;1",
+    "9": "WifiLED_n;0",
+    "26": "Btn_Tgl_All;0"
+  },
+  "command": "",
+  "image": "https://obrazki.elektroda.pl/2020894000_1748350960.jpg",
+  "wiki": "https://www.elektroda.pl/rtvforum/topic4124254.html"
+},  
     {
       "vendor": "GIRIER",
       "bDetailed": "0",
