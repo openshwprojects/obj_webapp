@@ -4320,6 +4320,33 @@
 	  "image": "https://obrazki.elektroda.pl/7035845600_1694622383.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4001984.html"
 	},
+  {
+    "vendor": "Calex",
+    "bDetailed": "0",
+    "name": "16A Smart Power Plug with Energy Metering (Holland) (EU)",
+    "model": "5201000300",
+    "chip": "BK7231N",
+    "board": "CB2S",
+    "flags": "1024",
+    "keywords": [
+      "IP20",
+      "socket",
+      "tuya",
+      "WP01GE-F 2023-10-28"
+    ],
+    "pins": {
+      "6": "LED;1",
+      "7": "Btn;1",
+      "8": "Rel;1",
+      "10": "WifiLED_n;0",
+      "11": "BL0937SEL;0",
+      "24": "BL0937CF1;0",
+      "26": "BL0937CF;0"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/3175950300_1749569978.png",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4125718.html"
+  },
 	{
 	  "vendor": "Calex",
 	  "bDetailed": "0",
