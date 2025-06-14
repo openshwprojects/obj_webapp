@@ -3056,6 +3056,24 @@
     },
     {
       "vendor": "eWeLink",
+      "bDetailed": "0",
+      "name": "RGBCW GU10 LED Bulb Five Channel PWM",
+	  "model": "EW-GU10-E",
+      "chip": "BL602",
+	  "module": "BW2L",
+      "pins": {
+		"2": "PWM;5",
+		"3": "PWM;1",
+		"14": "PWM;2",
+		"20": "PWM;3",
+		"21": "PWM;4"
+      },
+	  "tags": ["GU10","C3009"],
+      "image": "https://obrazki.elektroda.pl/3742209700_1742383358.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?p=21486388#21486388"
+    },
+    {
+      "vendor": "eWeLink",
       "bDetailed": "1",
       "name": "RGBCW E14 LED Bulb Five Channel PWM",
 	  "model": "EW-E14",
