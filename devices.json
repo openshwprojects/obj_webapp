@@ -10275,6 +10275,26 @@
 	  "image": "https://obrazki.elektroda.pl/3739833600_1734265160.png",
 	  "wiki": "https://www.elektroda.pl/rtvforum/topic4126295.html"
 	},
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "Outdoor IP55 Smart Socket With Power Metering",
+	  "model": "OR-SH-17405",
+	  "chip": "BK7231N",
+	  "board": "CB3S",
+	  "keywords": ["Allegro"],
+	  "pins": {
+		"6": "BL0937CF;0",
+		"7": "Btn;1",
+		"8": "Rel;1",
+		"9": "WifiLED_n;0",
+		"24": "BL0937CF1;0",
+		"26": "BL0937SEL;0"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/8189773500_1748355620.jpg",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic4125839.html"
+	},
     {
       "vendor": "Tuya",
       "bDetailed": "1",
