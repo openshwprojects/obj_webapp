@@ -3070,7 +3070,7 @@
       },
 	  "tags": ["GU10","C3009"],
       "image": "https://obrazki.elektroda.pl/3742209700_1742383358.jpg",
-      "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?p=21486388#21486388"
+      "wiki": "https://www.elektroda.com/rtvforum/topic4114327.html"
     },
     {
       "vendor": "eWeLink",
@@ -7141,24 +7141,24 @@
     "image": "https://obrazki.elektroda.pl/9397668500_1739338997.jpg",
     "wiki": "https://www.elektroda.com/rtvforum/topic4105917.html"
   },
-{
-  "vendor": "Tuya",
-  "bDetailed": "0",
-  "name": "Blow 1 gang light switch",
-  "model": "72-087",
-  "chip": "BK7231N",
-  "board": "CB3S",
-  "keywords": ["Allegro", "DS101 clone"],
-  "pins": {
-    "6": "Rel;1",
-    "20": "Btn;1",
-    "22": "WifiLED_n;0",
-    "26": "LED;1"
-  },
-  "command": "",
-  "image": "https://obrazki.elektroda.pl/1208794800_1738569869.jpg",
-  "wiki": "https://www.elektroda.pl/rtvforum/topic4103835.html"
-},
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "Blow 1 gang light switch",
+	  "model": "72-087",
+	  "chip": "BK7231N",
+	  "board": "CB3S",
+	  "keywords": ["Allegro", "DS101 clone"],
+	  "pins": {
+		"6": "Rel;1",
+		"20": "Btn;1",
+		"22": "WifiLED_n;0",
+		"26": "LED;1"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/1208794800_1738569869.jpg",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic4103835.html"
+	},
 	{
 	  "vendor": "Onenuo",
 	  "bDetailed": "0",
