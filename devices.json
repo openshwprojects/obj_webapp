@@ -9663,6 +9663,23 @@
       "wiki": "https://www.elektroda.pl/rtvforum/topic4123326.html",
       "product": ""
     },
+    {
+      "vendor": "Sonoff",
+      "bDetailed": "1",
+      "name": "Zigbee PIR Sensor",
+      "model": "SNZB-03",
+      "chip": "CC2530",
+      "board": "on PCB",
+      "pins": {},
+      "keywords": [
+        "Zigbee",
+        "CR2450",
+		"Motion"
+      ],
+      "image": "https://obrazki.elektroda.pl/2703800200_1737573099.png",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic4101344.html",
+      "product": ""
+    },
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "1",
