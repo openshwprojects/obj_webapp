@@ -3036,6 +3036,42 @@
       "image": "",
       "wiki": "https://www.elektroda.com/rtvforum/topic3850712.html#19824097"
     },
+    {
+      "vendor": "eWeLink",
+      "bDetailed": "1",
+      "name": "RGBCW E27 LED Bulb Five Channel PWM",
+	  "model": "EW-A60-15W",
+      "chip": "BL602",
+	  "module": "BW2L",
+      "pins": {
+		"2": "PWM;5",
+		"3": "PWM;1",
+		"14": "PWM;2",
+		"20": "PWM;3",
+		"21": "PWM;4"
+      },
+	  "tags": ["E27","C3009"],
+      "image": "https://obrazki.elektroda.pl/7281652600_1741715967.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic4111244.html"
+    },
+    {
+      "vendor": "eWeLink",
+      "bDetailed": "1",
+      "name": "RGBCW E14 LED Bulb Five Channel PWM",
+	  "model": "EW-E14",
+      "chip": "BL602",
+	  "module": "BW2L",
+      "pins": {
+		"2": "PWM;5",
+		"3": "PWM;1",
+		"14": "PWM;2",
+		"20": "PWM;3",
+		"21": "PWM;4"
+      },
+	  "tags": ["E14","C3009"],
+      "image": "https://obrazki.elektroda.pl/4362409800_1741715810.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic4111244.html"
+    },
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "1",
