@@ -2923,6 +2923,25 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic4117787.html"
     },
     {
+      "vendor": "Merkury",
+      "bDetailed": "0",
+      "name": "A19 Smart Light Bulb 8W/60W Dimmable White LED",
+      "model": "MI-BW942-999W",
+      "chip": "BK7231T",
+      "board": "WB2L",
+      "flags": "1024",
+      "keywords": [
+        "lamp",
+        "e26"
+      ],
+      "pins": {
+        "8": "PWM;4"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/9895084500_1749876526.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4126139.html"
+    },
+    {
       "vendor": "Magic Home",
       "bDetailed": "1",
       "name": "Magic Home WIFI RGB CTT controller",
@@ -4407,6 +4426,33 @@
 	  "image": "https://obrazki.elektroda.pl/7035845600_1694622383.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic4001984.html"
 	},
+  {
+    "vendor": "Calex",
+    "bDetailed": "0",
+    "name": "16A Smart Power Plug with Energy Metering (Holland) (EU)",
+    "model": "5201000300",
+    "chip": "BK7231N",
+    "board": "CB2S",
+    "flags": "1024",
+    "keywords": [
+      "IP20",
+      "socket",
+      "tuya",
+      "WP01GE-F 2023-10-28"
+    ],
+    "pins": {
+      "6": "LED;1",
+      "7": "Btn;1",
+      "8": "Rel;1",
+      "10": "WifiLED_n;0",
+      "11": "BL0937SEL;0",
+      "24": "BL0937CF1;0",
+      "26": "BL0937CF;0"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/3175950300_1749569978.png",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4125718.html"
+  },
 	{
 	  "vendor": "Calex",
 	  "bDetailed": "0",
@@ -8949,7 +8995,7 @@
     ],
     "pins": {
       "8": "WifiLED_n;0",
-      "10": "Btn_Tgl_All;0",
+      "10": "Btn;1",
       "23": "TglChanOnTgl;1",
       "26": "Rel;1"
     },
