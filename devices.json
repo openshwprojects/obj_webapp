@@ -11717,6 +11717,23 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic4006216.html"
     },
     {
+      "vendor": "Atorch",
+      "bDetailed": "1",
+      "name": "LCD Advanced Power Meter S1TW-FR",
+      "chip": "BK7231N",
+      "board": "CB3S",
+      "keywords": [
+        "HF32FV-16",
+        "TuyaMCU",
+         "BL0942 "
+      ],
+      "pins": {
+
+      },
+      "image": "https://obrazki.elektroda.pl/3663060000_1732230835.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic4088414.html"
+    },
+    {
       "vendor": "Tuya",
       "bDetailed": "1",
       "name": "Shutters rollers controller module",
