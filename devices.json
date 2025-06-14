@@ -11736,6 +11736,33 @@
       "image": "https://obrazki.elektroda.pl/4025787800_1712480145.jpg",
       "wiki": "https://www.elektroda.pl/rtvforum/topic4076328.html"
     },
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "SB527 QS-WIFI-ECC02 Shutter Controller",
+	  "model": "SB527 ",
+	  "chip": "BK7231N",
+	  "board": "CBLC9S",
+	  "flags": "1024",
+	  "keywords": [
+		"shutters",
+		"blinds",
+		"Allegro",
+		"2023.04.13",
+		"BP2571"
+	  ],
+	  "pins": {
+		"6": "Btn;1",
+		"7": "Rel;1",
+		"8": "WifiLED_n;0",
+		"9": "Rel;2",
+		"24": "Btn;3",
+		"26": "Btn;2"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/4101387800_1714572511.jpg",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic4088397.html"
+	},
     {
       "vendor": "Maxcio",
       "bDetailed": "0",
