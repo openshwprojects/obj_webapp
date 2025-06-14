@@ -10854,7 +10854,27 @@
       "command": "",
       "image": "https://obrazki.elektroda.pl/5109864500_1734381589.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21351411#21351411"
-    },
+    },  
+	{
+	"vendor": "Tuya",
+	"bDetailed": "0",
+	"name": "Tuya Fly S06 Pro Universal IR RC",
+	"model": "TUYA S06 Pro",
+	"chip": "BK7231N",
+	"board": "CB3S",
+	"flags": "1024",
+	"keywords": [
+	],
+	"pins": {
+	"6": "Btn;3",
+	"7": "IRRecv;0",
+	"8": "LED;0",
+	"26": "IRSend;0"
+	},
+	"command": "",
+	"image": "",
+	"wiki": ""
+	},
     {
       "vendor": "Tuya",
       "bDetailed": "0",
