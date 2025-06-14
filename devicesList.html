@@ -226,6 +226,15 @@ function hideNotNeeded()
 			</div>
 			</div>
 			<div class="col-auto" id="forumFilter">
+			<label class="mr-sm-2" for="filter_ESP32"></label>
+			<div class="form-check mb-2">
+			<input class="form-check-input" type="checkbox" id="filter_ESP32">
+			<label class="form-check-label" for="filter_ESP32">
+			ESP32
+			</label>
+			</div>
+			</div>
+			<div class="col-auto" id="forumFilter">
 			<label class="mr-sm-2" for="filter_detailed"></label>
 			<div class="form-check mb-2">
 			<input class="form-check-input" type="checkbox" id="filter_detailed">
@@ -477,6 +486,7 @@ function refreshJSON() {
   var filter_XR809 = document.getElementById("filter_XR809").checked;
   var filter_BL602 = document.getElementById("filter_BL602").checked;
   var filter_ESP82XX = document.getElementById("filter_ESP82XX").checked;
+  var filter_ESP32 = document.getElementById("filter_ESP32").checked;
   var filter_detailed = document.getElementById("filter_detailed").checked;
   var filter_W80X = document.getElementById("filter_W80X").checked;
   var filter_W60X = document.getElementById("filter_W60X").checked;
@@ -556,6 +566,13 @@ function refreshJSON() {
 		if(filter_ESP82XX == false)
 		{
 			if(chip == "ESP8266" || chip == "ESP8285")
+			{
+				continue;
+			}
+		}
+		if(filter_ESP32 == false)
+		{
+			if(chip.toUpperCase().includes("ESP32"))
 			{
 				continue;
 			}
