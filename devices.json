@@ -9559,6 +9559,24 @@
       "wiki": "https://www.elektroda.pl/rtvforum/topic4123326.html",
       "product": ""
     },
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "1",
+	  "name": "Smart Garage Door Opener",
+	  "model": "ATLO-GDC2-TUYA",
+	  "chip": "BK7231N",
+	  "board": "CB2S",
+	  "keywords": ["WG-088-V8","20230409","allegro"],
+	  "pins": {
+		"6": "Btn;1",
+		"7": "Rel;1",
+		"8": "dInput;1",
+		"26": "WifiLED_n;0"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/9597777600_1746373748.jpg",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic4120403.html"
+	},
     {
       "vendor": "Sonoff",
       "bDetailed": "1",
