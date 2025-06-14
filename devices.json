@@ -2905,6 +2905,25 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic4117787.html"
     },
     {
+      "vendor": "Merkury",
+      "bDetailed": "0",
+      "name": "A19 Smart Light Bulb 8W/60W Dimmable White LED",
+      "model": "MI-BW942-999W",
+      "chip": "BK7231T",
+      "board": "WB2L",
+      "flags": "1024",
+      "keywords": [
+        "lamp",
+        "e26"
+      ],
+      "pins": {
+        "8": "PWM;4"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/9895084500_1749876526.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4126139.html"
+    },
+    {
       "vendor": "Magic Home",
       "bDetailed": "1",
       "name": "Magic Home WIFI RGB CTT controller",
