@@ -8497,7 +8497,7 @@
 		"bDetailed": "0",
 		"name": "Tuya Smart Plug (EU) Aoyan",
 		"model": "Tuya Smart Plug (EU)",
-		"chip": "T34/BK7231N",
+		"chip": "T34",
 		"board": "PCB",
 		"flags": "33555460",
 		"keywords": [
