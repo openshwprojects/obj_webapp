@@ -3377,6 +3377,21 @@
       "wiki": "https://www.elektroda.pl/rtvforum/topic3793509.html"
     },
     {
+      "vendor": "QTouch",
+      "bDetailed": "1",
+      "name": "Adelid QTouch Wall Smart Switch With RF [New Version] IP65",
+      "chip": "T34",
+	  "model": "QWP.W1.WIFI",
+      "board": "on PCB",
+      "pins": {},
+      "keywords": [
+        "allegro",
+        "480RA"
+      ],
+      "image": "https://obrazki.elektroda.pl/7306367300_1731105452.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic4110013.html"
+    },
+    {
       "vendor": "Smart Life",
       "bDetailed": "1",
       "name": "SC3-01 1/2/3 Gang WiFi Touch Switch Home Wall Light Control+ RF Touch Remote Smart Life",
