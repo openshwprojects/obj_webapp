@@ -2818,6 +2818,24 @@
 	  "image": "https://obrazki.elektroda.pl/7678902700_1685888381.png",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3992800.html"
 	},
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "Smart Switch Module",
+	  "model": "ATLO-B1-Tuya",
+	  "chip": "BK7231N",
+	  "board": "CB2S",
+	  "keywords": ["Allegro","BP2525"],
+	  "pins": {
+		"6": "TglChanOnTgl;1",
+		"8": "WifiLED_n;0",
+		"24": "Btn_Tgl_All;0",
+		"26": "Rel;1"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/7779740000_1742740809.jpg",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic4113539.html"
+	},
     {
       "vendor": "Merkury",
       "bDetailed": "1",
