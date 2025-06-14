@@ -11723,9 +11723,11 @@
       "chip": "BK7231N",
       "board": "CB3S",
       "keywords": [
-        "HF32FV-16",
         "TuyaMCU",
-         "BL0942 "
+        "HF32FV-16",
+         "BL0942",
+         "CH573F",
+         "KP3211BSG"
       ],
       "pins": {
 
