@@ -10254,6 +10254,27 @@
 	  "image": "https://obrazki.elektroda.pl/1763210500_1684134843.png",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3978056.html"
 	},
+	{
+	  "vendor": "Tuya",
+	  "bDetailed": "0",
+	  "name": "Smart Power Strip 4x socket and 2x USB",
+	  "model": "TSL-PS-F4U-01-W",
+	  "chip": "BK7231N",
+	  "board": "CB2S",
+	  "keywords": ["Allegro", "USB","5V"],
+	  "pins": {
+		"6": "Rel;1",
+		"7": "Rel;2",
+		"8": "Rel;3",
+		"10": "WifiLED_n;0",
+		"23": "Btn_Tgl_All;0",
+		"24": "Rel;5",
+		"26": "Rel;4"
+	  },
+	  "command": "",
+	  "image": "https://obrazki.elektroda.pl/3739833600_1734265160.png",
+	  "wiki": "https://www.elektroda.pl/rtvforum/topic4126295.html"
+	},
     {
       "vendor": "Tuya",
       "bDetailed": "1",
