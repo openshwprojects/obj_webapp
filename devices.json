@@ -10709,6 +10709,21 @@
       "product": ""
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "1",
+      "name": "DIY Switch Module",
+      "model": "LZWSM16-1",
+      "chip": "Z2",
+      "board": "ZTU",
+      "pins": {},
+      "keywords": [
+        "zigbee", "TS0011","MK-ZD1-001", "20230105 V1.3", "BTA16-800", "EL3023", "Allegro", "Avatto"
+      ],
+      "image": "https://obrazki.elektroda.pl/7742617300_1734352550.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic4115589.html",
+      "product": ""
+    },
+    {
       "vendor": "Aqara",
       "bDetailed": "1",
       "name": "Zigbee Temperature/Pressure/Humidity Sensor WSDCGQ11LM",
