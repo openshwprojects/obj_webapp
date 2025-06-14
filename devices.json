@@ -9545,6 +9545,23 @@
     {
       "vendor": "Sonoff",
       "bDetailed": "1",
+      "name": "Zigbee Door Sensor",
+      "model": "SNZB-04",
+      "chip": "CC2530",
+      "board": "on PCB",
+      "pins": {},
+      "keywords": [
+        "Zigbee",
+        "RB-DS01 V1.0 2020/12/17",
+		"CR2032"
+      ],
+      "image": "https://obrazki.elektroda.pl/1938173600_1734341782.jpg",
+      "wiki": "https://www.elektroda.pl/rtvforum/topic4123326.html",
+      "product": ""
+    },
+    {
+      "vendor": "Sonoff",
+      "bDetailed": "1",
       "name": "Battery-powered PIR Sensor",
       "model": "SBZB-03",
       "chip": "CC2530",
