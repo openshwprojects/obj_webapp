@@ -91,7 +91,7 @@
 	  },
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/2530964200_1728313661.jpg",
-	  "wiki": "https://www.elektroda.pl/rtvforum/topic4125389.html"
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4125389.html"
 	},
     {
     "vendor": "Moes",
@@ -132,7 +132,7 @@
   },
   "command": "",
   "image": "https://obrazki.elektroda.pl/2020894000_1748350960.jpg",
-  "wiki": "https://www.elektroda.pl/rtvforum/topic4124254.html"
+  "wiki": "https://www.elektroda.com/rtvforum/topic4124254.html"
 },  
     {
       "vendor": "GIRIER",
@@ -1737,7 +1737,7 @@
 	  },
 	  "command": "backlog startDriver SM15155E; LED_Map 0 1 3 2 4",
 	  "image": "https://obrazki.elektroda.pl/3630055800_1718465381_bigthumb.jpg",
-	  "wiki": "https://www.elektroda.pl/rtvforum/topic4060227.html"
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4060227.html"
 	},
     {
       "vendor": "MoesHouse",
@@ -1777,7 +1777,7 @@
 	  },
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/2468293400_1711288188.jpg",
-	  "wiki": "https://www.elektroda.pl/rtvforum/topic4054004.html"
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4054004.html"
 	},
 	{
 	  "vendor": "Tuya",
@@ -2440,7 +2440,7 @@
 	  },
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/8766402500_1690127290.jpg",
-	  "wiki": "https://www.elektroda.pl/rtvforum/topic3992073.html"
+	  "wiki": "https://www.elektroda.com/rtvforum/topic3992073.html"
 	},
 	{
 	  "vendor": "OpenLit",
@@ -2701,7 +2701,7 @@
 		"Allegro"
       ],
       "image": "https://obrazki.elektroda.pl/2450612900_1675163765.png",
-      "wiki": "https://www.elektroda.pl/rtvforum/topic3955592.html"
+      "wiki": "https://www.elektroda.com/rtvforum/topic3955592.html"
     },
     {
       "vendor": "Tuya",
@@ -2834,7 +2834,7 @@
 	  },
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/7779740000_1742740809.jpg",
-	  "wiki": "https://www.elektroda.pl/rtvforum/topic4113539.html"
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4113539.html"
 	},
     {
       "vendor": "Merkury",
@@ -3089,7 +3089,7 @@
       },
 	  "tags": ["E27","C3009"],
       "image": "https://obrazki.elektroda.pl/7281652600_1741715967.jpg",
-      "wiki": "https://www.elektroda.pl/rtvforum/topic4111244.html"
+      "wiki": "https://www.elektroda.com/rtvforum/topic4111244.html"
     },
     {
       "vendor": "eWeLink",
@@ -3125,7 +3125,7 @@
       },
 	  "tags": ["E14","C3009"],
       "image": "https://obrazki.elektroda.pl/4362409800_1741715810.jpg",
-      "wiki": "https://www.elektroda.pl/rtvforum/topic4111244.html"
+      "wiki": "https://www.elektroda.com/rtvforum/topic4111244.html"
     },
 	{
 	  "vendor": "Tuya",
@@ -3229,7 +3229,7 @@
 	  },
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/9026804300_1704633863.jpg",
-	  "wiki": "https://www.elektroda.pl/rtvforum/topic4026798.html"
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4026798.html"
 	},
 	{
 	  "vendor": "Tuya",
@@ -3252,7 +3252,7 @@
 	  },
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/4786852700_1704633029.jpg",
-	  "wiki": "https://www.elektroda.pl/rtvforum/topic4026798.html"
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4026798.html"
 	},
 	{
 	  "vendor": "Ledvance",
@@ -3408,7 +3408,7 @@
         "480RA"
       ],
       "image": "https://obrazki.elektroda.pl/7306367300_1731105452.jpg",
-      "wiki": "https://www.elektroda.pl/rtvforum/topic4110013.html"
+      "wiki": "https://www.elektroda.com/rtvforum/topic4110013.html"
     },
     {
       "vendor": "Smart Life",
@@ -15187,7 +15187,7 @@
 	  },
 	  "command": "",
 	  "image": "https://obrazki.elektroda.pl/9759474100_1703514958.jpg",
-	  "wiki": "https://www.elektroda.pl/rtvforum/topic4026051.html"
+	  "wiki": "https://www.elektroda.com/rtvforum/topic4026051.html"
 	},
   {
     "vendor": "Action",
