@@ -2923,6 +2923,48 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic4117787.html"
     },
     {
+      "vendor": "Align Inc.",
+      "bDetailed": "0",
+      "name": "Della Mini Split Air Conditioner Optima Series",
+      "model": "048-TP-9K2V-23S-IN/048-TP-9K2V-23S-OUT",
+      "chip": "RTL8720CF",
+      "board": "WBR3",
+      "flags": "1024",
+      "keywords": [
+        "TCWBRCU1",
+        "115V",
+        "9000 BTU",
+        "TCL",
+        "TuyaMCU"
+      ],
+      "pins": { },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/4134676800_1750019240.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4119999.html"
+    },
+    {
+      "vendor": "Align Inc.",
+      "bDetailed": "0",
+      "name": "Della Mini Split Air Conditioner",
+      "model": "",
+      "chip": "RTL8720CF",
+      "board": "WBR1",
+      "flags": "1024",
+      "keywords": [
+        "TCLWBR V1.0.0",
+        "115V",
+        "9000 BTU",
+        "TCL",
+        "TuyaMCU",
+        "rtl8720cf_common_tcl_air_ty_QIO_1.0.2",
+        "32001-000450"
+      ],
+      "pins": { },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/8309420900_1750019712.png",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21566741#21566741"
+    },
+    {
       "vendor": "Merkury",
       "bDetailed": "0",
       "name": "A19 Smart Light Bulb 8W/60W Dimmable White LED",
