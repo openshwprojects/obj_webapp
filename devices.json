@@ -3119,9 +3119,9 @@
       "vendor": "eWeLink",
       "bDetailed": "1",
       "name": "RGBCW E27 LED Bulb Five Channel PWM",
-	  "model": "EW-A60-15W",
+      "model": "EW-A60-15W",
       "chip": "BL602",
-	  "module": "BW2L",
+      "board": "BW2L",
       "pins": {
 		"2": "PWM;5",
 		"3": "PWM;1",
@@ -3139,7 +3139,7 @@
       "name": "RGBCW GU10 LED Bulb Five Channel PWM",
 	  "model": "EW-GU10-E",
       "chip": "BL602",
-	  "module": "BW2L",
+      "board": "BW2L",
       "pins": {
 		"2": "PWM;5",
 		"3": "PWM;1",
@@ -3157,7 +3157,7 @@
       "name": "RGBCW E14 LED Bulb Five Channel PWM",
 	  "model": "EW-E14",
       "chip": "BL602",
-	  "module": "BW2L",
+      "board": "BW2L",
       "pins": {
 		"2": "PWM;5",
 		"3": "PWM;1",
