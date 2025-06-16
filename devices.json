@@ -3528,7 +3528,7 @@
     {
       "vendor": "Tuya",
       "bDetailed": "0",
-      "name": "220v 9W E14 Candle RGB+CCT Bulb (2800K-6500K)",
+      "name": "220v 9W E14 Candle RGB+CCT Bulb (2700K-6500K)",
       "model": "W505Z2",
       "chip": "LN882H",
       "board": "",
@@ -3578,7 +3578,7 @@
     {
       "vendor": "Tuya",
       "bDetailed": "0",
-      "name": "220v 9W E27 ES RGB+CCT Bulb (2800K-6500K)",
+      "name": "220v 9W E27 ES RGB+CCT Bulb (2700K-6500K)",
       "model": "W509Z2",
       "chip": "LN882H",
       "board": "on PCB",
