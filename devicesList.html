@@ -149,6 +149,7 @@ function hideNotNeeded()
 			<option value="100">100</option>
 			<option value="250">250</option>
 			<option value="500">500</option>
+			<option value="1000">1000</option>
 		  </select>
 		</div>
 	  </div>
@@ -222,6 +223,15 @@ function hideNotNeeded()
 			<input class="form-check-input" type="checkbox" id="filter_ESP82XX">
 			<label class="form-check-label" for="filter_ESP82XX">
 			ESP82XX
+			</label>
+			</div>
+			</div>
+			<div class="col-auto" id="forumFilter">
+			<label class="mr-sm-2" for="filter_ESP32"></label>
+			<div class="form-check mb-2">
+			<input class="form-check-input" type="checkbox" id="filter_ESP32">
+			<label class="form-check-label" for="filter_ESP32">
+			ESP32
 			</label>
 			</div>
 			</div>
@@ -345,7 +355,19 @@ function findDocsURLForChip(chip) {
 	if (chip == "TR6260") {
 		return "https://www.elektroda.com/rtvforum/topic4093752.html";
 	}	
-	
+	if (chip == "T34") {
+		return "https://www.elektroda.com/rtvforum/topic4112776.html";
+	}
+	if (chip == "BK7231M") {
+		return "https://www.elektroda.com/rtvforum/topic4058227.html";
+	}
+	if (chip == "RTL8720CF") {
+		return "https://www.elektroda.com/rtvforum/topic4104395.html";
+	}
+	if (chip == "W701-VA2-CG") {
+		return "https://www.elektroda.com/rtvforum/topic4104395.html";
+	}
+	 
 	return "";
 	
 	
@@ -438,6 +460,9 @@ function findDocsURLForBoard(board) {
 	{
 		return "https://developer.tuya.com/en/docs/iot/zs2s-datasheet?id=K97s05sctcqvy";
 	}
+	if (board == "WBR3" || board == "WBR2" || board == "WBRU") {
+		return "https://www.elektroda.com/rtvforum/topic4104395.html";
+	}
 	if(board == "QQQ") 
 	{
 		return "httQQQug";
@@ -477,6 +502,7 @@ function refreshJSON() {
   var filter_XR809 = document.getElementById("filter_XR809").checked;
   var filter_BL602 = document.getElementById("filter_BL602").checked;
   var filter_ESP82XX = document.getElementById("filter_ESP82XX").checked;
+  var filter_ESP32 = document.getElementById("filter_ESP32").checked;
   var filter_detailed = document.getElementById("filter_detailed").checked;
   var filter_W80X = document.getElementById("filter_W80X").checked;
   var filter_W60X = document.getElementById("filter_W60X").checked;
@@ -556,6 +582,13 @@ function refreshJSON() {
 		if(filter_ESP82XX == false)
 		{
 			if(chip == "ESP8266" || chip == "ESP8285")
+			{
+				continue;
+			}
+		}
+		if(filter_ESP32 == false)
+		{
+			if(chip.toUpperCase().includes("ESP32"))
 			{
 				continue;
 			}
