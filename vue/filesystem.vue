@@ -399,7 +399,7 @@
                 let url = window.device+'/api/cmnd';
                 let cmd = "";
                 
-                cmd = "backlog resetSVM;";
+                cmd = "backlog resetSVM; clearAllHandlers; ";
                     
                 fetch(url, { 
                         body: cmd,
