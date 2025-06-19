@@ -2923,6 +2923,48 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic4117787.html"
     },
     {
+      "vendor": "Align Inc.",
+      "bDetailed": "0",
+      "name": "Della Mini Split Air Conditioner Optima Series",
+      "model": "048-TP-9K2V-23S-IN/048-TP-9K2V-23S-OUT",
+      "chip": "RTL8720CF",
+      "board": "WBR3",
+      "flags": "1024",
+      "keywords": [
+        "TCWBRCU1",
+        "115V",
+        "9000 BTU",
+        "TCL",
+        "TuyaMCU"
+      ],
+      "pins": { },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/4134676800_1750019240.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4119999.html"
+    },
+    {
+      "vendor": "Align Inc.",
+      "bDetailed": "0",
+      "name": "Della Mini Split Air Conditioner",
+      "model": "",
+      "chip": "RTL8720CF",
+      "board": "WBR1",
+      "flags": "1024",
+      "keywords": [
+        "TCLWBR V1.0.0",
+        "115V",
+        "9000 BTU",
+        "TCL",
+        "TuyaMCU",
+        "rtl8720cf_common_tcl_air_ty_QIO_1.0.2",
+        "32001-000450"
+      ],
+      "pins": { },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/8309420900_1750019712.png",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21566741#21566741"
+    },
+    {
       "vendor": "Merkury",
       "bDetailed": "0",
       "name": "A19 Smart Light Bulb 8W/60W Dimmable White LED",
@@ -3077,9 +3119,9 @@
       "vendor": "eWeLink",
       "bDetailed": "1",
       "name": "RGBCW E27 LED Bulb Five Channel PWM",
-	  "model": "EW-A60-15W",
+      "model": "EW-A60-15W",
       "chip": "BL602",
-	  "module": "BW2L",
+      "board": "BW2L",
       "pins": {
 		"2": "PWM;5",
 		"3": "PWM;1",
@@ -3097,7 +3139,7 @@
       "name": "RGBCW GU10 LED Bulb Five Channel PWM",
 	  "model": "EW-GU10-E",
       "chip": "BL602",
-	  "module": "BW2L",
+      "board": "BW2L",
       "pins": {
 		"2": "PWM;5",
 		"3": "PWM;1",
@@ -3115,7 +3157,7 @@
       "name": "RGBCW E14 LED Bulb Five Channel PWM",
 	  "model": "EW-E14",
       "chip": "BL602",
-	  "module": "BW2L",
+      "board": "BW2L",
       "pins": {
 		"2": "PWM;5",
 		"3": "PWM;1",
@@ -3486,7 +3528,7 @@
     {
       "vendor": "Tuya",
       "bDetailed": "0",
-      "name": "220v 9W E14 Candle RGB+CCT Bulb (2800K-6500K)",
+      "name": "220v 9W E14 Candle RGB+CCT Bulb (2700K-6500K)",
       "model": "W505Z2",
       "chip": "LN882H",
       "board": "",
@@ -3536,7 +3578,7 @@
     {
       "vendor": "Tuya",
       "bDetailed": "0",
-      "name": "220v 9W E27 ES RGB+CCT Bulb (2800K-6500K)",
+      "name": "220v 9W E27 ES RGB+CCT Bulb (2700K-6500K)",
       "model": "W509Z2",
       "chip": "LN882H",
       "board": "on PCB",
