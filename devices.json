@@ -3119,9 +3119,9 @@
       "vendor": "eWeLink",
       "bDetailed": "1",
       "name": "RGBCW E27 LED Bulb Five Channel PWM",
-	  "model": "EW-A60-15W",
+      "model": "EW-A60-15W",
       "chip": "BL602",
-	  "module": "BW2L",
+      "board": "BW2L",
       "pins": {
 		"2": "PWM;5",
 		"3": "PWM;1",
@@ -3139,7 +3139,7 @@
       "name": "RGBCW GU10 LED Bulb Five Channel PWM",
 	  "model": "EW-GU10-E",
       "chip": "BL602",
-	  "module": "BW2L",
+      "board": "BW2L",
       "pins": {
 		"2": "PWM;5",
 		"3": "PWM;1",
@@ -3157,7 +3157,7 @@
       "name": "RGBCW E14 LED Bulb Five Channel PWM",
 	  "model": "EW-E14",
       "chip": "BL602",
-	  "module": "BW2L",
+      "board": "BW2L",
       "pins": {
 		"2": "PWM;5",
 		"3": "PWM;1",
@@ -3528,7 +3528,7 @@
     {
       "vendor": "Tuya",
       "bDetailed": "0",
-      "name": "220v 9W E14 Candle RGB+CCT Bulb (2800K-6500K)",
+      "name": "220v 9W E14 Candle RGB+CCT Bulb (2700K-6500K)",
       "model": "W505Z2",
       "chip": "LN882H",
       "board": "",
@@ -3578,7 +3578,7 @@
     {
       "vendor": "Tuya",
       "bDetailed": "0",
-      "name": "220v 9W E27 ES RGB+CCT Bulb (2800K-6500K)",
+      "name": "220v 9W E27 ES RGB+CCT Bulb (2700K-6500K)",
       "model": "W509Z2",
       "chip": "LN882H",
       "board": "on PCB",
@@ -5393,7 +5393,7 @@
         "LoraTap"
       ],
       "image": "https://obrazki.elektroda.pl/9642873200_1673890666.jpg",
-      "wiki": "https://www.elektroda.pl/rtvforum/topic3949851.html"
+      "wiki": "https://www.elektroda.com/rtvforum/topic3949851.html"
     },
 	{
 		"vendor": "Aqia",
@@ -5775,7 +5775,7 @@
         "Plafon"
       ],
       "image": "https://obrazki.elektroda.pl/8484566100_1676478197.jpg",
-      "wiki": "https://www.elektroda.pl/rtvforum/topic3964754.html",
+      "wiki": "https://www.elektroda.com/rtvforum/topic3964754.html",
       "product": "https://allegro.pl/oferta/plafon-led-36w-4052lm-rgb-cct-wifi-tuya-smart-life-13125642453"
     },
     {
@@ -5965,7 +5965,7 @@
         "RGBCW"
       ],
       "image": "https://obrazki.elektroda.pl/8257876800_1662741933.jpg",
-      "wiki": "https://www.elektroda.pl/rtvforum/viewtopic.php?t=3918447&highlight="
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?t=3918447&highlight="
     },
     {
       "vendor": "Calex",
@@ -11038,32 +11038,6 @@
 	  },
       "image": "https://obrazki.elektroda.pl/4943269700_1725736901.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3895572.html"
-    },    
-    {
-      "vendor": "Prosto",
-      "bDetailed": "0",
-      "name": "16A 3680W Smart Plug with Energy Monitoring",
-      "model": "WFU-08PM",
-      "chip": "BK7231T",
-      "board": "",
-      "flags": "1024",
-      "keywords": [
-        "socket",
-        "tuya"
-      ],
-      "pins": {
-        "1": "Btn;1",
-        "6": "WifiLED;0",
-        "7": "BL0937CF;2",
-        "8": "BL0937CF1;2",
-        "10": "LED_n;1",
-        "11": "Btn;1",
-        "24": "BL0937SEL;2",
-        "26": "Rel;1"
-      },
-      "command": "powersave 1",
-      "image": "https://obrazki.elektroda.pl/4824277100_1750330552.png",
-      "wiki": "https://www.elektroda.com/rtvforum/topic4126933.html"
     },
     {
       "vendor": "Prosto",
