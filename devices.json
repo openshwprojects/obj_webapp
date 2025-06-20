@@ -11059,6 +11059,32 @@
       "wiki": "https://obrazki.elektroda.pl/7430691400_1681897959.jpg"
     },
     {
+      "vendor": "Prosto",
+      "bDetailed": "0",
+      "name": "16A 3680W Smart Plug with Energy Monitoring (EU)",
+      "model": "WFU-08PM",
+      "chip": "BK7231T",
+      "board": "",
+      "flags": "1024",
+      "keywords": [
+        "socket",
+        "tuya"
+      ],
+      "pins": {
+        "1": "Btn;1",
+        "6": "WifiLED;0",
+        "7": "BL0937CF;2",
+        "8": "BL0937CF1;2",
+        "10": "LED_n;1",
+        "11": "Btn;1",
+        "24": "BL0937SEL;2",
+        "26": "Rel;1"
+      },
+      "command": "powersave 1",
+      "image": "https://obrazki.elektroda.pl/4824277100_1750330552.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4126933.html"
+    },
+    {
       "vendor": "Mycket ",
       "bDetailed": "1",
       "name": "Mycket Smart Socket PE-01E IP44",
