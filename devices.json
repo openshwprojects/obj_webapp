@@ -11085,6 +11085,27 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic4126933.html"
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Carro Beer Bottle Pendant Light RGB 120V",
+      "model": "PG0802041B1",
+      "chip": "BK7231N",
+      "board": "CB3S",
+      "keywords": [
+        "HTY5-24-CV24-60W",
+        "WAIBERLON"
+      ],
+      "pins": {
+        "6": "PWM;3",
+        "8": "PWM;4",
+        "9": "PWM;1",
+        "24": "PWM;0",
+        "26": "PWM;2"
+      },
+      "image": "https://obrazki.elektroda.pl/6075730900_1750401136.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4126731.html"
+    },
+    {
       "vendor": "Mycket ",
       "bDetailed": "1",
       "name": "Mycket Smart Socket PE-01E IP44",
