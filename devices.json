@@ -11064,7 +11064,7 @@
       "name": "16A 3680W Smart Plug with Energy Monitoring (EU)",
       "model": "WFU-08PM",
       "chip": "BK7231T",
-      "board": "",
+      "board": "WB2S",
       "flags": "1024",
       "keywords": [
         "socket",
