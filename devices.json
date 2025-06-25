@@ -75,24 +75,24 @@
       "image": "https://obrazki.elektroda.pl/1590559700_1728852869.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic4081005.html"
     },
-	{
-	  "vendor": "Sonoff",
-	  "bDetailed": "0",
-	  "name": "3gang Matter Switch",
-	  "model": "M5-3C-80W",
-	  "chip": "ESP32-DOWD-R2-V3",
-	  "board": "",
-	  "flags": "",
-	  "keywords": [
-		"LP3667",
-		"3-gang switch"
-	  ],
-	  "pins": {
-	  },
-	  "command": "",
-	  "image": "https://obrazki.elektroda.pl/2530964200_1728313661.jpg",
-	  "wiki": "https://www.elektroda.com/rtvforum/topic4125389.html"
-	},
+    {
+      "vendor": "Sonoff",
+      "bDetailed": "0",
+      "name": "3gang Matter Switch",
+      "model": "M5-3C-80W",
+      "chip": "ESP32-DOWD-R2-V3",
+      "board": "on PCB",
+      "flags": "1024",
+      "keywords": [
+      "LP3667",
+      "3-gang switch"
+      ],
+      "pins": {
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/2708764200_1749056310.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4125389.html"
+    },
     {
     "vendor": "Moes",
     "bDetailed": "0",
@@ -11059,6 +11059,52 @@
       "wiki": "https://obrazki.elektroda.pl/7430691400_1681897959.jpg"
     },
     {
+      "vendor": "Prosto",
+      "bDetailed": "0",
+      "name": "16A 3680W Smart Plug with Energy Monitoring (EU)",
+      "model": "WFU-08PM",
+      "chip": "BK7231T",
+      "board": "WB2S",
+      "flags": "1024",
+      "keywords": [
+        "socket",
+        "tuya"
+      ],
+      "pins": {
+        "6": "WifiLED;0",
+        "7": "BL0937CF;2",
+        "8": "BL0937CF1;2",
+        "10": "LED_n;1",
+        "11": "Btn;1",
+        "24": "BL0937SEL;2",
+        "26": "Rel;1"
+      },
+      "command": "powersave 1",
+      "image": "https://obrazki.elektroda.pl/4824277100_1750330552.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4126933.html"
+    },
+    {
+      "vendor": "Carro",
+      "bDetailed": "0",
+      "name": "Beer Bottle Pendant Light RGB 120V",
+      "model": "PG0802051B1",
+      "chip": "BK7231N",
+      "board": "CB3S",
+      "keywords": [
+        "HTY5-24-CV24-60W",
+        "WAIBERLON"
+      ],
+      "pins": {
+        "6": "PWM;3",
+        "8": "PWM;4",
+        "9": "PWM;1",
+        "24": "PWM;0",
+        "26": "PWM;2"
+      },
+      "image": "https://obrazki.elektroda.pl/6075730900_1750401136.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4126731.html"
+    },
+    {
       "vendor": "Mycket ",
       "bDetailed": "1",
       "name": "Mycket Smart Socket PE-01E IP44",
@@ -11956,7 +12002,7 @@
 		"14": "Btn;2"
 	  },
 	  "command": "backlog AddEventHandler OnClick 14 ToggleChannel 1; AddEventHandler OnHoldStart 14 backlog OpenAP",
-	  "image": "https://obrazki.elektroda.pl/2842963700_1694381412.jpg",
+	  "image": "https://obrazki.elektroda.pl/7091880500_1694382396.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20728797#20728797"
 	},
     {
@@ -12796,8 +12842,8 @@
       "26": "Rel;1"
     },
     "command": "",
-    "image": "https://obrazki.elektroda.pl/YOUR_IMAGE.jpg",
-    "wiki": "https://www.elektroda.com/rtvforum/topic_YOUR_TOPIC.html"
+    "image": "https://obrazki.elektroda.pl/2131300500_1742036804.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4111914.html"
   },
   {
 	  "vendor": "Tuya",
