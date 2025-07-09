@@ -35,6 +35,9 @@
                         <span v-if="file.type === 1"><button @click="editfile(file.name)">{{file.name}}</button> - {{file.size}}</span>
                         <br v-if="file.type === 1"/>
                     </div>
+                    <div v-if="files.length > 0">
+                    <strong>Total Size: {{ totalBytes }} bytes</strong>
+                    </div>
                 </div>
             </div>
             <div class="right">
@@ -73,6 +76,13 @@
         files:[],
       }
     },
+  computed: {
+    totalBytes() {
+      return this.files
+        .filter(file => file.type === 1) // Only include files, not directories
+        .reduce((total, file) => total + file.size, 0);
+    },
+  },
     methods:{
         getinfo(){
             let url = window.device+'/api/info';
