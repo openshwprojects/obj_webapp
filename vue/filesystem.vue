@@ -13,7 +13,8 @@
             <button @click="restore(null, $event)">Restore fsblock</button>
             <button @click="read(null, $event)">List Filesystem</button>
             <button @click="create(null, $event)">Create File</button>
-            <button @click="upload(null, $event)">Upload file</button>
+            <button @click="upload(null, $event, false)">Upload file</button>
+            <button @click="upload(null, $event, true)">Upload as gzip</button>
             <button @click="resetSVM(null, $event)">Reset scripts</button>
             <br/>
             <button @click="getTar(null, $event)">Download FS Backup in Tar Archive</button>
@@ -127,19 +128,32 @@
             }
         },
 
-    upload(event) {
+      upload(event, ineve, gzip) {
         const fileInput = document.createElement('input');
         fileInput.type = 'file';
         fileInput.multiple = true; 
-        fileInput.onchange = () => {
+        fileInput.onchange = async() =>  {
             const files = Array.from(fileInput.files);
             console.log(files);
             if (files.length > 0) {
                 let allFiles = [];
-                files.forEach(file => {
-                    file.filepath = file.name;
-                    allFiles.push(file);
-                });
+                for (let file of files) {
+                    let outFile = file;
+
+                    if (gzip) {
+                        const inputStream = new Blob([file]).stream();
+                        const compressedStream = inputStream.pipeThrough(new CompressionStream('gzip'));
+                        const compressedBuffer = await new Response(compressedStream).arrayBuffer();
+                        outFile = new File(
+                            [compressedBuffer],
+                            file.name + '.gz',
+                            { type: 'application/gzip' }
+                        );
+                    }
+
+                    outFile.filepath = outFile.name;
+                    allFiles.push(outFile);
+                }
                 this.uploadfiles(allFiles, this.read);
             }
         };
