@@ -15,12 +15,24 @@
             <button @click="create(null, $event)">Create File</button>
             <button @click="upload(null, $event, false)">Upload file</button>
             <button @click="upload(null, $event, true)">Upload as gzip</button>
+            <button @click="showUrlModal = true">Fetch from URLs</button>
             <button @click="resetSVM(null, $event)">Reset scripts</button>
             <br/>
             <button @click="getTar(null, $event)">Download FS Backup in Tar Archive</button>
 
         </div>
         <div class="bottom">
+<div v-if="showUrlModal" style="position:fixed; top:20%; left:30%; width:40%; background:white; border:1px solid black; padding:1em; z-index:1000;">
+  <h3>Enter URLs (one per line)</h3>
+  This will download files from given URLs and save them to LFS.
+  <br>
+  <textarea v-model="urlInput" rows="10" style="width:100%"></textarea>
+  <br>
+  <label><input type="checkbox" v-model="urlGzip"> Compress with GZIP</label>
+  <br><br>
+  <button @click="fetchFromUrls">OK</button>
+  <button @click="showUrlModal = false">Cancel</button>
+</div>
             <div class="left">
                 <input type="text" v-model="folder">
                 <div class="drop" @drop="dropHandler($event)" @dragover="dragOverHandler($event)">
@@ -68,6 +80,10 @@
         shortName:'',
         mqtttopic:'',
         output: '',
+        showUrlModal: false,
+        urlInput: '',
+        urlGzip: false,
+
 
         edittext:'',
         editname:'',
@@ -96,6 +112,43 @@
                     this.error = err.toString();
                     console.error(err)
                 }); // Never forget the final catch!
+        },
+        async fetchFromUrls() {
+            this.showUrlModal = false;
+            const urls = this.urlInput.split('\n').map(s => s.trim()).filter(s => s.length > 0);
+
+            for (const url of urls) {
+                try {
+                    const response = await fetch(url);
+                    if (!response.ok) {
+                        this.status += `<br/>Failed to fetch: ${url}`;
+                        continue;
+                    }
+
+                    const blob = await response.blob();
+                    const parts = url.split('/');
+                    let filename = parts[parts.length - 1];
+                    if (!filename || filename.includes('?')) filename = 'file_' + Date.now();
+
+                    let buffer = await blob.arrayBuffer();
+
+                    if (this.urlGzip) {
+                        const inputStream = new Blob([buffer]).stream();
+                        const compressedStream = inputStream.pipeThrough(new CompressionStream('gzip'));
+                        buffer = await new Response(compressedStream).arrayBuffer();
+                        filename += '.gz';
+                    }
+
+                    this.status += `<br/>Saving ${filename}...`;
+
+                    await new Promise(resolve => {
+                        this.savefile(filename, buffer, resolve);
+                    });
+                } catch (e) {
+                    this.status += `<br/>Error with ${url}: ${e}`;
+                }
+            }
+            this.read();
         },
         dropHandler(ev){
             ev.preventDefault();
@@ -370,28 +423,34 @@
         },
 
 
+
         deleteFile(cb) {   
             let readCallback = this.read;
             if (this.editname) {
-                let r = confirm("Do you really want to remove the file "+this.editname+"?");
-                if(r == false)
-                {
-                     alert("Ok, then not.");
-                     return;
+                let r = confirm("Do you really want to remove the file " + this.editname + "?");
+                if (r == false) {
+                    alert("Ok, then not.");
+                    return;
                 }
-                let url = window.device+'/api/del'+this.editname;
-                alert("Will try to remove - url is "+url);
+                let url = window.device + '/api/del' + this.editname;
+                alert("Will try to remove - url is " + url);
                 fetch(url)
                     .then(response => response.arrayBuffer())
                     .then(buffer => {
                         this.status += '..delete done...';
-                         if (cb) cb();
-                         readCallback();
+                        if (cb) cb();
+                        readCallback();
                     })
+                    .catch(error => {
+                        this.status += `..delete failed: ${error}`;
+                        readCallback();
+                        alert("Error deleting file: " + error);
+                    });
             } else {
                 alert("Please begin editing some file first. Just click the name on list to edit.");
             }
         },
+
         openInBrowser(cb) {   
             if (this.editname) {
                 let url = window.device+'/api/lfs'+this.editname;
