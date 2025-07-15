@@ -94,6 +94,26 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic4125389.html"
     },
     {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "6 in 1 Din Rail AC Monitor 110V 220V 100A LCD",
+      "model": "D52-2066",
+      "chip": "BK7231N",
+      "board": "CBU",
+      "flags": "1024",
+      "keywords": [
+      "TuyaMCU",
+      "energy meter",
+      "XJ26225",
+      "A2307_1PH_WIFI_3DP_LCD V1.1"
+      ],
+      "pins": {
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/5613096600_1752001179.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4129469.html"
+    },
+    {
     "vendor": "Moes",
     "bDetailed": "0",
     "name": "Tuya Matter RGBCW 9W E27 Bulb",
