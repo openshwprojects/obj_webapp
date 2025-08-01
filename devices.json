@@ -2907,7 +2907,7 @@
     {
       "vendor": "Kasa",
       "bDetailed": "0",
-      "name": "Smart Single Pole Light Switch by TP-Link (US)",
+      "name": "Smart Single Pole Light Switch by TP-Link Variation #1 (US)",
       "model": "HS200",
       "chip": "RTL87X0C",
       "board": "on PCB",
@@ -2924,6 +2924,27 @@
       "command": "setButtonTimes 50 1 5\r\naddEventHandler OnHold 19 SafeMode",
       "image": "https://obrazki.elektroda.pl/7688993300_1736383309.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic4098414.html"
+    },
+    {
+      "vendor": "Kasa",
+      "bDetailed": "0",
+      "name": "Smart Single Pole Light Switch by TP-Link Variation #2 (US)",
+      "model": "HS200",
+      "chip": "RTL87X0C",
+      "board": "on PCB",
+      "flags": "1024",
+      "keywords": [      ],
+      "pins": {
+        "2": "LED_n;0",
+        "3": "LED;0",
+        "4": "WifiLED;0",
+        "17": "Btn_n;0",
+        "18": "Rel;0",
+        "19": "Btn_n;1"
+      },
+      "command": "setButtonTimes 50 1 5\r\naddEventHandler OnHold 19 SafeMode",
+      "image": "https://obrazki.elektroda.pl/7688993300_1736383309.png",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21616306#21616306"
     },
     {
       "vendor": "NEO Coolcam",
