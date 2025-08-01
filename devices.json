@@ -2947,6 +2947,30 @@
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21616306#21616306"
     },
     {
+      "vendor": "IHSeno",
+      "bDetailed": "0",
+      "name": "Tuya Generic Universal Infra-Red Remote Control",
+      "model": "WIFI-IR-1",
+      "chip": "BK7238",
+      "board": "T1-3S",
+      "flags": "1024",
+      "keywords": [
+        "ir",
+        "sender",
+        "receiver",
+        "WAZ-IR-V3"
+      ],
+      "pins": {
+        "6": "IRSend;0",
+        "8": "IRRecv;0",
+        "9": "dInput;1",
+        "26": "LED;2"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/7167182000_1753639754.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4131553.html"
+    },
+    {
       "vendor": "NEO Coolcam",
       "bDetailed": "0",
       "name": "Smart Mousetrap",
