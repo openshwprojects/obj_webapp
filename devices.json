@@ -2971,6 +2971,32 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic4131553.html"
     },
     {
+      "vendor": "LoraTap",
+      "bDetailed": "0",
+      "name": "Tuya Door/Window Magnet Contact Sensor 2xAAA",
+      "model": "MC100W",
+      "chip": "XR809",
+      "board": "XR3",
+      "flags": "1024",
+      "keywords": [
+        "open",
+        "close",
+        "gate",
+        "000001qrb9",
+        "key8ky3d8eshuygm"
+      ],
+      "pins": {
+        "2": "Btn;1",
+        "4": "BAT_ADC;4",
+        "5": "WifiLED;0",
+        "7": "BAT_Relay;3",
+        "11": "dInput_NoPullUp;2"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/4711059500_1743621882.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4115455.html"
+    },
+    {
       "vendor": "NEO Coolcam",
       "bDetailed": "0",
       "name": "Smart Mousetrap",
