@@ -2907,7 +2907,7 @@
     {
       "vendor": "Kasa",
       "bDetailed": "0",
-      "name": "Smart Single Pole Light Switch by TP-Link (US)",
+      "name": "Smart Single Pole Light Switch by TP-Link Variation #1 (US)",
       "model": "HS200",
       "chip": "RTL87X0C",
       "board": "on PCB",
@@ -2924,6 +2924,77 @@
       "command": "setButtonTimes 50 1 5\r\naddEventHandler OnHold 19 SafeMode",
       "image": "https://obrazki.elektroda.pl/7688993300_1736383309.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic4098414.html"
+    },
+    {
+      "vendor": "Kasa",
+      "bDetailed": "0",
+      "name": "Smart Single Pole Light Switch by TP-Link Variation #2 (US)",
+      "model": "HS200",
+      "chip": "RTL87X0C",
+      "board": "on PCB",
+      "flags": "1024",
+      "keywords": [      ],
+      "pins": {
+        "2": "LED_n;0",
+        "3": "LED;0",
+        "4": "WifiLED;0",
+        "17": "Btn_n;0",
+        "18": "Rel;0",
+        "19": "Btn_n;1"
+      },
+      "command": "setButtonTimes 50 1 5\r\naddEventHandler OnHold 19 SafeMode",
+      "image": "https://obrazki.elektroda.pl/7688993300_1736383309.png",
+      "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21616306#21616306"
+    },
+    {
+      "vendor": "IHSeno",
+      "bDetailed": "0",
+      "name": "Tuya Generic Universal Infra-Red Remote Control",
+      "model": "WIFI-IR-1",
+      "chip": "BK7238",
+      "board": "T1-3S",
+      "flags": "1024",
+      "keywords": [
+        "ir",
+        "sender",
+        "receiver",
+        "WAZ-IR-V3"
+      ],
+      "pins": {
+        "6": "IRSend;0",
+        "8": "IRRecv;0",
+        "9": "dInput;1",
+        "26": "LED;2"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/7167182000_1753639754.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4131553.html"
+    },
+    {
+      "vendor": "LoraTap",
+      "bDetailed": "0",
+      "name": "Tuya Door/Window Magnet Contact Sensor 2xAAA",
+      "model": "MC100W",
+      "chip": "XR809",
+      "board": "XR3",
+      "flags": "1024",
+      "keywords": [
+        "open",
+        "close",
+        "gate",
+        "000001qrb9",
+        "key8ky3d8eshuygm"
+      ],
+      "pins": {
+        "2": "Btn;1",
+        "4": "BAT_ADC;4",
+        "5": "WifiLED;0",
+        "7": "BAT_Relay;3",
+        "11": "dInput_NoPullUp;2"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/4711059500_1743621882.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4115455.html"
     },
     {
       "vendor": "NEO Coolcam",
