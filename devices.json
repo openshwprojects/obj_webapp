@@ -2971,6 +2971,29 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic4131553.html"
     },
     {
+      "vendor": "SurpLife",
+      "bDetailed": "0",
+      "name": "Zengge Symphony Wi-Fi SPI Addressible USB LED Controller w/IR",
+      "model": "AK001-ZJ21413",
+      "chip": "BK7238",
+      "board": "on PCB",
+      "flags": "1024",
+      "keywords": [
+        "5V",
+        "infra-red",
+        "WS2812B",
+        "ZJ-BWCUCS-HC-1K-43 V1.0"
+      ],
+      "pins": {
+        "6": "IRRecv;0",
+        "8": "Btn;1",
+        "16": "SM16703P_DIN;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/7113510300_1733167270.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4090758.html"
+    },
+    {
       "vendor": "LoraTap",
       "bDetailed": "0",
       "name": "Tuya Door/Window Magnet Contact Sensor 2xAAA",
