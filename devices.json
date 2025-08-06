@@ -15288,6 +15288,38 @@
 	  "image": "https://obrazki.elektroda.pl/5341773600_1686167391.jpg",
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3982582.html"
 	},
+  {
+    "vendor": "ibaye",
+    "bDetailed": "0",
+    "name": "60\" RGB LED Floor-Standing Light",
+    "model": "SNDI-57, SNDI-58",
+    "chip": "BK7231N",
+    "board": "on PCB",
+    "flags": "5120",
+    "keywords": [
+      "PCB_399P1-V1.0",
+      "IB0002",
+      "X001W3ZLWJ",
+      "Ambient",
+      "lamp",
+      "RGBIC",
+      "WS2811",
+      "Buttons",
+      "BLE Remote",
+      "IR Receiver",
+      "Microphone"
+    ],
+    "pins": {
+      "7": "Btn_SmartLED;0",
+      "16": "SM16703P_DIN;0",
+      "24": "Btn_ScriptOnly;3",
+      "26": "IRRecv;0",
+      "28": "Btn_ScriptOnly;2"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/7868373700_1754391831.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4133076.html"
+  },
     {
       "vendor": "Globe Electric",
       "bDetailed": "1",
