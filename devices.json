@@ -15314,6 +15314,35 @@
     "wiki": "https://www.elektroda.com/rtvforum/topic4133237.html"
   },
   {
+    "vendor": "MOES",
+    "bDetailed": "0",
+    "name": "Smart Capactive Touch Curtain Switch",
+    "model": "WS-Y-EUTC-WH-MS",
+    "chip": "BK7231N",
+    "board": "CBU",
+    "flags": "134218820",
+    "keywords": [
+      "EU_CURTAIN_SW_01G",
+      "EU_CURTAIN_SW_03A",
+      "roller",
+      "shutter"
+    ],
+    "pins": {
+      "9": "Btn;32",
+      "14": "LED_n;2",
+      "16": "LED_n;32",
+      "20": "LED_n;1",
+      "22": "WifiLED_n;13",
+      "23": "Btn;2",
+      "24": "Rel;1",
+      "26": "Rel;2",
+      "28": "Btn;1"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/7964203300_1754401546.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4133075.html"
+  },
+  {
     "vendor": "ibaye",
     "bDetailed": "0",
     "name": "60\" RGB LED Floor-Standing Light",
