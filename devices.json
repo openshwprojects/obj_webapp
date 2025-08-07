@@ -9743,6 +9743,36 @@
     {
       "vendor": "Tuya",
       "bDetailed": "0",
+      "name": "QS-WIFI-S10-C04",
+      "model": "Mini WiFi Curtain Module",
+      "chip": "BK7231N",
+      "board": "CBLC9",
+      "flags": "1024",
+      "keywords": [
+      "shutter",
+      "blind",
+      "roller",
+      "awning",
+      "sunblind",
+      "marquee",
+      "slat",
+      "QL-0887"
+      ],
+      "pins": {
+        "6": "Btn;1",
+        "7": "Rel;2",
+        "8": "WifiLED_n;0",
+        "9": "Rel;1",
+        "24": "Btnl;32",
+        "26": "Btn;2"
+      },
+      "command": "PowerSave 1",
+      "image": "https://obrazki.elektroda.pl/1978468300_1713373135.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4049271.html"
+    },
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
       "name": "Tuya Generic Temperature/Humidity/Clock/IR - LCD, TuyaMCU",
       "model": "S09",
       "chip": "BK7231T",
