@@ -15289,6 +15289,31 @@
 	  "wiki": "https://www.elektroda.com/rtvforum/topic3982582.html"
 	},
   {
+    "vendor": "SiGN",
+    "bDetailed": "0",
+    "name": "WiFi Smart Indoor Plug 16A with 20W USB Fast Charging",
+    "model": "SN-WIFIPLUG",
+    "chip": "BK7231N",
+    "board": "CB2S",
+    "flags": "1024",
+    "keywords": [
+      "CLY8102UM(V2)-GE-A",
+      "usb-c"
+    ],
+    "pins": {
+      "6": "Btn;39",
+      "7": "BL0937CF;0",
+      "8": "BL0937CF1;0",
+      "10": "LED_n;39",
+      "23": "BL0937SEL;0",
+      "24": "Rel;39",
+      "26": "Rel;37"
+    },
+    "command": "",
+    "image": "https://obrazki.elektroda.pl/8681839200_1754503169.jpg",
+    "wiki": "https://www.elektroda.com/rtvforum/topic4133237.html"
+  },
+  {
     "vendor": "ibaye",
     "bDetailed": "0",
     "name": "60\" RGB LED Floor-Standing Light",
