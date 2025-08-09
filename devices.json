@@ -9741,10 +9741,26 @@
       "command": ""
     },
     {
+      "vendor": "RainPoint",
+      "bDetailed": "0",
+      "name": "Indoor Water Pump",
+      "model": "TTP106W",
+      "chip": "BK7231N",
+      "board": "CB3s",
+      "flags": "1024",
+      "keywords": [
+      "TuyaMCU"
+      ],
+      "pins": {},
+      "command": "PowerSave 1",
+      "image": "https://obrazki.elektroda.pl/1115430100_1754564033_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4133328.html"
+    },
+    {
       "vendor": "Tuya",
       "bDetailed": "0",
-      "name": "QS-WIFI-S10-C04",
-      "model": "Mini WiFi Curtain Module",
+      "name": "Mini WiFi Curtain Module",
+      "model": "QS-WIFI-S10-C04",
       "chip": "BK7231N",
       "board": "CBLC9",
       "flags": "1024",
