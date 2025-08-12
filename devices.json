@@ -13857,6 +13857,24 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3938978.html"
     },
     {
+      "vendor": "SurpLife",
+      "bDetailed": "0",
+      "name": "Zengge RGBCCT 10W Smart+ LED Bulb",
+      "model": "ZG-BK38-BP101",
+      "chip": "BK7238",
+      "board": "WB43-M5 V1.1",
+      "flags": "1024",
+      "keywords": [
+      ],
+      "pins": {
+        "24": "BP5758D_CLK;0",
+        "26": "BP5758D_DAT;0"
+      },
+      "command": "backlog powersave 1; BP5758D_Current 8 30",
+      "image": "https://obrazki.elektroda.pl/4021604800_1735993014.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4097320.html"
+    },
+    {
       "vendor": "Amazon",
       "bDetailed": "0",
       "name": "BTF-Lighting FCOB CCT LED Strip Light",
