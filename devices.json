@@ -2795,7 +2795,7 @@
 	  "chip": "BK7231N",
 	  "board": "CBU",
 	  "keywords": [
-	   "outdoor" ],
+	   "outdoor"],
 	  "pins": {
 		"6": "PWM;5",
 		"7": "PWM;3",
@@ -6177,7 +6177,7 @@
     {
       "vendor": "CoRui",
       "bDetailed": "0",
-      "name": " CoRui TUYA WiFi Smart LED Light Bulb 9W E27 RGBCW",
+      "name": "CoRui TUYA WiFi Smart LED Light Bulb 9W E27 RGBCW",
       "model": "",
       "chip": "BK7231N",
       "board": "",
@@ -8859,7 +8859,7 @@
 	  {
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
-	  "name": " US Plug with Power Monitoring",
+	  "name": "US Plug with Power Monitoring",
 	  "model": "SMR-MG-CZ102W-WIF-15A-POW-US 77006510",
 	  "chip": "BK7231N",
 	  "board": "CB2S",
@@ -9016,7 +9016,7 @@
 	{
 	  "vendor": "Sonoff",
 	  "bDetailed": "1",
-	  "name": " Sonoff POWR316D Elite16A WiFi smart Energy Meter",
+	  "name": "Sonoff POWR316D Elite16A WiFi smart Energy Meter",
 	  "model": "POWR316D",
 	  "chip": "ESP32",
 	  "board": "on PCB",
@@ -12374,7 +12374,7 @@
     {
       "vendor": "Moes",
       "bDetailed": "1",
-      "name": " Moes Smart LED Light Bulb RGBCCT 5W GU10 based on - BK7231T [WBCL5]",
+      "name": "Moes Smart LED Light Bulb RGBCCT 5W GU10 based on - BK7231T [WBCL5]",
       "chip": "BK7231T",
       "board": "WBCL5",
       "pins": {
@@ -13090,7 +13090,7 @@
 	{
 	  "vendor": "Mirabella",
 	  "bDetailed": "0",
-	  "name": " enio Wi-Fi LED 5 metre Strip Light",
+	  "name": "Genio Wi-Fi LED 5 metre Strip Light",
 	  "model": "1002796",
 	  "chip": "BK7231N",
 	  "board": "on PCB",
