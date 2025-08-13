@@ -13877,7 +13877,7 @@
         "6": "PWM;4",
         "7": "PWM;5"
       },
-      "command": "",
+      "command": "powersave 1",
       "image": "https://obrazki.elektroda.pl/8397435100_1755108131_thumb.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic_YOUR_TOPIC.html"
     },
