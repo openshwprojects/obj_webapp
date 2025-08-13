@@ -13857,6 +13857,31 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3938978.html"
     },
     {
+      "vendor": "Aiyato",
+      "bDetailed": "0",
+      "name": "CozyLife E14 Homekit RGBCW LED Bulb / White+Warm White (2700K-6500K)",
+      "model": "VA1005-1",
+      "chip": "ESP32C2",
+      "board": "ESPC2-05",
+      "flags": "1024",
+      "keywords": [
+        "C37",
+        "BP2516F",
+        "Product Id: UJMhzq",
+        "DOIT"
+      ],
+      "pins": {
+        "3": "PWM;1",
+        "4": "PWM;2",
+        "5": "PWM;3",
+        "6": "PWM;4",
+        "7": "PWM;5"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/8397435100_1755108131_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic_YOUR_TOPIC.html"
+    },
+    {
       "vendor": "SurpLife",
       "bDetailed": "0",
       "name": "Zengge RGBCW 10W B22 Smart+ LED Bulb",
