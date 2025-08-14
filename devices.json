@@ -35,7 +35,7 @@
 			"UHOME",
 			"UASCENT",
 			"BP2516F",
-			"SL421A ",
+			"SL421A",
 			"SYWB07",
 			"RGBCCT V1.3"
 		],
@@ -1177,7 +1177,7 @@
     {
       "vendor": "Genio",
       "bDetailed": "1",
-      "name": "Genio Galaxy Smart Lamp RGB - BK7231T - Teardown + Guide ",
+      "name": "Genio Galaxy Smart Lamp RGB - BK7231T - Teardown + Guide",
       "model": "NX-SK20",
       "chip": "BK7231T",
       "board": "WB3S",
@@ -2301,7 +2301,7 @@
     {
       "vendor": "Spectrum",
       "bDetailed": "1",
-      "name": "Spectrum Smart E27 1500 lm 13W WOJ14473 ",
+      "name": "Spectrum Smart E27 1500 lm 13W WOJ14473",
       "chip": "BK7231T",
       "board": "WB2L",
       "pins": {
@@ -2343,7 +2343,7 @@
     {
       "vendor": "CLOUDY BAY",
       "bDetailed": "0",
-      "name": "CLOUDY BAY 6inch Smart Wifi LED Recessed Lights, RGBCW ",
+      "name": "CLOUDY BAY 6inch Smart Wifi LED Recessed Lights, RGBCW",
       "chip": "BK7231T",
       "board": "WB3S",
       "pins": {
@@ -2720,7 +2720,7 @@
     {
       "vendor": "Aigostar",
       "bDetailed": "1",
-      "name": "Aigostar Smart LED 600x600x25 CCT 3000-6500K ",
+      "name": "Aigostar Smart LED 600x600x25 CCT 3000-6500K",
       "chip": "EMW3071",
       "board": "EMW3071",
       "pins": {
@@ -2795,7 +2795,7 @@
 	  "chip": "BK7231N",
 	  "board": "CBU",
 	  "keywords": [
-	   "outdoor" ],
+	   "outdoor"],
 	  "pins": {
 		"6": "PWM;5",
 		"7": "PWM;3",
@@ -3313,7 +3313,7 @@
 	  "vendor": "Tuya",
 	  "bDetailed": "1",
 	  "name": "RTX WCM1MR Shutter Controller",
-	  "model": "WCM1MR ",
+	  "model": "WCM1MR",
 	  "chip": "BK7231N",
 	  "board": "CBLC9",
 	  "flags": "1024",
@@ -4363,7 +4363,7 @@
     {
       "vendor": "LSC",
       "bDetailed": "1",
-      "name": "LSC Smart Outdoor Spotlights (3pcs) 170lm ",
+      "name": "LSC Smart Outdoor Spotlights (3pcs) 170lm",
       "chip": "BK7231N",
       "board": "CB2L",
       "pins": {
@@ -4706,7 +4706,7 @@
     {
       "vendor": "Kruitvat",
       "bDetailed": "1",
-      "name": "[BK7231T / WB2S] Kruitvat Smart Plug SH 63.126 Dual (with Energy Meter) ",
+      "name": "[BK7231T / WB2S] Kruitvat Smart Plug SH 63.126 Dual (with Energy Meter)",
       "chip": "BK7231T",
       "board": "WB2S",
       "pins": {
@@ -5082,7 +5082,7 @@
         "8": "AlwaysHigh;2",
         "9": "AlwaysHigh;1"
       },
-      "command": "backlog startDriver NTP; StartDriver BL0942 9600; PowerSave 1; SetupEnergyStats 1 60 60 ",
+      "command": "backlog startDriver NTP; StartDriver BL0942 9600; PowerSave 1; SetupEnergyStats 1 60 60",
       "image": "https://obrazki.elektroda.pl/5762605900_1712466903.png",
       "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=20928892#20928892"
     },
@@ -5941,7 +5941,7 @@
 	{
 		"vendor": "Tuya",
 		"bDetailed": "0",
-		"name": "Lonsonho Tuya X801A-L/LerLink 1 Gang No Neutral Switch (X801A-L) ",
+		"name": "Lonsonho Tuya X801A-L/LerLink 1 Gang No Neutral Switch (X801A-L)",
 		"model": "X801A",
 		"chip": "BK7231T",
 		"board": "WB3S",
@@ -6167,7 +6167,7 @@
       "board": "on PCB",
       "pins": {},
       "keywords": [
-        "UCS1912S ",
+        "UCS1912S",
         "plants"
       ],
       "image": "https://obrazki.elektroda.pl/3800183000_1667396617.jpg",
@@ -6177,7 +6177,7 @@
     {
       "vendor": "CoRui",
       "bDetailed": "0",
-      "name": " CoRui TUYA WiFi Smart LED Light Bulb 9W E27 RGBCW",
+      "name": "CoRui TUYA WiFi Smart LED Light Bulb 9W E27 RGBCW",
       "model": "",
       "chip": "BK7231N",
       "board": "",
@@ -6492,7 +6492,7 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3952083.html"
     },
     {
-      "name": "[BK7231N] - Jinvoo AC/TV Box IR Controller (SM-AW502S) ",
+      "name": "[BK7231N] - Jinvoo AC/TV Box IR Controller (SM-AW502S)",
       "bDetailed": "1",
       "model": "SM-AW502S",
       "chip": "BK7231N",
@@ -6723,7 +6723,7 @@
     {
       "vendor": "Mercury",
       "bDetailed": "0",
-      "name": "Merkury Smart Wi-Fi Outdoor/Indoor Plug MI-OW101-300W ",
+      "name": "Merkury Smart Wi-Fi Outdoor/Indoor Plug MI-OW101-300W",
       "model": "MI-OW101-300W",
       "chip": "BK7231T",
       "board": "WB2S",
@@ -6817,7 +6817,7 @@
     {
       "vendor": "Nedis",
       "bDetailed": "0",
-      "name": "Nedis WIFIP110FWT (BK7231N, BL0942) teardown ",
+      "name": "Nedis WIFIP110FWT (BK7231N, BL0942) teardown",
       "model": "WIFIP110FWT",
       "chip": "BK7231N",
       "board": "on PCB",
@@ -7974,7 +7974,7 @@
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
-	  "name": "Tuya Smart Life Garage Door Motor Receiver 4CH Switch Controller WiFi Switch ",
+	  "name": "Tuya Smart Life Garage Door Motor Receiver 4CH Switch Controller WiFi Switch",
 	  "model": "TYWD 4CH-RF",
 	  "chip": "BK7231N",
 	  "board": "CB3S",
@@ -8144,7 +8144,7 @@
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
-	  "name": "Generic smart plug ",
+	  "name": "Generic smart plug",
 	  "model": "RMC001",
 	  "chip": "BK7231T",
 	  "board": "WB2S",
@@ -8603,7 +8603,7 @@
       "AAA"
     ],
     "pins": {},
-    "command": "backlog startDriver tuyaMCU; startDriver tmSensor; linkTuyaMCUOutputToChannel 1 val 1; linkTuyaMCUOutputToChannel 3 val 3; ",
+    "command": "backlog startDriver tuyaMCU; startDriver tmSensor; linkTuyaMCUOutputToChannel 1 val 1; linkTuyaMCUOutputToChannel 3 val 3;",
     "image": "https://obrazki.elektroda.pl/9682163600_1705112816.jpg",
     "wiki": "https://www.elektroda.com/rtvforum/topic4028222.html"
   },
@@ -8859,7 +8859,7 @@
 	  {
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
-	  "name": " US Plug with Power Monitoring",
+	  "name": "US Plug with Power Monitoring",
 	  "model": "SMR-MG-CZ102W-WIF-15A-POW-US 77006510",
 	  "chip": "BK7231N",
 	  "board": "CB2S",
@@ -9016,7 +9016,7 @@
 	{
 	  "vendor": "Sonoff",
 	  "bDetailed": "1",
-	  "name": " Sonoff POWR316D Elite16A WiFi smart Energy Meter",
+	  "name": "Sonoff POWR316D Elite16A WiFi smart Energy Meter",
 	  "model": "POWR316D",
 	  "chip": "ESP32",
 	  "board": "on PCB",
@@ -9392,7 +9392,7 @@
 	{
 		"vendor": "Tuya",
 		"bDetailed": "0",
-		"name": "LgowithU Smart Water Valve/Steren Valvula Valve (SHOME-150) ",
+		"name": "LgowithU Smart Water Valve/Steren Valvula Valve (SHOME-150)",
 		"model": "SHOME-150",
 		"chip": "BK7231T",
 		"board": "WB3S",
@@ -9993,7 +9993,7 @@
     {
       "vendor": "Sonoff",
       "bDetailed": "1",
-      "name": "SONOFF BASICZBR3 ZB DIY Smart Switch Controlled Via SmartThing ",
+      "name": "SONOFF BASICZBR3 ZB DIY Smart Switch Controlled Via SmartThing",
       "model": "BASICZBR3",
       "chip": "CC2530",
       "pins": {},
@@ -10857,7 +10857,7 @@
     {
       "vendor": "Smart Life",
       "bDetailed": "0",
-      "name": "IR Blaster S06Pro WB3S ",
+      "name": "IR Blaster S06Pro WB3S",
       "model": "S06",
       "chip": "BK7231T",
       "board": "WB3S",
@@ -11291,7 +11291,7 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic4126731.html"
     },
     {
-      "vendor": "Mycket ",
+      "vendor": "Mycket",
       "bDetailed": "1",
       "name": "Mycket Smart Socket PE-01E IP44",
       "model": "PE-01E IP44",
@@ -11952,7 +11952,7 @@
     {
       "vendor": "LSC",
       "bDetailed": "0",
-      "name": "LSC 200 LED Multicolored Smart Lights ",
+      "name": "LSC 200 LED Multicolored Smart Lights",
       "chip": "BK7231N",
       "board": "on PCB",
       "keywords": [
@@ -11990,7 +11990,7 @@
     {
       "vendor": "Generic",
       "bDetailed": "0",
-      "name": "TW-03/W600 3 Gang Smart Switch ",
+      "name": "TW-03/W600 3 Gang Smart Switch",
       "chip": "W600",
       "board": "TW03",
       "keywords": [
@@ -12079,7 +12079,7 @@
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
 	  "name": "SB527 QS-WIFI-ECC02 Shutter Controller",
-	  "model": "SB527 ",
+	  "model": "SB527",
 	  "chip": "BK7231N",
 	  "board": "CBLC9S",
 	  "flags": "1024",
@@ -12374,7 +12374,7 @@
     {
       "vendor": "Moes",
       "bDetailed": "1",
-      "name": " Moes Smart LED Light Bulb RGBCCT 5W GU10 based on - BK7231T [WBCL5]",
+      "name": "Moes Smart LED Light Bulb RGBCCT 5W GU10 based on - BK7231T [WBCL5]",
       "chip": "BK7231T",
       "board": "WBCL5",
       "pins": {
@@ -12406,7 +12406,7 @@
     {
       "vendor": "Neo LITE",
       "bDetailed": "1",
-      "name": "6W RGBCCT E14 LED candle bulb (Immax Neo LITE) ",
+      "name": "6W RGBCCT E14 LED candle bulb (Immax Neo LITE)",
       "chip": "BK7231N",
       "board": "CBLC5",
       "pins": {
@@ -12433,7 +12433,7 @@
     {
       "vendor": "Tuya",
       "bDetailed": "1",
-      "name": "Tuya E14 Lamp RGB+CW+WW - 9w [Belon BL2028N] (BK7231N) ",
+      "name": "Tuya E14 Lamp RGB+CW+WW - 9w [Belon BL2028N] (BK7231N)",
       "chip": "BK7231N",
       "board": "FL_M95_V1",
       "pins": {
@@ -12865,7 +12865,7 @@
     {
       "vendor": "Tuya",
       "bDetailed": "1",
-      "name": "AT-Q-SMR1-20 wifi DIN rail RCBO circuit breaker + energy meter ",
+      "name": "AT-Q-SMR1-20 wifi DIN rail RCBO circuit breaker + energy meter",
       "chip": "BK7231T",
       "board": "WB3S",
       "pins": {},
@@ -13090,7 +13090,7 @@
 	{
 	  "vendor": "Mirabella",
 	  "bDetailed": "0",
-	  "name": " enio Wi-Fi LED 5 metre Strip Light",
+	  "name": "Genio Wi-Fi LED 5 metre Strip Light",
 	  "model": "1002796",
 	  "chip": "BK7231N",
 	  "board": "on PCB",
@@ -13225,7 +13225,7 @@
     {
       "vendor": "C37",
       "bDetailed": "1",
-      "name": "RGB+CW C37 Lamp Tuya WBLC9 (BK7231T) + BP1658 ",
+      "name": "RGB+CW C37 Lamp Tuya WBLC9 (BK7231T) + BP1658",
       "model": "",
       "chip": "BK7231T",
       "board": "WBLC9",
@@ -13364,7 +13364,7 @@
     {
       "vendor": "Teknikkdeler",
       "bDetailed": "1",
-      "name": "Dual smart plug outdoor 16A IP44 BK7231T ECF-SOP02 ",
+      "name": "Dual smart plug outdoor 16A IP44 BK7231T ECF-SOP02",
       "model": "ECF-SOP02",
       "chip": "BK7231T",
       "board": "WB2S",
@@ -13838,7 +13838,7 @@
     {
       "vendor": "Amazon",
       "bDetailed": "0",
-      "name": "AOFO smart power strip - WB2S ",
+      "name": "AOFO smart power strip - WB2S",
       "chip": "BK7231T",
       "board": "WB2S",
       "pins": {
@@ -13857,9 +13857,52 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3938978.html"
     },
     {
+      "vendor": "Aiyato",
+      "bDetailed": "0",
+      "name": "CozyLife E14 Homekit RGBCW LED Bulb / White+Warm White (2700K-6500K)",
+      "model": "VA1005-1",
+      "chip": "ESP32C2",
+      "board": "ESPC2-05",
+      "flags": "1024",
+      "keywords": [
+        "C37",
+        "BP2516F",
+        "Product Id: UJMhzq",
+        "DOIT"
+      ],
+      "pins": {
+        "3": "PWM;1",
+        "4": "PWM;2",
+        "5": "PWM;3",
+        "6": "PWM;4",
+        "7": "PWM;5"
+      },
+      "command": "powersave 1",
+      "image": "https://obrazki.elektroda.pl/8397435100_1755108131_thumb.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic_YOUR_TOPIC.html"
+    },
+    {
+      "vendor": "SurpLife",
+      "bDetailed": "0",
+      "name": "Zengge RGBCW 10W B22 Smart+ LED Bulb",
+      "model": "ZG-BK38-BP101",
+      "chip": "BK7238",
+      "board": "WB43-M5 V1.1",
+      "flags": "1024",
+      "keywords": [
+      ],
+      "pins": {
+        "24": "BP5758D_CLK;0",
+        "26": "BP5758D_DAT;0"
+      },
+      "command": "backlog powersave 1; BP5758D_Current 8 30",
+      "image": "https://obrazki.elektroda.pl/4021604800_1735993014.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4097320.html"
+    },
+    {
       "vendor": "Amazon",
       "bDetailed": "0",
-      "name": "BTF-Lighting FCOB CCT LED Strip Light ",
+      "name": "BTF-Lighting FCOB CCT LED Strip Light",
       "chip": "BK7231N",
       "board": "CBU",
       "pins": {
@@ -13867,7 +13910,7 @@
         "8": "PWM;1"
       },
       "keywords": [
-        "Amazon ",
+        "Amazon",
         "CCT",
         "CW",
         "cool warm",
