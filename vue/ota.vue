@@ -374,6 +374,14 @@
                         prefix = 'OpenXR809_';
                         postfix = '.img';
                         break;
+                    case 'XR872':
+                        prefix = 'OpenXR872_';
+                        postfix = '_ota.img';
+                        break;
+                    case 'XR806':
+                        prefix = 'OpenXR806_';
+                        postfix = '_ota.img';
+                        break;                        
                     case 'BL602':
                         prefix = 'OpenBL602_';
                         postfix = '_OTA.bin.xz.ota';
