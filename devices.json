@@ -13867,7 +13867,8 @@
       "keywords": [
         "4mb",
         "addressable",
-        "ws2812b"
+        "ws2812b",
+        "sp53x"
       ],
       "pins": {
         "0": "LED_n;10",
