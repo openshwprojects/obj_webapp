@@ -13859,7 +13859,7 @@
     {
       "vendor": "BTF-Lighting",
       "bDetailed": "0",
-      "name": "SPI+5CH PWM All in One LED Controller In:DC 5-24V Output:Max 12A",
+      "name": "SPI+5CH PWM All-in-One LED Controller In:DC 5-24V Output:Max 12A",
       "model": "SP530E",
       "chip": "ESP32C3",
       "board": "on PCB",
