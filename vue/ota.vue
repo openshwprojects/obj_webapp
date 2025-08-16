@@ -381,6 +381,9 @@
                     case 'XR806':
                         prefix = 'OpenXR806_';
                         postfix = '_ota.img';
+                    case 'ECR6600':
+                        prefix = 'OpenECR6600_';
+                        postfix = '_ota.img';                        
                         break;                        
                     case 'BL602':
                         prefix = 'OpenBL602_';
