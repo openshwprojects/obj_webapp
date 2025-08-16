@@ -374,6 +374,17 @@
                         prefix = 'OpenXR809_';
                         postfix = '.img';
                         break;
+                    case 'XR872':
+                        prefix = 'OpenXR872_';
+                        postfix = '_ota.img';
+                        break;
+                    case 'XR806':
+                        prefix = 'OpenXR806_';
+                        postfix = '_ota.img';
+                    case 'ECR6600':
+                        prefix = 'OpenECR6600_';
+                        postfix = '_ota.img';                        
+                        break;                        
                     case 'BL602':
                         prefix = 'OpenBL602_';
                         postfix = '_OTA.bin.xz.ota';
@@ -393,7 +404,15 @@
                     case 'RTL87X0C': 
                         prefix = 'OpenRTL87X0C_';
                         postfix = '_ota.img';
-                        break;      
+                        break;
+                    case 'RTL8710B': 
+                        prefix = 'OpenRTL8710B_';
+                        postfix = '_ota.img';
+                        break;
+                    case 'RTL8710A': 
+                        prefix = 'OpenRTL8710A_';
+                        postfix = '_ota.img';
+                        break;                                                  
 		    default:
 			prefix = 'Open' + this.chipset + '_';
                         postfix = '.img';

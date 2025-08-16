@@ -13857,6 +13857,35 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3938978.html"
     },
     {
+      "vendor": "BTF-Lighting",
+      "bDetailed": "0",
+      "name": "SPI+5CH PWM All-in-One LED Controller In:DC 5-24V Output:Max 12A",
+      "model": "SP530E",
+      "chip": "ESP32C3",
+      "board": "on PCB",
+      "flags": "1024",
+      "keywords": [
+        "4mb",
+        "addressable",
+        "ws2812b",
+        "sp53x"
+      ],
+      "pins": {
+        "0": "LED_n;10",
+        "1": "LED_n;11",
+        "3": "PWM;1",
+        "4": "PWM;5",
+        "5": "PWM;4",
+        "6": "PWM;2",
+        "7": "PWM;3",
+        "8": "Btn;0",
+        "19": "SM16703P_DIN;0"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/4191588100_1726597661.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4076290.html"
+    },
+    {
       "vendor": "Aiyato",
       "bDetailed": "0",
       "name": "CozyLife E14 Homekit RGBCW LED Bulb / White+Warm White (2700K-6500K)",
@@ -13879,7 +13908,7 @@
       },
       "command": "powersave 1",
       "image": "https://obrazki.elektroda.pl/8397435100_1755108131_thumb.jpg",
-      "wiki": "https://www.elektroda.com/rtvforum/topic_YOUR_TOPIC.html"
+      "wiki": "https://www.elektroda.com/rtvforum/topic4134135.html"
     },
     {
       "vendor": "SurpLife",
