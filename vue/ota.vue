@@ -412,7 +412,19 @@
                     case 'RTL8710A': 
                         prefix = 'OpenRTL8710A_';
                         postfix = '_ota.img';
-                        break;                                                  
+                        break;
+                    case 'RTL8720D': 
+                        prefix = 'OpenRTL8720D_';
+                        postfix = '_ota.img';
+                        break;
+                    case 'RTL8720E': 
+                        prefix = 'OpenRTL8720E_';
+                        postfix = '_ota.img';
+                        break;
+                    case 'RTL8721DA': 
+                        prefix = 'OpenRTL8721DA_';
+                        postfix = '_ota.img';
+                        break;                                                                                                                                  
 		    default:
 			prefix = 'Open' + this.chipset + '_';
                         postfix = '.img';
