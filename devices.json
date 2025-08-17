@@ -13854,6 +13854,27 @@
       "wiki": "https://www.elektroda.com/rtvforum/topic3940249.html"
     },
     {
+      "vendor": "MagicHome",
+      "bDetailed": "0",
+      "name": "Zengge LED SPI Controller - Dual Connector",
+      "model": "AK001-ZJ2149",
+      "chip": "BL602",
+      "board": "on PCB",
+      "flags": "1024",
+      "keywords": [
+        "LF686",
+        "addressable",
+        "74HC245",
+        "mic",
+        "RF remote",
+        "ZJ-BWCD-SPI-VC-B V1.0"
+      ],
+      "pins": {},
+      "command": "backlog powersave 1; startDriver SM16703P; SM16703P_Init 240 BRG; startdriver pixelanim",
+      "image": "https://obrazki.elektroda.pl/7286635900_1717882825.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4058754.html"
+    },
+    {
       "vendor": "Tuya",
       "bDetailed": "0",
       "name": "Tuya 3Gang Smart Home Light Switch WiFi+RF433",
