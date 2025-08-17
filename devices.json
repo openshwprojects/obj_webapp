@@ -13869,7 +13869,9 @@
         "RF remote",
         "ZJ-BWCD-SPI-VC-B V1.0"
       ],
-      "pins": {},
+      "pins": {
+        "12": "SM16703P_DIN;0"
+      },
       "command": "backlog powersave 1; startDriver SM16703P; SM16703P_Init 240 BRG; startdriver pixelanim",
       "image": "https://obrazki.elektroda.pl/7286635900_1717882825.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic4058754.html"
