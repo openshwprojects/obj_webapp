@@ -425,7 +425,43 @@
                     case 'RTL8721DA': 
                         prefix = 'OpenRTL8721DA_';
                         postfix = '_ota.img';
-                        break;                                                                                                                                  
+                        break; 
+                    case 'ESP32': 
+                        prefix = 'OpenESP32_';
+                        postfix = '.img';
+                        break;
+                    case 'ESP32C2': 
+                        prefix = 'OpenESP32C2_';
+                        postfix = '.img';
+                        break;
+                    case 'ESP32C3': 
+                        prefix = 'OpenESP32C3_';
+                        postfix = '.img';
+                        break;
+                    case 'ESP32C5': 
+                        prefix = 'OpenESP32C5_';
+                        postfix = '.img';
+                        break;
+                    case 'ESP32C6': 
+                        prefix = 'OpenESP32C6_';
+                        postfix = '.img';
+                        break;
+                    case 'ESP32C61': 
+                        prefix = 'OpenESP32C61_';
+                        postfix = '.img';
+                        break;
+                    case 'ESP32S2': 
+                        prefix = 'OpenESP32S2_';
+                        postfix = '.img';
+                        break;
+                    case 'ESP32S3': 
+                        prefix = 'OpenESP32S3_';
+                        postfix = '.img';
+                        break;
+                    case 'ESP8266': 
+                        prefix = 'OpenESP8266_';
+                        postfix = '.img';
+                        break;                                                                                                                                                                                                                                                                                                                                                          
 		    default:
 			prefix = 'Open' + this.chipset + '_';
                         postfix = '.img';
