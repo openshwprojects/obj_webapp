@@ -9282,7 +9282,7 @@
 	  "keywords": ["Allegro","AP-M01-3CH-RF-V2 20210925", "CMD3090L"],
 	  "pins": {
 		"8": "PWM;1",
-		"24": "PWM;2"
+		"24": "PWM;2",
 		"26": "PWM;3"
 	  },
 	  "command": "",
