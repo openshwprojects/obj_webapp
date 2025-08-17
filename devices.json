@@ -9257,6 +9257,23 @@
     "image": "https://obrazki.elektroda.pl/8671024600_1718170279.png",
     "wiki": "https://www.elektroda.com/rtvforum/topic4056533.html"
   },
+{
+  "vendor": "Tuya",
+  "bDetailed": "1",
+  "name": "RGB LED strip controller",
+  "model": "EC79901",
+  "chip": "BK7231N",
+  "board": "CB3S",
+  "keywords": ["Allegro","AP-M01-3CH-RF-V2 20210925", "CMD3090L"],
+  "pins": {
+    "8": "PWM;1",
+    "24": "PWM;2"
+    "26": "PWM;3"
+  },
+  "command": "",
+  "image": "https://obrazki.elektroda.pl/2833609100_1752161857.jpg",
+  "wiki": "https://www.elektroda.pl/rtvforum/topic4132319.html"
+},
 	{
 	  "vendor": "Energizer",
 	  "bDetailed": "0",
