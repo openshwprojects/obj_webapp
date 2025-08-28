@@ -6314,6 +6314,8 @@
       "model": "A60WIFI-2",
       "chip": "BK7231T",
       "board": "WB3L",
+      "keywords": [
+        "46.6LH20073"],      
       "pins": {
         "6": "PWM;4",
         "7": "PWM;3",
