@@ -6301,11 +6301,31 @@
         "6": "PWM;4",
         "7": "PWM;3",
         "8": "PWM;0",
-        "26": "PWM;2",
-        "24": "PWM;1"
+        "24": "PWM;1",
+        "26": "PWM;2"        
       },
       "image": "https://obrazki.elektroda.pl/4634405600_1662811736_thumb.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3920298.html"
+    },
+    {
+      "vendor": "ExtraStar",
+      "bDetailed": "1",
+      "name": "E27 1000lm Dimmable RGBCW LED Bulb",
+      "model": "A60WIFI-2",
+      "chip": "BK7231T",
+      "board": "WB3L",
+      "keywords": [
+        "46.6LH20073"],      
+      "pins": {
+        "6": "PWM;4",
+        "7": "PWM;3",
+        "8": "PWM;0",
+        "24": "PWM;1",
+        "26": "PWM;2"        
+      },
+      "command": "powersave 1",      
+      "image": "https://obrazki.elektroda.pl/4688195300_1755977721.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4135429.html"
     },
     {
       "vendor": "Tuya",
