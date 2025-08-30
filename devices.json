@@ -2752,7 +2752,7 @@
         "24": "PWM;2",
         "26": "PWM;1"
       },
-      "command": "backlog ;led_temperature 333; Dimmer 100; led_enableAll 1",
+      "command": "backlog led_temperature 333; Dimmer 100; led_enableAll 1",
       "image": "https://obrazki.elektroda.pl/2103802000_1755496190.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic4134658.html"
     },
