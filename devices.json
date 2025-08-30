@@ -2727,11 +2727,34 @@
       },
       "keywords": [
         "YL42800-AK51 (WiFi)",
-		"plafon",
-		"Allegro"
+		    "plafon",
+		    "Allegro"
       ],
       "image": "https://obrazki.elektroda.pl/6612415200_1690775827.jpg",
       "wiki": "https://www.elektroda.com/rtvforum/topic3999998.html"
+    },
+    {
+      "vendor": "Ledvance",
+      "bDetailed": "0",
+      "name": "SMART+ Wifi Ceiling 22W/RGB + 2700-6500K 1800lm LED Light",
+      "model": "4058075636347",
+      "chip": "BK7231T",
+      "board": "WB2L",
+      "flags": "1280",
+      "keywords": [
+        "100-240v",
+        "IP20"
+      ],
+      "pins": {
+        "6": "PWM;0",
+        "7": "PWM_n;3",
+        "8": "PWM;4",
+        "24": "PWM;2",
+        "26": "PWM;1"
+      },
+      "command": "backlog ;led_temperature 333; Dimmer 100; led_enableAll 1",
+      "image": "https://obrazki.elektroda.pl/2103802000_1755496190.png",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4134658.html"
     },
     {
       "vendor": "Aigostar",
@@ -2743,8 +2766,8 @@
       },
       "keywords": [
         "RGBCW",
-		"plafon",
-		"Allegro"
+		    "plafon",
+		    "Allegro"
       ],
       "image": "https://obrazki.elektroda.pl/2450612900_1675163765.png",
       "wiki": "https://www.elektroda.com/rtvforum/topic3955592.html"
