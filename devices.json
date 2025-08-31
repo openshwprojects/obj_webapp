@@ -12358,6 +12358,28 @@
 	  "image": "https://obrazki.elektroda.pl/4846908000_1712784503.png",
 	  "wiki": "https://www.elektroda.com/rtvforum/viewtopic.php?p=21040727#21040727"
 	},
+    {
+      "vendor": "Tuya",
+      "bDetailed": "0",
+      "name": "Generic 16A Mini Smart Switch",
+      "model": "",
+      "chip": "BK7238",
+      "board": "T1-2S-NL",
+      "flags": "1024",
+      "keywords": [
+        "breaker",
+        "diy"
+      ],
+      "pins": {
+        "1": "WifiLED;0",
+        "8": "Rel;1",
+        "9": "Btn_Tgl_All;0",
+        "24": "TglChanOnTgl;1"
+      },
+      "command": "",
+      "image": "https://obrazki.elektroda.pl/9808726800_1756671551.jpg",
+      "wiki": "https://www.elektroda.com/rtvforum/topic4136377.html"
+    },
 	{
 	  "vendor": "Tuya",
 	  "bDetailed": "0",
