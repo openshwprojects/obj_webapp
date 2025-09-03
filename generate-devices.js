@@ -2,14 +2,22 @@ const fs = require("fs");
 const path = require("path");
 
 const devicesFile = path.join(__dirname, "devices.json");
-const outDir = path.join(__dirname, "gh-pages"); // temp folder for HTML
+const outDir = path.join(__dirname, "gh-pages");
 
-if (!fs.existsSync(outDir)) fs.mkdirSync(outDir);
+if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
 
 const data = JSON.parse(fs.readFileSync(devicesFile, "utf8"));
 
+function sanitizeFilename(name) {
+    return name.replace(/[<>:"/\\|?*]/g, "_");
+}
+
 data.devices.forEach(device => {
-    const filename = `${device.model}.html`;
+    const safeName = sanitizeFilename(device.model);
+    const filePath = path.join(outDir, safeName + ".html");
+
+    fs.mkdirSync(path.dirname(filePath), { recursive: true });
+
     const html = `
 <!DOCTYPE html>
 <html lang="en">
@@ -38,7 +46,7 @@ ${Object.entries(device.pins).map(([pin, val]) => `<li>${pin}: ${val}</li>`).joi
 </body>
 </html>
     `;
-    fs.writeFileSync(path.join(outDir, filename), html, "utf8");
+    fs.writeFileSync(filePath, html, "utf8");
 });
 
 console.log("Device pages generated in 'gh-pages' folder");
