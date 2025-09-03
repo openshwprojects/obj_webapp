@@ -1,11 +1,36 @@
 const fs = require("fs");
 const path = require("path");
 
-const devicesFile = path.join(__dirname, "devices.json");
 const outDir = path.join(__dirname, "gh-pages");
 
-if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
+// Clear previous gh-pages folder (optional)
+if (fs.existsSync(outDir)) {
+    fs.rmSync(outDir, { recursive: true, force: true });
+}
+fs.mkdirSync(outDir, { recursive: true });
 
+// Copy all files from repo (excluding gh-pages itself)
+function copyRecursive(src, dest) {
+    if (!fs.existsSync(src)) return;
+    const stats = fs.statSync(src);
+    if (stats.isDirectory()) {
+        if (!fs.existsSync(dest)) fs.mkdirSync(dest);
+        fs.readdirSync(src).forEach(child => {
+            if (child === "gh-pages") return; // skip gh-pages folder
+            copyRecursive(path.join(src, child), path.join(dest, child));
+        });
+    } else {
+        fs.copyFileSync(src, dest);
+    }
+}
+copyRecursive(__dirname, outDir);
+
+// Load devices.json
+const devicesFile = path.join(__dirname, "devices.json");
+if (!fs.existsSync(devicesFile)) {
+    console.log("No devices.json found, skipping device pages");
+    process.exit(0);
+}
 const data = JSON.parse(fs.readFileSync(devicesFile, "utf8"));
 
 function sanitizeFilename(name) {
@@ -13,12 +38,14 @@ function sanitizeFilename(name) {
     return name.replace(/[<>:"/\\|?*]/g, "_");
 }
 
+// Create devices/ folder
+const devicesDir = path.join(outDir, "devices");
+fs.mkdirSync(devicesDir, { recursive: true });
+
 data.devices.forEach(device => {
     const baseName = device.model || device.name || "unknown";
     const safeName = sanitizeFilename(baseName);
-    const filePath = path.join(outDir, safeName + ".html");
-
-    fs.mkdirSync(path.dirname(filePath), { recursive: true });
+    const filePath = path.join(devicesDir, safeName + ".html");
 
     const html = `
 <!DOCTYPE html>
@@ -51,4 +78,4 @@ ${device.wiki ? `<p><a href="${device.wiki}" target="_blank">Wiki / Details</a><
     fs.writeFileSync(filePath, html, "utf8");
 });
 
-console.log("Device pages generated in 'gh-pages' folder");
+console.log("All repo files copied and device pages generated in 'gh-pages/devices/'");
