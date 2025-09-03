@@ -3,13 +3,13 @@ const path = require("path");
 
 const outDir = path.join(__dirname, "gh-pages");
 
-// Clear previous gh-pages folder (optional)
+// 1️⃣ Nuke previous gh-pages content
 if (fs.existsSync(outDir)) {
     fs.rmSync(outDir, { recursive: true, force: true });
 }
 fs.mkdirSync(outDir, { recursive: true });
 
-// Copy all files from repo (excluding gh-pages itself)
+// 2️⃣ Copy all files from repo (excluding gh-pages itself)
 function copyRecursive(src, dest) {
     if (!fs.existsSync(src)) return;
     const stats = fs.statSync(src);
@@ -25,7 +25,7 @@ function copyRecursive(src, dest) {
 }
 copyRecursive(__dirname, outDir);
 
-// Load devices.json
+// 3️⃣ Load devices.json
 const devicesFile = path.join(__dirname, "devices.json");
 if (!fs.existsSync(devicesFile)) {
     console.log("No devices.json found, skipping device pages");
@@ -33,15 +33,17 @@ if (!fs.existsSync(devicesFile)) {
 }
 const data = JSON.parse(fs.readFileSync(devicesFile, "utf8"));
 
+// Helper to make safe filenames
 function sanitizeFilename(name) {
     if (!name) name = "unknown";
     return name.replace(/[<>:"/\\|?*]/g, "_");
 }
 
-// Create devices/ folder
+// 4️⃣ Create devices/ folder
 const devicesDir = path.join(outDir, "devices");
 fs.mkdirSync(devicesDir, { recursive: true });
 
+// 5️⃣ Generate HTML pages for each device
 data.devices.forEach(device => {
     const baseName = device.model || device.name || "unknown";
     const safeName = sanitizeFilename(baseName);
@@ -78,4 +80,4 @@ ${device.wiki ? `<p><a href="${device.wiki}" target="_blank">Wiki / Details</a><
     fs.writeFileSync(filePath, html, "utf8");
 });
 
-console.log("All repo files copied and device pages generated in 'gh-pages/devices/'");
+console.log("Previous content nuked, all repo files copied, and device pages generated in 'gh-pages/devices/'");
