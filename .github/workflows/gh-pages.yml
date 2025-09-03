@@ -25,8 +25,9 @@ jobs:
       run: node generate-devices.js
 
     - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v6
+      uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./gh-pages
         destination_branch: gh-pages
+        force_orphan: true
