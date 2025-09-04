@@ -3,13 +3,11 @@ const path = require("path");
 
 const outDir = path.join(__dirname, "gh-pages");
 
-// 1️⃣ Nuke previous gh-pages content
 if (fs.existsSync(outDir)) {
     fs.rmSync(outDir, { recursive: true, force: true });
 }
 fs.mkdirSync(outDir, { recursive: true });
 
-// 2️⃣ Copy all files from repo (excluding gh-pages itself)
 function copyRecursive(src, dest) {
     if (!fs.existsSync(src)) return;
     const stats = fs.statSync(src);
@@ -25,7 +23,6 @@ function copyRecursive(src, dest) {
 }
 copyRecursive(__dirname, outDir);
 
-// 3️⃣ Load devices.json
 const devicesFile = path.join(__dirname, "devices.json");
 if (!fs.existsSync(devicesFile)) {
     console.log("No devices.json found, skipping device pages");
@@ -34,7 +31,6 @@ if (!fs.existsSync(devicesFile)) {
 const data = JSON.parse(fs.readFileSync(devicesFile, "utf8"));
 
 
-// 4️⃣ Create devices/ folder
 const devicesDir = path.join(outDir, "devices");
 fs.mkdirSync(devicesDir, { recursive: true });
 
@@ -45,71 +41,83 @@ function createDeviceHTML(device, safeName) {
     const englishLink = device.wiki || "#";
     const polishLink = englishLink !== "#" ? englishLink.replace(".com", ".pl") : "https://www.elektroda.pl/rtvforum/";
 
-    // Use external parser for pins
     const parsed = processJSON_OpenBekenTemplateStyle(device);
     const pinsDesc = parsed.desc.replace(/\n/g, "<br>");
-
-    // Raw template JSON pretty
     const rawTemplate = JSON.stringify(device, null, 2);
 
- return `
+    return `
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <title>${device.name || safeName}</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"><!-- Google -->
+ <meta name="google-site-verification" content="7TndFADSStO2WmhEx0TgZ_o__nVvRwyk8IQeWlbK-4g" />
 <style>
-body { font-family: sans-serif; max-width: 1000px; margin: 2rem auto; padding: 1rem; }
-h1 { color: #2c3e50; }
-img { max-width: 100%; height: auto; border-radius: 8px; }
-.bigtext { font-size: 1.4rem; font-weight: bold; margin-top: 2rem; }
-.smalltext { font-size: 0.9rem; color: #555; margin-top: 0.5rem; }
-textarea { width: 100%; height: 300px; font-family: monospace; }
-.copy-btn { margin-top: 0.5rem; padding: 0.3rem 0.6rem; cursor: pointer; }
-.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 1.5rem; }
-.full { grid-column: 1 / -1; }
-@media (max-width: 700px) {
-  .grid { grid-template-columns: 1fr; }
-}
+body { max-width: 1000px; margin: 2rem auto; }
+img { max-width: 100%; border-radius: 8px; }
+textarea { width: 100%; height: 250px; font-family: monospace; }
+.copy-btn { margin-top: 0.5rem; }
 </style>
 </head>
 <body>
+<div class="container">
 <h5>Firmware change information, guide, template, tutorial and help for...</h5>
-<h1>${device.name || safeName} (${device.model || ""})</h1>
+<h1 class="my-3">${device.name || safeName} (${device.model || ""})</h1>
 
-<div class="grid">
-  <div>
-    ${device.image ? `<img src="${device.image}" alt="${device.name || safeName}">` : ""}
-  </div>
-  <div>
-    <h2>Information</h2>
-    <p><strong>Vendor:</strong> ${device.vendor || "N/A"}</p>
-    <p><strong>Chip:</strong> ${device.chip || "N/A"}</p>
-    <p><strong>Board:</strong> ${device.board || "N/A"}</p>
-    <p><strong>Detailed:</strong> ${device.bDetailed || "N/A"}</p>
-    <p><strong>Keywords:</strong> ${(device.keywords || []).join(", ")}</p>
-  </div>
-
-  <div>
-    <h2>Device Template</h2>
-    <textarea readonly id="deviceTemplate">${rawTemplate}</textarea>
-    <button class="copy-btn" onclick="copyTemplate()">Copy</button>
-  </div>
-  <div>
-    <h2>Pins</h2>
-    <div>${pinsDesc || "No pin description available."}</div>
-  </div>
-
-  <div class="full">
-    <div class="bigtext">
-    ${detailed 
-      ? `Read detailed flashing guide and get help in device topic: <a href="${englishLink}" target="_blank">English</a>, <a href="${polishLink}" target="_blank">Polish</a>`
-      : `Read more information and get help on forum: <a href="${englishLink}" target="_blank">English</a>, <a href="${polishLink}" target="_blank">Polish</a>`
-    }
+<div class="row">
+  ${device.image ? `
+  <div class="col-md-6 mb-3">
+    <div class="card">
+      <img class="card-img-top" src="${device.image}" alt="${device.name || safeName}">
     </div>
-    ${device.product ? `<div class="smalltext">You can also visit <a href="${device.product}" target="_blank">shop site</a>.</div>` : ""}
-    <div class="smalltext">Return to <a href="../devicesList.html">devices list</a>.</div>
+  </div>` : ""}
+
+  <div class="col-md-6 mb-3">
+    <div class="card">
+      <div class="card-header">Information</div>
+      <div class="card-body">
+        <p><strong>Vendor:</strong> ${device.vendor || "N/A"}</p>
+        <p><strong>Chip:</strong> ${device.chip || "N/A"}</p>
+        <p><strong>Board:</strong> ${device.board || "N/A"}</p>
+        <p><strong>Detailed:</strong> ${device.bDetailed || "N/A"}</p>
+        <p><strong>Keywords:</strong> ${(device.keywords || []).join(", ")}</p>
+      </div>
+    </div>
   </div>
+
+  <div class="col-md-6 mb-3">
+    <div class="card">
+      <div class="card-header">Device Template</div>
+      <div class="card-body">
+        <textarea readonly id="deviceTemplate">${rawTemplate}</textarea>
+        <button class="btn btn-primary copy-btn" onclick="copyTemplate()">Copy Template</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6 mb-3">
+    <div class="card">
+      <div class="card-header">Pins</div>
+      <div class="card-body">${pinsDesc || "No pin description available."}</div>
+    </div>
+  </div>
+
+  <div class="col-12 mb-3">
+    <div class="card">
+      <div class="card-body">
+	  <p class="font-weight-bold" style="font-size: 1.5rem;">
+          ${detailed 
+            ? `Read detailed flashing guide and get help in device topic: <a href="${englishLink}" target="_blank">English guide</a>, <a href="${polishLink}" target="_blank">Polish guide</a>`
+            : `Read more information and get help on forum: <a href="${englishLink}" target="_blank">English thread</a>, <a href="${polishLink}" target="_blank">Polish thread</a>`
+          }
+        </p>
+        ${device.product ? `<p>You can also visit <a href="${device.product}" target="_blank">shop site</a>.</p>` : ""}
+        <p>Return to <a href="../devicesList.html">devices list</a>.</p>
+      </div>
+    </div>
+  </div>
+</div>
 </div>
 
 <script>
@@ -123,8 +131,8 @@ function copyTemplate() {
 </body>
 </html>
 `;
-
 }
+
 
 
 
@@ -137,7 +145,6 @@ function processDevice(device, devicesDir) {
     fs.writeFileSync(filePath, html, "utf8");
 }
 
-// 5️⃣ Generate HTML pages for each device
 data.devices.forEach(device => processDevice(device, devicesDir));
 
 
