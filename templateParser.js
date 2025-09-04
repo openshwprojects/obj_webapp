@@ -354,3 +354,8 @@ function processJSON(txt) {
     }
     return processJSONInternal(txt);
 }
+
+
+module.exports = {
+    processJSON_OpenBekenTemplateStyle
+};
