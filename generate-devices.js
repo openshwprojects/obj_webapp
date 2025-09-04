@@ -136,16 +136,28 @@ function copyTemplate() {
 
 
 
-
 function processDevice(device, devicesDir) {
     const baseName = pageNameForDevice(device);
     const safeName = sanitizeFilename(baseName);
     const filePath = path.join(devicesDir, safeName + ".html");
     const html = createDeviceHTML(device, safeName);
     fs.writeFileSync(filePath, html, "utf8");
+    return "devices/" + safeName + ".html";
 }
 
-data.devices.forEach(device => processDevice(device, devicesDir));
+const urls = [];
+data.devices.forEach(device => urls.push(processDevice(device, devicesDir)));
+
+urls.push("devicesList.html"); // add main devices list page
+
+// Generate sitemap.xml
+const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${urls.map(u => `  <url><loc>https://openbekeniot.github.io/webapp/${u}</loc></url>`).join("\n")}
+</urlset>`;
+
+fs.writeFileSync(path.join(outDir, "sitemap.xml"), sitemap, "utf8");
+
+console.log("All device pages generated and sitemap.xml created in 'gh-pages/'");
 
 
-console.log("Previous content nuked, all repo files copied, and device pages generated in 'gh-pages/devices/'");
