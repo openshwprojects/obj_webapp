@@ -354,8 +354,29 @@ function processJSON(txt) {
     }
     return processJSONInternal(txt);
 }
+// Helper to make safe filenames
+function sanitizeFilename(name) {
+    if (!name) name = "unknown";
+    return name.replace(/[<>:"/\\|?*]/g, "_");
+}
+
+function pageNameForDevice(device) {
+    const baseName = (device.vendor || "Unknown") + "_" + (device.model || device.name || "NA");
+    return sanitizeFilename(baseName);
+}
 
 
-module.exports = {
-    processJSON_OpenBekenTemplateStyle
-};
+(function (root, factory) {
+    if (typeof module !== 'undefined' && module.exports) {
+        module.exports = factory(); // Node.js
+    } else {
+        root.MyModule = factory(); // Browser
+    }
+}(typeof self !== 'undefined' ? self : this, function () {
+
+    return {
+        processJSON_OpenBekenTemplateStyle,
+        pageNameForDevice,
+        sanitizeFilename
+    };
+}));

@@ -25,6 +25,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 
+    <script src="templateParser.js"></script>
 <h2><a href="https://github.com/openshwprojects/OpenBK7231T_App">OpenBeken</a> IoT devices teardowns database</h2>
 <h4>Powered by <a href="https://www.elektroda.com/rtvforum/forum507.html">Elektroda.com</a>  teardowns section</h4>
 <h6>Have a device? Help us! Submit a teardown <a href="https://www.elektroda.com/rtvforum/forum507.html">here!</a></h6>
@@ -674,18 +675,25 @@ function refreshJSON() {
 		var td4 = document.createElement('td');
 		var td5 = document.createElement('td');
 		var bt = document.createElement('button');
-		bt.innerText = "Copy!";
+		if(false) {
+			bt.innerText = "Copy!";
+			bt.onclick = function() {
+				navigator.clipboard.writeText(jsonTextForThisDevice)
+					.then(function() {
+					console.log('Text copied to clipboard:', jsonTextForThisDevice);
+					})
+					.catch(function(err) {
+					console.error('Could not copy text: ', jsonTextForThisDevice);
+					});
+			};
+		} else {
+			bt.innerText = "Read more!";
+			let pageName = pageNameForDevice(json.devices[i]); // get safe page name
+			bt.onclick = function() {
+				window.open("devices/"+pageName + ".html"); // open device page in new tab
+			};
+		}
 		td5.appendChild(bt);
-		bt.onclick = function() {
-			navigator.clipboard.writeText(jsonTextForThisDevice)
-				.then(function() {
-				console.log('Text copied to clipboard:', jsonTextForThisDevice);
-				})
-				.catch(function(err) {
-				console.error('Could not copy text: ', jsonTextForThisDevice);
-				});
-		};
-
 		var img = document.createElement('img');
 		
 		var a = document.createElement('a');

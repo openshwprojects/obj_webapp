@@ -33,17 +33,12 @@ if (!fs.existsSync(devicesFile)) {
 }
 const data = JSON.parse(fs.readFileSync(devicesFile, "utf8"));
 
-// Helper to make safe filenames
-function sanitizeFilename(name) {
-    if (!name) name = "unknown";
-    return name.replace(/[<>:"/\\|?*]/g, "_");
-}
 
 // 4️⃣ Create devices/ folder
 const devicesDir = path.join(outDir, "devices");
 fs.mkdirSync(devicesDir, { recursive: true });
 
-const { processJSON_OpenBekenTemplateStyle } = require(path.join(__dirname, "templateParser.js"));
+const { processJSON_OpenBekenTemplateStyle, pageNameForDevice, sanitizeFilename } = require(path.join(__dirname, "templateParser.js"));
 
 function createDeviceHTML(device, safeName) {
     const detailed = !!device.bDetailed;
@@ -57,36 +52,65 @@ function createDeviceHTML(device, safeName) {
     // Raw template JSON pretty
     const rawTemplate = JSON.stringify(device, null, 2);
 
-    return `
+ return `
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <title>${device.name || safeName}</title>
 <style>
-body { font-family: sans-serif; max-width: 800px; margin: 2rem auto; }
-img { max-width: 100%; }
+body { font-family: sans-serif; max-width: 1000px; margin: 2rem auto; padding: 1rem; }
 h1 { color: #2c3e50; }
+img { max-width: 100%; height: auto; border-radius: 8px; }
 .bigtext { font-size: 1.4rem; font-weight: bold; margin-top: 2rem; }
 .smalltext { font-size: 0.9rem; color: #555; margin-top: 0.5rem; }
-textarea { width: 100%; height: 200px; font-family: monospace; }
+textarea { width: 100%; height: 300px; font-family: monospace; }
 .copy-btn { margin-top: 0.5rem; padding: 0.3rem 0.6rem; cursor: pointer; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 1.5rem; }
+.full { grid-column: 1 / -1; }
+@media (max-width: 700px) {
+  .grid { grid-template-columns: 1fr; }
+}
 </style>
 </head>
 <body>
-<h5>Firmware change information, guide, template, tutorial and help for</h5>
+<h5>Firmware change information, guide, template, tutorial and help for...</h5>
 <h1>${device.name || safeName} (${device.model || ""})</h1>
-${device.image ? `<img src="${device.image}" alt="${device.name || safeName}">` : ""}
-<p><strong>Vendor:</strong> ${device.vendor || "N/A"}</p>
-<p><strong>Chip:</strong> ${device.chip || "N/A"}</p>
-<p><strong>Board:</strong> ${device.board || "N/A"}</p>
-<p><strong>Detailed:</strong> ${device.bDetailed || "N/A"}</p>
-<p><strong>Keywords:</strong> ${(device.keywords || []).join(", ")}</p>
-<h2>Pins</h2>
-<div>${pinsDesc || "No pin description available."}</div>
-<h2>Device Template</h2>
-<textarea readonly id="deviceTemplate">${rawTemplate}</textarea>
-<button class="copy-btn" onclick="copyTemplate()">Copy</button>
+
+<div class="grid">
+  <div>
+    ${device.image ? `<img src="${device.image}" alt="${device.name || safeName}">` : ""}
+  </div>
+  <div>
+    <h2>Information</h2>
+    <p><strong>Vendor:</strong> ${device.vendor || "N/A"}</p>
+    <p><strong>Chip:</strong> ${device.chip || "N/A"}</p>
+    <p><strong>Board:</strong> ${device.board || "N/A"}</p>
+    <p><strong>Detailed:</strong> ${device.bDetailed || "N/A"}</p>
+    <p><strong>Keywords:</strong> ${(device.keywords || []).join(", ")}</p>
+  </div>
+
+  <div>
+    <h2>Device Template</h2>
+    <textarea readonly id="deviceTemplate">${rawTemplate}</textarea>
+    <button class="copy-btn" onclick="copyTemplate()">Copy</button>
+  </div>
+  <div>
+    <h2>Pins</h2>
+    <div>${pinsDesc || "No pin description available."}</div>
+  </div>
+
+  <div class="full">
+    <div class="bigtext">
+    ${detailed 
+      ? `Read detailed flashing guide and get help in device topic: <a href="${englishLink}" target="_blank">English</a>, <a href="${polishLink}" target="_blank">Polish</a>`
+      : `Read more information and get help on forum: <a href="${englishLink}" target="_blank">English</a>, <a href="${polishLink}" target="_blank">Polish</a>`
+    }
+    </div>
+    ${device.product ? `<div class="smalltext">You can also visit <a href="${device.product}" target="_blank">shop site</a>.</div>` : ""}
+    <div class="smalltext">Return to <a href="../devicesList.html">devices list</a>.</div>
+  </div>
+</div>
 
 <script>
 function copyTemplate() {
@@ -96,25 +120,17 @@ function copyTemplate() {
     alert("Device template copied!");
 }
 </script>
-<div class="bigtext">
-${detailed 
-  ? `Read detailed flashing guide and get help in device topic: <a href="${englishLink}" target="_blank">English</a>, <a href="${polishLink}" target="_blank">Polish</a>`
-  : `Read more information and get help on forum: <a href="${englishLink}" target="_blank">English</a>, <a href="${polishLink}" target="_blank">Polish</a>`
-}
-</div>
-${device.product ? `<div class="smalltext">You can also visit <a href="${device.product}" target="_blank">shop site</a>.</div>` : ""}
-
-
 </body>
 </html>
-    `;
+`;
+
 }
 
 
 
 
 function processDevice(device, devicesDir) {
-    const baseName = device.model || device.name || "unknown";
+    const baseName = pageNameForDevice(device);
     const safeName = sanitizeFilename(baseName);
     const filePath = path.join(devicesDir, safeName + ".html");
     const html = createDeviceHTML(device, safeName);
